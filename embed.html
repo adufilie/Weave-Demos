@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Weave Test</title>
+
+		<script src="/weave-tools.js"></script>
+		<script src="/Base64.js"></script>
+		<script src="/swfobject.js"></script>
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			html, body {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+
+		<script>
+
+			var loaded = false;
+
+			$(function() {
+
+				console.log( "Page loaded" );
+				console.log( window.location );
+
+				document.domain = "oicweave.org";
+
+				initWeave();
+
+			});
+
+			function getWeave()
+			{
+				return document.getElementById("weave");
+			}
+			function getTaskCount()
+			{
+				return getWeave().path().libs("weave.api.WeaveAPI").getValue("WeaveAPI.ProgressIndicator.getTaskCount()");
+			}
+
+			function extendPaths()
+			{
+				// USAGE: getWeave().path("MapTool").zoomToLayer("Geometries");
+				getWeave().WeavePath.prototype.zoomToLayer = function(layerName) {
+					var z = weave.evaluateExpression(null, "\
+						function(tool, layerName) {\
+							var pm = tool.visualization.plotManager;\
+							var plotter = pm.getPlotter(layerName);\
+							if (!plotter) return;\
+							var getDescendants = WeaveAPI.SessionManager.getLinkableDescendants;\
+							var streamed = getDescendants(plotter, StreamedGeometryColumn)[0];\
+							var reprojected = getDescendants(plotter, ReprojectedGeometryColumn)[0];\
+							var srcProj = streamed && streamed.getMetadata('projection');\
+							var destProj = reprojected ? reprojected.projectionSRS.value : srcProj;\
+							var b = streamed && streamed.collectiveBounds.cloneBounds();\
+							if (!b || b.isUndefined()) return;\
+							WeaveAPI.ProjectionManager.transformBounds(srcProj, destProj, b);\
+							pm.zoomBounds.setSessionState( b );\
+						}",
+						null,
+						['weave.data.AttributeColumns.ReprojectedGeometryColumn', 'weave.data.AttributeColumns.StreamedGeometryColumn']);
+					z( this, layerName );
+					return this;
+				}
+
+				// USAGE: getWeave().path("MapTool").setZoom( 10 );
+				getWeave().WeavePath.prototype.setZoom = function(zoom) {
+					return this.push("children", "visualization", "plotManager")
+							.vars({zoom: zoom})
+							.exec("setZoomLevel(zoom)")
+						.pop();
+				};
+				getWeave().WeavePath.prototype.getZoom = function() {
+					return this.push("children", "visualization", "plotManager")
+							.getValue("getZoomLevel()");
+				};
+				getWeave().WeavePath.prototype.zoomIn = function( mult ) {
+					var z = this.getZoom(),
+						mult = ( typeof mult !== "undefined" ) ? mult : 1;
+					return this.setZoom( z + 0.3 * mult );
+				};
+				getWeave().WeavePath.prototype.zoomOut = function( mult ) {
+					var z = this.getZoom(),
+						mult = ( typeof mult !== "undefined" ) ? mult : 1;
+					return this.setZoom( z - 0.3 * mult );
+				};
+			}
+			function initWeave()
+			{
+				console.log( "init Weave" );
+				// For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection.
+				var swfVersionStr = "10.2.0";
+				// To use express install, set to playerProductInstall.swf, otherwise the empty string.
+				var xiSwfUrlStr = "playerProductInstall.swf";
+				var flashvars = {};
+				flashvars.file = "empty.weave";
+				flashvars.allowDomain = "*";
+				var params = {};
+				params.base = "http://demo.oicweave.org";
+				params.quality = "high";
+				params.bgcolor = "#FFFFFF";
+				params.wmode = "direct";
+				params.allowscriptaccess = "always";
+				params.allowfullscreen = "true";
+				var attributes = {};
+				attributes.id = "weave";
+				attributes.name = "weave";
+				attributes.align = "middle";
+				swfobject.embedSWF(
+					"http://demo.oicweave.org/weave.swf", "flashContent",
+					"100%", "100%",
+					swfVersionStr, xiSwfUrlStr,
+					flashvars, params, attributes);
+				// JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
+				swfobject.createCSS("#flashContent", "display:block;text-align:left;z-index:2000;");
+			}
+
+			function weaveReady(weave)
+			{
+				console.log( "weave ready" );
+
+				if( !loaded )
+					loaded = true;
+				else
+					return;
+
+				extendPaths();
+
+				var p = window.location.pathname;
+				var index = p.lastIndexOf( "/" ) + 1;
+				var base64 = p.substring( index );
+
+				var funcStr = Base64.decode( base64 );
+				var func = eval( '(' + funcStr + ')' );
+				func();
+			}
+
+		</script>
+	</head>
+	<body>
+		<div id="flashContent">
+			<p style="font-size:18px;padding-top:25px;">
+				To view this page ensure that Adobe Flash Player version
+				10.2.0 or greater is installed.
+			</p>
+			<script type="text/javascript">
+				var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://");
+				document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='"
+								+ pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" );
+			</script>
+		</div>
+	</body>
+</html>
+
+

@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Weave Test</title>
+</head>
+<body>
+<script>
+
+function weaveReady(weave)
+{
+	alert('in weaveReady()...');
+	alert(weave);
+	alert(weave.getSessionState(['WeaveProperties','version']) + ' READY');
+}
+
+</script>
+<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="900" height="600" id="weave" align="middle">
+				<param name="movie" value="http://demo.oicweave.org:8080/weave.swf" />
+				<param name="base" value="http://demo.oicweave.org:8080/" />
+				<param name="flashVars" value="file=obesity.xml&amp;allowDomain=http://demo.oicweave.org:8080&amp;allowDomain=demo.oicweave.org:8080&amp;allowDomain=www.cs.uml.edu&amp;allowDomain=demo.oicweave.org&amp;allowDomain=demo.oicweave.org:8080&amp;allowDomain=http://www.cs.uml.edu" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="always" />
+				<!--[if !IE]>-->
+				<object id="weave2" type="application/x-shockwave-flash" data="http://demo.oicweave.org:8080/weave.swf" width="900" height="600">
+					<param name="movie" value="http://demo.oicweave.org:8080/weave.swf" />
+					<param name="base" value="http://demo.oicweave.org:8080/" />
+					<param name="flashVars" value="file=obesity.xml&amp;allowDomain=http://demo.oicweave.org:8080&amp;allowDomain=demo.oicweave.org:8080&amp;allowDomain=www.cs.uml.edu&amp;allowDomain=demo.oicweave.org&amp;allowDomain=demo.oicweave.org:8080&amp;allowDomain=http://www.cs.uml.edu" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="always" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+</body>
+</html>
+
+

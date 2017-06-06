@@ -1,0 +1,580 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <!--
+    Smart developers always View Source.
+
+    This application was built using Adobe Flex, an open source framework
+    for building rich Internet applications that get delivered via the
+    Flash Player or to desktops via Adobe AIR.
+
+    Learn more about Flex at http://flex.org
+    // -->
+    <head>
+        <title></title>
+        <meta name="google" value="notranslate" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- Include CSS to eliminate any default margins/padding and set the height of the html element and
+             the body element to 100%, because Firefox, or any Gecko based browser, interprets percentage as
+             the percentage of the height of its parent container, which has to be set explicitly.  Fix for
+             Firefox 3.6 focus border issues.  Initially, don't display flashContent div so it won't show
+             if JavaScript disabled.
+        -->
+        <style type="text/css" media="screen">
+            html, body  { height:100%; }
+            body { margin:0; padding:0; overflow:auto; text-align:center;
+                   background-color: #FFFFFF; }
+            object:focus { outline:none; }
+            #flashContent { display:none; }
+			
+			body{margin:0px;}
+			.h,.v{stroke:black;stroke-dasharray:4 4;stroke-width:1;stroke-opacity:.5;}
+			.axis path,
+			.axis line {
+				fill: none;
+				stroke: black;
+				shape-rendering: crispEdges;
+			}
+
+			.axis text {
+				font-family: sans-serif;
+				font-size: 11px;
+			}
+
+        </style>
+
+        <!-- Enable Browser History by replacing useBrowserHistory tokens with two hyphens -->
+        <!-- BEGIN Browser History required section >
+        <link rel="stylesheet" type="text/css" href="history/history.css" />
+        <script type="text/javascript" src="history/history.js"></script>
+        <! END Browser History required section -->
+
+		<!--   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+		<script src="jquery.min.js"></script>
+		
+        <script type="text/javascript" src="swfobject.js"></script>
+        <script type="text/javascript">
+            // For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection.
+            var swfVersionStr = "10.2.0";
+            // To use express install, set to playerProductInstall.swf, otherwise the empty string.
+            var xiSwfUrlStr = "playerProductInstall.swf";
+            var flashvars = {};
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#869ca7";
+            params.allowscriptaccess = "always";
+            params.allowfullscreen = "true";
+            var attributes = {};
+            attributes.id = "weave";
+            attributes.name = "weave";
+            attributes.align = "middle";
+            swfobject.embedSWF(
+                "weave.swf", "flashContent",
+                "900", "650",
+                swfVersionStr, xiSwfUrlStr,
+                flashvars, params, attributes);
+            // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
+            swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+        </script>
+    </head>
+    <body>
+	<input id="csvTbl" type="hidden" value="" />
+	<span id="versionSpan"></span><br/>
+	<br/>
+	<!-- D3 vis -->
+		
+	<script src="http://mbostock.github.com/d3/d3.v2.min.js"></script>
+	<script type="text/javascript">	
+	var width = 400,
+		height = 400, 
+		margin = 50;
+
+	var svg=d3.select("body").append("svg").attr("width",width).attr("height",height);
+	var x=d3.scale.linear().domain([0,50]).range([margin,width-margin]);
+	var y=d3.scale.linear().domain([0,50]).range([height-margin,margin]);
+	var r=d3.scale.linear().domain([0,500]).range([0,20]);
+	var o=d3.scale.linear().domain([10000,100000]).range([.5,1]);
+	
+
+	var xAxis = d3.svg.axis()
+	  .scale(x)
+	  .orient("bottom");
+
+	var yAxis = d3.svg.axis()
+	  .scale(y)
+	  .orient("left");
+	
+	svg.append("g")
+	  .attr("class", "axis")
+	  .attr("transform", "translate(0," + (height - margin) + ")")
+	  .call(xAxis);
+
+	svg.append("g")
+	  .attr("class", "axis")
+	   .attr("transform", "translate(" + margin + ",0)")
+	  .call(yAxis);
+
+	svg.selectAll(".h").data(d3.range(5,50,5)).enter()
+	  .append("line").classed("h",1)
+	  .attr("x1",margin).attr("x2",height-margin)
+	  .attr("y1",y).attr("y2",y)
+	  
+	svg.selectAll(".v").data(d3.range(5,50,5)).enter()
+	  .append("line").classed("v",1)
+	  .attr("y1",margin).attr("y2",width-margin)
+	  .attr("x1",x).attr("x2",x)
+	 
+	 /* add labels to the axis */
+				
+	svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .attr("x", width)
+    .attr("y", height - 6)
+    .text("Percent Obese 2007");
+	
+	svg.append("text")
+    .attr("class", "y label")
+    .attr("text-anchor", "end")
+    .attr("y", 6)
+    .attr("dy", ".75em")
+    .attr("transform", "rotate(-90)")
+    .text("Percent Obese 1995");
+		
+  //load obesity data 
+	d3.csv("obesity.csv",function(csv) { 
+									  // append data to the circles and set the initial style
+									  svg.selectAll("circle").data(csv).enter().append("circle") 
+								            .attr("cx",function(d) {return x(+d["Percent Obese 2007"]);})
+											.attr("cy",function(d) {return y(+d["Percent Obese 2006"]);})
+											.attr("r",5)
+											.style("fill", "#0000FF")
+											.style("opacity",1)
+											.attr("id", function(d){return "row" + d["US State FIPS Code"];})
+											.append("title")
+											.text(function(d) {return d.State;})										
+															
+									/* selection in d3 shows in weave */
+										svg.selectAll("circle").on("click", function(d){
+																var click = 1;
+																//show the selected record and hide the others
+																d3.select(this).style("opacity", 1);	
+																var self = this;
+																svg.selectAll("circle").filter(function (x){return self != this;})
+																		.style("opacity",0.2).style("fill","#0000FF");
+																
+																//select the record in weave
+																var method = 'setSessionState(objectPath:Array, newState:Object, removeMissingObjects:Boolean = true):Boolean'
+																var param1 = 'defaultSelectionKeySet';
+																var param = d["US State FIPS Code"];
+																param2 = "US State FIPS Code," + param;
+																//param2 = castParam(FIPS, paramList[1]);
+																//document.write(param2);
+																testWeaveAPI(method, param1, param2);	
+																d3.select("body").on("mousedown", function(d){svg.selectAll("circle").style("fill", "#0000FF").style("opacity", 1);
+																testWeaveAPI(method, param1, '');
+																click = 0;
+																})
+																})
+										
+									/* probing in d3 shows in weave */
+										svg.selectAll("circle").on("mouseover", function(d){
+																//show the selected record and hide the others
+																d3.select(this).style("fill", "#FF0000");
+																var self = this;
+																svg.selectAll("circle").filter(function (x){return self != this;})
+																		.style("fill", "#0000FF");
+																
+																//select the record in weave
+																var method = 'setSessionState(objectPath:Array, newState:Object, removeMissingObjects:Boolean = true):Boolean'
+																var param1 = 'defaultProbeKeySet';
+																var param = d["US State FIPS Code"];
+																param2 = "US State FIPS Code," + param;
+																//param2 = castParam(FIPS, paramList[1]);
+																//document.write(param2);
+																testWeaveAPI(method, param1, param2);	
+																d3.select("body").on("mousedown", function(d){svg.selectAll("circle").style("fill", "#0000FF").style("opacity", 1);
+																testWeaveAPI(method, param1, '');
+																})																															
+																})	
+																
+									var weave = document.getElementById('weave');
+									weave.onmousemove = function (d)
+														{
+														var probe = testWeaveAPI('getSessionState(objectPath:Array):Object','defaultProbeKeySet','');										
+																	if (probe == "" || probe == null )
+																		svg.selectAll("circle").style("fill","#0000FF");
+																																				
+																	else
+																		{
+																		//window.clearInterval(refresh);
+																		svg.selectAll("circle").filter(function (d){return (d['US State FIPS Code']== probe)}) //identify the probed record 
+																							   .style("fill","#FF0000"); //highlight it
+																		svg.selectAll("circle").filter(function (d){return (d['US State FIPS Code']!= probe)}) //identify the unprobed records 
+																							   .style("fill","#0000FF"); //																
+																		}
+														var select = testWeaveAPI('getSessionState(objectPath:Array):Object','defaultSelectionKeySet','');
+																	if (select == "" || select == null ) 
+																		svg.selectAll("circle").style("opacity", 1);
+																	else
+																		{
+																		svg.selectAll("circle").filter(function (d){return (d['US State FIPS Code']== select);}) //get the FIPS Code of the selected record 
+																			   .style("opacity", 1); //highlight it
+																		svg.selectAll("circle").filter(function (d){return (d['US State FIPS Code']!= select);}) //identify the unselected records 
+																			   .style("opacity",0.2).style("fill","#0000FF"); //		 
+																		}
+														
+														};  
+									
+})
+
+
+	
+	
+//============================================================================
+// this function get the color column name from the scatter plot in weave settion state
+//and then call testServerQuery to retreave ALL the dataset 
+//by: Najyah, April 26
+function getWeaveDataset()
+{
+	var weave = document.getElementById('weave');
+	var state = weave.getSessionState(['ScatterPlotTool','colorColumn']);
+	var JsnObj = JSON.stringify(state, replacer, '\t');
+	var ObjCpy = eval(state[0]);
+	ObjCpy = ObjCpy['sessionState'];
+	ObjCpy = ObjCpy['dynamicColumnReference'];
+	ObjCpy = eval(ObjCpy[0]);
+	ObjCpy = ObjCpy['sessionState'];
+	ObjCpy = ObjCpy['hierarchyPath'];
+	
+	var clmName = JSON.stringify(ObjCpy).split('csvColumn=\\"')[1].split('\\')[0];
+	console.log(clmName);
+	
+	ServerQuery(clmName,['getEntityIdsByMetadata','getParents','getEntityChildIds','getDataSet']);
+		
+}
+	//=============================================================================
+	//This function takes a column name and array of methods to retrieve the dataset and 
+	//save it in a hidden variable as CSV text.
+	//By najyah, April 26
+
+	function ServerQuery(clmKy,Method)
+	{
+		var ids = [];
+		var keyType = clmKy;
+		ids = queryDataService(
+				Method[0],
+			{
+				publicMetadata: {name: keyType},
+				entityType: 1
+			},
+				 handleColumnIds
+		);
+
+		function handleColumnIds(response)
+		{
+			if (response.error)
+			{
+				resultTextArea.value = JSON.stringify(response, null, 3);
+				return;
+			}
+			var rslt = response.result;	
+			rslt.length = 1;
+			
+			queryDataService(
+					Method[1],
+					rslt,
+					handleParentID
+				);
+			
+			function handleParentID(response)
+			{
+				if (response.error)
+				{
+					resultTextArea.value = JSON.stringify(response, null, 3);
+					return;
+				}
+				var rslt = response.result;
+				//console.log(rslt);
+			
+			queryDataService(
+					Method[2],
+					rslt,
+					handleChildrenIds
+				);
+				function handleChildrenIds(response)
+				{
+					if (response.error)
+					{
+						resultTextArea.value = JSON.stringify(response, null, 3);
+						return;
+					}
+					var rslt = response.result;
+					console.log(rslt);
+					
+					queryDataService(
+							Method[3],
+							[rslt],
+							handleDataSet
+						);
+						function handleDataSet(response)
+						{
+							if (response.error)
+							{
+								resultTextArea.value = JSON.stringify(response, null, 3);
+								return;
+							}
+							var clmns = eval(response.result.columns);
+							var rcrds = eval(response.result.records);
+							//rslt = eval(rslt);
+							
+							var kyTyp = null;
+							var CSVtbl = "";
+							var keys = Object.keys(clmns);
+							
+							keys = keys.sort();
+							kyTyp = clmns[keys[0]].keyType;
+							for (var i=0; i<keys.length; i++) { 
+								
+								CSVtbl += clmns[keys[i]].title;
+								if (keys.length-1 != i) CSVtbl += ',';
+							}
+							var x = 0;
+							for(key in rcrds){ rcrds = rcrds[key];}
+							for(key in rcrds){
+								CSVtbl += '\n';
+								var td = eval(rcrds[key]);
+								for (var i=0; i<keys.length; i++) { 
+								
+									CSVtbl += td[keys[i]];
+									if (keys.length-1 != i) CSVtbl += ',';
+								}
+							}
+							csvTbl.value = CSVtbl + '\n';
+							
+					}		
+				}	
+			}		
+		}
+	}
+//=============================================================================
+
+  
+//============================================================================	
+</script>
+<script language="JavaScript" type="text/javascript" src="json2.js"></script>
+<script language="JavaScript" type="text/javascript">
+
+// Disable caching of AJAX responses
+$.ajaxSetup({
+    cache: false
+});
+
+function queryDataService(method, params, callback, queryId)
+{
+	console.log('queryDataService',method,params);
+	var url = '/WeaveServices/DataService';
+	var request = {
+		jsonrpc: "2.0",
+		id: queryId || "no_id",
+		method: method,
+		params: params
+	};
+	$.post(url, JSON.stringify(request), callback, "json");
+	resultTextArea.value = 'Awaiting response for ' + method + ' request...';
+}
+
+
+function getImage()
+{
+	var image = document.getElementById('weave').evaluateExpression(['MapTool'],
+	  	            'getBase64Image(this)',
+	  	             null,
+	  	             ['weave.utils.BitmapUtils']);
+	 $.ajax({
+	  	data: image,
+		url: "/ImageService/Base64ImageService",
+		type: "POST",
+		dataType: "text",
+		success: function( data, textStatus, jqXHR ) {
+		imgName = data;
+		imgTag.src = "/ImageService/Base64ImageService?file="+ imgName;
+	 },
+	  error: function (qXHR, textStatus, errorThrown) {
+
+	 }
+    });
+}
+// this function gets called when the weave instance is ready.
+function weaveReady(weave)
+{
+	getWeaveDataset();
+	document.getElementById('versionSpan').innerHTML = weave.getSessionState(['WeaveProperties','version']);
+	resultTextArea.value = 'Weave JavaScript API is ready (id="'+(weave && weave.id)+'").';
+}
+// this function will enable or disable the api test buttons.
+function disableButtons(disabled)
+{
+	var buttons = ['b1','b2','b3','b4','b5'];
+	for (var i = 0; i < buttons.length; i++)
+	{
+		var element = document.getElementById(buttons[i]);
+		if (element)
+			element.disabled = disabled;
+	}
+}
+disableButtons(true);
+
+function runStartupScript()
+{
+	document.getElementById('weave').runStartupJavaScript();
+}
+
+// brings a color legend to the foreground
+function showLegend()
+{
+	var weave = document.getElementById('weave');
+	weave.requestObject(['ColorBinLegendTool'],'ColorBinLegendTool');
+	weave.setSessionState(['ColorBinLegendTool'], {panelX:'40%',panelY:'30%'});
+	weave.setChildNameOrder([], ['ColorBinLegendTool'])
+}
+// swaps x and y dimensions on the scatterplot
+function testSwap()
+{
+	var weave = document.getElementById('weave');
+	var path1 = ['SPT', 'children', 'visualization', 'plotManager', 'plotters', 'plot', 'dataX'];
+	var path2 = ['SPT', 'children', 'visualization', 'plotManager', 'plotters', 'plot', 'dataY'];
+	var state1 = weave.getSessionState(path1);
+	var state2 = weave.getSessionState(path2);
+	weave.setSessionState(path1, state2);
+	weave.setSessionState(path2, state1);
+	//console.log(JSON.stringify(state1, replacer, '\t'));
+}
+
+function getMethodDescription()
+{
+
+	return methodInput.options[methodInput.selectedIndex].text;
+}
+// this function counts the number of required parameters in the selected api function
+function countRequiredParams(method)
+{
+	var funcDesc = method;
+	var total = funcDesc.split(',').length;
+	var optional = funcDesc.split('=').length - 1;
+	//console.log(total + '-' + optional + ': ' + funcDesc);
+	return total - optional; // # of required params
+}
+// this function enables or disables the parameter input fields
+function handleMethodSelect()
+{
+	var method = getMethodDescription();
+	var count = countRequiredParams();
+	input1.disabled = count < 1;
+	input2.disabled = count < 2;
+}
+//handleMethodSelect(); // call once now to initialize 'disabled' properties
+// this function replaces xml objects with strings if necessary
+function replacer(key, value)
+{
+	if (typeof(value) == 'xml')
+	{
+		return this[key] = value.toString();
+	}
+	return value;
+}
+// this function casts a String to the appropriate type
+function castParam(param, description)
+{
+	if (description == undefined)
+		return param;
+	if (description.indexOf(':Boolean') >= 0)
+	{
+		return param == 'true';
+	}
+	if (description.indexOf(':Array') >= 0)
+	{
+		param = param.split(',');
+		if (param.length == 1 && param[0] == '')
+			param.length = 0;
+	}
+	return param;
+}
+
+var rslt = null;	// This public variable to be used for d3 selection
+
+// this function executes the selected api function with the parameters entered in the input fields.
+function testWeaveAPI(method, param1, param2)
+{
+	var weave = document.getElementById('weave');
+	var funcDesc = method;
+	var paramCount = countRequiredParams(method);
+	
+	var paramList = funcDesc.split('(')[1].split(')')[0].split(',');
+	var method = funcDesc.split('(')[0];
+	
+	var param1 = castParam(param1, paramList[0]);
+	var param2 = castParam(param2, paramList[1]);
+	
+	var result = null;
+	if (paramCount == 2)
+		result = weave[method](param1, param2);
+	if (paramCount == 1)
+		result = weave[method](param1);
+	
+	rslt = result.toString();
+	rslt = rslt.split(',')[1]; 
+	//var str = JSON.stringify(result, replacer, '\t');
+	//resultTextArea.value = str;
+	//console.log(str);
+	return rslt;
+}
+</script>
+<!-- end example weave code -->
+
+
+
+        <!-- SWFObject's dynamic embed method replaces this alternative HTML content with Flash content when enough
+             JavaScript and Flash plug-in support is available. The div is initially hidden so that it doesn't show
+             when JavaScript is disabled.
+        -->
+        <div id="flashContent">
+            <p>
+                To view this page ensure that Adobe Flash Player version
+                10.2.0 or greater is installed.
+            </p>
+            <script type="text/javascript">
+                var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://");
+                document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='"
+                                + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" );
+            </script>
+        </div>
+
+        <noscript>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" id="weave">
+                <param name="movie" value="weave.swf" />
+                <param name="quality" value="high" />
+                <param name="bgcolor" value="#869ca7" />
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="allowFullScreen" value="true" />
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="weave.swf" width="100%" height="100%">
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#869ca7" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowFullScreen" value="true" />
+                <!--<![endif]-->
+                <!--[if gte IE 6]>-->
+                    <p>
+                        Either scripts and active content are not permitted to run or Adobe Flash Player version
+                        10.2.0 or greater is not installed.
+                    </p>
+                <!--<![endif]-->
+                    <a href="http://www.adobe.com/go/getflashplayer">
+                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+                    </a>
+                <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </noscript>
+   </body>
+</html>
