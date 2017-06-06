@@ -1,0 +1,1654 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>0</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>11</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddCompoundRadViz>true</enableAddCompoundRadViz>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRamachandranPlot>true</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily>Verdana</panelTitleFontFamily>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>1.0 Beta Nightly Build</version>
+    <windowSnapGridSize>5</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="Red Scale" source="OIC" category="visualization" singlehue="true">
+        <node color="0x000000" position="0"/>
+        <node color="0xff0000" position="0.5"/>
+        <node color="0xffcccc" position="1"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="acs_countyprofilesus">
+                    <attribute id="157650" dataType="number" name="Households with one or more people 65 years and over DP02e14" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="Data Tables">
+          <category name="acs_countyprofilesus">
+            <attribute id="157628" dataType="number" name="Estimate" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157629" dataType="string" name="FIPS" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157630" dataType="string" name="Geographic Name" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157631" dataType="number" name="Margin of Error" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157632" dataType="number" name="Pct Margin of Error" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157633" dataType="number" name="Percent" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157634" dataType="string" name="Stub" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157635" dataType="string" name="Table Number" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157636" dataType="number" name="Table Order" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157637" dataType="number" name="Total households DP02e1" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157638" dataType="number" name="Family households (families) DP02e2" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157639" dataType="number" name="With own children under 18 years DP02e3" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157640" dataType="number" name="Married-couple family DP02e4" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157641" dataType="number" name="With own children under 18 years DP02e5" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157642" dataType="number" name="Male householder no wife present family DP02e6" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157643" dataType="number" name="With own children under 18 years DP02e7" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157644" dataType="number" name="Female householder no husband present family DP02e8" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157645" dataType="number" name="With own children under 18 years DP02e9" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157646" dataType="number" name="Nonfamily households DP02e10" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157647" dataType="number" name="Householder living alone DP02e11" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157648" dataType="number" name="65 years and over DP02e12" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157649" dataType="number" name="Households with one or more people under 18 years DP02e13" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157650" dataType="number" name="Households with one or more people 65 years and over DP02e14" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157651" dataType="number" name="Average household size DP02e15" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157652" dataType="number" name="Average family size DP02e16" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157653" dataType="number" name="Population in households DP02e17" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157654" dataType="number" name="Householder DP02e18" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157655" dataType="number" name="Spouse DP02e19" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157656" dataType="number" name="Child DP02e20" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157657" dataType="number" name="Other relatives DP02e21" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157658" dataType="number" name="Nonrelatives DP02e22" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157659" dataType="number" name="Unmarried partner DP02e23" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157660" dataType="number" name="Males 15 years and over DP02e24" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157661" dataType="number" name="Never married DP02e25" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157662" dataType="number" name="Now married except separated DP02e26" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157663" dataType="number" name="Separated DP02e27" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157664" dataType="number" name="Widowed DP02e28" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157665" dataType="number" name="Divorced DP02e29" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157666" dataType="number" name="Females 15 years and over DP02e30" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157667" dataType="number" name="Never married DP02e31" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157668" dataType="number" name="Now married except separated DP02e32" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157669" dataType="number" name="Separated DP02e33" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157670" dataType="number" name="Widowed DP02e34" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157671" dataType="number" name="Divorced DP02e35" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157672" dataType="number" name="Number of women 15 to 50 years old who had a birth in the past 12 months DP02e36" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157673" dataType="number" name="Unmarried women (widowed divorced and never married) DP02e37" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157674" dataType="number" name="Per 1000 unmarried women DP02e38" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157675" dataType="number" name="Per 1000 women 15 to 50 years old DP02e39" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157676" dataType="number" name="Per 1000 women 15 to 19 years old DP02e40" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157677" dataType="number" name="Per 1000 women 20 to 34 years old DP02e41" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157678" dataType="number" name="Per 1000 women 35 to 50 years old DP02e42" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157679" dataType="number" name="Number of grandparents living with own grandchildren under 18 years DP02e43" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157680" dataType="number" name="Responsible for grandchildren DP02e44" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157681" dataType="number" name="Less than 1 year DP02e45" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157682" dataType="number" name="1 or 2 years DP02e46" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157683" dataType="number" name="3 or 4 years DP02e47" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157684" dataType="number" name="5 or more years DP02e48" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157685" dataType="number" name="Number of grandparents responsible for own grandchildren under 18 years DP02e49" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157686" dataType="number" name="Who are female DP02e50" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157687" dataType="number" name="Who are married DP02e51" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157688" dataType="number" name="Population 3 years and over enrolled in school DP02e52" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157689" dataType="number" name="Nursery school preschool DP02e53" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157690" dataType="number" name="Kindergarten DP02e54" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157691" dataType="number" name="Elementary school (grades 1-8) DP02e55" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157692" dataType="number" name="High school (grades 9-12) DP02e56" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157693" dataType="number" name="College or graduate school DP02e57" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157694" dataType="number" name="Population 25 years and over DP02e58" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157695" dataType="number" name="Less than 9th grade DP02e59" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157696" dataType="number" name="9th to 12th grade no diploma DP02e60" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157697" dataType="number" name="High school graduate (includes equivalency) DP02e61" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157698" dataType="number" name="Some college no degree DP02e62" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157699" dataType="number" name="Associate's degree DP02e63" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157700" dataType="number" name="Bachelor's degree DP02e64" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157701" dataType="number" name="Graduate or professional degree DP02e65" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157702" dataType="number" name="Percent high school graduate or higher DP02e66" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157703" dataType="number" name="Percent bachelor's degree or higher DP02e67" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157704" dataType="number" name="Civilian population 18 years and over DP02e68" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157705" dataType="number" name="Civilian veterans DP02e69" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157706" dataType="number" name="Total Civilian Noninstitutionalized Population DP02e70" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157707" dataType="number" name="With a disability DP02e71" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157708" dataType="number" name="Under 18 years DP02e72" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157709" dataType="number" name="With a disability DP02e73" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157710" dataType="number" name="18 to 64 years DP02e74" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157711" dataType="number" name="With a disability DP02e75" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157712" dataType="number" name="65 years and over DP02e76" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157713" dataType="number" name="With a disability DP02e77" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157714" dataType="number" name="Population 1 year and over DP02e78" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157715" dataType="number" name="Same house DP02e79" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157716" dataType="number" name="Different house in the U.S. DP02e80" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157717" dataType="number" name="Same county DP02e81" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157718" dataType="number" name="Different county DP02e82" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157719" dataType="number" name="Same state DP02e83" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157720" dataType="number" name="Different state DP02e84" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157721" dataType="number" name="Abroad DP02e85" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157722" dataType="number" name="Total population DP02e86" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157723" dataType="number" name="Native DP02e87" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157724" dataType="number" name="Born in United States DP02e88" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157725" dataType="number" name="State of residence DP02e89" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157726" dataType="number" name="Different state DP02e90" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157727" dataType="number" name="Born in Puerto Rico U.S. Island areas or born abroad to American parent(s) DP02e91" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157728" dataType="number" name="Foreign born DP02e92" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157729" dataType="number" name="Foreign-born population DP02e93" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157730" dataType="number" name="Naturalized U.S. citizen DP02e94" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157731" dataType="number" name="Not a U.S. citizen DP02e95" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157732" dataType="number" name="Population born outside the United States DP02e96" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157733" dataType="number" name="Native DP02e97" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157734" dataType="number" name="Entered 2000 or later DP02e98" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157735" dataType="number" name="Entered before 2000 DP02e99" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157736" dataType="number" name="Foreign born DP02e100" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157737" dataType="number" name="Entered 2000 or later DP02e101" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157738" dataType="number" name="Entered before 2000 DP02e102" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157739" dataType="number" name="Foreign-born population excluding population born at sea DP02e103" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157740" dataType="number" name="Europe DP02e104" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157741" dataType="number" name="Asia DP02e105" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157742" dataType="number" name="Africa DP02e106" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157743" dataType="number" name="Oceania DP02e107" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157744" dataType="number" name="Latin America DP02e108" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157745" dataType="number" name="Northern America DP02e109" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157746" dataType="number" name="Population 5 years and over DP02e110" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157747" dataType="number" name="English only DP02e111" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157748" dataType="number" name="Language other than English DP02e112" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157749" dataType="number" name="Speak English less than &quot;very well&quot; DP02e113" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157750" dataType="number" name="Spanish DP02e114" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157751" dataType="number" name="Speak English less than &quot;very well&quot; DP02e115" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157752" dataType="number" name="Other Indo-European languages DP02e116" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157753" dataType="number" name="Speak English less than &quot;very well&quot; DP02e117" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157754" dataType="number" name="Asian and Pacific Islander languages DP02e118" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157755" dataType="number" name="Speak English less than &quot;very well&quot; DP02e119" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157756" dataType="number" name="Other languages DP02e120" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157757" dataType="number" name="Speak English less than &quot;very well&quot; DP02e121" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157758" dataType="number" name="Total population DP02e122" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157759" dataType="number" name="American DP02e123" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157760" dataType="number" name="Arab DP02e124" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157761" dataType="number" name="Czech DP02e125" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157762" dataType="number" name="Danish DP02e126" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157763" dataType="number" name="Dutch DP02e127" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157764" dataType="number" name="English DP02e128" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157765" dataType="number" name="French (except Basque) DP02e129" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157766" dataType="number" name="French Canadian DP02e130" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157767" dataType="number" name="German DP02e131" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157768" dataType="number" name="Greek DP02e132" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157769" dataType="number" name="Hungarian DP02e133" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157770" dataType="number" name="Irish DP02e134" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157771" dataType="number" name="Italian DP02e135" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157772" dataType="number" name="Lithuanian DP02e136" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157773" dataType="number" name="Norwegian DP02e137" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157774" dataType="number" name="Polish DP02e138" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157775" dataType="number" name="Portuguese DP02e139" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157776" dataType="number" name="Russian DP02e140" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157777" dataType="number" name="Scotch-Irish DP02e141" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157778" dataType="number" name="Scottish DP02e142" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157779" dataType="number" name="Slovak DP02e143" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157780" dataType="number" name="Subsaharan African DP02e144" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157781" dataType="number" name="Swedish DP02e145" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157782" dataType="number" name="Swiss DP02e146" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157783" dataType="number" name="Ukrainian DP02e147" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157784" dataType="number" name="Welsh DP02e148" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157785" dataType="number" name="West Indian (excluding Hispanic origin groups) DP02e149" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157786" dataType="number" name="Population 16 years and over DP03e1" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157787" dataType="number" name="In labor force DP03e2" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157788" dataType="number" name="Civilian labor force DP03e3" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157789" dataType="number" name="Employed DP03e4" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157790" dataType="number" name="Unemployed DP03e5" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157791" dataType="number" name="Armed Forces DP03e6" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157792" dataType="number" name="Not in labor force DP03e7" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157793" dataType="number" name="Civilian labor force DP03e8" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157794" dataType="number" name="Percent Unemployed DP03e9" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157795" dataType="number" name="Females 16 years and over DP03e10" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157796" dataType="number" name="In labor force DP03e11" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157797" dataType="number" name="Civilian labor force DP03e12" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157798" dataType="number" name="Employed DP03e13" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157799" dataType="number" name="Own children under 6 years DP03e14" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157800" dataType="number" name="All parents in family in labor force DP03e15" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157801" dataType="number" name="Own children 6 to 17 years DP03e16" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157802" dataType="number" name="All parents in family in labor force DP03e17" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157803" dataType="number" name="Workers 16 years and over DP03e18" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157804" dataType="number" name="Car truck or van -- drove alone DP03e19" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157805" dataType="number" name="Car truck or van -- carpooled DP03e20" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157806" dataType="number" name="Public transportation (excluding taxicab) DP03e21" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157807" dataType="number" name="Walked DP03e22" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157808" dataType="number" name="Other means DP03e23" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157809" dataType="number" name="Worked at home DP03e24" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157810" dataType="number" name="Mean travel time to work (minutes) DP03e25" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157811" dataType="number" name="Civilian employed population 16 years and over DP03e26" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157812" dataType="number" name="Management professional and related occupations DP03e27" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157813" dataType="number" name="Service occupations DP03e28" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157814" dataType="number" name="Sales and office occupations DP03e29" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157815" dataType="number" name="Farming fishing and forestry occupations DP03e30" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157816" dataType="number" name="Construction extraction maintenance and repair occupations DP03e31" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157817" dataType="number" name="Production transportation and material moving occupations DP03e32" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157818" dataType="number" name="Civilian employed population 16 years and over DP03e33" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157819" dataType="number" name="Agriculture forestry fishing and hunting and mining DP03e34" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157820" dataType="number" name="Construction DP03e35" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157821" dataType="number" name="Manufacturing DP03e36" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157822" dataType="number" name="Wholesale trade DP03e37" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157823" dataType="number" name="Retail trade DP03e38" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157824" dataType="number" name="Transportation and warehousing and utilities DP03e39" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157825" dataType="number" name="Information DP03e40" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157826" dataType="number" name="Finance and insurance and real estate and rental and leasing DP03e41" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157827" dataType="number" name="Professional scientific and management and administrative and waste management services DP03e42" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157828" dataType="number" name="Educational services and health care and social assistance DP03e43" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157829" dataType="number" name="Arts entertainment and recreation and accommodation and food services DP03e44" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157830" dataType="number" name="Other services except public administration DP03e45" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157831" dataType="number" name="Public administration DP03e46" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157832" dataType="number" name="Civilian employed population 16 years and over DP03e47" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157833" dataType="number" name="Private wage and salary workers DP03e48" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157834" dataType="number" name="Government workers DP03e49" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157835" dataType="number" name="Self-employed in own not incorporated business workers DP03e50" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157836" dataType="number" name="Unpaid family workers DP03e51" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157837" dataType="number" name="Total households DP03e52" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157838" dataType="number" name="Less than $10000 DP03e53" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157839" dataType="number" name="$10000 to $14999 DP03e54" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157840" dataType="number" name="$15000 to $24999 DP03e55" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157841" dataType="number" name="$25000 to $34999 DP03e56" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157842" dataType="number" name="$35000 to $49999 DP03e57" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157843" dataType="number" name="$50000 to $74999 DP03e58" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157844" dataType="number" name="$75000 to $99999 DP03e59" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157845" dataType="number" name="$100000 to $149999 DP03e60" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157846" dataType="number" name="$150000 to $199999 DP03e61" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157847" dataType="number" name="$200000 or more DP03e62" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157848" dataType="number" name="Median household income (dollars) DP03e63" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157849" dataType="number" name="Mean household income (dollars) DP03e64" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157850" dataType="number" name="With earnings DP03e65" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157851" dataType="number" name="Mean earnings (dollars) DP03e66" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157852" dataType="number" name="With Social Security DP03e67" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157853" dataType="number" name="Mean Social Security income (dollars) DP03e68" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157854" dataType="number" name="With retirement income DP03e69" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157855" dataType="number" name="Mean retirement income (dollars) DP03e70" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157856" dataType="number" name="With Supplemental Security Income DP03e71" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157857" dataType="number" name="Mean Supplemental Security Income (dollars) DP03e72" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157858" dataType="number" name="With cash public assistance income DP03e73" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157859" dataType="number" name="Mean cash public assistance income (dollars) DP03e74" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157860" dataType="number" name="With Food Stamp/SNAP benefits in the past 12 months DP03e75" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157861" dataType="number" name="Families DP03e76" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157862" dataType="number" name="Less than $10000 DP03e77" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157863" dataType="number" name="$10000 to $14999 DP03e78" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157864" dataType="number" name="$15000 to $24999 DP03e79" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157865" dataType="number" name="$25000 to $34999 DP03e80" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157866" dataType="number" name="$35000 to $49999 DP03e81" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157867" dataType="number" name="$50000 to $74999 DP03e82" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157868" dataType="number" name="$75000 to $99999 DP03e83" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157869" dataType="number" name="$100000 to $149999 DP03e84" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157870" dataType="number" name="$150000 to $199999 DP03e85" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157871" dataType="number" name="$200000 or more DP03e86" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157872" dataType="number" name="Median family income (dollars) DP03e87" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157873" dataType="number" name="Mean family income (dollars) DP03e88" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157874" dataType="number" name="Per capita income (dollars) DP03e89" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157875" dataType="number" name="Nonfamily households DP03e90" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157876" dataType="number" name="Median nonfamily income (dollars) DP03e91" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157877" dataType="number" name="Mean nonfamily income (dollars) DP03e92" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157878" dataType="number" name="Median earnings for workers (dollars) DP03e93" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157879" dataType="number" name="Median earnings for male full-time year-round workers (dollars) DP03e94" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157880" dataType="number" name="Median earnings for female full-time year-round workers (dollars) DP03e95" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157881" dataType="number" name="Civilian Noninstitutionalized Population DP03e96" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157882" dataType="number" name="With health insurance coverage DP03e97" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157883" dataType="number" name="With private health insurance coverage DP03e98" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157884" dataType="number" name="With public health coverage DP03e99" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157885" dataType="number" name="No health insurance coverage DP03e100" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157886" dataType="number" name="Civilian Noninstitutionalized Population Under 18 years DP03e101" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157887" dataType="number" name="No health insurance coverage DP03e102" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157888" dataType="number" name="All families DP03e103" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157889" dataType="number" name="With related children under 18 years DP03e104" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157890" dataType="number" name="With related children under 5 years only DP03e105" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157891" dataType="number" name="Married couple families DP03e106" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157892" dataType="number" name="With related children under 18 years DP03e107" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157893" dataType="number" name="With related children under 5 years only DP03e108" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157894" dataType="number" name="Families with female householder no husband present DP03e109" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157895" dataType="number" name="With related children under 18 years DP03e110" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157896" dataType="number" name="With related children under 5 years only DP03e111" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157897" dataType="number" name="All people DP03e112" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157898" dataType="number" name="Under 18 years DP03e113" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157899" dataType="number" name="Related children under 18 years DP03e114" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157900" dataType="number" name="Related children under 5 years DP03e115" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157901" dataType="number" name="Related children 5 to 17 years DP03e116" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157902" dataType="number" name="18 years and over DP03e117" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157903" dataType="number" name="18 to 64 years DP03e118" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157904" dataType="number" name="65 years and over DP03e119" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157905" dataType="number" name="People in families DP03e120" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157906" dataType="number" name="Unrelated individuals 15 years and over DP03e121" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157907" dataType="number" name="Total housing units DP04e1" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157908" dataType="number" name="Occupied housing units DP04e2" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157909" dataType="number" name="Vacant housing units DP04e3" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157910" dataType="number" name="Homeowner vacancy rat DP04e4" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157911" dataType="number" name="Rental vacancy rate DP04e5" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157912" dataType="number" name="Total housing units DP04e6" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157913" dataType="number" name="1-unit detached DP04e7" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157914" dataType="number" name="1-unit attached DP04e8" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157915" dataType="number" name="2 units DP04e9" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157916" dataType="number" name="3 or 4 units DP04e10" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157917" dataType="number" name="5 to 9 units DP04e11" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157918" dataType="number" name="10 to 19 units DP04e12" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157919" dataType="number" name="20 or more units DP04e13" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157920" dataType="number" name="Mobile home DP04e14" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157921" dataType="number" name="Boat RV van etc. DP04e15" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157922" dataType="number" name="Total housing units DP04e16" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157923" dataType="number" name="Built 2005 or later DP04e17" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157924" dataType="number" name="Built 2000 to 2004 DP04e18" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157925" dataType="number" name="Built 1990 to 1999 DP04e19" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157926" dataType="number" name="Built 1980 to 1989 DP04e20" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157927" dataType="number" name="Built 1970 to 1979 DP04e21" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157928" dataType="number" name="Built 1960 to 1969 DP04e22" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157929" dataType="number" name="Built 1950 to 1959 DP04e23" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157930" dataType="number" name="Built 1940 to 1949 DP04e24" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157931" dataType="number" name="Built 1939 or earlier DP04e25" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157932" dataType="number" name="Total housing units DP04e26" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157933" dataType="number" name="1 room DP04e27" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157934" dataType="number" name="2 rooms DP04e28" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157935" dataType="number" name="3 rooms DP04e29" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157936" dataType="number" name="4 rooms DP04e30" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157937" dataType="number" name="5 rooms DP04e31" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157938" dataType="number" name="6 rooms DP04e32" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157939" dataType="number" name="7 rooms DP04e33" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157940" dataType="number" name="8 rooms DP04e34" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157941" dataType="number" name="9 rooms or more DP04e35" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157942" dataType="number" name="Median rooms DP04e36" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157943" dataType="number" name="Total housing units DP04e37" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157944" dataType="number" name="No bedroom DP04e38" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157945" dataType="number" name="1 bedroom DP04e39" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157946" dataType="number" name="2 bedroom DP04e40" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157947" dataType="number" name="3 bedroom DP04e41" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157948" dataType="number" name="4 bedroom DP04e42" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157949" dataType="number" name="5 or more bedrooms DP04e43" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157950" dataType="number" name="Occupied housing units DP04e44" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157951" dataType="number" name="Owner-occupied DP04e45" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157952" dataType="number" name="Renter-occupied DP04e46" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157953" dataType="number" name="Average household size of owner-occupied unit DP04e47" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157954" dataType="number" name="Average household size of renter-occupied unit DP04e48" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157955" dataType="number" name="Occupied housing units DP04e49" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157956" dataType="number" name="Moved in 2005 or later DP04e50" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157957" dataType="number" name="Moved in 2000 to 2004 DP04e51" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157958" dataType="number" name="Moved in 1990 to 1999 DP04e52" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157959" dataType="number" name="Moved in 1980 to 1989 DP04e53" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157960" dataType="number" name="Moved in 1970 to 1979 DP04e54" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157961" dataType="number" name="Moved in 1969 or earlier DP04e55" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157962" dataType="number" name="Occupied housing units DP04e56" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157963" dataType="number" name="No vehicles available DP04e57" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157964" dataType="number" name="1 vehicle available DP04e58" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157965" dataType="number" name="2 vehicles available DP04e59" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157966" dataType="number" name="3 or more vehicles available DP04e60" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157967" dataType="number" name="Occupied housing units DP04e61" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157968" dataType="number" name="Utility gas DP04e62" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157969" dataType="number" name="Bottled tank or LP gas DP04e63" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157970" dataType="number" name="Electricity DP04e64" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157971" dataType="number" name="Fuel oil kerosene etc. DP04e65" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157972" dataType="number" name="Coal or coke DP04e66" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157973" dataType="number" name="Wood DP04e67" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157974" dataType="number" name="Solar energy DP04e68" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157975" dataType="number" name="Other fuel DP04e69" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157976" dataType="number" name="No fuel used DP04e70" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157977" dataType="number" name="Occupied housing units DP04e71" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157978" dataType="number" name="Lacking complete plumbing facilities DP04e72" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157979" dataType="number" name="Lacking complete kitchen facilities DP04e73" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157980" dataType="number" name="No telephone service available DP04e74" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157981" dataType="number" name="Occupied housing units DP04e75" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157982" dataType="number" name="1.00 or less DP04e76" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157983" dataType="number" name="1.01 to 1.50 DP04e77" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157984" dataType="number" name="1.51 or more DP04e78" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157985" dataType="number" name="Owner-occupied units DP04e79" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157986" dataType="number" name="Less than $50000 DP04e80" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157987" dataType="number" name="$50000 to $99999 DP04e81" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157988" dataType="number" name="$100000 to $149999 DP04e82" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157989" dataType="number" name="$150000 to $199999 DP04e83" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157990" dataType="number" name="$200000 to $299999 DP04e84" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157991" dataType="number" name="$300000 to $499999 DP04e85" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157992" dataType="number" name="$500000 to $999999 DP04e86" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157993" dataType="number" name="$1000000 or more DP04e87" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157994" dataType="number" name="Median (dollars) DP04e88" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157995" dataType="number" name="Owner-occupied units DP04e89" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157996" dataType="number" name="Housing units with a mortgage DP04e90" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157997" dataType="number" name="Housing units without a mortgage DP04e91" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157998" dataType="number" name="Housing units with a mortgage DP04e92" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="157999" dataType="number" name="Less than $300 DP04e93" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158000" dataType="number" name="$300 to $499 DP04e94" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158001" dataType="number" name="$500 to $699 DP04e95" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158002" dataType="number" name="$700 to $999 DP04e96" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158003" dataType="number" name="$1000 to $1499 DP04e97" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158004" dataType="number" name="$1500 to $1999 DP04e98" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158005" dataType="number" name="$2000 or more DP04e99" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158006" dataType="number" name="Median (dollars) DP04e100" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158007" dataType="number" name="Housing units without a mortgage DP04e101" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158008" dataType="number" name="Less than $100 DP04e102" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158009" dataType="number" name="$100 to $199 DP04e103" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158010" dataType="number" name="$200 to $299 DP04e104" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158011" dataType="number" name="$300 to $399 DP04e105" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158012" dataType="number" name="$400 or more DP04e106" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158013" dataType="number" name="Median (dollars) DP04e107" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158014" dataType="number" name="Housing units with a mortgage (excluding units where SMOCAPI cannot be computed) DP04e108" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158015" dataType="number" name="Less than 20.0 percent DP04e109" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158016" dataType="number" name="20.0 to 24.9 percent DP04e110" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158017" dataType="number" name="25.0 to 29.9 percent DP04e111" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158018" dataType="number" name="30.0 to 34.9 percent DP04e112" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158019" dataType="number" name="35.0 percent or more DP04e113" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158020" dataType="number" name="Not computed DP04e114" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158021" dataType="number" name="Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed) DP04e115" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158022" dataType="number" name="Less than 10.0 percent DP04e116" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158023" dataType="number" name="10.0 to 14.9 percent DP04e117" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158024" dataType="number" name="15.0 to 19.9 percent DP04e118" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158025" dataType="number" name="20.0 to 24.9 percent DP04e119" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158026" dataType="number" name="25.0 to 29.9 percent DP04e120" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158027" dataType="number" name="30.0 to 34.9 percent DP04e121" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158028" dataType="number" name="35.0 percent or more DP04e122" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158029" dataType="number" name="Not computed DP04e123" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158030" dataType="number" name="Occupied units paying rent DP04e124" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158031" dataType="number" name="Less than $200 DP04e125" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158032" dataType="number" name="$200 to $299 DP04e126" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158033" dataType="number" name="$300 to $499 DP04e127" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158034" dataType="number" name="$500 to $749 DP04e128" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158035" dataType="number" name="$750 to $999 DP04e129" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158036" dataType="number" name="$1000 to $1499 DP04e130" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158037" dataType="number" name="$1500 or more DP04e131" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158038" dataType="number" name="Median (dollars) DP04e132" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158039" dataType="number" name="No rent paid DP04e133" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158040" dataType="number" name="Occupied units paying rent (excluding units where GRAPI cannot be computed) DP04e134" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158041" dataType="number" name="Less than 15.0 percent DP04e135" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158042" dataType="number" name="15.0 to 19.9 percent DP04e136" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158043" dataType="number" name="20.0 to 24.9 percent DP04e137" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158044" dataType="number" name="25.0 to 29.9 percent DP04e138" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158045" dataType="number" name="30.0 to 34.9 percent DP04e139" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158046" dataType="number" name="35.0 percent or more DP04e140" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158047" dataType="number" name="Not computed DP04e141" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158048" dataType="number" name="Total population DP05e1" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158049" dataType="number" name="Male DP05e2" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158050" dataType="number" name="Female DP05e3" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158051" dataType="number" name="Under 5 years DP05e4" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158052" dataType="number" name="5 to 9 years DP05e5" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158053" dataType="number" name="10 to 14 years DP05e6" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158054" dataType="number" name="15 to 19 years DP05e7" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158055" dataType="number" name="20 to 24 years DP05e8" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158056" dataType="number" name="25 to 34 years DP05e9" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158057" dataType="number" name="35 to 44 years DP05e10" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158058" dataType="number" name="45 to 54 years DP05e11" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158059" dataType="number" name="55 to 59 years DP05e12" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158060" dataType="number" name="60 to 64 years DP05e13" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158061" dataType="number" name="65 to 74 years DP05e14" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158062" dataType="number" name="75 to 84 years DP05e15" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158063" dataType="number" name="85 years and over DP05e16" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158064" dataType="number" name="Median age (years) DP05e17" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158065" dataType="number" name="18 years and over DP05e18" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158066" dataType="number" name="21 years and over DP05e19" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158067" dataType="number" name="62 years and over DP05e20" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158068" dataType="number" name="65 years and over DP05e21" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158069" dataType="number" name="18 years and over DP05e22" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158070" dataType="number" name="Male DP05e23" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158071" dataType="number" name="Female DP05e24" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158072" dataType="number" name="65 years and over DP05e25" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158073" dataType="number" name="Male DP05e26" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158074" dataType="number" name="Female DP05e27" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158075" dataType="number" name="Total population DP05e28" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158076" dataType="number" name="One race DP05e29" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158077" dataType="number" name="Two or more races DP05e30" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158078" dataType="number" name="One race DP05e31" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158079" dataType="number" name="White DP05e32" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158080" dataType="number" name="Black or African American DP05e33" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158081" dataType="number" name="American Indian and Alaska Native DP05e34" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158082" dataType="number" name="Cherokee tribal grouping DP05e35" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158083" dataType="number" name="Chippewa tribal grouping DP05e36" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158084" dataType="number" name="avajo tribal grouping DP05e37" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158085" dataType="number" name="Sioux tribal grouping DP05e38" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158086" dataType="number" name="Asian DP05e39" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158087" dataType="number" name="Asian Indian DP05e40" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158088" dataType="number" name="Chinese DP05e41" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158089" dataType="number" name="Filipino DP05e42" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158090" dataType="number" name="Japanese DP05e43" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158091" dataType="number" name="Korean DP05e44" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158092" dataType="number" name="Vietnamese DP05e45" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158093" dataType="number" name="Other Asian DP05e46" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158094" dataType="number" name="Native Hawaiian and Other Pacific Islander DP05e47" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158095" dataType="number" name="Native Hawaiian DP05e48" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158096" dataType="number" name="Guamanian or Chamorro DP05e49" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158097" dataType="number" name="Samoan DP05e50" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158098" dataType="number" name="Other Pacific Islander DP05e51" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158099" dataType="number" name="Some other race DP05e52" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158100" dataType="number" name="Two or more races DP05e53" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158101" dataType="number" name="White and Black or African American DP05e54" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158102" dataType="number" name="White and American Indian and Alaska Native DP05e55" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158103" dataType="number" name="White and Asian DP05e56" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158104" dataType="number" name="Black or African American and American Indian and Alaska Native DP05e57" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158105" dataType="number" name="Total population DP05e58" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158106" dataType="number" name="White DP05e59" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158107" dataType="number" name="Black or African American DP05e60" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158108" dataType="number" name="American Indian and Alaska Native DP05e61" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158109" dataType="number" name="Asian DP05e62" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158110" dataType="number" name="Native Hawaiian and Other Pacific Islander DP05e63" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158111" dataType="number" name="Some other race DP05e64" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158112" dataType="number" name="Total population DP05e65" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158113" dataType="number" name="Hispanic or Latino (of any race) DP05e66" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158114" dataType="number" name="Mexican DP05e67" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158115" dataType="number" name="Puerto Rican DP05e68" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158116" dataType="number" name="Cuban DP05e69" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158117" dataType="number" name="Other Hispanic or Latino DP05e70" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158118" dataType="number" name="Not Hispanic or Latino DP05e71" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158119" dataType="number" name="White alone DP05e72" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158120" dataType="number" name="Black or African American alone DP05e73" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158121" dataType="number" name="American Indian and Alaska Native alone DP05e74" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158122" dataType="number" name="Asian alone DP05e75" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158123" dataType="number" name="Native Hawaiian and Other Pacific Islander alone DP05e76" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158124" dataType="number" name="Some other race alone DP05e77" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158125" dataType="number" name="Two or more races DP05e78" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158126" dataType="number" name="Two races including Some other race DP05e79" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158127" dataType="number" name="Two races excluding Some other race and Three or more races DP05e80" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+            <attribute id="158128" dataType="number" name="Total housing units DP05e81" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+          </category>
+        </category>
+        <category name="Geometry Collections">
+          <attribute name="11_4_reprojected" dataType="Geometry"/>
+          <attribute name="11_4_reprojected_geometry" dataType="Geometry"/>
+          <attribute name="arra_mass_points201004" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="Arrests_Nashua" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts11" dataType="Geometry"/>
+          <attribute name="Atlanta Transportation Analysis Zones" dataType="Geometry"/>
+          <attribute name="Atlanta_CLCC_GDCH" dataType="Geometry"/>
+          <attribute name="Atlanta_ES_4th_CRCT_Reading" dataType="Geometry"/>
+          <attribute name="Atlanta_Head_Start" dataType="Geometry"/>
+          <attribute name="Atlanta_LowPerfSchools" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Counties" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Interstates" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Places" dataType="Geometry"/>
+          <attribute name="Atlanta_NPUs" dataType="Geometry"/>
+          <attribute name="Atlanta_Pre-K" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3_5" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3Plus" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln6_10" dataType="Geometry"/>
+          <attribute name="BCFutureLandUse_2009" dataType="Geometry"/>
+          <attribute name="bike trails" dataType="Geometry"/>
+          <attribute name="bikeped_facilities" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels Subset" dataType="Geometry"/>
+          <attribute name="Boston Parcels" dataType="Geometry"/>
+          <attribute name="boston_foreclosure_deeds" dataType="Geometry"/>
+          <attribute name="Boston_Hositals" dataType="Geometry"/>
+          <attribute name="Boston_Hositals111" dataType="Geometry"/>
+          <attribute name="Boston_Neighborhoods" dataType="Geometry"/>
+          <attribute name="boston_roads" dataType="Geometry"/>
+          <attribute name="Boston_zips" dataType="Geometry"/>
+          <attribute name="carcinogen" dataType="Geometry"/>
+          <attribute name="CATCHMENTS_poly_region" dataType="Geometry"/>
+          <attribute name="CBSA2003" dataType="Geometry"/>
+          <attribute name="CBSAs" dataType="Geometry"/>
+          <attribute name="cd99_110" dataType="Geometry"/>
+          <attribute name="cd_110thCongress" dataType="Geometry"/>
+          <attribute name="Census Trats MA 2010" dataType="Geometry"/>
+          <attribute name="census2000blockgroups_poly_orig" dataType="Geometry"/>
+          <attribute name="census2000tracts_ICC_Towns" dataType="Geometry"/>
+          <attribute name="census_msad" dataType="Geometry"/>
+          <attribute name="CHCS_PT" dataType="Geometry"/>
+          <attribute name="chic_counties" dataType="Geometry"/>
+          <attribute name="Chicago Census Tracts" dataType="Geometry"/>
+          <attribute name="chicago_arra_munis" dataType="Geometry"/>
+          <attribute name="chicago_arra_point" dataType="Geometry"/>
+          <attribute name="Chicago_Muni_ARRA" dataType="Geometry"/>
+          <attribute name="chicpoint2" dataType="Geometry"/>
+          <attribute name="chicpoint2111" dataType="Geometry"/>
+          <attribute name="chicpoint3" dataType="Geometry"/>
+          <attribute name="CHN_adm1" dataType="Geometry"/>
+          <attribute name="CHN_adm2" dataType="Geometry"/>
+          <attribute name="CHN_adm3" dataType="Geometry"/>
+          <attribute name="CityofAtlanta" dataType="Geometry"/>
+          <attribute name="Community_ED EEC" dataType="Geometry"/>
+          <attribute name="Counties" dataType="Geometry"/>
+          <attribute name="Countries" dataType="Geometry"/>
+          <attribute name="County Subdivisions" dataType="Geometry"/>
+          <attribute name="DEGREES BY INSTITUTION " dataType="Geometry"/>
+          <attribute name="DEMO_Shape" dataType="Geometry"/>
+          <attribute name="eec2" dataType="Geometry"/>
+          <attribute name="eec_artificial_child" dataType="Geometry"/>
+          <attribute name="eec_comprehensive_family" dataType="Geometry"/>
+          <attribute name="eec_familyservices_reproj" dataType="Geometry"/>
+          <attribute name="eec_lowellschools_reproj" dataType="Geometry"/>
+          <attribute name="eec_prek_pregnant_reproj" dataType="Geometry"/>
+          <attribute name="eec_prekpregnant_reproj" dataType="Geometry"/>
+          <attribute name="EEC_Providers" dataType="Geometry"/>
+          <attribute name="eec_regcnt_MA_ElemSchoolDistricts" dataType="Geometry"/>
+          <attribute name="eec_registrants_ma" dataType="Geometry"/>
+          <attribute name="eec_SchAged_TeenParents" dataType="Geometry"/>
+          <attribute name="eec_schoolagedchildren_reproj" dataType="Geometry"/>
+          <attribute name="eec_test1" dataType="Geometry"/>
+          <attribute name="eec_test2" dataType="Geometry"/>
+          <attribute name="emassnh_catchments" dataType="Geometry"/>
+          <attribute name="EPA_emissions_CO2_1995-2010" dataType="Geometry"/>
+          <attribute name="Exempt" dataType="Geometry"/>
+          <attribute name="FamilyServices" dataType="Geometry"/>
+          <attribute name="FCHC" dataType="Geometry"/>
+          <attribute name="fd_2005" dataType="Geometry"/>
+          <attribute name="fd_2006" dataType="Geometry"/>
+          <attribute name="fd_2007" dataType="Geometry"/>
+          <attribute name="fd_2008" dataType="Geometry"/>
+          <attribute name="fd_2009" dataType="Geometry"/>
+          <attribute name="fd_2010" dataType="Geometry"/>
+          <attribute name="FD_points_Lowell_new1" dataType="Geometry"/>
+          <attribute name="fe_2007_44_elsd" dataType="Geometry"/>
+          <attribute name="fe_2007_44_unsd" dataType="Geometry"/>
+          <attribute name="firms" dataType="Geometry"/>
+          <attribute name="FullPoints_Final" dataType="Geometry"/>
+          <attribute name="FullPoints_Lowell" dataType="Geometry"/>
+          <attribute name="fullpoints_lowell_reprojected" dataType="Geometry"/>
+          <attribute name="GHA_boundaries" dataType="Geometry"/>
+          <attribute name="GHA_outline" dataType="Geometry"/>
+          <attribute name="hb_states" dataType="Geometry"/>
+          <attribute name="hbstates" dataType="Geometry"/>
+          <attribute name="HeadStart" dataType="Geometry"/>
+          <attribute name="higher_ed_ma" dataType="Geometry"/>
+          <attribute name="higher_ed_ma_x" dataType="Geometry"/>
+          <attribute name="HigherEd Institutions - Crime" dataType="Geometry"/>
+          <attribute name="hwt_point" dataType="Geometry"/>
+          <attribute name="ICMB_ct" dataType="Geometry"/>
+          <attribute name="IPEDS(For)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Non)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Public)2009" dataType="Geometry"/>
+          <attribute name="ireland_counties" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v3" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v4" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v5" dataType="Geometry"/>
+          <attribute name="ireland_municipal_combined" dataType="Geometry"/>
+          <attribute name="ireland_nation" dataType="Geometry"/>
+          <attribute name="ireland_regions" dataType="Geometry"/>
+          <attribute name="Lawrence Parcel" dataType="Geometry"/>
+          <attribute name="lawrence_home buyers active" dataType="Geometry"/>
+          <attribute name="LCW Home purchase" dataType="Geometry"/>
+          <attribute name="LGSAC" dataType="Geometry"/>
+          <attribute name="lowell_nccs_3" dataType="Geometry"/>
+          <attribute name="lowell_neighborhoods_reprojected" dataType="Geometry"/>
+          <attribute name="Lowell_Parcels" dataType="Geometry"/>
+          <attribute name="lowell_registrants" dataType="Geometry"/>
+          <attribute name="LowellFD_2009_Final" dataType="Geometry"/>
+          <attribute name="lowelltracts_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MA Census Tract" dataType="Geometry"/>
+          <attribute name="MA Census Tract 6-digit" dataType="Geometry"/>
+          <attribute name="MA PRISONS" dataType="Geometry"/>
+          <attribute name="MA SCHOOLS" dataType="Geometry"/>
+          <attribute name="MA Train lines" dataType="Geometry"/>
+          <attribute name="ma_childcare_2009_sample_points" dataType="Geometry"/>
+          <attribute name="MA_COC" dataType="Geometry"/>
+          <attribute name="ma_ct2010_usproj" dataType="Geometry"/>
+          <attribute name="MA_EEC_Registrants" dataType="Geometry"/>
+          <attribute name="MA_Major_Streams_Lines" dataType="Geometry"/>
+          <attribute name="ma_SCHOOLS_PT" dataType="Geometry"/>
+          <attribute name="ma_shapes_delete" dataType="Geometry"/>
+          <attribute name="ma_town_region3" dataType="Geometry"/>
+          <attribute name="MA_Towns_MultiPoly_TOWN" dataType="Geometry"/>
+          <attribute name="ma_tract_w_eec_regcnt_and_town" dataType="Geometry"/>
+          <attribute name="ma_tracts_w_eec_regcnt" dataType="Geometry"/>
+          <attribute name="MA_ZCTA" dataType="Geometry"/>
+          <attribute name="MA_ZipCodes_Poly" dataType="Geometry"/>
+          <attribute name="MAPC_Municipalities" dataType="Geometry"/>
+          <attribute name="Mars_bkg" dataType="Geometry"/>
+          <attribute name="Mars_Points" dataType="Geometry"/>
+          <attribute name="mass towns" dataType="Geometry"/>
+          <attribute name="mass_benchmarks" dataType="Geometry"/>
+          <attribute name="mass_towns" dataType="Geometry"/>
+          <attribute name="Massachusetts Towns" dataType="Geometry"/>
+          <attribute name="MassARRA" dataType="Geometry"/>
+          <attribute name="MassARRALowellOnly" dataType="Geometry"/>
+          <attribute name="MassARRApoint" dataType="Geometry"/>
+          <attribute name="MassARRAPoint" dataType="Geometry"/>
+          <attribute name="MassARRAVer6" dataType="Geometry"/>
+          <attribute name="masstowns_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MBTA BUS ROUTES" dataType="Geometry"/>
+          <attribute name="MBTA BUS Stops" dataType="Geometry"/>
+          <attribute name="MBTA_ARC" dataType="Geometry"/>
+          <attribute name="MBTA_NODE" dataType="Geometry"/>
+          <attribute name="MBTABUSROUTES_ARC" dataType="Geometry"/>
+          <attribute name="MBTABUSSTOPS_PT" dataType="Geometry"/>
+          <attribute name="Merged Turi" dataType="Geometry"/>
+          <attribute name="MetroBoston_Schools" dataType="Geometry"/>
+          <attribute name="Metropolitan Division" dataType="Geometry"/>
+          <attribute name="MEX" dataType="Geometry"/>
+          <attribute name="MFI Ben" dataType="Geometry"/>
+          <attribute name="MFI_GH" dataType="Geometry"/>
+          <attribute name="MFI_GH1" dataType="Geometry"/>
+          <attribute name="MFI_Points_2007" dataType="Geometry"/>
+          <attribute name="MSA_Tracts" dataType="Geometry"/>
+          <attribute name="mvhp" dataType="Geometry"/>
+          <attribute name="mvhp_reprojected_v2" dataType="Geometry"/>
+          <attribute name="mys1" dataType="Geometry"/>
+          <attribute name="mys2" dataType="Geometry"/>
+          <attribute name="mys4" dataType="Geometry"/>
+          <attribute name="Nashua_Tract" dataType="Geometry"/>
+          <attribute name="NCCS_Lowell" dataType="Geometry"/>
+          <attribute name="nccs_ma_reprojected" dataType="Geometry"/>
+          <attribute name="nccs_shape2" dataType="Geometry"/>
+          <attribute name="nccs_shape_CT" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA_FIPS22051" dataType="Geometry"/>
+          <attribute name="nccs_shape_MA" dataType="Geometry"/>
+          <attribute name="nccs_shape_MACT" dataType="Geometry"/>
+          <attribute name="ne_cd99_110" dataType="Geometry"/>
+          <attribute name="ne_lldistricts" dataType="Geometry"/>
+          <attribute name="ne_lsdistricts" dataType="Geometry"/>
+          <attribute name="ne_streams" dataType="Geometry"/>
+          <attribute name="nehucs10" dataType="Geometry"/>
+          <attribute name="new_england_subbasins" dataType="Geometry"/>
+          <attribute name="NewEngland_Cousub" dataType="Geometry"/>
+          <attribute name="newengland_subbasins_v2" dataType="Geometry"/>
+          <attribute name="nhpn" dataType="Geometry"/>
+          <attribute name="nhpn1" dataType="Geometry"/>
+          <attribute name="NREL_NewEnglandShapeWGS84" dataType="Geometry"/>
+          <attribute name="nuclear-facilities-update" dataType="Geometry"/>
+          <attribute name="nuclear_seismic-hazard" dataType="Geometry"/>
+          <attribute name="nuclear_states" dataType="Geometry"/>
+          <attribute name="nuclear_us_earthquakes" dataType="Geometry"/>
+          <attribute name="od_2005" dataType="Geometry"/>
+          <attribute name="od_2006_reprojected" dataType="Geometry"/>
+          <attribute name="od_2007" dataType="Geometry"/>
+          <attribute name="od_2008" dataType="Geometry"/>
+          <attribute name="od_2009" dataType="Geometry"/>
+          <attribute name="od_2010" dataType="Geometry"/>
+          <attribute name="Ohio County Subdivisions" dataType="Geometry"/>
+          <attribute name="Ohio Places" dataType="Geometry"/>
+          <attribute name="ON no FD 2005" dataType="Geometry"/>
+          <attribute name="on no fd 2006_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2007_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2008_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2009_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2010_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd_2005" dataType="Geometry"/>
+          <attribute name="perc" dataType="Geometry"/>
+          <attribute name="Plants" dataType="Geometry"/>
+          <attribute name="pma_us96" dataType="Geometry"/>
+          <attribute name="pma_us96_pmsa" dataType="Geometry"/>
+          <attribute name="PreK" dataType="Geometry"/>
+          <attribute name="PreK2" dataType="Geometry"/>
+          <attribute name="Prek3" dataType="Geometry"/>
+          <attribute name="Prek4" dataType="Geometry"/>
+          <attribute name="PreK6" dataType="Geometry"/>
+          <attribute name="PreKPregnant" dataType="Geometry"/>
+          <attribute name="PrekPregnant2" dataType="Geometry"/>
+          <attribute name="PreKPregnant3" dataType="Geometry"/>
+          <attribute name="private_IPEDS" dataType="Geometry"/>
+          <attribute name="Public Libraries MA" dataType="Geometry"/>
+          <attribute name="Public School Pre K" dataType="Geometry"/>
+          <attribute name="railways" dataType="Geometry"/>
+          <attribute name="Registrants_US1" dataType="Geometry"/>
+          <attribute name="registrants_us1" dataType="Geometry"/>
+          <attribute name="RGGI" dataType="Geometry"/>
+          <attribute name="RGGI2" dataType="Geometry"/>
+          <attribute name="ri_bg" dataType="Geometry"/>
+          <attribute name="ri_schools08_projected" dataType="Geometry"/>
+          <attribute name="roads" dataType="Geometry"/>
+          <attribute name="Rwanda_Districts" dataType="Geometry"/>
+          <attribute name="Rwanda_Provinces" dataType="Geometry"/>
+          <attribute name="SchoolAged" dataType="Geometry"/>
+          <attribute name="schooldis_elem_POLY" dataType="Geometry"/>
+          <attribute name="schooldishigh_POLY_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_maPOLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTELEM_POLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTHIGH_POLY" dataType="Geometry"/>
+          <attribute name="shapes_demo" dataType="Geometry"/>
+          <attribute name="Soil Waste MA" dataType="Geometry"/>
+          <attribute name="st99_d00" dataType="Geometry"/>
+          <attribute name="State" dataType="Geometry"/>
+          <attribute name="States" dataType="Geometry"/>
+          <attribute name="StatesforNREL" dataType="Geometry"/>
+          <attribute name="STEM BY INSTITUTION" dataType="Geometry"/>
+          <attribute name="Styrene" dataType="Geometry"/>
+          <attribute name="Success_Boston_Student_Cohorts" dataType="Geometry"/>
+          <attribute name="sulfuricacid" dataType="Geometry"/>
+          <attribute name="ta tatata" dataType="Geometry"/>
+          <attribute name="test" dataType="Geometry"/>
+          <attribute name="TEST" dataType="Geometry"/>
+          <attribute name="test_nccs" dataType="Geometry"/>
+          <attribute name="test_st99" dataType="Geometry"/>
+          <attribute name="tgr33001lkA" dataType="Geometry"/>
+          <attribute name="tl_2009_09_bg00" dataType="Geometry"/>
+          <attribute name="tl_2009_us_cbsa" dataType="Geometry"/>
+          <attribute name="tl_2009_us_state" dataType="Geometry"/>
+          <attribute name="tl_2010_us_state10" dataType="Geometry"/>
+          <attribute name="tr25_d00_reprojected" dataType="Geometry"/>
+          <attribute name="TRAINS_NODE" dataType="Geometry"/>
+          <attribute name="Turi points" dataType="Geometry"/>
+          <attribute name="turi points" dataType="Geometry"/>
+          <attribute name="turi points 2008" dataType="Geometry"/>
+          <attribute name="turi00" dataType="Geometry"/>
+          <attribute name="turi01" dataType="Geometry"/>
+          <attribute name="turi02" dataType="Geometry"/>
+          <attribute name="turi03" dataType="Geometry"/>
+          <attribute name="turi04" dataType="Geometry"/>
+          <attribute name="turi05" dataType="Geometry"/>
+          <attribute name="turi06" dataType="Geometry"/>
+          <attribute name="turi06-" dataType="Geometry"/>
+          <attribute name="turi07" dataType="Geometry"/>
+          <attribute name="turi07new" dataType="Geometry"/>
+          <attribute name="turi08" dataType="Geometry"/>
+          <attribute name="turi90" dataType="Geometry"/>
+          <attribute name="turi91" dataType="Geometry"/>
+          <attribute name="turi92" dataType="Geometry"/>
+          <attribute name="turi93" dataType="Geometry"/>
+          <attribute name="turi94" dataType="Geometry"/>
+          <attribute name="turi95" dataType="Geometry"/>
+          <attribute name="turi96" dataType="Geometry"/>
+          <attribute name="turi97" dataType="Geometry"/>
+          <attribute name="turi98" dataType="Geometry"/>
+          <attribute name="turi99" dataType="Geometry"/>
+          <attribute name="TURI_all_2008" dataType="Geometry"/>
+          <attribute name="Turkey" dataType="Geometry"/>
+          <attribute name="US_AKHI_moved" dataType="Geometry"/>
+          <attribute name="us_cbsa" dataType="Geometry"/>
+          <attribute name="us_interstates" dataType="Geometry"/>
+          <attribute name="US_Outline" dataType="Geometry"/>
+          <attribute name="US_States_WGS" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectable" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectabledelete" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectableWITHFIPS" dataType="Geometry"/>
+          <attribute name="USoilPlatforms" dataType="Geometry"/>
+          <attribute name="waterways" dataType="Geometry"/>
+          <attribute name="wb_test" dataType="Geometry"/>
+          <attribute name="wb_testest" dataType="Geometry"/>
+          <attribute name="wbfasdljk" dataType="Geometry"/>
+          <attribute name="welwellwelllll" dataType="Geometry"/>
+          <attribute name="westminster_const_region" dataType="Geometry"/>
+          <attribute name="world" dataType="Geometry"/>
+          <attribute name="World Borders" dataType="Geometry"/>
+          <attribute name="World Borders (UN Codes)" dataType="Geometry"/>
+          <attribute name="World UN" dataType="Geometry"/>
+          <attribute name="WT_FAAOE_2000_2011" dataType="Geometry"/>
+          <attribute name="yb_points" dataType="Geometry"/>
+          <attribute name="youthbuild_points" dataType="Geometry"/>
+          <attribute name="ZillowNeighborhoods" dataType="Geometry"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="acs_countyprofilesus">
+                  <attribute id="157629" dataType="string" name="FIPS" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn4">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="acs_countyprofilesus">
+                  <attribute id="157630" dataType="string" name="Geographic Name" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="acs_countyprofilesus">
+                  <attribute id="157673" dataType="number" name="Unmarried women (widowed divorced and never married) DP02e37" dataTable="acs_countyprofilesus" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <HistogramTool name="ColorHistogramTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>9.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>1265</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>1265</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>1265</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <spatialCallbacks/>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>9.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>9.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <forceTickCount>true</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <spatialCallbacks/>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>9</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <HistogramPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <fillStyle>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                </fillStyle>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <spatialCallbacks/>
+              </HistogramPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <spatialCallbacks/>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.288%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>50%</panelWidth>
+    <panelX>1.9531%</panelX>
+    <panelY>50.383%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </HistogramTool>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>9.5</yMax>
+          <yMin>-0.5</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <shapeSize>20</shapeSize>
+                <spatialCallbacks/>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableTitle>false</enableTitle>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.738%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>20%</panelWidth>
+    <panelX>68.125%</panelX>
+    <panelY>0.8726%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ColorBinLegendTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>-41.06427528909573</xMax>
+          <xMin>-197.29486037073042</xMin>
+          <yMax>87.52393349092353</yMax>
+          <yMin>8.675164024840285</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.ZOOM_MODE</defaultMouseMode>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="Counties" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+                <spatialCallbacks/>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>true</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableOverview>false</enableOverview>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.738%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>66.875%</panelWidth>
+    <panelX>1.25%</panelX>
+    <panelY>0.8726%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS/>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </MapTool>
+</Weave>

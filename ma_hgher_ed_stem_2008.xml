@@ -1,0 +1,2315 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>0</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>10</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGeometryProbing>false</enableGeometryProbing>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionExport>true</enableSessionExport>
+    <enableSessionImport>true</enableSessionImport>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily>Verdana</panelTitleFontFamily>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <probeInnerGlowAlpha>0.9</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>15725756</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>1.0 Beta 1</version>
+    <windowSnapGridSize>1</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="Rosebud" source="OIC" reverse="false" category="aesthetic">
+        <node color="0x69594E" position="0"/>
+        <node color="0xADAF48" position="0.15"/>
+        <node color="0xFEF0FE" position="0.3"/>
+        <node color="0xF3008B" position="0.6"/>
+        <node color="0xCD001E" position="1"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="DataTables">
+                  <category name="mahigstem2008">
+                    <attribute name="Total STEM Awards" min="" max="" year="" dataTable="mahigstem2008" keyType=""/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded>"",166665</excluded>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="DataTables">
+                <category name="mahigstem2008">
+                  <attribute name="unitid" min="" dataTable="mahigstem2008" year="" max="" keyType=""/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="DataTables">
+                <category name="mahigstem2008">
+                  <attribute name="Total STEM Awards" min="" dataTable="mahigstem2008" year="" max="" keyType=""/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn3">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="DataTables">
+                <category name="ma_highered_unitid_to_name_2008">
+                  <attribute name="instnm" min="" dataTable="ma_highered_unitid_to_name_2008" year="" max="" keyType=""/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn4">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="DataTables">
+                <category name="mahigtot2008">
+                  <attribute name="Total Awards" dataTable="mahigtot2008" year="" keyType=""/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <WeaveDataSource name="OpenIndicatorsDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="DataTables">
+          <category name="IPEDS(For)2009">
+            <attribute name="IPEDS(For)2009" projectionSRS="null" dataType="Geometry" keyType="IPEDS(For)2009"/>
+            <attribute id="78500" name="the_geom_id" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78501" name="Lat" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78502" name="Long" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78503" name="ID" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78504" name="NAME" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78505" name="ADD" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78506" name="CITY" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78507" name="STATE" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78508" name="ZIP" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78509" name="FIPS" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78510" name="COUNTY NAM" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78511" name="MEN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78512" name="WOMEN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78513" name="ALIEN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78514" name="BLACK" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78515" name="AMERIND AL" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78516" name="ASIAN PACI" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78517" name="HISPANIC" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78518" name="WHITE" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78519" name="UNKNOWN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78520" name="TOTAL" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78521" name="PCT MEN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78522" name="PCT WOMEN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78523" name="PCT ALIEN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78524" name="PCT BLACK" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78525" name="PCT AMERIN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78526" name="PCT ASIAN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78527" name="PCT HISPAN" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78528" name="PCT WHITE" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78529" name="PCT UNKNOW" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+            <attribute id="78530" name="CODE" geometryCollection="IPEDS(For)2009" dataTable="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+          </category>
+          <category name="IPEDS(Non)2009"/>
+          <category name="IPEDS(Public)2009">
+            <attribute name="IPEDS(Public)2009" projectionSRS="null" dataType="Geometry" keyType="IPEDS(Public)2009"/>
+            <attribute id="81500" name="the_geom_id" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81501" name="Lat" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81502" name="Long" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81503" name="ID" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81504" name="NAME" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81505" name="ADD" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81506" name="CITY" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81507" name="STATE" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81508" name="ZIP" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81509" name="FIPS" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81510" name="COUNTY NAM" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81511" name="MEN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81512" name="WOMEN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81513" name="ALIEN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81514" name="BLACK" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81515" name="AMERIND AL" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81516" name="ASIAN PACI" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81517" name="HISPANIC" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81518" name="WHITE" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81519" name="UNKNOWN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81520" name="TOTAL" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81521" name="PCT MEN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81522" name="PCT WOMEN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81523" name="PCT ALIEN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81524" name="PCT BLACK" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81525" name="PCT AMERIN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81526" name="PCT ASIAN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81527" name="PCT HISPAN" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81528" name="PCT WHITE" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81529" name="PCT UNKNOW" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+            <attribute id="81530" name="CODE" geometryCollection="IPEDS(Public)2009" dataTable="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+          </category>
+          <category name="ma_1_2007_v07"/>
+          <category name="ma_2009performance_school"/>
+          <category name="MA_HigherED">
+            <attribute id="9399" name="unitid" geometryCollection="higher_ed_ma" dataTable="MA_HigherED"/>
+            <attribute id="9400" name="Institution Name" geometryCollection="higher_ed_ma" dataTable="MA_HigherED"/>
+            <attribute id="9401" name="Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9402" name="Total STEM Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9403" name="Total STEM Awards as Pct of Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9404" name="Total Math Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9405" name="Total Natural Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9406" name="Total Physical Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9407" name="Total Engineering Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9408" name="Computer and Information Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9409" name="Stem Teacher Education Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9410" name="Health Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9411" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9412" name="Grand Total Women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9413" name="Grand Total Men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9414" name="Grand Total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9415" name="Masters Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9416" name="Doctorates First Prof. or First Practice Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9417" name="Associate Below Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9418" name="Associate Beyond Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9419" name="Associate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9420" name="Bachelors Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9421" name="First or Second Major" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9422" name="Award Level code" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9423" name="Imputation field for Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9424" name="Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9425" name="Imputation field for Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9426" name="Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9427" name="Imputation field for Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9428" name="Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9429" name="Imputation field for Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9430" name="Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9431" name="Imputation field for American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9432" name="American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9433" name="Imputation field for American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9434" name="American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9435" name="Imputation field for Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9436" name="Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9437" name="Imputation field for Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9438" name="Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9439" name="Imputation field for Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9440" name="Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9441" name="Imputation field for Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9442" name="Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9443" name="Imputation field for White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9444" name="White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9445" name="Imputation field for White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9446" name="White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9447" name="Imputation field for Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9448" name="Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9449" name="Imputation field for Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9450" name="Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9451" name="Imputation field for Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9452" name="Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9453" name="Imputation field for Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9454" name="Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9455" name="Imputation field for Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9456" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9457" name="Imputation field for Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9458" name="Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9459" name="Imputation field for American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9460" name="American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9461" name="Imputation field for Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9462" name="Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9463" name="Imputation field for Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9464" name="Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9465" name="Imputation field for White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9466" name="White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9467" name="Imputation field for  Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9468" name="Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9469" name="Imputation field for Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9470" name="Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2003"/>
+            <attribute id="9471" name="Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9472" name="Total STEM Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9473" name="Total STEM Awards as Pct of Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9474" name="Total Math Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9475" name="Total Natural Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9476" name="Total Physical Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9477" name="Computer and Information Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9478" name="Stem Teacher Education Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9479" name="Total Engineering Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9480" name="Health Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9481" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9482" name="Grand Total Women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9483" name="Grand Total Men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9484" name="Grand Total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9485" name="Masters Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9486" name="Doctorates First Prof. or First Practice Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9487" name="Associate Below Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9488" name="Associate Beyond Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9489" name="Associate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9490" name="Bachelors Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9491" name="First or Second Major" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9492" name="Award Level code" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9493" name="Imputation field for Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9494" name="Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9495" name="Imputation field for Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9496" name="Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9497" name="Imputation field for Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9498" name="Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9499" name="Imputation field for Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9500" name="Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9501" name="Imputation field for American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9502" name="American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9503" name="Imputation field for American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9504" name="American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9505" name="Imputation field for Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9506" name="Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9507" name="Imputation field for Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9508" name="Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9509" name="Imputation field for Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9510" name="Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9511" name="Imputation field for Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9512" name="Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9513" name="Imputation field for White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9514" name="White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9515" name="Imputation field for White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9516" name="White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9517" name="Imputation field for Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9518" name="Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9519" name="Imputation field for Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9520" name="Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9521" name="Imputation field for Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9522" name="Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9523" name="Imputation field for Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9524" name="Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9525" name="Imputation field for Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9526" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9527" name="Imputation field for Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9528" name="Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9529" name="Imputation field for American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9530" name="American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9531" name="Imputation field for Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9532" name="Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9533" name="Imputation field for Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9534" name="Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9535" name="Imputation field for White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9536" name="White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9537" name="Imputation field for Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9538" name="Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9539" name="Imputation field for Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9540" name="Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2004"/>
+            <attribute id="9541" name="Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9542" name="Total STEM Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9543" name="Total STEM Awards as Pct of Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9544" name="Total Math Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9545" name="Total Natural Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9546" name="Total Physical Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9547" name="Computer and Information Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9548" name="Stem Teacher Education Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9549" name="Total Engineering Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9550" name="Health Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9551" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9552" name="Grand Total Women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9553" name="Grand Total Men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9554" name="Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9555" name="Masters Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9556" name="Doctorates First Prof. or First Practice Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9557" name="Associate Below Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9558" name="Associate Beyond Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9559" name="Associate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9560" name="Bachelors Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9561" name="First or Second Major" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9562" name="Award Level code" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9563" name="Imputation field for  Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9564" name="Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9565" name="Imputation field for  Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9566" name="Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9567" name="Imputation field for  Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9568" name="Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9569" name="Imputation field for  Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9570" name="Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9571" name="Imputation field for  American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9572" name="American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9573" name="Imputation field for  American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9574" name="American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9575" name="Imputation field for  Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9576" name="Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9577" name="Imputation field for  Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9578" name="Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9579" name="Imputation field for  Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9580" name="Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9581" name="Imputation field for  Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9582" name="Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9583" name="Imputation field for  White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9584" name="White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9585" name="Imputation field for  White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9586" name="White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9587" name="Imputation field for  Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9588" name="Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9589" name="Imputation field for  Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9590" name="Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9591" name="Imputation field for  Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9592" name="Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9593" name="Imputation field for  Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9594" name="Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9595" name="Imputation field for  Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9596" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9597" name="Imputation field for  Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9598" name="Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9599" name="Imputation field for  American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9600" name="American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9601" name="Imputation field for  Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9602" name="Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9603" name="Imputation field for  Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9604" name="Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9605" name="Imputation field for  White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9606" name="White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9607" name="Imputation field for  Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9608" name="Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9609" name="Imputation field for  Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9610" name="Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2005"/>
+            <attribute id="9611" name="Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9612" name="Total STEM Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9613" name="Total STEM Awards as Pct of Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9614" name="Total Math Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9615" name="Total Natural Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9616" name="Total Physical Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9617" name="Computer and Information Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9618" name="Stem Teacher Education Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9619" name="Total Engineering Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9620" name="Health Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9621" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9622" name="Grand Total Women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9623" name="Grand Total Men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9624" name="Grand Total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9625" name="Masters Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9626" name="Doctorates First Prof. or First Practice Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9627" name="Associate Below Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9628" name="Associate Beyond Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9629" name="Associate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9630" name="Bachelors Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9631" name="First or Second Major" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9632" name="Award Level code" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9633" name="Imputation field for  Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9634" name="Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9635" name="Imputation field for  Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9636" name="Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9637" name="Imputation field for  Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9638" name="Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9639" name="Imputation field for  Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9640" name="Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9641" name="Imputation field for  American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9642" name="American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9643" name="Imputation field for  American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9644" name="American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9645" name="Imputation field for  Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9646" name="Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9647" name="Imputation field for  Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9648" name="Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9649" name="Imputation field for  Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9650" name="Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9651" name="Imputation field for  Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9652" name="Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9653" name="Imputation field for  White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9654" name="White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9655" name="Imputation field for  White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9656" name="White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9657" name="Imputation field for  Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9658" name="Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9659" name="Imputation field for  Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9660" name="Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9661" name="Imputation field for  Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9662" name="Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9663" name="Imputation field for  Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9664" name="Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9665" name="Imputation field for  Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9666" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9667" name="Imputation field for  Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9668" name="Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9669" name="Imputation field for  American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9670" name="American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9671" name="Imputation field for  Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9672" name="Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9673" name="Imputation field for  Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9674" name="Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9675" name="Imputation field for CRACE22 White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9676" name="White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9677" name="Imputation field for  Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9678" name="Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9679" name="Imputation field for  Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9680" name="Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2006"/>
+            <attribute id="9681" name="Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9682" name="Total STEM Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9683" name="Total STEM Awards as Pct of Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9684" name="Total Math Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9685" name="Total Natural Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9686" name="Total Physical Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9687" name="Computer and Information Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9688" name="Stem Teacher Education Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9689" name="Total Engineering Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9690" name="Health Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9691" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9692" name="Grand Total Women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9693" name="Grand Total Men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9694" name="Grand Total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9695" name="Masters Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9696" name="Doctorates First Prof. or First Practice Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9697" name="Associate Below Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9698" name="Associate Beyond Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9699" name="Associate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9700" name="Bachelors Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9701" name="First or Second Major" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9702" name="Award Level code" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9703" name="Imputation field for  Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9704" name="Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9705" name="Imputation field for  Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9706" name="Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9707" name="Imputation field for  Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9708" name="Black non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9709" name="Imputation field for  Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9710" name="Black non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9711" name="Imputation field for  American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9712" name="American Indian or Alaska Native men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9713" name="Imputation field for  American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9714" name="American Indian or Alaska Native women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9715" name="Imputation field for  Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9716" name="Asian or Pacific Islander men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9717" name="Imputation field for  Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9718" name="Asian or Pacific Islander women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9719" name="Imputation field for  Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9720" name="Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9721" name="Imputation field for  Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9722" name="Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9723" name="Imputation field for  White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9724" name="White non-Hispanic men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9725" name="Imputation field for  White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9726" name="White non-Hispanic women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9727" name="Imputation field for  Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9728" name="Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9729" name="Imputation field for  Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9730" name="Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9731" name="Imputation field for  Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9732" name="Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9733" name="Imputation field for  Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9734" name="Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9735" name="Imputation field for  Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9736" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9737" name="Imputation field for  Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9738" name="Black non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9739" name="Imputation field for  American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9740" name="American Indian or Alaska Native total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9741" name="Imputation field for  Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9742" name="Asian or Pacific Islander total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9743" name="Imputation field for  Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9744" name="Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9745" name="Imputation field for  White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9746" name="White non-Hispanic total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9747" name="Imputation field for  Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9748" name="Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9749" name="Imputation field for  Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9750" name="Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2007"/>
+            <attribute id="9751" name="Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9752" name="Total STEM Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9753" name="Total STEM Awards as Pct of Total Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9754" name="Total Math Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9755" name="Total Natural Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9756" name="Total Physical Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9757" name="Computer and Information Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9758" name="Stem Teacher Education Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9759" name="Total Engineering Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9760" name="Health Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9761" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9762" name="Grand Total Women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9763" name="Grand Total Men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9764" name="Grand Total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9765" name="Masters Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9766" name="Doctorates First Prof. or First Practice Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9767" name="Associate Below Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9768" name="Associate Beyond Baccalaureate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9769" name="Associate Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9770" name="Bachelors Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9771" name="First or Second Major" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9772" name="Award Level code" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9773" name="Imputation field for CNRALM Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9774" name="Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9775" name="Imputation field for CNRALW Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9776" name="Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9777" name="Imputation field for  Black non-Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9778" name="Black non-Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9779" name="Imputation field for  Black non-Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9780" name="Black non-Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9781" name="ImputationfieldforAmericanIndianorAlaskaNativemen-old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9782" name="American Indian or Alaska Native men - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9783" name="ImputationfieldforAmericanIndianorAlaskaNativewomen-old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9784" name="American Indian or Alaska Native women - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9785" name="Imputation field for  Asian or Pacific Islander men - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9786" name="Asian or Pacific Islander men - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9787" name="Imputation field for  Asian or Pacific Islander women - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9788" name="Asian or Pacific Islander women - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9789" name="Imputation field for  Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9790" name="Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9791" name="Imputation field for  Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9792" name="Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9793" name="Imputation field for  White non-Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9794" name="White non-Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9795" name="Imputation field for  White non-Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9796" name="White non-Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9797" name="Imputation field for CUNKNM Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9798" name="Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9799" name="Imputation field for CUNKNW Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9800" name="Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9801" name="Imputation field for CTOTALM Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9802" name="Grand total men" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9803" name="Imputation field for CTOTALW Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9804" name="Grand total women" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9805" name="Imputation field for CNRALT Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9806" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9807" name="Imputation field for  Black non-Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9808" name="Black non-Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9809" name="ImputationfieldforAmericanIndianorAlaskaNativetotal-old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9810" name="American Indian or Alaska Native total - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9811" name="Imputation field for  Asian or Pacific Islander total - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9812" name="Asian or Pacific Islander total - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9813" name="Imputation field for  Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9814" name="Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9815" name="Imputation field for  White non-Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9816" name="White non-Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9817" name="Imputation field for CUNKNT Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9818" name="Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9819" name="Imputation field for CTOTALT Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9820" name="Grand total" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9821" name="Imputation field for CHISPM Hispanic or Latino men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9822" name="Hispanic or Latino men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9823" name="Imputation field for CHISPW Hispanic or Latino women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9824" name="Hispanic or Latino women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9825" name="ImputationfieldforCAIANMAmericanIndianorAlaskaNativemen-new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9826" name="American Indian or Alaska Native men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9827" name="ImputationfieldforCAIANWAmericanIndianorAlaskaNativewomen-new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9828" name="American Indian or Alaska Native women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9829" name="Imputation field for CASIAM Asian men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9830" name="Asian men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9831" name="Imputation field for CASIAW Asian women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9832" name="Asian women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9833" name="Imputation field for CBKAAM Black or African American men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9834" name="Black or African American men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9835" name="ImputationfieldforCBKAAWBlackorAfricanAmericanwomen-new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9836" name="Black or African American women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9837" name="ImputationfieldforCNHPIMNative_norOtherPacificIslandermen-new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9838" name="Native Hawaiian or Other Pacific Islander men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9839" name="ImputationfieldforCNHPIWNative_rOtherPacificIslanderwomen-new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9840" name="Native Hawaiian or Other Pacific Islander women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9841" name="Imputation field for CWHITM White men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9842" name="White men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9843" name="Imputation field for CWHITW White women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9844" name="White women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9845" name="Imputation field for C2MORM Two or more races men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9846" name="Two or more races men - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9847" name="Imputation field for C2MORW Two or more races women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9848" name="Two or more races women - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9849" name="Imputation field for CHISPT Hispanic or Latino total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9850" name="Hispanic or Latino total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9851" name="ImputationfieldforCAIANTAmericanIndianorAlaskaNativetotal-new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9852" name="American Indian or Alaska Native total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9853" name="Imputation field for CASIAT Asian total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9854" name="Asian total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9855" name="ImputationfieldforCBKAATBlackorAfricanAmericantotal-new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9856" name="Black or African American total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9857" name="ImputationfieldforCNHPITNative_rOtherPacificIslandertotal-new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9858" name="Native Hawaiian or Other Pacific Islander total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9859" name="Imputation field for CWHITT White total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9860" name="White total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9861" name="Imputation field for C2MORT Two or more races total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9862" name="Two or more races total - new" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9863" name="ImputationfieldforDVCAITAmeric_ianorAlaskaNativetotal-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9864" name="American Indian or Alaska Native total - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9865" name="ImputationfieldforDVCAIMAmericanIndianorAlaskaNativemen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9866" name="American Indian or Alaska Native men - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9867" name="ImputationfieldforDVCAIWAmeric_ianorAlaskaNativewomen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9868" name="American Indian or Alaska Native women - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9869" name="ImputationfieldforDVCAPTAsianN_erPacificIslandertotal-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9870" name="AsianNative HawaiianOther Pacific Islander total - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9871" name="ImputationfieldforDVCAPMAsianN_therPacificIslandermen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9872" name="AsianNative HawaiianOther Pacific Islander men - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9873" name="ImputationfieldforDVCAPWAsianN_erPacificIslanderwomen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9874" name="AsianNative HawaiianOther Pacific Islander women - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9875" name="ImputationfieldforDVCBKTBlacko_Blacknon-Hispanictotal-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9876" name="Black or African AmericanBlack non-Hispanic total - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9877" name="ImputationfieldforDVCBKMBlacko_anBlacknon-Hispanicmen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9878" name="Black or African AmericanBlack non-Hispanic men - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9879" name="ImputationfieldforDVCBKWBlacko_Blacknon-Hispanicwomen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9880" name="Black or African AmericanBlack non-Hispanic women - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9881" name="ImputationfieldforDVCHSTHispanicorLatinoHispanictotal-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9882" name="Hispanic or LatinoHispanic total - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9883" name="ImputationfieldforDVCHSMHispanicorLatinoHispanicmen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9884" name="Hispanic or LatinoHispanic men - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9885" name="ImputationfieldforDVCHSWHispanicorLatinoHispanicwomen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9886" name="Hispanic or LatinoHispanic women - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9887" name="ImputationfieldforDVCWHTWhiteWhitenon-Hispanictotal-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9888" name="WhiteWhite non-Hispanic total - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9889" name="ImputationfieldforDVCWHMWhiteWhitenon-Hispanicmen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9890" name="WhiteWhite non-Hispanic men - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9891" name="ImputationfieldforDVCWHWWhiteWhitenon-Hispanicwomen-derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+            <attribute id="9892" name="WhiteWhite non-Hispanic women - derived" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+          </category>
+          <category name="ma_highered_2003"/>
+          <category name="MA_HIgherED_2003"/>
+          <category name="MA_HigherED_2004"/>
+          <category name="MA_HigherED_2005"/>
+          <category name="MA_HigherED_2006"/>
+          <category name="MA_HigherED_2007"/>
+          <category name="ma_highered_2008">
+            <attribute id="9914" name="unitid" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9915" name="cipcode" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9916" name="First or Second Major" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9917" name="Award Level code" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9918" name="Imputation field for CNRALM Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9919" name="Nonresident alien men" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9920" name="Imputation field for CNRALW Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9921" name="Nonresident alien women" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9922" name="Imputation field for  Black non-Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9923" name="Black non-Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9924" name="Imputation field for  Black non-Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9925" name="Black non-Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9926" name="ImputationfieldforAmericanIndianorAlaskaNativemen-old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9927" name="American Indian or Alaska Native men - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9928" name="ImputationfieldforAmericanIndianorAlaskaNativewomen-old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9929" name="American Indian or Alaska Native women - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9930" name="Imputation field for  Asian or Pacific Islander men - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9931" name="Asian or Pacific Islander men - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9932" name="Imputation field for  Asian or Pacific Islander women - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9933" name="Asian or Pacific Islander women - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9934" name="Imputation field for  Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9935" name="Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9936" name="Imputation field for  Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9937" name="Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9938" name="Imputation field for  White non-Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9939" name="White non-Hispanic men - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9940" name="Imputation field for  White non-Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9941" name="White non-Hispanic women - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9942" name="Imputation field for CUNKNM Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9943" name="Raceethnicity unknown men" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9944" name="Imputation field for CUNKNW Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9945" name="Raceethnicity unknown women" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9946" name="Imputation field for CTOTALM Grand total men" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9947" name="Grand total men" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9948" name="Imputation field for CTOTALW Grand total women" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9949" name="Grand total women" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9950" name="Imputation field for CNRALT Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9951" name="Nonresident alien total" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9952" name="Imputation field for  Black non-Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9953" name="Black non-Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9954" name="ImputationfieldforAmericanIndianorAlaskaNativetotal-old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9955" name="American Indian or Alaska Native total - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9956" name="Imputation field for  Asian or Pacific Islander total - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9957" name="Asian or Pacific Islander total - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9958" name="Imputation field for  Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9959" name="Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9960" name="Imputation field for  White non-Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9961" name="White non-Hispanic total - old" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9962" name="Imputation field for CUNKNT Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9963" name="Raceethnicity unknown total" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9964" name="Imputation field for CTOTALT Grand total" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9965" name="Grand total" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9966" name="Imputation field for CHISPM Hispanic or Latino men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9967" name="Hispanic or Latino men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9968" name="Imputation field for CHISPW Hispanic or Latino women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9969" name="Hispanic or Latino women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9970" name="ImputationfieldforCAIANMAmericanIndianorAlaskaNativemen-new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9971" name="American Indian or Alaska Native men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9972" name="ImputationfieldforCAIANWAmericanIndianorAlaskaNativewomen-new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9973" name="American Indian or Alaska Native women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9974" name="Imputation field for CASIAM Asian men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9975" name="Asian men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9976" name="Imputation field for CASIAW Asian women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9977" name="Asian women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9978" name="Imputation field for CBKAAM Black or African American men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9979" name="Black or African American men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9980" name="ImputationfieldforCBKAAWBlackorAfricanAmericanwomen-new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9981" name="Black or African American women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9982" name="ImputationfieldforCNHPIMNative_norOtherPacificIslandermen-new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9983" name="Native Hawaiian or Other Pacific Islander men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9984" name="ImputationfieldforCNHPIWNative_rOtherPacificIslanderwomen-new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9985" name="Native Hawaiian or Other Pacific Islander women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9986" name="Imputation field for CWHITM White men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9987" name="White men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9988" name="Imputation field for CWHITW White women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9989" name="White women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9990" name="Imputation field for C2MORM Two or more races men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9991" name="Two or more races men - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9992" name="Imputation field for C2MORW Two or more races women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9993" name="Two or more races women - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9994" name="Imputation field for CHISPT Hispanic or Latino total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9995" name="Hispanic or Latino total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9996" name="ImputationfieldforCAIANTAmericanIndianorAlaskaNativetotal-new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9997" name="American Indian or Alaska Native total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9998" name="Imputation field for CASIAT Asian total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="9999" name="Asian total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10000" name="ImputationfieldforCBKAATBlackorAfricanAmericantotal-new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10001" name="Black or African American total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10002" name="ImputationfieldforCNHPITNative_rOtherPacificIslandertotal-new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10003" name="Native Hawaiian or Other Pacific Islander total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10004" name="Imputation field for CWHITT White total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10005" name="White total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10006" name="Imputation field for C2MORT Two or more races total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10007" name="Two or more races total - new" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10008" name="ImputationfieldforDVCAITAmeric_ianorAlaskaNativetotal-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10009" name="American Indian or Alaska Native total - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10010" name="ImputationfieldforDVCAIMAmericanIndianorAlaskaNativemen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10011" name="American Indian or Alaska Native men - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10012" name="ImputationfieldforDVCAIWAmeric_ianorAlaskaNativewomen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10013" name="American Indian or Alaska Native women - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10014" name="ImputationfieldforDVCAPTAsianN_erPacificIslandertotal-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10015" name="AsianNative HawaiianOther Pacific Islander total - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10016" name="ImputationfieldforDVCAPMAsianN_therPacificIslandermen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10017" name="AsianNative HawaiianOther Pacific Islander men - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10018" name="ImputationfieldforDVCAPWAsianN_erPacificIslanderwomen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10019" name="AsianNative HawaiianOther Pacific Islander women - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10020" name="ImputationfieldforDVCBKTBlacko_Blacknon-Hispanictotal-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10021" name="Black or African AmericanBlack non-Hispanic total - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10022" name="ImputationfieldforDVCBKMBlacko_anBlacknon-Hispanicmen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10023" name="Black or African AmericanBlack non-Hispanic men - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10024" name="ImputationfieldforDVCBKWBlacko_Blacknon-Hispanicwomen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10025" name="Black or African AmericanBlack non-Hispanic women - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10026" name="ImputationfieldforDVCHSTHispanicorLatinoHispanictotal-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10027" name="Hispanic or LatinoHispanic total - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10028" name="ImputationfieldforDVCHSMHispanicorLatinoHispanicmen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10029" name="Hispanic or LatinoHispanic men - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10030" name="ImputationfieldforDVCHSWHispanicorLatinoHispanicwomen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10031" name="Hispanic or LatinoHispanic women - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10032" name="ImputationfieldforDVCWHTWhiteWhitenon-Hispanictotal-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10033" name="WhiteWhite non-Hispanic total - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10034" name="ImputationfieldforDVCWHMWhiteWhitenon-Hispanicmen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10035" name="WhiteWhite non-Hispanic men - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10036" name="ImputationfieldforDVCWHWWhiteWhitenon-Hispanicwomen-derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+            <attribute id="10037" name="WhiteWhite non-Hispanic women - derived" geometryCollection="higher_ed_ma" dataTable="ma_highered_2008"/>
+          </category>
+          <category name="ma_highered_unitid_to_name_2008">
+            <attribute name="unitid" dataTable="ma_highered_unitid_to_name_2008" year="" keyType=""/>
+            <attribute name="instnm" min="" max="" year="" dataTable="ma_highered_unitid_to_name_2008" keyType=""/>
+          </category>
+          <category name="mahigstem2008">
+            <attribute name="unitid" min="" max="" year="" dataTable="mahigstem2008" keyType=""/>
+            <attribute name="Total STEM Awards" min="" max="" year="" dataTable="mahigstem2008" keyType=""/>
+          </category>
+          <category name="mahigtot2008">
+            <attribute name="unitid" dataTable="mahigtot2008" year="" keyType=""/>
+            <attribute name="Total Awards" min="" max="" year="" dataTable="mahigtot2008" keyType=""/>
+          </category>
+        </category>
+        <category name="GeometryCollections">
+          <attribute name="11_4_reprojected" dataType="Geometry"/>
+          <attribute name="11_4_reprojected_geometry" dataType="Geometry"/>
+          <attribute name="arra_mass_points201004" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="Arrests_Nashua" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts11" dataType="Geometry"/>
+          <attribute name="Atlanta Transportation Analysis Zones" dataType="Geometry"/>
+          <attribute name="Atlanta_CLCC_GDCH" dataType="Geometry"/>
+          <attribute name="Atlanta_ES_4th_CRCT_Reading" dataType="Geometry"/>
+          <attribute name="Atlanta_Head_Start" dataType="Geometry"/>
+          <attribute name="Atlanta_LowPerfSchools" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Counties" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Interstates" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Places" dataType="Geometry"/>
+          <attribute name="Atlanta_NPUs" dataType="Geometry"/>
+          <attribute name="Atlanta_Pre-K" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3_5" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3Plus" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln6_10" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels Subset" dataType="Geometry"/>
+          <attribute name="boston_foreclosure_deeds" dataType="Geometry"/>
+          <attribute name="Boston_Hositals" dataType="Geometry"/>
+          <attribute name="Boston_Hositals111" dataType="Geometry"/>
+          <attribute name="Boston_Neighborhoods" dataType="Geometry"/>
+          <attribute name="boston_roads" dataType="Geometry"/>
+          <attribute name="Boston_zips" dataType="Geometry"/>
+          <attribute name="CATCHMENTS_poly_region" dataType="Geometry"/>
+          <attribute name="CBSAs" dataType="Geometry"/>
+          <attribute name="cd_110thCongress" dataType="Geometry"/>
+          <attribute name="census2000blockgroups_poly_orig" dataType="Geometry"/>
+          <attribute name="census2000tracts_ICC_Towns" dataType="Geometry"/>
+          <attribute name="chic_counties" dataType="Geometry"/>
+          <attribute name="Chicago Census Tracts" dataType="Geometry"/>
+          <attribute name="chicago_arra_munis" dataType="Geometry"/>
+          <attribute name="chicago_arra_point" dataType="Geometry"/>
+          <attribute name="Chicago_Muni_ARRA" dataType="Geometry"/>
+          <attribute name="chicpoint2" dataType="Geometry"/>
+          <attribute name="chicpoint2111" dataType="Geometry"/>
+          <attribute name="chicpoint3" dataType="Geometry"/>
+          <attribute name="CHN_adm2" dataType="Geometry"/>
+          <attribute name="CHN_adm3" dataType="Geometry"/>
+          <attribute name="CityofAtlanta" dataType="Geometry"/>
+          <attribute name="Counties" dataType="Geometry"/>
+          <attribute name="Countries" dataType="Geometry"/>
+          <attribute name="County Subdivisions" dataType="Geometry"/>
+          <attribute name="eec2" dataType="Geometry"/>
+          <attribute name="eec_familyservices_reproj" dataType="Geometry"/>
+          <attribute name="eec_lowellschools_reproj" dataType="Geometry"/>
+          <attribute name="eec_prekpregnant_reproj" dataType="Geometry"/>
+          <attribute name="eec_regcnt_MA_ElemSchoolDistricts" dataType="Geometry"/>
+          <attribute name="eec_registrants_ma" dataType="Geometry"/>
+          <attribute name="eec_schoolagedchildren_reproj" dataType="Geometry"/>
+          <attribute name="eec_test1" dataType="Geometry"/>
+          <attribute name="eec_test2" dataType="Geometry"/>
+          <attribute name="emassnh_catchments" dataType="Geometry"/>
+          <attribute name="FamilyServices" dataType="Geometry"/>
+          <attribute name="fd_2005" dataType="Geometry"/>
+          <attribute name="fd_2006" dataType="Geometry"/>
+          <attribute name="fd_2007" dataType="Geometry"/>
+          <attribute name="fd_2008" dataType="Geometry"/>
+          <attribute name="fd_2009" dataType="Geometry"/>
+          <attribute name="fd_2010" dataType="Geometry"/>
+          <attribute name="FD_points_Lowell_new1" dataType="Geometry"/>
+          <attribute name="fe_2007_44_elsd" dataType="Geometry"/>
+          <attribute name="fe_2007_44_unsd" dataType="Geometry"/>
+          <attribute name="FullPoints_Final" dataType="Geometry"/>
+          <attribute name="FullPoints_Lowell" dataType="Geometry"/>
+          <attribute name="fullpoints_lowell_reprojected" dataType="Geometry"/>
+          <attribute name="higher_ed_ma" dataType="Geometry" keyType=""/>
+          <attribute name="higher_ed_ma_x" dataType="Geometry"/>
+          <attribute name="hwt_point" dataType="Geometry"/>
+          <attribute name="IPEDS(For)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Non)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Public)2009" dataType="Geometry"/>
+          <attribute name="ireland_counties" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v3" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v4" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v5" dataType="Geometry"/>
+          <attribute name="ireland_municipal_combined" dataType="Geometry"/>
+          <attribute name="ireland_nation" dataType="Geometry"/>
+          <attribute name="ireland_regions" dataType="Geometry"/>
+          <attribute name="Lawrence Parcel" dataType="Geometry"/>
+          <attribute name="lawrence_home buyers active" dataType="Geometry"/>
+          <attribute name="LCW Home purchase" dataType="Geometry"/>
+          <attribute name="lowell_nccs_3" dataType="Geometry"/>
+          <attribute name="lowell_neighborhoods_reprojected" dataType="Geometry"/>
+          <attribute name="Lowell_Parcels" dataType="Geometry"/>
+          <attribute name="lowell_registrants" dataType="Geometry"/>
+          <attribute name="LowellFD_2009_Final" dataType="Geometry"/>
+          <attribute name="lowelltracts_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MA Census Tract" dataType="Geometry"/>
+          <attribute name="MA Census Tract 6-digit" dataType="Geometry"/>
+          <attribute name="ma_childcare_2009_sample_points" dataType="Geometry"/>
+          <attribute name="MA_COC" dataType="Geometry"/>
+          <attribute name="MA_EEC_Registrants" dataType="Geometry"/>
+          <attribute name="MA_Major_Streams_Lines" dataType="Geometry"/>
+          <attribute name="ma_SCHOOLS_PT" dataType="Geometry"/>
+          <attribute name="ma_shapes_delete" dataType="Geometry"/>
+          <attribute name="ma_town_region3" dataType="Geometry"/>
+          <attribute name="MA_Towns_MultiPoly_TOWN" dataType="Geometry" keyType="MA_Towns_MultiPoly_TOWN"/>
+          <attribute name="ma_tract_w_eec_regcnt_and_town" dataType="Geometry"/>
+          <attribute name="ma_tracts_w_eec_regcnt" dataType="Geometry"/>
+          <attribute name="MA_ZCTA" dataType="Geometry"/>
+          <attribute name="MA_ZipCodes_Poly" dataType="Geometry"/>
+          <attribute name="MAPC_Municipalities" dataType="Geometry"/>
+          <attribute name="mass_benchmarks" dataType="Geometry"/>
+          <attribute name="Massachusetts Towns" dataType="Geometry"/>
+          <attribute name="MassARRA" dataType="Geometry"/>
+          <attribute name="MassARRALowellOnly" dataType="Geometry"/>
+          <attribute name="MassARRApoint" dataType="Geometry"/>
+          <attribute name="MassARRAPoint" dataType="Geometry"/>
+          <attribute name="MassARRAVer6" dataType="Geometry"/>
+          <attribute name="masstowns_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MBTABUSROUTES_ARC" dataType="Geometry"/>
+          <attribute name="MBTABUSSTOPS_PT" dataType="Geometry"/>
+          <attribute name="Metropolitan Division" dataType="Geometry"/>
+          <attribute name="MFI_Points_2007" dataType="Geometry"/>
+          <attribute name="MSA_Tracts" dataType="Geometry"/>
+          <attribute name="mvhp" dataType="Geometry"/>
+          <attribute name="Nashua_Tract" dataType="Geometry"/>
+          <attribute name="NCCS_Lowell" dataType="Geometry"/>
+          <attribute name="nccs_ma_reprojected" dataType="Geometry"/>
+          <attribute name="nccs_shape2" dataType="Geometry"/>
+          <attribute name="nccs_shape_CT" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA_FIPS22051" dataType="Geometry"/>
+          <attribute name="nccs_shape_MA" dataType="Geometry"/>
+          <attribute name="nccs_shape_MACT" dataType="Geometry"/>
+          <attribute name="ne_cd99_110" dataType="Geometry"/>
+          <attribute name="ne_lldistricts" dataType="Geometry"/>
+          <attribute name="ne_lsdistricts" dataType="Geometry"/>
+          <attribute name="ne_streams" dataType="Geometry"/>
+          <attribute name="nehucs10" dataType="Geometry"/>
+          <attribute name="new_england_subbasins" dataType="Geometry"/>
+          <attribute name="newengland_subbasins_v2" dataType="Geometry"/>
+          <attribute name="od_2005" dataType="Geometry"/>
+          <attribute name="od_2006_reprojected" dataType="Geometry"/>
+          <attribute name="od_2007" dataType="Geometry"/>
+          <attribute name="od_2008" dataType="Geometry"/>
+          <attribute name="od_2009" dataType="Geometry"/>
+          <attribute name="od_2010" dataType="Geometry"/>
+          <attribute name="Ohio County Subdivisions" dataType="Geometry"/>
+          <attribute name="Ohio Places" dataType="Geometry"/>
+          <attribute name="ON no FD 2005" dataType="Geometry"/>
+          <attribute name="on no fd 2006_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2007_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2008_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2009_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2010_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd_2005" dataType="Geometry"/>
+          <attribute name="PreK" dataType="Geometry"/>
+          <attribute name="PreK2" dataType="Geometry"/>
+          <attribute name="Prek3" dataType="Geometry"/>
+          <attribute name="Prek4" dataType="Geometry"/>
+          <attribute name="PreK6" dataType="Geometry"/>
+          <attribute name="PreKPregnant" dataType="Geometry"/>
+          <attribute name="PrekPregnant2" dataType="Geometry"/>
+          <attribute name="PreKPregnant3" dataType="Geometry"/>
+          <attribute name="private_IPEDS" dataType="Geometry"/>
+          <attribute name="ri_bg" dataType="Geometry"/>
+          <attribute name="ri_schools08_projected" dataType="Geometry"/>
+          <attribute name="Rwanda_Districts" dataType="Geometry"/>
+          <attribute name="Rwanda_Provinces" dataType="Geometry"/>
+          <attribute name="SchoolAged" dataType="Geometry"/>
+          <attribute name="schooldis_elem_POLY" dataType="Geometry"/>
+          <attribute name="schooldishigh_POLY_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_maPOLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTELEM_POLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTHIGH_POLY" dataType="Geometry"/>
+          <attribute name="State" dataType="Geometry"/>
+          <attribute name="States" dataType="Geometry"/>
+          <attribute name="StatesforNREL" dataType="Geometry"/>
+          <attribute name="test" dataType="Geometry"/>
+          <attribute name="tl_2009_09_bg00" dataType="Geometry"/>
+          <attribute name="tr25_d00_reprojected" dataType="Geometry"/>
+          <attribute name="Turi points" dataType="Geometry"/>
+          <attribute name="turi points" dataType="Geometry"/>
+          <attribute name="turi points 2008" dataType="Geometry"/>
+          <attribute name="TURI_all_2008" dataType="Geometry"/>
+          <attribute name="Turkey" dataType="Geometry"/>
+          <attribute name="us_cbsa" dataType="Geometry"/>
+          <attribute name="us_interstates" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectable" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectabledelete" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectableWITHFIPS" dataType="Geometry"/>
+          <attribute name="USoilPlatforms" dataType="Geometry"/>
+          <attribute name="USoilPlatformsDelete" dataType="Geometry"/>
+          <attribute name="westminster_const_region" dataType="Geometry"/>
+          <attribute name="world" dataType="Geometry"/>
+          <attribute name="World Borders" dataType="Geometry"/>
+          <attribute name="World Borders (UN Codes)" dataType="Geometry"/>
+          <attribute name="World UN" dataType="Geometry"/>
+          <attribute name="yb_points" dataType="Geometry"/>
+          <attribute name="youthbuild_points" dataType="Geometry"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <CompoundBarChartTool name="CompoundBarChartTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>10</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>101.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>20883</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>20883</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>20883</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>5</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>101.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>101.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>11</tickCountRequested>
+                <tickMaxValue>101</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <CompoundBarChartPlotter>
+                <barSpacing>0</barSpacing>
+                <chartColors encoding="xml">
+                  <colorRamp source="OIC" name="Doppler Radar" reverse="false" category="aesthetic" dataFormat="qualitative">
+                    <node color="0x04E9E7" position="0"/>
+                    <node color="0x009DF4" position="0.08"/>
+                    <node color="0x0201F4" position="0.16"/>
+                    <node color="0x01FC01" position="0.24"/>
+                    <node color="0x00C400" position="0.32"/>
+                    <node color="0x008C00" position="0.4"/>
+                    <node color="0x0FDF801" position="0.48"/>
+                    <node color="0xF99200" position="0.56"/>
+                    <node color="0xFD0000" position="0.64"/>
+                    <node color="0xBC0000" position="0.72"/>
+                    <node color="0xBC0000" position="0.8"/>
+                    <node color="0xF800FD" position="0.88"/>
+                    <node color="0x9854C6" position="1.0"/>
+                  </colorRamp>
+                </chartColors>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <groupMode>false</groupMode>
+                <heightColumns encoding="dynamic">
+                  <DynamicColumn name="DynamicColumn" encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="DataTables">
+                                <category name="mahigstem2008">
+                                  <attribute name="Total STEM Awards" min="" max="" dataTable="mahigstem2008" year="" keyType=""/>
+                                </category>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </DynamicColumn>
+                  <DynamicColumn name="DynamicColumn3" encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="DataTables">
+                                <category name="mahigtot2008">
+                                  <attribute name="Total Awards" dataTable="mahigtot2008" year="" keyType=""/>
+                                </category>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </DynamicColumn>
+                </heightColumns>
+                <horizontalMode>false</horizontalMode>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <sortColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="mahigstem2008">
+                                <attribute name="Total STEM Awards" min="" keyType="" dataTable="mahigstem2008" year="" max=""/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </sortColumn>
+                <zoomToSubset>true</zoomToSubset>
+              </CompoundBarChartPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <labelColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="DataTables">
+                  <category name="ma_highered_unitid_to_name_2008">
+                    <attribute name="instnm" min="" max="" year="" dataTable="ma_highered_unitid_to_name_2008" keyType=""/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </labelColumn>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.567%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>50.75%</panelWidth>
+    <panelX>49.25%</panelX>
+    <panelY>50.433%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showAllLabels>false</showAllLabels>
+    <showCloseDialog>false</showCloseDialog>
+    <sizeAxisTickCountRequested>5</sizeAxisTickCountRequested>
+    <toolTitle/>
+  </CompoundBarChartTool>
+  <ScatterPlotTool name="ScatterPlotTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>10</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>3000</xMax>
+          <xMin>0</xMin>
+          <yMax>350</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>true</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>true</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>0</xMax>
+                  <xMin>0</xMin>
+                  <yMax>350</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>350</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>3000</xMax>
+                  <xMin>0</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>3000</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="regressionLine">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <RegressionLinePlotter>
+                <drawLine>false</drawLine>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="mahigstem2008">
+                                <attribute name="Total STEM Awards" min="" keyType="" dataTable="mahigstem2008" year="" max=""/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="MA_HigherED">
+                                <attribute id="9757" name="Computer and Information Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </RegressionLinePlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>10</maxScreenRadius>
+                <minScreenRadius>5</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="mahigstem2008">
+                                <attribute name="Total STEM Awards" min="" keyType="" dataTable="mahigstem2008" year="" max=""/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="MA_HigherED">
+                                <attribute id="9757" name="Computer and Information Sciences Awards" geometryCollection="higher_ed_ma" dataTable="MA_HigherED" year="2008"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>48.527%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>49%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>50.78%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ScatterPlotTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>10</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>395448.57919588237</xMax>
+          <xMin>-74488.92224725941</xMin>
+          <yMax>966128.9479848269</yMax>
+          <yMin>805272.8704157515</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.PAN_MODE</defaultMouseMode>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot2">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="GeometryCollections">
+                                <attribute name="MA_Towns_MultiPoly_TOWN" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="GeometryCollections">
+                                <attribute name="higher_ed_ma" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+      <ColorBinLegendTool name="legend">
+        <buttonRadius>3</buttonRadius>
+        <children encoding="dynamic">
+          <SimpleInteractiveVisualization name="visualization">
+            <axesAlpha>NaN</axesAlpha>
+            <axesColor>NaN</axesColor>
+            <axesThickness>NaN</axesThickness>
+            <axisFontBold>true</axisFontBold>
+            <axisFontColor>0</axisFontColor>
+            <axisFontFamily>Sophia Nubian</axisFontFamily>
+            <axisFontItalic>false</axisFontItalic>
+            <axisFontSize>10</axisFontSize>
+            <axisFontUnderline>false</axisFontUnderline>
+            <dataBounds>
+              <xMax>1</xMax>
+              <xMin>0</xMin>
+              <yMax>9.5</yMax>
+              <yMin>-0.5</yMin>
+            </dataBounds>
+            <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+            <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+            <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+            <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+            <enableFixedAspectRatio>false</enableFixedAspectRatio>
+            <enableZoomAndPan>false</enableZoomAndPan>
+            <gridLineAlpha>NaN</gridLineAlpha>
+            <gridLineColor>NaN</gridLineColor>
+            <gridLineThickness>NaN</gridLineThickness>
+            <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+            <layers encoding="dynamic">
+              <SelectablePlotLayer name="plot">
+                <backgroundIsVisible>true</backgroundIsVisible>
+                <enableBitmapFilters>true</enableBitmapFilters>
+                <layerIsSelectable>true</layerIsSelectable>
+                <layerIsVisible>true</layerIsVisible>
+                <plotter encoding="dynamic">
+                  <ColorBinLegendPlotter>
+                    <dynamicColorColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </dynamicColorColumn>
+                    <keySet>
+                      <keyFilter encoding="dynamic">
+                        <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                      </keyFilter>
+                    </keySet>
+                    <lineStyle>
+                      <alpha>
+                        <defaultValue>0.5</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <caps>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </caps>
+                      <color>
+                        <defaultValue>0</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                      <joints>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </joints>
+                      <miterLimit>
+                        <defaultValue>3</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </miterLimit>
+                      <pixelHinting>
+                        <defaultValue>false</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </pixelHinting>
+                      <scaleMode>
+                        <defaultValue>normal</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </scaleMode>
+                      <weight>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </weight>
+                    </lineStyle>
+                    <shapeSize>10</shapeSize>
+                  </ColorBinLegendPlotter>
+                </plotter>
+                <probeFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultProbeKeySet"/>
+                </probeFilter>
+                <selectionFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSelectionKeySet"/>
+                </selectionFilter>
+                <subsetFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </subsetFilter>
+                <useTextBitmapFilters>true</useTextBitmapFilters>
+              </SelectablePlotLayer>
+            </layers>
+            <marginBottom>5</marginBottom>
+            <marginLeft>5</marginLeft>
+            <marginRight>5</marginRight>
+            <marginTop>25</marginTop>
+            <maxZoomLevel>16</maxZoomLevel>
+            <minScreenSize>128</minScreenSize>
+            <minZoomLevel>0</minZoomLevel>
+            <shadowAmount>0</shadowAmount>
+          </SimpleInteractiveVisualization>
+        </children>
+        <closeable>true</closeable>
+        <draggable>true</draggable>
+        <enableBorders>true</enableBorders>
+        <enableControlPanel>true</enableControlPanel>
+        <enableHelpPanel>true</enableHelpPanel>
+        <maximizable>true</maximizable>
+        <maximized>false</maximized>
+        <minimizable>true</minimizable>
+        <minimized>false</minimized>
+        <panelBackgroundColor>NaN</panelBackgroundColor>
+        <panelBorderColor>NaN</panelBorderColor>
+        <panelHeight>89.619%</panelHeight>
+        <panelStyleList/>
+        <panelWidth>19.798%</panelWidth>
+        <panelX>0.25221%</panelX>
+        <panelY>0%</panelY>
+        <pinnable>true</pinnable>
+        <pinnableToBack>false</pinnableToBack>
+        <pinned>false</pinned>
+        <pinnedToBack>false</pinnedToBack>
+        <resizeable>true</resizeable>
+        <showCloseDialog>false</showCloseDialog>
+        <toolTitle/>
+      </ColorBinLegendTool>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>false</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <enableOverview>false</enableOverview>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>16777164</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50.087%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>99.125%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS/>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </MapTool>
+</Weave>

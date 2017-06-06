@@ -1,0 +1,1899 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>0</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>11</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddCompoundRadViz>true</enableAddCompoundRadViz>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRamachandranPlot>false</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableBitmapFilters>true</enableBitmapFilters>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <jriServiceURL>/WeaveServices/JRIService</jriServiceURL>
+    <maxTooltipRecordsShown>4</maxTooltipRecordsShown>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily>Verdana</panelTitleFontFamily>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>1.0 Beta Nightly Build</version>
+    <windowSnapGridSize>5</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="Blues" source="ColorBrewer" singlehue="true" colorblindSafe="true" category="basic" dataFormat="sequential">
+        <node color="0xEFF3FF" position="0"/>
+        <node color="0xBDD7E7" position="0.25"/>
+        <node color="0x6BAED6" position="0.5"/>
+        <node color="0x3182BD" position="0.75"/>
+        <node color="0x08519C" position="1.0"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <CustomSplitBinningDefinition>
+        <binRange>10,20,30,40</binRange>
+        <dataMax>50</dataMax>
+        <dataMin>0</dataMin>
+      </CustomSplitBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="acs_5yr_profile_msa">
+                    <attribute id="166144" name="With Food Stamp/SNAP benefits in the past 12 months DP03e75" dataTable="acs_5yr_profile_msa" keyType="us_cbsa" dataType="number"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="Data Tables">
+          <category name="ACS 5-year Profiles CBSAs (Micro and Metro) US">
+            <category name="Identifiers">
+              <attribute id="155829" name="FIPS" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="string"/>
+              <attribute id="155830" name="Geographic Name" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="string"/>
+              <attribute id="155831" name="Table Number" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="string"/>
+              <attribute id="155832" name="Table Order" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155833" name="Stub" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="string"/>
+              <attribute id="155834" name="Estimate" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155835" name="Margin of Error" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155836" name="Percent" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155837" name="Pct Margin of Error" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Households by Type">
+              <attribute id="155838" name="Total households DP02e1" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155839" name="Family households (families) DP02e2" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155840" name="With own children under 18 years DP02e3" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155841" name="Married-couple family DP02e4" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155842" name="With own children under 18 years DP02e5" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155843" name="Male householder no wife present family DP02e6" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155844" name="With own children under 18 years DP02e7" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155845" name="Female householder no husband present family DP02e8" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155846" name="With own children under 18 years DP02e9" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155847" name="Nonfamily households DP02e10" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155848" name="Householder living alone DP02e11" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155849" name="65 years and over DP02e12" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155850" name="Households with one or more people under 18 years DP02e13" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155851" name="Households with one or more people 65 years and over DP02e14" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155852" name="Average household size DP02e15" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155853" name="Average family size DP02e16" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Relationship">
+              <attribute id="155854" name="Population in households DP02e17" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155855" name="Householder DP02e18" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155856" name="Spouse DP02e19" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155857" name="Child DP02e20" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155858" name="Other relatives DP02e21" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155859" name="Nonrelatives DP02e22" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155860" name="Unmarried partner DP02e23" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Marital Status">
+              <attribute id="155861" name="Males 15 years and over DP02e24" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155862" name="Never married DP02e25" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155863" name="Now married except separated DP02e26" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155864" name="Separated DP02e27" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155865" name="Widowed DP02e28" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155866" name="Divorced DP02e29" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155867" name="Females 15 years and over DP02e30" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155868" name="Never married DP02e31" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155869" name="Now married except separated DP02e32" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155870" name="Separated DP02e33" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155871" name="Widowed DP02e34" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155872" name="Divorced DP02e35" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Fertility">
+              <attribute id="155873" name="Number of women 15 to 50 years old who had a birth in the past 12 months DP02e36" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155874" name="Unmarried women (widowed divorced and never married) DP02e37" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155875" name="Per 1000 unmarried women DP02e38" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155876" name="Per 1000 women 15 to 50 years old DP02e39" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155877" name="Per 1000 women 15 to 19 years old DP02e40" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155878" name="Per 1000 women 20 to 34 years old DP02e41" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155879" name="Per 1000 women 35 to 50 years old DP02e42" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Grandparents">
+              <attribute id="155880" name="Number of grandparents living with own grandchildren under 18 years DP02e43" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155881" name="Responsible for grandchildren DP02e44" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155882" name="Less than 1 year DP02e45" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155883" name="1 or 2 years DP02e46" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155884" name="3 or 4 years DP02e47" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155885" name="5 or more years DP02e48" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155886" name="Number of grandparents responsible for own grandchildren under 18 years DP02e49" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155887" name="Who are female DP02e50" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155888" name="Who are married DP02e51" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="School Enrollment">
+              <attribute id="155889" name="Population 3 years and over enrolled in school DP02e52" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155890" name="Nursery school preschool DP02e53" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155891" name="Kindergarten DP02e54" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155892" name="Elementary school (grades 1-8) DP02e55" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155893" name="High school (grades 9-12) DP02e56" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155894" name="College or graduate school DP02e57" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Educational Attainment">
+              <attribute id="155895" name="Population 25 years and over DP02e58" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155896" name="Less than 9th grade DP02e59" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155897" name="9th to 12th grade no diploma DP02e60" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155898" name="High school graduate (includes equivalency) DP02e61" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155899" name="Some college no degree DP02e62" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155900" name="Associate's degree DP02e63" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155901" name="Bachelor's degree DP02e64" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155902" name="Graduate or professional degree DP02e65" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155903" name="Percent high school graduate or higher DP02e66" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155904" name="Percent bachelor's degree or higher DP02e67" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Veteran Status">
+              <attribute id="155905" name="Civilian population 18 years and over DP02e68" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155906" name="Civilian veterans DP02e69" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Disability Status">
+              <attribute id="155907" name="Total Civilian Noninstitutionalized Population DP02e70" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155908" name="With a disability DP02e71" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155909" name="Under 18 years DP02e72" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155910" name="With a disability DP02e73" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155911" name="18 to 64 years DP02e74" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155912" name="With a disability DP02e75" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155913" name="65 years and over DP02e76" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155914" name="With a disability DP02e77" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Residence One Year Ago">
+              <attribute id="155915" name="Population 1 year and over DP02e78" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155916" name="Same house DP02e79" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155917" name="Different house in the U.S. DP02e80" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155918" name="Same county DP02e81" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155919" name="Different county DP02e82" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155920" name="Same state DP02e83" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155921" name="Different state DP02e84" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155922" name="Abroad DP02e85" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Place of Birth">
+              <attribute id="155923" name="Total population DP02e86" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155924" name="Native DP02e87" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155925" name="Born in United States DP02e88" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155926" name="State of residence DP02e89" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155927" name="Different state DP02e90" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155928" name="Born in Puerto Rico U.S. Island areas or born abroad to American parent(s) DP02e91" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155929" name="Foreign born DP02e92" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="U.S. Citizenship Status">
+              <attribute id="155930" name="Foreign-born population DP02e93" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155931" name="Naturalized U.S. citizen DP02e94" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155932" name="Not a U.S. citizen DP02e95" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Year of Entry">
+              <attribute id="155933" name="Population born outside the United States DP02e96" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155934" name="Native DP02e97" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155935" name="Entered 2000 or later DP02e98" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155936" name="Entered before 2000 DP02e99" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155937" name="Foreign born DP02e100" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155938" name="Entered 2000 or later DP02e101" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155939" name="Entered before 2000 DP02e102" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="World Region of Birth of Foreign-born">
+              <attribute id="155940" name="Foreign-born population excluding population born at sea DP02e103" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155941" name="Europe DP02e104" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155942" name="Asia DP02e105" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155943" name="Africa DP02e106" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155944" name="Oceania DP02e107" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155945" name="Latin America DP02e108" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155946" name="Northern America DP02e109" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Language Spoken at Home">
+              <attribute id="155947" name="Population 5 years and over DP02e110" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155948" name="English only DP02e111" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155949" name="Language other than English DP02e112" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155950" name="Speak English less than &quot;very well&quot; DP02e113" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155951" name="Spanish DP02e114" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155952" name="Speak English less than &quot;very well&quot; DP02e115" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155953" name="Other Indo-European languages DP02e116" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155954" name="Speak English less than &quot;very well&quot; DP02e117" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155955" name="Asian and Pacific Islander languages DP02e118" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155956" name="Speak English less than &quot;very well&quot; DP02e119" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155957" name="Other languages DP02e120" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155958" name="Speak English less than &quot;very well&quot; DP02e121" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Ancestry">
+              <attribute id="155959" name="Total population DP02e122" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155960" name="American DP02e123" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155961" name="Arab DP02e124" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155962" name="Czech DP02e125" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155963" name="Danish DP02e126" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155964" name="Dutch DP02e127" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155965" name="English DP02e128" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155966" name="French (except Basque) DP02e129" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155967" name="French Canadian DP02e130" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155968" name="German DP02e131" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155969" name="Greek DP02e132" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155970" name="Hungarian DP02e133" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155971" name="Irish DP02e134" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155972" name="Italian DP02e135" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155973" name="Lithuanian DP02e136" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155974" name="Norwegian DP02e137" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155975" name="Polish DP02e138" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155976" name="Portuguese DP02e139" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155977" name="Russian DP02e140" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155978" name="Scotch-Irish DP02e141" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155979" name="Scottish DP02e142" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155980" name="Slovak DP02e143" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155981" name="Subsaharan African DP02e144" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155982" name="Swedish DP02e145" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155983" name="Swiss DP02e146" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155984" name="Ukrainian DP02e147" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155985" name="Welsh DP02e148" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155986" name="West Indian (excluding Hispanic origin groups) DP02e149" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Employment Status">
+              <attribute id="155987" name="Population 16 years and over DP03e1" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155988" name="In labor force DP03e2" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155989" name="Civilian labor force DP03e3" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155990" name="Employed DP03e4" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155991" name="Unemployed DP03e5" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155992" name="Armed Forces DP03e6" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155993" name="Not in labor force DP03e7" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155994" name="Civilian labor force DP03e8" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155995" name="Percent Unemployed DP03e9" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155996" name="Females 16 years and over DP03e10" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155997" name="In labor force DP03e11" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155998" name="Civilian labor force DP03e12" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="155999" name="Employed DP03e13" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156000" name="Own children under 6 years DP03e14" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156001" name="All parents in family in labor force DP03e15" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156002" name="Own children 6 to 17 years DP03e16" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156003" name="All parents in family in labor force DP03e17" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Commuting to Work">
+              <attribute id="156004" name="Workers 16 years and over DP03e18" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156005" name="Car truck or van -- drove alone DP03e19" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156006" name="Car truck or van -- carpooled DP03e20" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156007" name="Public transportation (excluding taxicab) DP03e21" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156008" name="Walked DP03e22" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156009" name="Other means DP03e23" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156010" name="Worked at home DP03e24" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156011" name="Mean travel time to work (minutes) DP03e25" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Occupation">
+              <attribute id="156012" name="Civilian employed population 16 years and over DP03e26" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156013" name="Management professional and related occupations DP03e27" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156014" name="Service occupations DP03e28" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156015" name="Sales and office occupations DP03e29" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156016" name="Farming fishing and forestry occupations DP03e30" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156017" name="Construction extraction maintenance and repair occupations DP03e31" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156018" name="Production transportation and material moving occupations DP03e32" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Industry">
+              <attribute id="156019" name="Civilian employed population 16 years and over DP03e33" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156020" name="Agriculture forestry fishing and hunting and mining DP03e34" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156021" name="Construction DP03e35" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156022" name="Manufacturing DP03e36" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156023" name="Wholesale trade DP03e37" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156024" name="Retail trade DP03e38" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156025" name="Transportation and warehousing and utilities DP03e39" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156026" name="Information DP03e40" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156027" name="Finance and insurance and real estate and rental and leasing DP03e41" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156028" name="Professional scientific and management and administrative and waste management services DP03e42" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156029" name="Educational services and health care and social assistance DP03e43" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156030" name="Arts entertainment and recreation and accommodation and food services DP03e44" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156031" name="Other services except public administration DP03e45" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156032" name="Public administration DP03e46" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Class of Worker">
+              <attribute id="156033" name="Civilian employed population 16 years and over DP03e47" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156034" name="Private wage and salary workers DP03e48" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156035" name="Government workers DP03e49" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156036" name="Self-employed in own not incorporated business workers DP03e50" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156037" name="Unpaid family workers DP03e51" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Income and Benefits in 2009 Dollars">
+              <attribute id="156038" name="Total households DP03e52" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156039" name="Less than $10000 DP03e53" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156040" name="$10000 to $14999 DP03e54" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156041" name="$15000 to $24999 DP03e55" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156042" name="$25000 to $34999 DP03e56" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156043" name="$35000 to $49999 DP03e57" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156044" name="$50000 to $74999 DP03e58" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156045" name="$75000 to $99999 DP03e59" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156046" name="$100000 to $149999 DP03e60" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156047" name="$150000 to $199999 DP03e61" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156048" name="$200000 or more DP03e62" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156049" name="Median household income (dollars) DP03e63" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156050" name="Mean household income (dollars) DP03e64" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156051" name="With earnings DP03e65" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156052" name="Mean earnings (dollars) DP03e66" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156053" name="With Social Security DP03e67" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156054" name="Mean Social Security income (dollars) DP03e68" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156055" name="With retirement income DP03e69" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156056" name="Mean retirement income (dollars) DP03e70" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156057" name="With Supplemental Security Income DP03e71" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156058" name="Mean Supplemental Security Income (dollars) DP03e72" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156059" name="With cash public assistance income DP03e73" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156060" name="Mean cash public assistance income (dollars) DP03e74" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156061" name="With Food Stamp/SNAP benefits in the past 12 months DP03e75" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156062" name="Families DP03e76" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156063" name="Less than $10000 DP03e77" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156064" name="$10000 to $14999 DP03e78" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156065" name="$15000 to $24999 DP03e79" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156066" name="$25000 to $34999 DP03e80" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156067" name="$35000 to $49999 DP03e81" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156068" name="$50000 to $74999 DP03e82" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156069" name="$75000 to $99999 DP03e83" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156070" name="$100000 to $149999 DP03e84" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156071" name="$150000 to $199999 DP03e85" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156072" name="$200000 or more DP03e86" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156073" name="Median family income (dollars) DP03e87" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156074" name="Mean family income (dollars) DP03e88" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156075" name="Per capita income (dollars) DP03e89" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156076" name="Nonfamily households DP03e90" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156077" name="Median nonfamily income (dollars) DP03e91" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156078" name="Mean nonfamily income (dollars) DP03e92" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156079" name="Median earnings for workers (dollars) DP03e93" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156080" name="Median earnings for male full-time year-round workers (dollars) DP03e94" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156081" name="Median earnings for female full-time year-round workers (dollars) DP03e95" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Health Insurance Coverage">
+              <attribute id="156082" name="Civilian Noninstitutionalized Population DP03e96" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156083" name="With health insurance coverage DP03e97" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156084" name="With private health insurance coverage DP03e98" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156085" name="With public health coverage DP03e99" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156086" name="No health insurance coverage DP03e100" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156087" name="Civilian Noninstitutionalized Population Under 18 years DP03e101" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156088" name="No health insurance coverage DP03e102" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Income Below Poverty Level Last 12 Months">
+              <attribute id="156089" name="All families DP03e103" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156090" name="With related children under 18 years DP03e104" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156091" name="With related children under 5 years only DP03e105" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156092" name="Married couple families DP03e106" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156093" name="With related children under 18 years DP03e107" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156094" name="With related children under 5 years only DP03e108" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156095" name="Families with female householder no husband present DP03e109" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156096" name="With related children under 18 years DP03e110" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156097" name="With related children under 5 years only DP03e111" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156098" name="All people DP03e112" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156099" name="Under 18 years DP03e113" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156100" name="Related children under 18 years DP03e114" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156101" name="Related children under 5 years DP03e115" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156102" name="Related children 5 to 17 years DP03e116" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156103" name="18 years and over DP03e117" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156104" name="18 to 64 years DP03e118" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156105" name="65 years and over DP03e119" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156106" name="People in families DP03e120" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156107" name="Unrelated individuals 15 years and over DP03e121" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Housing Occupancy">
+              <attribute id="156108" name="Total housing units DP04e1" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156109" name="Occupied housing units DP04e2" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156110" name="Vacant housing units DP04e3" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156111" name="Homeowner vacancy rat DP04e4" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156112" name="Rental vacancy rate DP04e5" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Housing Units in Structure">
+              <attribute id="156113" name="Total housing units DP04e6" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156114" name="1-unit detached DP04e7" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156115" name="1-unit attached DP04e8" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156116" name="2 units DP04e9" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156117" name="3 or 4 units DP04e10" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156118" name="5 to 9 units DP04e11" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156119" name="10 to 19 units DP04e12" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156120" name="20 or more units DP04e13" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156121" name="Mobile home DP04e14" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156122" name="Boat RV van etc. DP04e15" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Year Structure Built">
+              <attribute id="156123" name="Total housing units DP04e16" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156124" name="Built 2005 or later DP04e17" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156125" name="Built 2000 to 2004 DP04e18" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156126" name="Built 1990 to 1999 DP04e19" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156127" name="Built 1980 to 1989 DP04e20" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156128" name="Built 1970 to 1979 DP04e21" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156129" name="Built 1960 to 1969 DP04e22" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156130" name="Built 1950 to 1959 DP04e23" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156131" name="Built 1940 to 1949 DP04e24" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156132" name="Built 1939 or earlier DP04e25" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Rooms">
+              <attribute id="156133" name="Total housing units DP04e26" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156134" name="1 room DP04e27" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156135" name="2 rooms DP04e28" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156136" name="3 rooms DP04e29" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156137" name="4 rooms DP04e30" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156138" name="5 rooms DP04e31" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156139" name="6 rooms DP04e32" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156140" name="7 rooms DP04e33" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156141" name="8 rooms DP04e34" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156142" name="9 rooms or more DP04e35" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156143" name="Median rooms DP04e36" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Bedrooms">
+              <attribute id="156144" name="Total housing units DP04e37" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156145" name="No bedroom DP04e38" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156146" name="1 bedroom DP04e39" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156147" name="2 bedroom DP04e40" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156148" name="3 bedroom DP04e41" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156149" name="4 bedroom DP04e42" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156150" name="5 or more bedrooms DP04e43" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Housing Tenure">
+              <attribute id="156151" name="Occupied housing units DP04e44" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156152" name="Owner-occupied DP04e45" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156153" name="Renter-occupied DP04e46" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156154" name="Average household size of owner-occupied unit DP04e47" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156155" name="Average household size of renter-occupied unit DP04e48" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Year Householder Moved Into Unit">
+              <attribute id="156156" name="Occupied housing units DP04e49" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156157" name="Moved in 2005 or later DP04e50" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156158" name="Moved in 2000 to 2004 DP04e51" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156159" name="Moved in 1990 to 1999 DP04e52" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156160" name="Moved in 1980 to 1989 DP04e53" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156161" name="Moved in 1970 to 1979 DP04e54" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156162" name="Moved in 1969 or earlier DP04e55" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Vehicles Available">
+              <attribute id="156163" name="Occupied housing units DP04e56" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156164" name="No vehicles available DP04e57" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156165" name="1 vehicle available DP04e58" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156166" name="2 vehicles available DP04e59" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156167" name="3 or more vehicles available DP04e60" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="House Heating Fuel">
+              <attribute id="156168" name="Occupied housing units DP04e61" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156169" name="Utility gas DP04e62" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156170" name="Bottled tank or LP gas DP04e63" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156171" name="Electricity DP04e64" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156172" name="Fuel oil kerosene etc. DP04e65" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156173" name="Coal or coke DP04e66" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156174" name="Wood DP04e67" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156175" name="Solar energy DP04e68" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156176" name="Other fuel DP04e69" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156177" name="No fuel used DP04e70" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Housing Selected Characteristics">
+              <attribute id="156178" name="Occupied housing units DP04e71" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156179" name="Lacking complete plumbing facilities DP04e72" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156180" name="Lacking complete kitchen facilities DP04e73" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156181" name="No telephone service available DP04e74" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Occupants per Room">
+              <attribute id="156182" name="Occupied housing units DP04e75" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156183" name="1.00 or less DP04e76" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156184" name="1.01 to 1.50 DP04e77" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156185" name="1.51 or more DP04e78" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Housing Value">
+              <attribute id="156186" name="Owner-occupied units DP04e79" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156187" name="Less than $50000 DP04e80" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156188" name="$50000 to $99999 DP04e81" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156189" name="$100000 to $149999 DP04e82" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156190" name="$150000 to $199999 DP04e83" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156191" name="$200000 to $299999 DP04e84" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156192" name="$300000 to $499999 DP04e85" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156193" name="$500000 to $999999 DP04e86" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156194" name="$1000000 or more DP04e87" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156195" name="Median (dollars) DP04e88" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Mortgage Status">
+              <attribute id="156196" name="Owner-occupied units DP04e89" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156197" name="Housing units with a mortgage DP04e90" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156198" name="Housing units without a mortgage DP04e91" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Selected Monthly Owner Costs - SMOC">
+              <attribute id="156199" name="Housing units with a mortgage DP04e92" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156200" name="Less than $300 DP04e93" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156201" name="$300 to $499 DP04e94" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156202" name="$500 to $699 DP04e95" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156203" name="$700 to $999 DP04e96" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156204" name="$1000 to $1499 DP04e97" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156205" name="$1500 to $1999 DP04e98" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156206" name="$2000 or more DP04e99" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156207" name="Median (dollars) DP04e100" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156208" name="Housing units without a mortgage DP04e101" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156209" name="Less than $100 DP04e102" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156210" name="$100 to $199 DP04e103" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156211" name="$200 to $299 DP04e104" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156212" name="$300 to $399 DP04e105" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156213" name="$400 or more DP04e106" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156214" name="Median (dollars) DP04e107" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Selected Monthly Ownership Costs as Percentage of Income - SMOCAPI">
+              <attribute id="156215" name="Housing units with a mortgage (excluding units where SMOCAPI cannot be computed) DP04e108" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156216" name="Less than 20.0 percent DP04e109" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156217" name="20.0 to 24.9 percent DP04e110" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156218" name="25.0 to 29.9 percent DP04e111" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156219" name="30.0 to 34.9 percent DP04e112" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156220" name="35.0 percent or more DP04e113" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156221" name="Not computed DP04e114" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156222" name="Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed) DP04e115" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156223" name="Less than 10.0 percent DP04e116" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156224" name="10.0 to 14.9 percent DP04e117" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156225" name="15.0 to 19.9 percent DP04e118" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156226" name="20.0 to 24.9 percent DP04e119" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156227" name="25.0 to 29.9 percent DP04e120" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156228" name="30.0 to 34.9 percent DP04e121" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156229" name="35.0 percent or more DP04e122" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156230" name="Not computed DP04e123" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Gross Rent">
+              <attribute id="156231" name="Occupied units paying rent DP04e124" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156232" name="Less than $200 DP04e125" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156233" name="$200 to $299 DP04e126" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156234" name="$300 to $499 DP04e127" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156235" name="$500 to $749 DP04e128" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156236" name="$750 to $999 DP04e129" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156237" name="$1000 to $1499 DP04e130" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156238" name="$1500 or more DP04e131" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156239" name="Median (dollars) DP04e132" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156240" name="No rent paid DP04e133" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Gross Rent as Percentage of Household Income - GRAPI">
+              <attribute id="156241" name="Occupied units paying rent (excluding units where GRAPI cannot be computed) DP04e134" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156242" name="Less than 15.0 percent DP04e135" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156243" name="15.0 to 19.9 percent DP04e136" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156244" name="20.0 to 24.9 percent DP04e137" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156245" name="25.0 to 29.9 percent DP04e138" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156246" name="30.0 to 34.9 percent DP04e139" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156247" name="35.0 percent or more DP04e140" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156248" name="Not computed DP04e141" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Sex and Age">
+              <attribute id="156249" name="Total population DP05e1" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156250" name="Male DP05e2" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156251" name="Female DP05e3" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156252" name="Under 5 years DP05e4" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156253" name="5 to 9 years DP05e5" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156254" name="10 to 14 years DP05e6" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156255" name="15 to 19 years DP05e7" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156256" name="20 to 24 years DP05e8" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156257" name="25 to 34 years DP05e9" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156258" name="35 to 44 years DP05e10" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156259" name="45 to 54 years DP05e11" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156260" name="55 to 59 years DP05e12" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156261" name="60 to 64 years DP05e13" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156262" name="65 to 74 years DP05e14" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156263" name="75 to 84 years DP05e15" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156264" name="85 years and over DP05e16" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156265" name="Median age (years) DP05e17" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156266" name="18 years and over DP05e18" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156267" name="21 years and over DP05e19" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156268" name="62 years and over DP05e20" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156269" name="65 years and over DP05e21" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156270" name="18 years and over DP05e22" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156271" name="Male DP05e23" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156272" name="Female DP05e24" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156273" name="65 years and over DP05e25" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156274" name="Male DP05e26" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156275" name="Female DP05e27" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Race">
+              <attribute id="156276" name="Total population DP05e28" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156277" name="One race DP05e29" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156278" name="Two or more races DP05e30" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156279" name="One race DP05e31" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156280" name="White DP05e32" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156281" name="Black or African American DP05e33" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156282" name="American Indian and Alaska Native DP05e34" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156283" name="Cherokee tribal grouping DP05e35" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156284" name="Chippewa tribal grouping DP05e36" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156285" name="avajo tribal grouping DP05e37" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156286" name="Sioux tribal grouping DP05e38" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156287" name="Asian DP05e39" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156288" name="Asian Indian DP05e40" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156289" name="Chinese DP05e41" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156290" name="Filipino DP05e42" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156291" name="Japanese DP05e43" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156292" name="Korean DP05e44" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156293" name="Vietnamese DP05e45" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156294" name="Other Asian DP05e46" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156295" name="Native Hawaiian and Other Pacific Islander DP05e47" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156296" name="Native Hawaiian DP05e48" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156297" name="Guamanian or Chamorro DP05e49" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156298" name="Samoan DP05e50" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156299" name="Other Pacific Islander DP05e51" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156300" name="Some other race DP05e52" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156301" name="Two or more races DP05e53" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156302" name="White and Black or African American DP05e54" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156303" name="White and American Indian and Alaska Native DP05e55" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156304" name="White and Asian DP05e56" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156305" name="Black or African American and American Indian and Alaska Native DP05e57" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156306" name="Total population DP05e58" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156307" name="White DP05e59" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156308" name="Black or African American DP05e60" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156309" name="American Indian and Alaska Native DP05e61" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156310" name="Asian DP05e62" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156311" name="Native Hawaiian and Other Pacific Islander DP05e63" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156312" name="Some other race DP05e64" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+            <category name="Hispanic or Latino and Race">
+              <attribute id="156313" name="Total population DP05e65" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156314" name="Hispanic or Latino (of any race) DP05e66" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156315" name="Mexican DP05e67" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156316" name="Puerto Rican DP05e68" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156317" name="Cuban DP05e69" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156318" name="Other Hispanic or Latino DP05e70" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156319" name="Not Hispanic or Latino DP05e71" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156320" name="White alone DP05e72" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156321" name="Black or African American alone DP05e73" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156322" name="American Indian and Alaska Native alone DP05e74" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156323" name="Asian alone DP05e75" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156324" name="Native Hawaiian and Other Pacific Islander alone DP05e76" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156325" name="Some other race alone DP05e77" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156326" name="Two or more races DP05e78" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156327" name="Two races including Some other race DP05e79" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156328" name="Two races excluding Some other race and Three or more races DP05e80" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+              <attribute id="156329" name="Total housing units DP05e81" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+            </category>
+          </category>
+        </category>
+        <category name="Geometry Collections">
+          <attribute name="11_4_reprojected" dataType="Geometry"/>
+          <attribute name="11_4_reprojected_geometry" dataType="Geometry"/>
+          <attribute name="arra_mass_points201004" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="Arrests_Nashua" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts11" dataType="Geometry"/>
+          <attribute name="Atlanta Transportation Analysis Zones" dataType="Geometry"/>
+          <attribute name="Atlanta_CLCC_GDCH" dataType="Geometry"/>
+          <attribute name="Atlanta_ES_4th_CRCT_Reading" dataType="Geometry"/>
+          <attribute name="Atlanta_Head_Start" dataType="Geometry"/>
+          <attribute name="Atlanta_LowPerfSchools" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Counties" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Interstates" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Places" dataType="Geometry"/>
+          <attribute name="Atlanta_NPUs" dataType="Geometry"/>
+          <attribute name="Atlanta_Pre-K" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3_5" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3Plus" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln6_10" dataType="Geometry"/>
+          <attribute name="BCFutureLandUse_2009" dataType="Geometry"/>
+          <attribute name="bike trails" dataType="Geometry"/>
+          <attribute name="bikeped_facilities" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels Subset" dataType="Geometry"/>
+          <attribute name="Boston Parcels" dataType="Geometry"/>
+          <attribute name="boston_foreclosure_deeds" dataType="Geometry"/>
+          <attribute name="Boston_Hositals" dataType="Geometry"/>
+          <attribute name="Boston_Hositals111" dataType="Geometry"/>
+          <attribute name="Boston_Neighborhoods" dataType="Geometry"/>
+          <attribute name="boston_roads" dataType="Geometry"/>
+          <attribute name="Boston_zips" dataType="Geometry"/>
+          <attribute name="carcinogen" dataType="Geometry"/>
+          <attribute name="CATCHMENTS_poly_region" dataType="Geometry"/>
+          <attribute name="CBSA2003" dataType="Geometry"/>
+          <attribute name="CBSAs" dataType="Geometry"/>
+          <attribute name="cd99_110" dataType="Geometry"/>
+          <attribute name="cd_110thCongress" dataType="Geometry"/>
+          <attribute name="Census Trats MA 2010" dataType="Geometry"/>
+          <attribute name="census2000blockgroups_poly_orig" dataType="Geometry"/>
+          <attribute name="census2000tracts_ICC_Towns" dataType="Geometry"/>
+          <attribute name="census_msad" dataType="Geometry"/>
+          <attribute name="CHCS_PT" dataType="Geometry"/>
+          <attribute name="chic_counties" dataType="Geometry"/>
+          <attribute name="Chicago Census Tracts" dataType="Geometry"/>
+          <attribute name="chicago_arra_munis" dataType="Geometry"/>
+          <attribute name="chicago_arra_point" dataType="Geometry"/>
+          <attribute name="Chicago_Muni_ARRA" dataType="Geometry"/>
+          <attribute name="chicpoint2" dataType="Geometry"/>
+          <attribute name="chicpoint2111" dataType="Geometry"/>
+          <attribute name="chicpoint3" dataType="Geometry"/>
+          <attribute name="CHN_adm1" dataType="Geometry"/>
+          <attribute name="CHN_adm2" dataType="Geometry"/>
+          <attribute name="CHN_adm3" dataType="Geometry"/>
+          <attribute name="CityofAtlanta" dataType="Geometry"/>
+          <attribute name="Community_ED EEC" dataType="Geometry"/>
+          <attribute name="Counties" dataType="Geometry"/>
+          <attribute name="Countries" dataType="Geometry"/>
+          <attribute name="County Subdivisions" dataType="Geometry"/>
+          <attribute name="DEGREES BY INSTITUTION " dataType="Geometry"/>
+          <attribute name="DEMO_Shape" dataType="Geometry"/>
+          <attribute name="eec2" dataType="Geometry"/>
+          <attribute name="eec_artificial_child" dataType="Geometry"/>
+          <attribute name="eec_comprehensive_family" dataType="Geometry"/>
+          <attribute name="eec_familyservices_reproj" dataType="Geometry"/>
+          <attribute name="eec_lowellschools_reproj" dataType="Geometry"/>
+          <attribute name="eec_prek_pregnant_reproj" dataType="Geometry"/>
+          <attribute name="eec_prekpregnant_reproj" dataType="Geometry"/>
+          <attribute name="EEC_Providers" dataType="Geometry"/>
+          <attribute name="eec_regcnt_MA_ElemSchoolDistricts" dataType="Geometry"/>
+          <attribute name="eec_registrants_ma" dataType="Geometry"/>
+          <attribute name="eec_SchAged_TeenParents" dataType="Geometry"/>
+          <attribute name="eec_schoolagedchildren_reproj" dataType="Geometry"/>
+          <attribute name="eec_test1" dataType="Geometry"/>
+          <attribute name="eec_test2" dataType="Geometry"/>
+          <attribute name="emassnh_catchments" dataType="Geometry"/>
+          <attribute name="EPA_emissions_CO2_1995-2010" dataType="Geometry"/>
+          <attribute name="Exempt" dataType="Geometry"/>
+          <attribute name="FamilyServices" dataType="Geometry"/>
+          <attribute name="FCHC" dataType="Geometry"/>
+          <attribute name="fd_2005" dataType="Geometry"/>
+          <attribute name="fd_2006" dataType="Geometry"/>
+          <attribute name="fd_2007" dataType="Geometry"/>
+          <attribute name="fd_2008" dataType="Geometry"/>
+          <attribute name="fd_2009" dataType="Geometry"/>
+          <attribute name="fd_2010" dataType="Geometry"/>
+          <attribute name="FD_points_Lowell_new1" dataType="Geometry"/>
+          <attribute name="fe_2007_44_elsd" dataType="Geometry"/>
+          <attribute name="fe_2007_44_unsd" dataType="Geometry"/>
+          <attribute name="firms" dataType="Geometry"/>
+          <attribute name="FullPoints_Final" dataType="Geometry"/>
+          <attribute name="FullPoints_Lowell" dataType="Geometry"/>
+          <attribute name="fullpoints_lowell_reprojected" dataType="Geometry"/>
+          <attribute name="GHA_boundaries" dataType="Geometry"/>
+          <attribute name="GHA_outline" dataType="Geometry"/>
+          <attribute name="hb_states" dataType="Geometry"/>
+          <attribute name="hbstates" dataType="Geometry"/>
+          <attribute name="HeadStart" dataType="Geometry"/>
+          <attribute name="higher_ed_ma" dataType="Geometry"/>
+          <attribute name="higher_ed_ma_x" dataType="Geometry"/>
+          <attribute name="HigherEd Institutions - Crime" dataType="Geometry"/>
+          <attribute name="hwt_point" dataType="Geometry"/>
+          <attribute name="ICMB_ct" dataType="Geometry"/>
+          <attribute name="IPEDS(For)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Non)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Public)2009" dataType="Geometry"/>
+          <attribute name="ireland_counties" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v3" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v4" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v5" dataType="Geometry"/>
+          <attribute name="ireland_municipal_combined" dataType="Geometry"/>
+          <attribute name="ireland_nation" dataType="Geometry"/>
+          <attribute name="ireland_regions" dataType="Geometry"/>
+          <attribute name="Lawrence Parcel" dataType="Geometry"/>
+          <attribute name="lawrence_home buyers active" dataType="Geometry"/>
+          <attribute name="LCW Home purchase" dataType="Geometry"/>
+          <attribute name="LGSAC" dataType="Geometry"/>
+          <attribute name="lowell_nccs_3" dataType="Geometry"/>
+          <attribute name="lowell_neighborhoods_reprojected" dataType="Geometry"/>
+          <attribute name="Lowell_Parcels" dataType="Geometry"/>
+          <attribute name="lowell_registrants" dataType="Geometry"/>
+          <attribute name="LowellFD_2009_Final" dataType="Geometry"/>
+          <attribute name="lowelltracts_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MA Census Tract" dataType="Geometry"/>
+          <attribute name="MA Census Tract 6-digit" dataType="Geometry"/>
+          <attribute name="MA PRISONS" dataType="Geometry"/>
+          <attribute name="MA SCHOOLS" dataType="Geometry"/>
+          <attribute name="MA Train lines" dataType="Geometry"/>
+          <attribute name="ma_childcare_2009_sample_points" dataType="Geometry"/>
+          <attribute name="MA_COC" dataType="Geometry"/>
+          <attribute name="MA_EEC_Registrants" dataType="Geometry"/>
+          <attribute name="MA_Major_Streams_Lines" dataType="Geometry"/>
+          <attribute name="ma_SCHOOLS_PT" dataType="Geometry"/>
+          <attribute name="ma_shapes_delete" dataType="Geometry"/>
+          <attribute name="ma_town_region3" dataType="Geometry"/>
+          <attribute name="MA_Towns_MultiPoly_TOWN" dataType="Geometry"/>
+          <attribute name="ma_tract_w_eec_regcnt_and_town" dataType="Geometry"/>
+          <attribute name="ma_tracts_w_eec_regcnt" dataType="Geometry"/>
+          <attribute name="MA_ZCTA" dataType="Geometry"/>
+          <attribute name="MA_ZipCodes_Poly" dataType="Geometry"/>
+          <attribute name="MAPC_Municipalities" dataType="Geometry"/>
+          <attribute name="Mars_bkg" dataType="Geometry"/>
+          <attribute name="Mars_Points" dataType="Geometry"/>
+          <attribute name="mass towns" dataType="Geometry"/>
+          <attribute name="mass_benchmarks" dataType="Geometry"/>
+          <attribute name="mass_towns" dataType="Geometry"/>
+          <attribute name="Massachusetts Towns" dataType="Geometry"/>
+          <attribute name="MassARRA" dataType="Geometry"/>
+          <attribute name="MassARRALowellOnly" dataType="Geometry"/>
+          <attribute name="MassARRApoint" dataType="Geometry"/>
+          <attribute name="MassARRAPoint" dataType="Geometry"/>
+          <attribute name="MassARRAVer6" dataType="Geometry"/>
+          <attribute name="masstowns_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MBTA BUS ROUTES" dataType="Geometry"/>
+          <attribute name="MBTA BUS Stops" dataType="Geometry"/>
+          <attribute name="MBTA_ARC" dataType="Geometry"/>
+          <attribute name="MBTA_NODE" dataType="Geometry"/>
+          <attribute name="MBTABUSROUTES_ARC" dataType="Geometry"/>
+          <attribute name="MBTABUSSTOPS_PT" dataType="Geometry"/>
+          <attribute name="Merged Turi" dataType="Geometry"/>
+          <attribute name="MetroBoston_Schools" dataType="Geometry"/>
+          <attribute name="Metropolitan Division" dataType="Geometry"/>
+          <attribute name="MEX" dataType="Geometry"/>
+          <attribute name="MFI Ben" dataType="Geometry"/>
+          <attribute name="MFI_GH" dataType="Geometry"/>
+          <attribute name="MFI_GH1" dataType="Geometry"/>
+          <attribute name="MFI_Points_2007" dataType="Geometry"/>
+          <attribute name="MSA_Tracts" dataType="Geometry"/>
+          <attribute name="mvhp" dataType="Geometry"/>
+          <attribute name="mvhp_reprojected_v2" dataType="Geometry"/>
+          <attribute name="mys1" dataType="Geometry"/>
+          <attribute name="mys2" dataType="Geometry"/>
+          <attribute name="mys4" dataType="Geometry"/>
+          <attribute name="Nashua_Tract" dataType="Geometry"/>
+          <attribute name="NCCS_Lowell" dataType="Geometry"/>
+          <attribute name="nccs_ma_reprojected" dataType="Geometry"/>
+          <attribute name="nccs_shape2" dataType="Geometry"/>
+          <attribute name="nccs_shape_CT" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA_FIPS22051" dataType="Geometry"/>
+          <attribute name="nccs_shape_MA" dataType="Geometry"/>
+          <attribute name="nccs_shape_MACT" dataType="Geometry"/>
+          <attribute name="ne_cd99_110" dataType="Geometry"/>
+          <attribute name="ne_lldistricts" dataType="Geometry"/>
+          <attribute name="ne_lsdistricts" dataType="Geometry"/>
+          <attribute name="ne_streams" dataType="Geometry"/>
+          <attribute name="nehucs10" dataType="Geometry"/>
+          <attribute name="new_england_subbasins" dataType="Geometry"/>
+          <attribute name="NewEngland_Cousub" dataType="Geometry"/>
+          <attribute name="newengland_subbasins_v2" dataType="Geometry"/>
+          <attribute name="nhpn" dataType="Geometry"/>
+          <attribute name="nhpn1" dataType="Geometry"/>
+          <attribute name="NREL_NewEnglandShapeWGS84" dataType="Geometry"/>
+          <attribute name="nuclear-facilities-update" dataType="Geometry"/>
+          <attribute name="nuclear_seismic-hazard" dataType="Geometry"/>
+          <attribute name="nuclear_states" dataType="Geometry"/>
+          <attribute name="nuclear_us_earthquakes" dataType="Geometry"/>
+          <attribute name="od_2005" dataType="Geometry"/>
+          <attribute name="od_2006_reprojected" dataType="Geometry"/>
+          <attribute name="od_2007" dataType="Geometry"/>
+          <attribute name="od_2008" dataType="Geometry"/>
+          <attribute name="od_2009" dataType="Geometry"/>
+          <attribute name="od_2010" dataType="Geometry"/>
+          <attribute name="Ohio County Subdivisions" dataType="Geometry"/>
+          <attribute name="Ohio Places" dataType="Geometry"/>
+          <attribute name="ON no FD 2005" dataType="Geometry"/>
+          <attribute name="on no fd 2006_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2007_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2008_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2009_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2010_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd_2005" dataType="Geometry"/>
+          <attribute name="perc" dataType="Geometry"/>
+          <attribute name="Plants" dataType="Geometry"/>
+          <attribute name="pma_us96" dataType="Geometry"/>
+          <attribute name="pma_us96_pmsa" dataType="Geometry"/>
+          <attribute name="PreK" dataType="Geometry"/>
+          <attribute name="PreK2" dataType="Geometry"/>
+          <attribute name="Prek3" dataType="Geometry"/>
+          <attribute name="Prek4" dataType="Geometry"/>
+          <attribute name="PreK6" dataType="Geometry"/>
+          <attribute name="PreKPregnant" dataType="Geometry"/>
+          <attribute name="PrekPregnant2" dataType="Geometry"/>
+          <attribute name="PreKPregnant3" dataType="Geometry"/>
+          <attribute name="private_IPEDS" dataType="Geometry"/>
+          <attribute name="Public Libraries MA" dataType="Geometry"/>
+          <attribute name="Public School Pre K" dataType="Geometry"/>
+          <attribute name="railways" dataType="Geometry"/>
+          <attribute name="Registrants_US1" dataType="Geometry"/>
+          <attribute name="registrants_us1" dataType="Geometry"/>
+          <attribute name="RGGI" dataType="Geometry"/>
+          <attribute name="RGGI2" dataType="Geometry"/>
+          <attribute name="ri_bg" dataType="Geometry"/>
+          <attribute name="ri_schools08_projected" dataType="Geometry"/>
+          <attribute name="roads" dataType="Geometry"/>
+          <attribute name="Rwanda_Districts" dataType="Geometry"/>
+          <attribute name="Rwanda_Provinces" dataType="Geometry"/>
+          <attribute name="SchoolAged" dataType="Geometry"/>
+          <attribute name="schooldis_elem_POLY" dataType="Geometry"/>
+          <attribute name="schooldishigh_POLY_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_maPOLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTELEM_POLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTHIGH_POLY" dataType="Geometry"/>
+          <attribute name="shapes_demo" dataType="Geometry"/>
+          <attribute name="Soil Waste MA" dataType="Geometry"/>
+          <attribute name="st99_d00" dataType="Geometry"/>
+          <attribute name="State" dataType="Geometry"/>
+          <attribute name="States" dataType="Geometry"/>
+          <attribute name="StatesforNREL" dataType="Geometry"/>
+          <attribute name="STEM BY INSTITUTION" dataType="Geometry"/>
+          <attribute name="Styrene" dataType="Geometry"/>
+          <attribute name="Success_Boston_Student_Cohorts" dataType="Geometry"/>
+          <attribute name="sulfuricacid" dataType="Geometry"/>
+          <attribute name="ta tatata" dataType="Geometry"/>
+          <attribute name="test" dataType="Geometry"/>
+          <attribute name="TEST" dataType="Geometry"/>
+          <attribute name="test_nccs" dataType="Geometry"/>
+          <attribute name="test_st99" dataType="Geometry"/>
+          <attribute name="tgr33001lkA" dataType="Geometry"/>
+          <attribute name="tl_2009_09_bg00" dataType="Geometry"/>
+          <attribute name="tl_2009_us_cbsa" dataType="Geometry"/>
+          <attribute name="tl_2009_us_state" dataType="Geometry"/>
+          <attribute name="tl_2010_us_state10" dataType="Geometry"/>
+          <attribute name="tr25_d00_reprojected" dataType="Geometry"/>
+          <attribute name="TRAINS_NODE" dataType="Geometry"/>
+          <attribute name="Turi points" dataType="Geometry"/>
+          <attribute name="turi points" dataType="Geometry"/>
+          <attribute name="turi points 2008" dataType="Geometry"/>
+          <attribute name="turi00" dataType="Geometry"/>
+          <attribute name="turi01" dataType="Geometry"/>
+          <attribute name="turi02" dataType="Geometry"/>
+          <attribute name="turi03" dataType="Geometry"/>
+          <attribute name="turi04" dataType="Geometry"/>
+          <attribute name="turi05" dataType="Geometry"/>
+          <attribute name="turi06" dataType="Geometry"/>
+          <attribute name="turi06-" dataType="Geometry"/>
+          <attribute name="turi07" dataType="Geometry"/>
+          <attribute name="turi07new" dataType="Geometry"/>
+          <attribute name="turi08" dataType="Geometry"/>
+          <attribute name="turi90" dataType="Geometry"/>
+          <attribute name="turi91" dataType="Geometry"/>
+          <attribute name="turi92" dataType="Geometry"/>
+          <attribute name="turi93" dataType="Geometry"/>
+          <attribute name="turi94" dataType="Geometry"/>
+          <attribute name="turi95" dataType="Geometry"/>
+          <attribute name="turi96" dataType="Geometry"/>
+          <attribute name="turi97" dataType="Geometry"/>
+          <attribute name="turi98" dataType="Geometry"/>
+          <attribute name="turi99" dataType="Geometry"/>
+          <attribute name="TURI_all_2008" dataType="Geometry"/>
+          <attribute name="Turkey" dataType="Geometry"/>
+          <attribute name="US_AKHI_moved" dataType="Geometry"/>
+          <attribute name="us_cbsa" dataType="Geometry"/>
+          <attribute name="us_interstates" dataType="Geometry"/>
+          <attribute name="US_Outline" dataType="Geometry"/>
+          <attribute name="US_States_WGS" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectable" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectabledelete" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectableWITHFIPS" dataType="Geometry"/>
+          <attribute name="USoilPlatforms" dataType="Geometry"/>
+          <attribute name="waterways" dataType="Geometry"/>
+          <attribute name="wb_test" dataType="Geometry"/>
+          <attribute name="wb_testest" dataType="Geometry"/>
+          <attribute name="wbfasdljk" dataType="Geometry"/>
+          <attribute name="welwellwelllll" dataType="Geometry"/>
+          <attribute name="westminster_const_region" dataType="Geometry"/>
+          <attribute name="world" dataType="Geometry"/>
+          <attribute name="World Borders" dataType="Geometry"/>
+          <attribute name="World Borders (UN Codes)" dataType="Geometry"/>
+          <attribute name="World UN" dataType="Geometry"/>
+          <attribute name="WT_FAAOE_2000_2011" dataType="Geometry"/>
+          <attribute name="yb_points" dataType="Geometry"/>
+          <attribute name="youthbuild_points" dataType="Geometry"/>
+          <attribute name="ZillowNeighborhoods" dataType="Geometry"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="acs_5yr_profile_msa">
+                  <attribute id="165913" name="Geographic Name" dataTable="acs_5yr_profile_msa" keyType="us_cbsa" dataType="string"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="acs_5yr_profile_msa">
+                  <attribute id="165912" name="FIPS" dataTable="acs_5yr_profile_msa" keyType="us_cbsa" dataType="string"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn3">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="acs_5yr_profile_msa">
+                  <attribute id="165921" name="Total households DP02e1" dataTable="acs_5yr_profile_msa" keyType="us_cbsa" dataType="number"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn4">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="ACS 5-year Profiles CBSAs (Micro and Metro) US">
+                  <category name="Income and Benefits in 2009 Dollars">
+                    <attribute id="156061" name="With Food Stamp/SNAP benefits in the past 12 months DP03e75" dataTable="acs_5yr_profile_msa" keyType="tl_2010_us_cbsa10" dataType="number"/>
+                  </category>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <shapeSize>20</shapeSize>
+                <spatialCallbacks/>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+        <zoomBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>4.5</yMax>
+          <yMin>-0.5</yMin>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableTitle>false</enableTitle>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.836%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>25.391%</panelWidth>
+    <panelX>73.828%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ColorBinLegendTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot2">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="States" dataType="geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+                <spatialCallbacks/>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="tl_2010_us_cbsa10" dataType="geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+                <spatialCallbacks/>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+        <zoomBounds>
+          <area>8483.55706122263</area>
+          <xCenter>-121.9331495</xCenter>
+          <yCenter>41.642992</yCenter>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+      <SessionedTextBox name="Label" package="weave.ui.annotation">
+        <backgroundAlpha>1</backgroundAlpha>
+        <backgroundColor>10066278</backgroundColor>
+        <borderColor>0</borderColor>
+        <borderThickness>1</borderThickness>
+        <buttonRadius>3</buttonRadius>
+        <closeable>true</closeable>
+        <cornerRadius>18</cornerRadius>
+        <draggable>true</draggable>
+        <enableBorders>false</enableBorders>
+        <htmlText>&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="CENTER"&gt;&lt;FONT FACE="Verdana" SIZE="12" COLOR="#0B333C" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Metro and Micro Areas (CBSAs) Percent of Households with Food Stamp or SNAP Benefits in the last 12 months&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;</htmlText>
+        <maximizable>false</maximizable>
+        <maximized>false</maximized>
+        <minimizable>false</minimizable>
+        <minimized>false</minimized>
+        <padding>13</padding>
+        <panelBackgroundColor>NaN</panelBackgroundColor>
+        <panelBorderColor>NaN</panelBorderColor>
+        <panelHeight>24.419%</panelHeight>
+        <panelStyleList/>
+        <panelWidth>25.215%</panelWidth>
+        <panelX>59.549%</panelX>
+        <panelY>4.6512%</panelY>
+        <pinnable>true</pinnable>
+        <pinnableToBack>false</pinnableToBack>
+        <pinned>false</pinned>
+        <pinnedToBack>false</pinnedToBack>
+        <resizeable>false</resizeable>
+        <showCloseDialog>false</showCloseDialog>
+      </SessionedTextBox>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>false</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableOverview>false</enableOverview>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>13421721</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.738%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>73.125%</panelWidth>
+    <panelX>0.625%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS/>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle>Metropolitan and Micropolitan Areas (CBSAs) in the US</toolTitle>
+  </MapTool>
+  <HistogramTool name="ColorHistogramTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>494</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>494</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <spatialCallbacks/>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>4.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>4.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <forceTickCount>true</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <spatialCallbacks/>
+                <tickCountRequested>5</tickCountRequested>
+                <tickMaxValue>4</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <HistogramPlotter>
+                <drawPartialBins>false</drawPartialBins>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <fillStyle>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                </fillStyle>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <spatialCallbacks/>
+              </HistogramPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <spatialCallbacks/>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+        <zoomBounds>
+          <xMax>4.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>494</yMax>
+          <yMin>0</yMin>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.836%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>50%</panelWidth>
+    <panelX>0.78125%</panelX>
+    <panelY>49.836%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </HistogramTool>
+</Weave>

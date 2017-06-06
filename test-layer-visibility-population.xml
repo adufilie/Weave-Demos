@@ -1,0 +1,1262 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisTitleTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </axisTitleTextFormat>
+    <backgroundColor>13421772</backgroundColor>
+    <collabServerIP>demo.oicweave.org</collabServerIP>
+    <collabServerName>ivpr-vm</collabServerName>
+    <collabServerPort>5222</collabServerPort>
+    <collabServerRoom/>
+    <collabSpectating>false</collabSpectating>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dashedSelectionColor>65280</dashedSelectionColor>
+    <dashedZoomColor>64255</dashedZoomColor>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAnnotation>true</enableAnnotation>
+    <enableAnnuliCircles>false</enableAnnuliCircles>
+    <enableAxisToolTips>true</enableAxisToolTips>
+    <enableBitmapFilters>true</enableBitmapFilters>
+    <enableBrowseData>true</enableBrowseData>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCollaborationBar>false</enableCollaborationBar>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDrawCircle>true</enableDrawCircle>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportCSV>true</enableExportCSV>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullScreen>false</enableFullScreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableLoadMyData>true</enableLoadMyData>
+    <enableManageDataSources>true</enableManageDataSources>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMarker>true</enableMarker>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enablePenTool>true</enablePenTool>
+    <enableProbeLines>true</enableProbeLines>
+    <enableProbeToolTip>true</enableProbeToolTip>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionSelectorBox>true</enableSelectionSelectorBox>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionMenu>true</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetSelectionBox>true</enableSubsetSelectionBox>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWeaveAnalystMode>false</enableWeaveAnalystMode>
+    <enableWindowMenu>true</enableWindowMenu>
+    <eventListeners encoding="dynamic"/>
+    <externalTools encoding="dynamic"/>
+    <geometryMetadataRequestMode>xyz</geometryMetadataRequestMode>
+    <geometryMinimumScreenArea>1</geometryMinimumScreenArea>
+    <macroLibraries encoding="csv-row">WeaveAPI</macroLibraries>
+    <macros encoding="dynamic"/>
+    <maxComputationTimePerFrame>100</maxComputationTimePerFrame>
+    <maxTooltipRecordsShown>1</maxTooltipRecordsShown>
+    <panelTitleTextFormat>
+      <bold>false</bold>
+      <color>16777215</color>
+      <font>Verdana</font>
+      <italic>false</italic>
+      <size>10</size>
+      <underline>false</underline>
+    </panelTitleTextFormat>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeBufferSize>10</probeBufferSize>
+    <probeInnerGlow>
+      <alpha>1</alpha>
+      <blurX>5</blurX>
+      <blurY>5</blurY>
+      <color>16777215</color>
+      <strength>10</strength>
+    </probeInnerGlow>
+    <probeLineFormatter>str = replace(lpad(string, 8, "\t"), "\t", "  ");
+str + " (" + title + ")"</probeLineFormatter>
+    <probeOuterGlow>
+      <alpha>1</alpha>
+      <blurX>3</blurX>
+      <blurY>3</blurY>
+      <color>0</color>
+      <strength>3</strength>
+    </probeOuterGlow>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <probeToolTipMaxWidth>400</probeToolTipMaxWidth>
+    <recordsTooltipLocation>Lower left</recordsTooltipLocation>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <SecondaryKeyNumColumn_useGlobalMinMaxValues>true</SecondaryKeyNumColumn_useGlobalMinMaxValues>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <selectionDropShadow>
+      <alpha>0.5</alpha>
+      <angle>45</angle>
+      <blurX>4</blurX>
+      <blurY>4</blurY>
+      <color>0</color>
+      <distance>2</distance>
+      <strength>1</strength>
+    </selectionDropShadow>
+    <selectionMode>rectangle</selectionMode>
+    <showAddExternalTools>false</showAddExternalTools>
+    <showCollaborationEditor>false</showCollaborationEditor>
+    <showCollaborationMenuItem>true</showCollaborationMenuItem>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEmptyProbeRecordIdentifiers>true</showEmptyProbeRecordIdentifiers>
+    <showEquationEditor>true</showEquationEditor>
+    <showErrors>true</showErrors>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showProbeWindow>true</showProbeWindow>
+    <showSelectedRecordsText>true</showSelectedRecordsText>
+    <showSessionHistoryControls>true</showSessionHistoryControls>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <startupJavaScript/>
+    <toolInteractions>
+      <defaultDragMode>pan</defaultDragMode>
+      <pan>alt,drag</pan>
+      <probe>move</probe>
+      <select>drag</select>
+      <selectAdd>ctrl,drag</selectAdd>
+      <selectAll>ctrl,dclick</selectAll>
+      <selectRemove>ctrl,shift,drag</selectRemove>
+      <zoom>shift,drag
+wheel</zoom>
+      <zoomIn>dclick</zoomIn>
+      <zoomOut>shift,dclick</zoomOut>
+      <zoomToExtent>ctrl,alt,shift,dclick</zoomToExtent>
+    </toolInteractions>
+    <toolToggles encoding="dynamic">
+      <LinkableBoolean name="TreeTool">false</LinkableBoolean>
+      <LinkableBoolean name="CytoscapeWebTool">false</LinkableBoolean>
+      <LinkableBoolean name="KeyMappingTool">false</LinkableBoolean>
+      <LinkableBoolean name="GraphTool">false</LinkableBoolean>
+      <LinkableBoolean name="CustomGraphicsTool">false</LinkableBoolean>
+      <LinkableBoolean name="DataStatisticsTool">false</LinkableBoolean>
+      <LinkableBoolean name="RamachandranPlotTool">false</LinkableBoolean>
+      <LinkableBoolean name="SchafersMissingDataTool">false</LinkableBoolean>
+      <LinkableBoolean name="DataFilter">false</LinkableBoolean>
+      <LinkableBoolean name="AttributeMenuTool">true</LinkableBoolean>
+      <LinkableBoolean name="CompoundBarChartTool">true</LinkableBoolean>
+      <LinkableBoolean name="ColormapHistogramTool">true</LinkableBoolean>
+      <LinkableBoolean name="ColorBinLegendTool">true</LinkableBoolean>
+      <LinkableBoolean name="CompoundRadVizTool">true</LinkableBoolean>
+      <LinkableBoolean name="CustomTool">true</LinkableBoolean>
+      <LinkableBoolean name="DataTableTool">true</LinkableBoolean>
+      <LinkableBoolean name="DimensionSliderTool">true</LinkableBoolean>
+      <LinkableBoolean name="GaugeTool">true</LinkableBoolean>
+      <LinkableBoolean name="HistogramTool">true</LinkableBoolean>
+      <LinkableBoolean name="Histogram2DTool">true</LinkableBoolean>
+      <LinkableBoolean name="LineChartTool">true</LinkableBoolean>
+      <LinkableBoolean name="MapTool">true</LinkableBoolean>
+      <LinkableBoolean name="PieChartTool">true</LinkableBoolean>
+      <LinkableBoolean name="PieChartHistogramTool">true</LinkableBoolean>
+      <LinkableBoolean name="RTextEditor">true</LinkableBoolean>
+      <LinkableBoolean name="RInterfaceTool">true</LinkableBoolean>
+      <LinkableBoolean name="RadVizTool">true</LinkableBoolean>
+      <LinkableBoolean name="ScatterPlotTool">true</LinkableBoolean>
+      <LinkableBoolean name="ThermometerTool">true</LinkableBoolean>
+      <LinkableBoolean name="TimeSliderTool">true</LinkableBoolean>
+      <LinkableBoolean name="TransposedTableTool">true</LinkableBoolean>
+    </toolToggles>
+    <version>Nightly Build (Thu Jul  3 04:00:08 EDT 2014)</version>
+    <visTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </visTextFormat>
+    <visTitleTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </visTitleTextFormat>
+    <windowSnapGridSize>1%</windowSnapGridSize>
+    <workspaceHeight>NaN</workspaceHeight>
+    <workspaceMultiplier>1</workspaceMultiplier>
+    <workspaceWidth>NaN</workspaceWidth>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp>&lt;colorRamp source="OIC" name="5-Color" category="basic"&gt;
+  &lt;node color="0xEFF3FF" position="0"/&gt;
+  &lt;node color="0xBDD7E7" position="0.25"/&gt;
+  &lt;node color="0x6BAED6" position="0.5"/&gt;
+  &lt;node color="0x3182BD" position="0.75"/&gt;
+  &lt;node color="0x08519C" position="1"/&gt;
+&lt;/colorRamp&gt;</ramp>
+    <recordColors/>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>50</numberOfBins>
+        <overrideBinNames/>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dataSourceName/>
+        <metadata>
+          <name>EquationColumn</name>
+          <title>Population in 2008</title>
+        </metadata>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <filters encoding="dynamic"/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet" encoding="dynamic"/>
+  <KeySet name="alwaysHighlightKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml"/>
+    <hierarchyURL/>
+    <idFields/>
+    <rootId/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn3">
+      <dataSourceName/>
+      <metadata>
+        <name>EquationColumn</name>
+        <title>Population in 2008</title>
+      </metadata>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <EquationColumn name="EquationColumn">
+    <equation>c1 = ReferencedColumn;
+c2 = ReferencedColumn2;
+c3 = ReferencedColumn3;
+v1 = getNumber(c1);
+v2 = getNumber(c2);
+v3 = getNumber(c3);
+v = c1.containsKey(key) ? v1 : c2.containsKey(key) ? v2 : v3;
+log(v)</equation>
+    <metadata>
+      <title>Population in 2008</title>
+    </metadata>
+    <variables encoding="dynamic">
+      <ReferencedColumn name="ReferencedColumn">
+        <dataSourceName>WeaveDataSource</dataSourceName>
+        <metadata>
+          <dataTable>Population, total</dataTable>
+          <geometryCollection>World Borders</geometryCollection>
+          <id>85339</id>
+          <keyType>ISO ALPHA-3 Country Code</keyType>
+          <name>Population, total_2008</name>
+          <title>Population, total_2008</title>
+        </metadata>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn2">
+        <dataSourceName>WeaveDataSource</dataSourceName>
+        <metadata>
+          <dataTable>Population By Race by State</dataTable>
+          <geometryCollection>States</geometryCollection>
+          <id>47028</id>
+          <keyType>US State FIPS Code</keyType>
+          <name>Total Population: Total 2008</name>
+          <title>Total Population: Total 2008</title>
+        </metadata>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn3">
+        <dataSourceName>WeaveDataSource</dataSourceName>
+        <metadata>
+          <dataTable>Census County Data</dataTable>
+          <id>55879</id>
+          <keyType>US County FIPS Code</keyType>
+          <name>TOTAL POPULATION</name>
+          <title>TOTAL POPULATION</title>
+        </metadata>
+      </ReferencedColumn>
+    </variables>
+  </EquationColumn>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>0</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>0</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <plotManager>
+          <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+          <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+          <enableFixedAspectRatio>true</enableFixedAspectRatio>
+          <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+          <layerSettings encoding="dynamic">
+            <LayerSettings name="World Countries">
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="country Labels">
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>23301.68888888889</maxVisibleScale>
+              <minVisibleScale>0.35555555555555557</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="US States">
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>20</maxVisibleScale>
+              <minVisibleScale>7</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="state label">
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>19.135065093773413</maxVisibleScale>
+              <minVisibleScale>6.765267143126591</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="US Counties">
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>20</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="county label">
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>23301.68888888889</maxVisibleScale>
+              <minVisibleScale>19.135065093773413</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+          </layerSettings>
+          <marginBottom>0</marginBottom>
+          <marginLeft>0</marginLeft>
+          <marginRight>0</marginRight>
+          <marginTop>0</marginTop>
+          <maxZoomLevel>16</maxZoomLevel>
+          <minScreenSize>128</minScreenSize>
+          <minZoomLevel>0</minZoomLevel>
+          <overrideXMax>NaN</overrideXMax>
+          <overrideXMin>NaN</overrideXMin>
+          <overrideYMax>NaN</overrideYMax>
+          <overrideYMin>NaN</overrideYMin>
+          <plotters encoding="dynamic">
+            <GeometryPlotter name="World Countries">
+              <fill>
+                <alpha>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <color>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </color>
+                <enabled>
+                  <defaultValue>true</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </enabled>
+                <enableMissingDataGradient>false</enableMissingDataGradient>
+                <imageURL>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </imageURL>
+              </fill>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <geometryColumn>
+                <internalDynamicColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dataSourceName>WeaveDataSource</dataSourceName>
+                    <metadata>
+                      <dataType>geometry</dataType>
+                      <keyType>ISO ALPHA-3 Country Code</keyType>
+                      <name>World Borders</name>
+                      <title>World Borders</title>
+                    </metadata>
+                  </ReferencedColumn>
+                </internalDynamicColumn>
+                <projectionSRS/>
+              </geometryColumn>
+              <iconSize>10</iconSize>
+              <line>
+                <alpha>
+                  <defaultValue>0.5</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <caps>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </caps>
+                <color>
+                  <defaultValue>0</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </color>
+                <enabled>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </enabled>
+                <joints>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </joints>
+                <miterLimit>
+                  <defaultValue>3</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </miterLimit>
+                <pixelHinting>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </pixelHinting>
+                <scaleMode>
+                  <defaultValue>none</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </scaleMode>
+                <weight>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <NormalizedColumn>
+                      <internalDynamicColumn encoding="dynamic"/>
+                      <max>5</max>
+                      <min>1</min>
+                    </NormalizedColumn>
+                  </internalDynamicColumn>
+                </weight>
+              </line>
+              <pixellation>1</pixellation>
+              <pointDataImageColumn encoding="dynamic"/>
+              <symbolPlotters encoding="dynamic"/>
+              <useFixedImageSize>false</useFixedImageSize>
+            </GeometryPlotter>
+            <GeometryLabelPlotter name="country Labels">
+              <angle>
+                <defaultValue>0</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </angle>
+              <bold>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </bold>
+              <color>
+                <defaultValue>0</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </color>
+              <destinationProjection/>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <font>
+                <defaultValue>Sophia Nubian</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </font>
+              <geometryColumn>
+                <internalDynamicColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dataSourceName>WeaveDataSource</dataSourceName>
+                    <metadata>
+                      <dataType>geometry</dataType>
+                      <keyType>Countries</keyType>
+                      <name>Countries</name>
+                      <title>Countries</title>
+                      <weaveEntityId>248</weaveEntityId>
+                    </metadata>
+                  </ReferencedColumn>
+                </internalDynamicColumn>
+                <projectionSRS/>
+              </geometryColumn>
+              <hAlign>
+                <defaultValue>center</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </hAlign>
+              <hideOverlappingText>true</hideOverlappingText>
+              <italic>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </italic>
+              <maxWidth>100</maxWidth>
+              <size>
+                <defaultValue>11</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </size>
+              <sortColumn encoding="dynamic"/>
+              <sourceProjection/>
+              <text encoding="dynamic">
+                <ReferencedColumn>
+                  <dataSourceName>WeaveDataSource</dataSourceName>
+                  <metadata>
+                    <dataTable>Countries</dataTable>
+                    <geometryCollection>Countries</geometryCollection>
+                    <keyType>Countries</keyType>
+                    <name>CNTRY_NAME</name>
+                    <title>CNTRY_NAME</title>
+                    <weaveEntityId>46101</weaveEntityId>
+                  </metadata>
+                </ReferencedColumn>
+              </text>
+              <underline>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </underline>
+              <vAlign>
+                <defaultValue>middle</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </vAlign>
+              <xScreenOffset>0</xScreenOffset>
+              <yScreenOffset>0</yScreenOffset>
+              <zoomToSubset>false</zoomToSubset>
+            </GeometryLabelPlotter>
+            <GeometryPlotter name="US States">
+              <fill>
+                <alpha>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <color>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </color>
+                <enabled>
+                  <defaultValue>true</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </enabled>
+                <enableMissingDataGradient>false</enableMissingDataGradient>
+                <imageURL>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </imageURL>
+              </fill>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <geometryColumn>
+                <internalDynamicColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dataSourceName>WeaveDataSource</dataSourceName>
+                    <metadata>
+                      <dataType>geometry</dataType>
+                      <keyType>US State FIPS Code</keyType>
+                      <name>States</name>
+                      <title>States</title>
+                    </metadata>
+                  </ReferencedColumn>
+                </internalDynamicColumn>
+                <projectionSRS/>
+              </geometryColumn>
+              <iconSize>10</iconSize>
+              <line>
+                <alpha>
+                  <defaultValue>0.5</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <caps>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </caps>
+                <color>
+                  <defaultValue>0</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </color>
+                <enabled>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </enabled>
+                <joints>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </joints>
+                <miterLimit>
+                  <defaultValue>3</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </miterLimit>
+                <pixelHinting>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </pixelHinting>
+                <scaleMode>
+                  <defaultValue>none</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </scaleMode>
+                <weight>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <NormalizedColumn>
+                      <internalDynamicColumn encoding="dynamic"/>
+                      <max>5</max>
+                      <min>1</min>
+                    </NormalizedColumn>
+                  </internalDynamicColumn>
+                </weight>
+              </line>
+              <pixellation>1</pixellation>
+              <pointDataImageColumn encoding="dynamic"/>
+              <symbolPlotters encoding="dynamic"/>
+              <useFixedImageSize>false</useFixedImageSize>
+            </GeometryPlotter>
+            <GeometryLabelPlotter name="state label">
+              <angle>
+                <defaultValue>0</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </angle>
+              <bold>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </bold>
+              <color>
+                <defaultValue>0</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </color>
+              <destinationProjection/>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <font>
+                <defaultValue>Sophia Nubian</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </font>
+              <geometryColumn>
+                <internalDynamicColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dataSourceName>WeaveDataSource</dataSourceName>
+                    <metadata>
+                      <dataType>geometry</dataType>
+                      <keyType>US State FIPS Code</keyType>
+                      <name>States</name>
+                      <title>States</title>
+                    </metadata>
+                  </ReferencedColumn>
+                </internalDynamicColumn>
+                <projectionSRS/>
+              </geometryColumn>
+              <hAlign>
+                <defaultValue>center</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </hAlign>
+              <hideOverlappingText>true</hideOverlappingText>
+              <italic>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </italic>
+              <maxWidth>100</maxWidth>
+              <size>
+                <defaultValue>11</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </size>
+              <sortColumn encoding="dynamic"/>
+              <sourceProjection/>
+              <text encoding="dynamic">
+                <ReferencedColumn>
+                  <dataSourceName>WeaveDataSource</dataSourceName>
+                  <metadata>
+                    <dataTable>States</dataTable>
+                    <geometryCollection>States</geometryCollection>
+                    <keyType>US State FIPS Code</keyType>
+                    <name>NAME</name>
+                    <title>NAME</title>
+                    <weaveEntityId>54898</weaveEntityId>
+                  </metadata>
+                </ReferencedColumn>
+              </text>
+              <underline>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </underline>
+              <vAlign>
+                <defaultValue>middle</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </vAlign>
+              <xScreenOffset>0</xScreenOffset>
+              <yScreenOffset>0</yScreenOffset>
+              <zoomToSubset>false</zoomToSubset>
+            </GeometryLabelPlotter>
+            <GeometryPlotter name="US Counties">
+              <fill>
+                <alpha>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <color>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </color>
+                <enabled>
+                  <defaultValue>true</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </enabled>
+                <enableMissingDataGradient>false</enableMissingDataGradient>
+                <imageURL>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </imageURL>
+              </fill>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <geometryColumn>
+                <internalDynamicColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dataSourceName>WeaveDataSource</dataSourceName>
+                    <metadata>
+                      <dataType>geometry</dataType>
+                      <keyType>US County FIPS Code</keyType>
+                      <name>Counties</name>
+                      <title>Counties</title>
+                    </metadata>
+                  </ReferencedColumn>
+                </internalDynamicColumn>
+                <projectionSRS/>
+              </geometryColumn>
+              <iconSize>10</iconSize>
+              <line>
+                <alpha>
+                  <defaultValue>0.5</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <caps>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </caps>
+                <color>
+                  <defaultValue>0</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </color>
+                <enabled>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </enabled>
+                <joints>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </joints>
+                <miterLimit>
+                  <defaultValue>3</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </miterLimit>
+                <pixelHinting>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </pixelHinting>
+                <scaleMode>
+                  <defaultValue>none</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </scaleMode>
+                <weight>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <NormalizedColumn>
+                      <internalDynamicColumn encoding="dynamic"/>
+                      <max>5</max>
+                      <min>1</min>
+                    </NormalizedColumn>
+                  </internalDynamicColumn>
+                </weight>
+              </line>
+              <pixellation>1</pixellation>
+              <pointDataImageColumn encoding="dynamic"/>
+              <symbolPlotters encoding="dynamic"/>
+              <useFixedImageSize>false</useFixedImageSize>
+            </GeometryPlotter>
+            <GeometryLabelPlotter name="county label">
+              <angle>
+                <defaultValue>0</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </angle>
+              <bold>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </bold>
+              <color>
+                <defaultValue>0</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </color>
+              <destinationProjection/>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <font>
+                <defaultValue>Sophia Nubian</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </font>
+              <geometryColumn>
+                <internalDynamicColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dataSourceName>WeaveDataSource</dataSourceName>
+                    <metadata>
+                      <dataType>geometry</dataType>
+                      <keyType>US County FIPS Code</keyType>
+                      <name>Counties</name>
+                      <title>Counties</title>
+                    </metadata>
+                  </ReferencedColumn>
+                </internalDynamicColumn>
+                <projectionSRS/>
+              </geometryColumn>
+              <hAlign>
+                <defaultValue>center</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </hAlign>
+              <hideOverlappingText>true</hideOverlappingText>
+              <italic>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </italic>
+              <maxWidth>100</maxWidth>
+              <size>
+                <defaultValue>11</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </size>
+              <sortColumn encoding="dynamic"/>
+              <sourceProjection/>
+              <text encoding="dynamic">
+                <ReferencedColumn>
+                  <dataSourceName>WeaveDataSource</dataSourceName>
+                  <metadata>
+                    <dataTable>us_counties2012</dataTable>
+                    <dataType>string</dataType>
+                    <geometryCollection>us_counties2012</geometryCollection>
+                    <keyType>US County FIPS Code</keyType>
+                    <name>NAME</name>
+                    <title>NAME</title>
+                    <weaveEntityId>122811</weaveEntityId>
+                  </metadata>
+                </ReferencedColumn>
+              </text>
+              <underline>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </underline>
+              <vAlign>
+                <defaultValue>middle</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </vAlign>
+              <xScreenOffset>0</xScreenOffset>
+              <yScreenOffset>0</yScreenOffset>
+              <zoomToSubset>false</zoomToSubset>
+            </GeometryLabelPlotter>
+          </plotters>
+          <zoomBounds>
+            <area>20639.244636364</area>
+            <xCenter>-88.47172692225</xCenter>
+            <yCenter>25.494412664291</yCenter>
+          </zoomBounds>
+        </plotManager>
+        <zoomFactor>2</zoomFactor>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <enableBackground>false</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableOverview>false</enableOverview>
+    <enableSubMenu>false</enableSubMenu>
+    <enableTitle>false</enableTitle>
+    <enableZOrder>true</enableZOrder>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maptoolsLocation>0</maptoolsLocation>
+    <maximizable>true</maximizable>
+    <maximized>true</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>76%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>100%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+    <projectionSRS/>
+    <showMouseModeControls>true</showMouseModeControls>
+    <showZoomControls>true</showZoomControls>
+    <zoomSliderHeight>100</zoomSliderHeight>
+    <zOrder>0</zOrder>
+  </MapTool>
+  <EquationColumn name="EquationColumn2">
+    <equation/>
+    <metadata>
+      <title/>
+    </metadata>
+    <variables encoding="dynamic"/>
+  </EquationColumn>
+  <ByteArray name="thumbnail.png" encoding="base64">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</ByteArray>
+</Weave>

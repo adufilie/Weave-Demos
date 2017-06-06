@@ -1,0 +1,472 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <backgroundColor>13421772</backgroundColor>
+    <collabServerIP>demo.oicweave.org</collabServerIP>
+    <collabServerName>ivpr-vm</collabServerName>
+    <collabServerPort>5222</collabServerPort>
+    <collabServerRoom/>
+    <collabSpectating>false</collabSpectating>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <defaultTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </defaultTextFormat>
+    <enableAboutMenu>false</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddAttributeMenuTool>true</enableAddAttributeMenuTool>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddCompoundRadViz>true</enableAddCompoundRadViz>
+    <enableAddCustomTool>true</enableAddCustomTool>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGraphTool>true</enableAddGraphTool>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddNewDatasource>true</enableAddNewDatasource>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRamachandranPlot>false</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableAnnotation>true</enableAnnotation>
+    <enableAxisToolTips>true</enableAxisToolTips>
+    <enableBitmapFilters>true</enableBitmapFilters>
+    <enableBrowseData>true</enableBrowseData>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCollaborationBar>false</enableCollaborationBar>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>false</enableDataMenu>
+    <enableDrawCircle>true</enableDrawCircle>
+    <enableDynamicTools>false</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableEditDatasources>true</enableEditDatasources>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportCSV>true</enableExportCSV>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullScreen>true</enableFullScreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableLoadMyData>true</enableLoadMyData>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMarker>true</enableMarker>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enablePenTool>true</enablePenTool>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableProbeToolTip>true</enableProbeToolTip>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionSelectorBox>true</enableSelectionSelectorBox>
+    <enableSelectionsMenu>false</enableSelectionsMenu>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetSelectionBox>true</enableSubsetSelectionBox>
+    <enableSubsetsMenu>false</enableSubsetsMenu>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <eventListeners encoding="dynamic"/>
+    <geometryMetadataRequestMode>xyz</geometryMetadataRequestMode>
+    <geometryMinimumScreenArea>1</geometryMinimumScreenArea>
+    <macroLibraries>weave.api::WeaveAPI</macroLibraries>
+    <macros encoding="dynamic"/>
+    <maxComputationTimePerFrame>100</maxComputationTimePerFrame>
+    <maxTooltipRecordsShown>1</maxTooltipRecordsShown>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleTextFormat>
+      <bold>false</bold>
+      <color>16777215</color>
+      <font>Verdana</font>
+      <italic>false</italic>
+      <size>10</size>
+      <underline>false</underline>
+    </panelTitleTextFormat>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeInnerGlow>
+      <alpha>1</alpha>
+      <blurX>5</blurX>
+      <blurY>5</blurY>
+      <color>16777215</color>
+      <strength>10</strength>
+    </probeInnerGlow>
+    <probeLineFormatter>str = replace(lpad(string, 8, "\t"), "\t", "  ");
+str + " (" + title + ")"</probeLineFormatter>
+    <probeOuterGlow>
+      <alpha>1</alpha>
+      <blurX>3</blurX>
+      <blurY>3</blurY>
+      <color>0</color>
+      <strength>3</strength>
+    </probeOuterGlow>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <probeToolTipMaxWidth>400</probeToolTipMaxWidth>
+    <recordsTooltipLocation>Lower left</recordsTooltipLocation>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <SecondaryKeyNumColumn_useGlobalMinMaxValues>true</SecondaryKeyNumColumn_useGlobalMinMaxValues>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <selectionDropShadow>
+      <alpha>0.5</alpha>
+      <angle>45</angle>
+      <blurX>4</blurX>
+      <blurY>4</blurY>
+      <color>0</color>
+      <distance>2</distance>
+      <strength>1</strength>
+    </selectionDropShadow>
+    <selectionMode>rectangle</selectionMode>
+    <showAddAllButton>true</showAddAllButton>
+    <showCollaborationEditor>false</showCollaborationEditor>
+    <showCollaborationMenuItem>false</showCollaborationMenuItem>
+    <showColorController>true</showColorController>
+    <showCopyright>false</showCopyright>
+    <showDisabilityOptions>true</showDisabilityOptions>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showProbeWindow>true</showProbeWindow>
+    <showRevertButton>false</showRevertButton>
+    <showSelectedRecordsText>true</showSelectedRecordsText>
+    <showSessionHistoryControls>true</showSessionHistoryControls>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <startupJavaScript/>
+    <toolInteractions>
+      <pan>alt,drag</pan>
+      <probe>move</probe>
+      <select>drag</select>
+      <selectAdd>ctrl,drag</selectAdd>
+      <selectAll>ctrl,dclick</selectAll>
+      <selectRemove>ctrl,shift,drag</selectRemove>
+      <zoom>shift,drag
+wheel</zoom>
+      <zoomIn>dclick</zoomIn>
+      <zoomOut>shift,dclick</zoomOut>
+      <zoomToExtent>ctrl,alt,shift,dclick</zoomToExtent>
+    </toolInteractions>
+    <version>1.0 Beta (Thu Sep 27 19:02:18 EDT 2012)</version>
+    <windowSnapGridSize>1%</windowSnapGridSize>
+    <workspaceHeight>NaN</workspaceHeight>
+    <workspaceMultiplier>1</workspaceMultiplier>
+    <workspaceWidth>NaN</workspaceWidth>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp>&lt;colorRamp name="5-Color" source="OIC" category="basic"&gt;
+  &lt;node color="0xEFF3FF" position="0"/&gt;
+  &lt;node color="0xBDD7E7" position="0.25"/&gt;
+  &lt;node color="0x6BAED6" position="0.5"/&gt;
+  &lt;node color="0x3182BD" position="0.75"/&gt;
+  &lt;node color="0x08519C" position="1"/&gt;
+&lt;/colorRamp&gt;</ramp>
+    <recordColors/>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+        <overrideBinNames/>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic"/>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included encoding="csv">County Basefiles,76,68,72,56,52,48</included>
+    <includeMissingKeys>false</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet encoding="dynamic" name="defaultSelectionKeySet"/>
+  <KeySet encoding="dynamic" name="defaultProbeKeySet"/>
+  <KeySet name="alwaysHighlightKeySet"/>
+  <LinkableHashMap encoding="dynamic" name="savedSelections"/>
+  <LinkableHashMap encoding="dynamic" name="savedSubsets">
+    <KeyFilter name="Boone County">
+      <excluded/>
+      <included encoding="csv">County Basefiles,75,71,67,55,51,47</included>
+      <includeMissingKeys>false</includeMissingKeys>
+      <includeMissingKeyTypes>true</includeMissingKeyTypes>
+    </KeyFilter>
+    <KeyFilter name="Illinois">
+      <excluded/>
+      <included encoding="csv">County Basefiles,74,70,66,54,50,46</included>
+      <includeMissingKeys>false</includeMissingKeys>
+      <includeMissingKeyTypes>true</includeMissingKeyTypes>
+    </KeyFilter>
+    <KeyFilter name="United States">
+      <excluded/>
+      <included encoding="csv">County Basefiles,73,69,65,53,49,45</included>
+      <includeMissingKeys>false</includeMissingKeys>
+      <includeMissingKeyTypes>true</includeMissingKeyTypes>
+    </KeyFilter>
+    <KeyFilter name="Winnebago">
+      <excluded/>
+      <included encoding="csv">County Basefiles,76,68,72,56,52,48</included>
+      <includeMissingKeys>false</includeMissingKeys>
+      <includeMissingKeyTypes>true</includeMissingKeyTypes>
+    </KeyFilter>
+  </LinkableHashMap>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="Open Indicators Server">
+        <category title="Data Tables" name="Data Tables">
+          <category title="Basefile LifeExpectancy County and State" name="Basefile LifeExpectancy County and State"/>
+          <category title="Basefile_AbilityToSpeakEnglishBYAge_District" name="Basefile_AbilityToSpeakEnglishBYAge_District"/>
+          <category title="Basefile_AfricanAmericanBlackBySexByAge_District" name="Basefile_AfricanAmericanBlackBySexByAge_District"/>
+          <category title="BaseFile_AfricanAmericanOrBalckByAge_District" name="BaseFile_AfricanAmericanOrBalckByAge_District"/>
+          <category title="Basefile_Age_District" name="Basefile_Age_District"/>
+          <category title="Basefile_AgeGroupsFemales_District" name="Basefile_AgeGroupsFemales_District"/>
+          <category title="Basefile_AgeGroupsMales_District" name="Basefile_AgeGroupsMales_District"/>
+          <category title="Basefile_AmericanIndianAlaskanNativeBySexByAge_District" name="Basefile_AmericanIndianAlaskanNativeBySexByAge_District"/>
+          <category title="BaseFile_AmericanIndianAndAlaskanNativeByAge_District" name="BaseFile_AmericanIndianAndAlaskanNativeByAge_District"/>
+          <category title="BaseFile_AsianByAge_District" name="BaseFile_AsianByAge_District"/>
+          <category title="Basefile_AsianBySexByAge_District" name="Basefile_AsianBySexByAge_District"/>
+          <category title="Basefile_Businesses_County" name="Basefile_Businesses_County"/>
+          <category title="Basefile_Businesses_line_County" name="Basefile_Businesses_line_County"/>
+          <category title="Basefile_ChangeInSchoolEnrollementByType00-10_District" name="Basefile_ChangeInSchoolEnrollementByType00-10_District"/>
+          <category title="Basefile_ChangeInSchoolEnrollment00-10_District" name="Basefile_ChangeInSchoolEnrollment00-10_District"/>
+          <category title="Basefile_CNTdata_District" name="Basefile_CNTdata_District"/>
+          <category title="Basefile_ConsumerExpenditure_Timeslider_District" name="Basefile_ConsumerExpenditure_Timeslider_District"/>
+          <category title="Basefile_CriminalOffenses_County" name="Basefile_CriminalOffenses_County"/>
+          <category title="Basefile_EducationalAttainment_District" name="Basefile_EducationalAttainment_District"/>
+          <category title="Basefile_EducationalAttainmentByGenderByRace_County" name="Basefile_EducationalAttainmentByGenderByRace_County"/>
+          <category title="Basefile_EducationalAttainmentByRace_County" name="Basefile_EducationalAttainmentByRace_County"/>
+          <category title="Basefile_EducationalAttainmentFemales_District" name="Basefile_EducationalAttainmentFemales_District"/>
+          <category title="Basefile_EducationalAttainmentMales_District" name="Basefile_EducationalAttainmentMales_District"/>
+          <category title="Basefile_EducationalAttainmentOfFemalesByRace_County" name="Basefile_EducationalAttainmentOfFemalesByRace_County">
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="ObjectID" title="ObjectID" dataType="string"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="GeographicLevel" title="GeographicLevel" dataType="string"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="GeographicID" title="GeographicID" dataType="string"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Geography" title="Geography" dataType="string"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Year" title="Year" dataType="string"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Source" title="Source" dataType="string"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Race" title="Race" dataType="string"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Total" title="Total" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Female" title="Female" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Less than high school diploma Female" title="Less than high school diploma Female" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="High school graduate, GED, or alternative Female" title="High school graduate, GED, or alternative Female" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Some college or associate's degree Female" title="Some college or associate's degree Female" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Bachelor's degree or higher Female" title="Bachelor's degree or higher Female" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Pct Female" title="Pct Female" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Pct Less than high school diploma Female" title="Pct Less than high school diploma Female" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Pct High school graduate, GED, or alternative Female" title="Pct High school graduate, GED, or alternative Female" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Pct Some college or associate's degree Female" title="Pct Some college or associate's degree Female" dataType="number"/>
+            <attribute dataTable="Basefile_EducationalAttainmentOfFemalesByRace_County" keyType="County Basefiles" name="Pct Bachelor's degree or higher Female" title="Pct Bachelor's degree or higher Female" dataType="number"/>
+          </category>
+          <category title="Basefile_EducationalAttainmentOfMalesByRace_County" name="Basefile_EducationalAttainmentOfMalesByRace_County"/>
+          <category title="Basefile_Employment_District" name="Basefile_Employment_District"/>
+          <category title="Basefile_FamilyTypeBYRaceOfHousHolder_District" name="Basefile_FamilyTypeBYRaceOfHousHolder_District"/>
+          <category title="Basefile_Gender_District" name="Basefile_Gender_District"/>
+          <category title="Basefile_GenderofHouseholderLivingAlone_District" name="Basefile_GenderofHouseholderLivingAlone_District"/>
+          <category title="Basefile_GeographicalMobilityBYPovertyStatus_County" name="Basefile_GeographicalMobilityBYPovertyStatus_County"/>
+          <category title="Basefile_GeographicalMobilityBYRace_County" name="Basefile_GeographicalMobilityBYRace_County"/>
+          <category title="Basefile_Health_County" name="Basefile_Health_County"/>
+          <category title="Basefile_Health_County_2" name="Basefile_Health_County_2"/>
+          <category title="Basefile_Health_County_3" name="Basefile_Health_County_3"/>
+          <category title="Basefile_HealthEquityByRace_County" name="Basefile_HealthEquityByRace_County"/>
+          <category title="BaseFile_HispanicLatinoByAge_District" name="BaseFile_HispanicLatinoByAge_District"/>
+          <category title="Basefile_HispanicLatinoBySexByAge_District" name="Basefile_HispanicLatinoBySexByAge_District"/>
+          <category title="Basefile_HMDA_FHALoansByRace_MSA" name="Basefile_HMDA_FHALoansByRace_MSA"/>
+          <category title="Basefile_HMDAConventionalLoans_Tract" name="Basefile_HMDAConventionalLoans_Tract"/>
+          <category title="Basefile_HMDAConventionalLoansByRace_MSA" name="Basefile_HMDAConventionalLoansByRace_MSA"/>
+          <category title="Basefile_HMDAFHALoans_Tract" name="Basefile_HMDAFHALoans_Tract"/>
+          <category title="Basefile_HMDAHomeImprovementLoans_Tract" name="Basefile_HMDAHomeImprovementLoans_Tract"/>
+          <category title="Basefile_HMDAHomeImprovementLoansByRace_MSA" name="Basefile_HMDAHomeImprovementLoansByRace_MSA"/>
+          <category title="Basefile_HouseHoldLinguisticIsolationBYLang_District" name="Basefile_HouseHoldLinguisticIsolationBYLang_District"/>
+          <category title="Basefile_ILReportCardAttendanceAndGraduation_BySchool" name="Basefile_ILReportCardAttendanceAndGraduation_BySchool"/>
+          <category title="Basefile_ILReportCardAttendanceAndGraduation_County" name="Basefile_ILReportCardAttendanceAndGraduation_County"/>
+          <category title="Basefile_ILReportCardAttendanceAndGraduation_District" name="Basefile_ILReportCardAttendanceAndGraduation_District"/>
+          <category title="Basefile_ILReportCardClassSizeAndTestScores_BySchool" name="Basefile_ILReportCardClassSizeAndTestScores_BySchool"/>
+          <category title="Basefile_ILReportCardClassSizeAndTestScores_District" name="Basefile_ILReportCardClassSizeAndTestScores_District"/>
+          <category title="Basefile_ILReportCardClassSizeTestScores_County" name="Basefile_ILReportCardClassSizeTestScores_County"/>
+          <category title="Basefile_ILReportCardEnrollment_BySchool" name="Basefile_ILReportCardEnrollment_BySchool"/>
+          <category title="Basefile_ILReportCardEnrollment_District" name="Basefile_ILReportCardEnrollment_District"/>
+          <category title="Basefile_ILReportCardISAT4thGrade_BySchool" name="Basefile_ILReportCardISAT4thGrade_BySchool"/>
+          <category title="Basefile_ILReportCardISAT4thGrade_District" name="Basefile_ILReportCardISAT4thGrade_District"/>
+          <category title="Basefile_ILReportCardISAT8thGrade_BySchool" name="Basefile_ILReportCardISAT8thGrade_BySchool"/>
+          <category title="Basefile_ILReportCardISAT8thGrade_District" name="Basefile_ILReportCardISAT8thGrade_District"/>
+          <category title="Basefile_ILReportCardISATallGrades_BySchool" name="Basefile_ILReportCardISATallGrades_BySchool"/>
+          <category title="Basefile_ILReportCardISATAllGrades_County" name="Basefile_ILReportCardISATAllGrades_County"/>
+          <category title="Basefile_ILReportCardISATallGrades_District" name="Basefile_ILReportCardISATallGrades_District"/>
+          <category title="Basefile_ILReportCardPSAE_BySchool" name="Basefile_ILReportCardPSAE_BySchool"/>
+          <category title="Basefile_ILReportCardPSAE_County" name="Basefile_ILReportCardPSAE_County"/>
+          <category title="Basefile_ILReportCardPSAE_District" name="Basefile_ILReportCardPSAE_District"/>
+          <category title="Basefile_Income(in2010dollars)ByRace_County" name="Basefile_Income(in2010dollars)ByRace_County"/>
+          <category title="Basefile_IncomeInflation" name="Basefile_IncomeInflation"/>
+          <category title="Basefile_LanguageSpokenAtHomePop5yearsUp_District" name="Basefile_LanguageSpokenAtHomePop5yearsUp_District"/>
+          <category title="Basefile_MeansOfTransportationToWork_District" name="Basefile_MeansOfTransportationToWork_District"/>
+          <category title="Basefile_MeansOfTransportationToWorkByRace_County" name="Basefile_MeansOfTransportationToWorkByRace_County"/>
+          <category title="Basefile_MedianIncomeByGender_County" name="Basefile_MedianIncomeByGender_County"/>
+          <category title="Basefile_MedianIncomeByRace_Blockgroup" name="Basefile_MedianIncomeByRace_Blockgroup"/>
+          <category title="BaseFile_NativeHawaiianAndPacificIslanderByAge_District" name="BaseFile_NativeHawaiianAndPacificIslanderByAge_District"/>
+          <category title="Basefile_NativeHawiianPacificIslanderBySexByAge_District" name="Basefile_NativeHawiianPacificIslanderBySexByAge_District"/>
+          <category title="Basefile_Occupations_District" name="Basefile_Occupations_District"/>
+          <category title="BaseFile_OtherByAge_District" name="BaseFile_OtherByAge_District"/>
+          <category title="Basefile_OtherBySexByAge_District" name="Basefile_OtherBySexByAge_District"/>
+          <category title="Basefile_OwnerOccupiedUnitsByRace_District" name="Basefile_OwnerOccupiedUnitsByRace_District"/>
+          <category title="Basefile_PovertyStatusByRace_County" name="Basefile_PovertyStatusByRace_County"/>
+          <category title="Basefile_Race_District" name="Basefile_Race_District"/>
+          <category title="Basefile_RaceByAge_County" name="Basefile_RaceByAge_County"/>
+          <category title="Basefile_RaceByAgeFemales_County" name="Basefile_RaceByAgeFemales_County"/>
+          <category title="Basefile_RaceByAgeMales_County" name="Basefile_RaceByAgeMales_County"/>
+          <category title="Basefile_ReportCardEnrollment_County" name="Basefile_ReportCardEnrollment_County"/>
+          <category title="Basefile_SchoolEnrollment_District" name="Basefile_SchoolEnrollment_District"/>
+          <category title="Basefile_SchoolEnrollmentByType_County" name="Basefile_SchoolEnrollmentByType_County"/>
+          <category title="Basefile_SchoolEnrollmentByTypeOfSchool_District" name="Basefile_SchoolEnrollmentByTypeOfSchool_District"/>
+          <category title="Basefile_SchoolEnrollmentFemales_District" name="Basefile_SchoolEnrollmentFemales_District"/>
+          <category title="Basefile_SchoolEnrollmentMales_District" name="Basefile_SchoolEnrollmentMales_District"/>
+          <category title="BaseFile_TwoOrMoreRacesByAge_District" name="BaseFile_TwoOrMoreRacesByAge_District"/>
+          <category title="Basefile_TwoOrMoreRacesBySexByAge_District" name="Basefile_TwoOrMoreRacesBySexByAge_District"/>
+          <category title="Basefile_Welfare_District" name="Basefile_Welfare_District"/>
+          <category title="Basefile_WhiteBySexByAge_District" name="Basefile_WhiteBySexByAge_District"/>
+          <category title="BaseFile_WhiteNotHispanicByAge_District" name="BaseFile_WhiteNotHispanicByAge_District"/>
+          <category title="Basefile_WhiteNotHispanicBySexByAge_District" name="Basefile_WhiteNotHispanicBySexByAge_District"/>
+          <category title="BaseFile_WhiteOrCaucasianByAge_District" name="BaseFile_WhiteOrCaucasianByAge_District"/>
+          <category title="Basefile_WoodsAndPoole_EmploymentIndustry_County" name="Basefile_WoodsAndPoole_EmploymentIndustry_County"/>
+          <category title="Basefile_WoodsAndPoole_HouseholdIncome_County" name="Basefile_WoodsAndPoole_HouseholdIncome_County"/>
+          <category title="Basefile_WoodsAndPoole_IndustryEarnings_County" name="Basefile_WoodsAndPoole_IndustryEarnings_County"/>
+          <category title="Basefile_WoodsAndPoole_PersonalIncome_County" name="Basefile_WoodsAndPoole_PersonalIncome_County"/>
+          <category title="Basefile_WoodsAndPoole_PopulationAgeByDecade_County" name="Basefile_WoodsAndPoole_PopulationAgeByDecade_County"/>
+          <category title="Basefile_WoodsAndPoole_Race_County" name="Basefile_WoodsAndPoole_Race_County"/>
+          <category title="Basefile_WoodsAndPoole_RetailSales_County" name="Basefile_WoodsAndPoole_RetailSales_County"/>
+          <category title="Basefile_YearStructureBuilt_District" name="Basefile_YearStructureBuilt_District"/>
+          <category title="Basefiles_AgeHHbyType" name="Basefiles_AgeHHbyType"/>
+          <category title="Basefiles_AvgHHSize" name="Basefiles_AvgHHSize"/>
+          <category title="Basefiles_GeographicalMobility_District" name="Basefiles_GeographicalMobility_District"/>
+          <category title="Basefiles_HHIncome" name="Basefiles_HHIncome"/>
+          <category title="Basefiles_HHRacebyFamType" name="Basefiles_HHRacebyFamType"/>
+          <category title="Basefiles_PovertyHHType" name="Basefiles_PovertyHHType"/>
+          <category title="Basefiles_PovertyStatusBYRace_County" name="Basefiles_PovertyStatusBYRace_County"/>
+          <category title="Basefiles_PovStatByFamTypBYChildren_Districts" name="Basefiles_PovStatByFamTypBYChildren_Districts"/>
+          <category title="Basefiles_RatioPovertyIncome" name="Basefiles_RatioPovertyIncome"/>
+          <category title="Blockgroups2000" name="Blockgroups2000"/>
+          <category title="Blockgroups2010" name="Blockgroups2010"/>
+          <category title="BooneWinnCounties" name="BooneWinnCounties"/>
+          <category title="District Points" name="District Points"/>
+          <category title="District_Points" name="District_Points"/>
+          <category title="Districts 2012" name="Districts 2012"/>
+          <category title="Districts2012" name="Districts2012"/>
+          <category title="GentrificationIndex" name="GentrificationIndex"/>
+          <category title="GentrificationIndex_RateChanges" name="GentrificationIndex_RateChanges"/>
+          <category title="IL Counties" name="IL Counties"/>
+          <category title="IL_Counties" name="IL_Counties"/>
+          <category title="Illinois" name="Illinois"/>
+          <category title="Least_Eductaional_Attainment_District" name="Least_Eductaional_Attainment_District"/>
+          <category title="Major Highways" name="Major Highways"/>
+          <category title="MSA Major Highways" name="MSA Major Highways"/>
+          <category title="MSA Municipalities" name="MSA Municipalities"/>
+          <category title="MSA Polygon" name="MSA Polygon"/>
+          <category title="MSA Schools Complete List 99 to 2011" name="MSA Schools Complete List 99 to 2011"/>
+          <category title="MSA Streets" name="MSA Streets"/>
+          <category title="MSA Survey Boundaries" name="MSA Survey Boundaries"/>
+          <category title="MSA Tracts 2000" name="MSA Tracts 2000"/>
+          <category title="MSA Tracts 2010" name="MSA Tracts 2010"/>
+          <category title="MSA Zipcodes 2010" name="MSA Zipcodes 2010"/>
+          <category title="MSA_GeneralEelection2008" name="MSA_GeneralEelection2008"/>
+          <category title="Social Safety Municipality" name="Social Safety Municipality"/>
+          <category title="Social_BuiltEnvironment_County" name="Social_BuiltEnvironment_County"/>
+          <category title="Social_BuiltEnvironment_District" name="Social_BuiltEnvironment_District"/>
+          <category title="Social_CivicVitality_Districts" name="Social_CivicVitality_Districts"/>
+          <category title="social_CivicVitality_MSA" name="social_CivicVitality_MSA"/>
+          <category title="Social_CivicVitality_VotingPrecinct" name="Social_CivicVitality_VotingPrecinct"/>
+          <category title="Social_Culture_County" name="Social_Culture_County"/>
+          <category title="social_Culture_MSA" name="social_Culture_MSA"/>
+          <category title="Social_Economic_TransferPayments" name="Social_Economic_TransferPayments"/>
+          <category title="Social_Economic_WealthIndex" name="Social_Economic_WealthIndex"/>
+          <category title="Social_Economic_WealthIndexYearly" name="Social_Economic_WealthIndexYearly"/>
+          <category title="Social_Education_District" name="Social_Education_District"/>
+          <category title="Social_Food_County" name="Social_Food_County"/>
+          <category title="Social_Food_District" name="Social_Food_District"/>
+          <category title="Social_Food_Municipality" name="Social_Food_Municipality"/>
+          <category title="Social_Health &amp; Wellness_County" name="Social_Health &amp; Wellness_County"/>
+          <category title="Social_Health &amp; Wellness_County and State" name="Social_Health &amp; Wellness_County and State"/>
+          <category title="Social_Health &amp; Wellness_District" name="Social_Health &amp; Wellness_District"/>
+          <category title="Social_Health_Wellness_District" name="Social_Health_Wellness_District"/>
+          <category title="Social_Housing_Districts" name="Social_Housing_Districts"/>
+          <category title="Social_Land_District" name="Social_Land_District"/>
+          <category title="Social_Safety_County" name="Social_Safety_County"/>
+          <category name="Social_Safety_District" description="" title="Social_Safety_District"/>
+          <category title="Social_Safety_MSA" name="Social_Safety_MSA"/>
+          <category title="Social_Technology_District" name="Social_Technology_District"/>
+          <category title="Social_Transportation_Districts" name="Social_Transportation_Districts"/>
+          <category title="U.S" name="U.S"/>
+          <category title="U.S." name="U.S."/>
+        </category>
+        <category title="Geometry Collections" name="Geometry Collections">
+          <attribute keyType="Blockgroups2000" name="Blockgroups2000" title="Blockgroups2000" dataType="geometry"/>
+          <attribute keyType="Blockgroups2010" name="Blockgroups2010" title="Blockgroups2010" dataType="geometry"/>
+          <attribute keyType="BooneWinnCounties" name="BooneWinnCounties" title="BooneWinnCounties" dataType="geometry"/>
+          <attribute keyType="District_Points" name="District Points" title="District Points" dataType="geometry"/>
+          <attribute keyType="Districts2012" name="Districts2012" title="Districts2012" dataType="geometry"/>
+          <attribute keyType="IL_Counties" name="IL Counties" title="IL Counties" dataType="geometry"/>
+          <attribute keyType="Illinois" name="Illinois" title="Illinois" dataType="geometry"/>
+          <attribute keyType="Major Highways" name="Major Highways" title="Major Highways" dataType="geometry"/>
+          <attribute keyType="MSA Major Highways" name="MSA Major Highways" title="MSA Major Highways" dataType="geometry"/>
+          <attribute keyType="MSA_Municipalities" name="MSA Municipalities" title="MSA Municipalities" dataType="geometry"/>
+          <attribute keyType="MSApolygon" name="MSA Polygon" title="MSA Polygon" dataType="geometry"/>
+          <attribute keyType="MSA Schools Complete List 1999 to 2011" name="MSA Schools Complete List 99 to 2011" title="MSA Schools Complete List 99 to 2011" dataType="geometry"/>
+          <attribute keyType="MSA Streets" name="MSA Streets" title="MSA Streets" dataType="geometry"/>
+          <attribute keyType="MSA Survey Boundaries" name="MSA Survey Boundaries" title="MSA Survey Boundaries" dataType="geometry"/>
+          <attribute keyType="MSA Tracts 2000" name="MSA Tracts 2000" title="MSA Tracts 2000" dataType="geometry"/>
+          <attribute keyType="MSA_Tracts_2010" name="MSA Tracts 2010" title="MSA Tracts 2010" dataType="geometry"/>
+          <attribute keyType="MSA Zipcodes 2010" name="MSA Zipcodes 2010" title="MSA Zipcodes 2010" dataType="geometry"/>
+          <attribute keyType="MSA_GeneralEelection2008" name="MSA_GeneralEelection2008" title="MSA_GeneralEelection2008" dataType="geometry"/>
+          <attribute keyType="U.S." name="U.S." title="U.S." dataType="geometry"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <LinkableHashMap encoding="dynamic" name="Probe Header Columns"/>
+  <LinkableHashMap encoding="dynamic" name="Probed Columns"/>
+</Weave>

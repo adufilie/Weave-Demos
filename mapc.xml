@@ -1,0 +1,1692 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddOpenIndicatorsDataSource>true</enableAddOpenIndicatorsDataSource>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddSP2>true</enableAddSP2>
+    <enableAddStickFigurePlot>true</enableAddStickFigurePlot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableBorders>true</enableBorders>
+    <enableCloseWindow>true</enableCloseWindow>
+    <enableDataImport>true</enableDataImport>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportSessionState>true</enableExportSessionState>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableMapLayerAddRemove>true</enableMapLayerAddRemove>
+    <enableMapLayerEdit>true</enableMapLayerEdit>
+    <enableMaximizeWindow>true</enableMaximizeWindow>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMenuBarOnTop>true</enableMenuBarOnTop>
+    <enableMinimizeWindow>true</enableMinimizeWindow>
+    <enableNewDataset>true</enableNewDataset>
+    <enableRightClick>true</enableRightClick>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSession>true</enableSession>
+    <enableSessionEdit>true</enableSessionEdit>
+    <enableSessionImport>true</enableSessionImport>
+    <enableSessionLoad>true</enableSessionLoad>
+    <enableSessionSave>true</enableSessionSave>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableTaskbar>true</enableTaskbar>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolAutoResizeAndPosition>true</enableToolAutoResizeAndPosition>
+    <enableToolClickDebug>false</enableToolClickDebug>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <fontBold>false</fontBold>
+    <fontColor>NaN</fontColor>
+    <fontFamily>Verdana</fontFamily>
+    <fontItalic>false</fontItalic>
+    <fontSize>10</fontSize>
+    <fontUnderline>false</fontUnderline>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <rServicesURL>/OpenIndicatorsDataServices</rServicesURL>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeColumnEditor>true</showProbeColumnEditor>
+    <showViewBar>false</showViewBar>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>Beta 0.9</version>
+    <windowSnapGridSize>4</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <StaticObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="Oranges" category="basic" dataFormat="sequential" singlehue="true" source="ColorBrewer" colorblindSafe="true" reverse="false">
+        <node color="0xFEEDDE" position="0"/>
+        <node color="0xFDBE85" position="0.25"/>
+        <node color="0xFD8D3C" position="0.5"/>
+        <node color="0xE6550D" position="0.75"/>
+        <node color="0xA63603" position="1.0"/>
+      </colorRamp>
+    </ramp>
+    <reverse>false</reverse>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <StaticObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <StaticObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <columnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy name="Open Indicators Server">
+                <category name="DataTables">
+                  <category name="Childhood Poverty 2000 (Census tracts)">
+                    <attribute name="Percent(%) Children below poverty level" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" min="0" year="" max="100"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </columnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excludedKeys/>
+    <includedKeys>25017383200,25017383400,25017383300,25017383600,25017382600,25017383501,25017383100,25017383502,25017383700,25017382200,25021404302,25021404301,25017382400,25017384000,25017383902,25017382300,25017366100,25017382500,25017383800,25017367100,25017387201,25017385100,25017383901,25017320101,25017387202,25017386100,25017387100,25021406101,25021406102,25021407100,25017367200,25017365201,25021405100,25017365202,25017385200,25017366200,25017360200,25017323100,25017365100,25017361200,25017364102,25017364101,25017361100,25017363102,25017363202,25017362100,25017363101,25017324100,25017363201,25017359300,25017361300,25021411300,25021404400,25017382100,25017368500,25017357600,25025091700,25025091900,25025090200,25025092300,25025082100,25025110401,25025101101,25025090100,25025091800,25025090300,25025100200,25025080800,25025081200,25025120600,25021400900,25025080900,25025080500,25025091400,25025090600,25025080300,25025091300,25025081800,25025090400,25025080400,25025120500,25025082000,25025091200,25025091600,25025091100,25025060400,25025060300,25025061000,25025091500,25025000701,25025070900,25025070800,25017352500,25017353500,25025000702,25025010401,25025010202,25025010102,25017353000,25017353400,25025010101,25021400200,25025010500,25017350500,25017350800,25017354400,25017352900,25017352600,25017352800,25017352700,25017352200,25017353800,25017350300,25017351300,25017354700,25017354800,25017353900,25025071100,25025070600,25025070500,25025060700,25025070700,25025020200,25025070200,25025030400,25025030200,25025030100,25025030500,25025040100,25025040200,25025050600,25025050500,25025160200,25025050400,25025050100,25025050300,25017342600,25025020100,25025040300,25025070400,25025010600,25025060800,25025000401,25021413400,25021413300,25021412100,25021413200,25021402300,25021413100,25021412300,25021415101,25021404201,25017360100,25017368400,25017368200,25021404202,25017368700,25017368902,25025000402,25025000302,25025000201,25025000202,25025000502,25017373200,25017357400,25017357300,25017357500,25017370101,25017356602,25017357200,25017356100,25025000301,25017373400,25017368300,25021403400,25021402101,25025130402,25025130401,25021402102,25021402400,25021402500,25017374300,25017374100,25021403200,25017374700,25017374400,25017373800,25017373500,25017373700,25017374200,25017374500,25025130300,25017373600,25021404100,25025130100,25017374000,25021403100,25021403500,25017373900,25021403300,25021401100,25021401200,25017373100,25017373300,25017368101,25017368800,25017370102,25017356500,25017368901,25017369000,25017358300,25017358400,25017358600,25017358100,25017357800,25017357700,25017358500,25017369100,25017368600,25017370200,25017357100,25017370300,25017370400,25017356400,25017356700,25017354600,25025000100,25017354300,25017333300,25017338300,25017333100,25017338400,25017356601,25017374600,25017368102,25025130200,25017332400,25017358700,25017332300,25017316202,25017332100,25017359100,25017333502,25017333501,25017332200,25017333600,25017333200,25017374800,25021412200,25021415300,25021402200,25025110501,25025110601,25021400600,25025140102,25025110502,25025000601,25017354900,25025000602,25017354200,25025000501,25021400300,25025110602,25025110402,25025140103,25021400400,25017355000,25025000802,25021400500,25017356300,25017339300,25017356200,25017338100,25017350700,25025120101,25025140300,25025140202,25025101102,25025140400,25025101001,25025110200,25025101002,25025092400,25025100100,25025110300,25021401000,25021400700,25025120700,25017354500,25017339400,25017354000,25017353700,25017350600,25017350900,25017339500,25017350400,25017351000,25017354100,25017353600,25021400800,25025081900,25025081300,25025081400,25025081700,25025120400,25025120300,25017340000,25017352400,25017352300,25025081000,25017351200,25017353300,25017353200,25017339600,25025010201,25017350200,25025010300,25017337202,25017339900,25017339700,25025010402,25017351400,25017340100,25017337101,25025080600,25017337201,25017351100,25025081100,25021400100,25025120200,25025000801,25017338500,25017339200,25017333400,25017339100,25025120102,25021416200,25025110100,25017334100,25017337300,25017337102,25025140104,25017338200,25025140201,25025080100,25025100300,25025010800,25017351500,25025010700,25025100500,25025100700,25025100602,25025070300,25025071200,25025030300,25025092200,25025092000,25025090700,25025040400,25025020300,25025061100,25025160300,25025090900,25017342500,25025040800,25025100601,25025100400,25021415200,25021416300,25021420201,25021416100,25025100800,25021420202,25017350100,25017352100,25017342400,25025070100,25025040600,25025100900,25025160400,25025091000,25025061200,25025092100,25017341400,25017341200,25017342200,25017341500,25017336100,25017341600,25017336402,25017341100,25017341800,25017341700,25017335200,25017335100,25017334400,25017339800,25017336200,25017335300,25017335400,25017336401,25017341300,25017342300,25017353100,25025081500,25025060200,25021418001,25021417100,25021418100,25021417601,25025060100,25021417300,25021417501,25021417200,25021417502,25021417602,25025050200,25025060600,25025160100,25025050900,25025050700,25017342100,25017341900,25025160600,25025170200,25025160500,25025170700,25025051100,25025170600,25025051000,25025170100,25025060500,25021419300,25021422301,25021419400,25009207100,25025170800,25021417901,25025180100,25009205700,25025180400,25025180500,25009205800,25021417802,25025180200,25021417902,25021418002,25009207000,25021422501,25009207200,25009206100,25009206000,25009206200,25009205600,25009206300,25009205500,25009205900,25009206800,25009206600,25009206500,25009206700,25009206900,25025180300,25017336300,25021418200,25021420100,25023504102,25021419200,25021422700,25021422400,25021419500,25021417700,25021422502,25021422302,25021419600,25021419800,25021419100,25021422600,25021419700,25025170300,25009208200,25021417400,25009208102,25025170400,25009208101,25025051200,25009201100,25021422800,25025150100,25025170500,25021417801,25023501201,25023504101,25023505102,25023501101,25023500102,25023505101,25021423100,25023500101,25023501202,25023501102,25021422100,25009204200,25009210700,25009205300,25009205200,25009204702,25009205100,25009208400,25009210500,25009205400,25009208300,25009210600,25009210400,25009209100,25009202100,25009204102,25009202200,25009204701,25009203300,25009204400,25009203200,25009204101,25009203100,25009206400,25021416400</includedKeys>
+    <includeMissingKeys>false</includeMissingKeys>
+    <sessionedKeyType>CT_ID</sessionedKeyType>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet">
+    <sessionedKeys/>
+    <sessionedKeyType>CT_ID</sessionedKeyType>
+  </KeySet>
+  <KeySet name="defaultProbeKeySet">
+    <sessionedKeys/>
+    <sessionedKeyType>CT_ID</sessionedKeyType>
+  </KeySet>
+  <LinkableObjectMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableObjectMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn2">
+      <columnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy name="Open Indicators Server">
+              <category name="DataTables">
+                <category name="Childhood Poverty 2000 (Census tracts)">
+                  <attribute name="Percent(%) Children below poverty level" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" min="0" year="" max="100"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </columnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn">
+      <columnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy name="Open Indicators Server">
+              <category name="DataTables">
+                <category name="Educational Attainment over 25 (Census Tract)">
+                  <attribute name="Bachelors Degree (%)" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" min="0" year="" max="100"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </columnReference>
+    </ReferencedColumn>
+  </LinkableObjectMap>
+  <OpenIndicatorsDataSource name="OpenIndicatorsDataSource">
+    <alertEnabled>true</alertEnabled>
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="Open Indicators Server">
+        <category name="DataTables">
+          <category name="Annual Unemployment 1994-2008 (Municipal)"/>
+          <category name="Arts and Culture Activities (points)">
+            <attribute name="objectid" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" min="" year="" max=""/>
+            <attribute name="Arts Type" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" min="" year="" max=""/>
+            <attribute name="Organization" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="street" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="street2" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="town" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="state" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="zipcode" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" min="" year="" max=""/>
+            <attribute name="zip4" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="mcd" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="phone" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="fax" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="longitude" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="latitude" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+            <attribute name="geolevel" keyType="Arts_And_Culture_ID" dataTableName="Arts and Culture Activities (points)" year=""/>
+          </category>
+          <category name="Obesity and Asthma (Municipal)">
+            <attribute name="town_id" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="town" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="Percent of Adults who are Obese" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="Class" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="Total Adult Population" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="Number of Obese Adults" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" min="" year="" max=""/>
+            <attribute name="NumFat" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="NumFatLng" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="Total number of inpatient Astham hospitalizations" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="Average number of hospitalizations per 10,000 residents per year" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="95% Confidence Interval Lower bound" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+            <attribute name="95% Confidence Interval Upper bound" keyType="town_id" dataTableName="Obesity and Asthma (Municipal)" year=""/>
+          </category>
+          <category name="Total Building Permit Units"/>
+          <category name="Race and Ethnicity Population 2000 (Census Tract)"/>
+          <category name="Childhood Poverty 2000 (Census tracts)">
+            <attribute name="Census Tract ID" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" year=""/>
+            <attribute name="Total Population" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" year=""/>
+            <attribute name="Children below poverty level" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" min="0" year="" max="1500"/>
+            <attribute name="Percent(%) Children below poverty level" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" min="0" year="" max="100"/>
+            <attribute name="Children below poverty level in married family" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" min="0" year="" max="1500"/>
+            <attribute name="Percent(%) Children below poverty level in married family" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" year=""/>
+            <attribute name="Children below poverty level in non-married family" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" year=""/>
+            <attribute name="Percent(%) Children below poverty level in non-married family" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" year=""/>
+            <attribute name="Children below poverty level in single father family" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" min="0" year="" max="1500"/>
+            <attribute name="Percent(%) Children below poverty level in single father family" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" min="0" year="" max="100"/>
+            <attribute name="Children below poverty level in single mother family" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" min="0" year="" max="1500"/>
+            <attribute name="Percent(%) Children below poverty level in single mother family" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" year=""/>
+          </category>
+          <category name="Educational Attainment over 25 (Census Tract)">
+            <attribute name="Census Tract ID" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Total Population 25+" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Less Than 9th Grade" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some High School" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some College" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Associates Degree" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Graduate Degree" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate (%)" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree (%)" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" min="0" year="" max="100"/>
+            <attribute name="Population 25+, White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Less Than 9th Grade, White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some High School, White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate, White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some College, White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Associates Degree, White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree, White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Graduate Degree, White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate (%), White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree (%), White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Population 25+, Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Less Than 9th Grade, Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some High School, Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate, Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some College, Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Associates Degree, Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree, Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Graduate Degree, Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate (%), Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree (%), Non-Hispanic White" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Population 25+, Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Less Than 9th Grade, Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some High School, Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate, Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some College, Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Associates Degree, Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree, Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Graduate Degree, Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate (%), Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree (%), Black" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Population 25+, Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Less Than 9th Grade, Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some High School, Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate, Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some College, Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Associates Degree, Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree, Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Graduate Degree, Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate (%), Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree (%), Hispanic" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Population 25+, Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Less Than 9th Grade, Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some High School, Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate, Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Some College, Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Associates Degree, Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree, Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Graduate Degree, Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="High School Graduate (%), Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+            <attribute name="Bachelors Degree (%), Asian" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" year=""/>
+          </category>
+          <category name="mcas_grade4_shools_math_2010"/>
+          <category name="Annual Obesity Percent (State)">
+            <attribute name="State" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="County Code" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="1995 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="1996 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="1997 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="1998 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="1999 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="2000 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" min="" year="" max=""/>
+            <attribute name="2001 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="2002 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="2003 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="2004 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="2005 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="2006 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+            <attribute name="2007 Obesity(%)" keyType="FIPS" dataTableName="Annual Obesity Percent (State)" year=""/>
+          </category>
+          <category name="Lead Poisoning (Municipal)"/>
+          <category name="MA Unemployment 2008 - 2009"/>
+          <category name="Limited English Proficiency and Household Linguistic Isolation 2000 (Census Tract)"/>
+          <category name="Boston Turnaround Schools (points)"/>
+          <category name="mcas_grade4_shools_ela_2010"/>
+          <category name="MCAS_Grade10_Shools_ELA_2010"/>
+          <category name="Boston Cambridge VMT 250m"/>
+          <category name="Hospitalization Rates for Asthma"/>
+          <category name="MBTA Subway Lines (Lines)">
+            <attribute name="OBJECTID" keyType="line" dataTableName="MBTA Subway Lines (Lines)" year=""/>
+            <attribute name="LINE" keyType="line" dataTableName="MBTA Subway Lines (Lines)" year=""/>
+            <attribute name="GRADE" keyType="line" dataTableName="MBTA Subway Lines (Lines)" year=""/>
+            <attribute name="SHAPE_LEN" keyType="line" dataTableName="MBTA Subway Lines (Lines)" min="" year="" max=""/>
+          </category>
+          <category name="Libraries (points)"/>
+          <category name="Hospitalization Rates for Diabetes"/>
+          <category name="gini"/>
+          <category name="Disability and Employment by Disability Status (Census Tract)"/>
+          <category name="Census 2000 Blocks: Legislative Attributes (Block Groups)">
+            <attribute name="Object ID" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="LOGRECNO" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Total Population 2000" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Sample Population 2000" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="# of Males" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="# of Females" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population = males age 18 and over" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population = males age 18 and over" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of males under age 18" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of males age 18 to 64" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of males age 65 and older" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of females under age 18" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of females age 18 to 64" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of females age 65 and older" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Total population under age 18" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Total population age 18 to 64" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Total population age 65 and older" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population under age 18" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population age 65 and older" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Total occupied housing units" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of owner-occupied housing units" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of renter-occupied housing units" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Occupied housing units with a white owner" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Occupied housing units with a non-white owner" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Occupied housing units with a white owner" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Occupied housing units with a non-white renter" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of housing units with a white owner" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of housing units with a non-white owner" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Median value of all owner-occupied housing units" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of housing units with a white renter" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of housing units with a non-white renter" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Median gross rent" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Rent as % of household income" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Total number of households" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="English speaking households" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Non-English speaking households" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Spanish speaking households" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Indo-European language speaking households" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Asian language speaking households" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Other language speaking households" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Households earning less than $25,000" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Households earning $25,000 to $75,000" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Households earning more than $75,000" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of households with low income" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of households with medium income" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of households with high income" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of people with US Citizenship" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of people without US Citizenship" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population without US citizenship" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of Caucasian residents" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of minority (non-white) residents" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of African-American residents" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of Hispanic/Latino residents" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of Asian residents" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of Native American residents" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of Hawaiian/Pacific Islander residents" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of residents of other race" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="Number of multi-race residents" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of minority (non-white) residents" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year="100"/>
+            <attribute name="% of population classified as African-American" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population classified as Hispanic/Latino" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population classified as Asian" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population classified as Native American" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population classified as Hawaiian/Pacific Islander" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population classified as Other" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+            <attribute name="% of population classified as multi-racial" keyType="LOGRECNO" dataTableName="Census 2000 Blocks: Legislative Attributes (Block Groups)" year=""/>
+          </category>
+          <category name="MCAS_Grade10_Shools_MTH_2010"/>
+          <category name="Hospitalization Rates for Hypertension"/>
+          <category name="Schools Free Lunch Program (Municipal)"/>
+          <category name="Boston Schools: Circle of Promise Schools (points)"/>
+          <category name="Race and Ethnicity Household and Family 2000 (Census Tract)"/>
+          <category name="MAPC VMT"/>
+          <category name="Median Household Income 2000 (Census Tract)"/>
+          <category name="Hospitalization Rates for COPD"/>
+          <category name="Children in Poverty (Census Tract)">
+            <attribute name="GEO_ID2" keyType="CT_ID" dataTableName="Children in Poverty (Census Tract)" year=""/>
+            <attribute name="GEO_NAME" keyType="CT_ID" dataTableName="Children in Poverty (Census Tract)" year=""/>
+            <attribute name="Children In Poverty" keyType="CT_ID" dataTableName="Children in Poverty (Census Tract)" year=""/>
+          </category>
+          <category name="Massachusetts Municipalities"/>
+          <category name="Hospitalization Rates for Angina"/>
+          <category name="MCAS_Grade10_Shools_SCI_2010"/>
+          <category name="RMV VMT 1Km"/>
+          <category name="Boston Schools: 3rd Grade MCAS Scores (points)"/>
+          <category name="Single Family Building Permits 2000-2009"/>
+          <category name="Employment by Sector 2001-2006 (Municipal)"/>
+          <category name="Boston Assesor Data"/>
+          <category name="Latino/African American Populations (Puma)"/>
+          <category name="Multi-Family Building Permits 2000-2009"/>
+          <category name="Population 2000 (Census Tract)"/>
+          <category name="Hospitalization Rates for Heart Failure"/>
+        </category>
+        <category name="GeometryCollections">
+          <attribute name="st99_d00" dataType="Geometry"/>
+          <attribute name="MBTA Subway Lines" dataType="Geometry" keyType="line"/>
+          <attribute name="MCAS Grade4 Math 2010" dataType="Geometry"/>
+          <attribute name="Major Roads" dataType="Geometry"/>
+          <attribute name="MBTA Subway: Red line" dataType="Geometry"/>
+          <attribute name="Proposed Green Line Extension" dataType="Geometry"/>
+          <attribute name="Boston Schools: Circle of Promise Schools" dataType="Geometry" keyType="Schools_ID"/>
+          <attribute name="Watersheds" dataType="Geometry"/>
+          <attribute name="MCAS Grade4 ELA 2010" dataType="Geometry"/>
+          <attribute name="MBTA Subway: Silver line" dataType="Geometry"/>
+          <attribute name="Commuter Rail" dataType="Geometry"/>
+          <attribute name="MBTA Subway: Blue line" dataType="Geometry"/>
+          <attribute name="Foreclosure Deeds (2008)" dataType="Geometry"/>
+          <attribute name="BostonParcels_Subset" dataType="Geometry" keyType="Parcel_ID"/>
+          <attribute name="Boston Outline" keyType="town_id" dataType="Geometry"/>
+          <attribute name="US States (WGS)" dataType="Geometry"/>
+          <attribute name="Libraries" dataType="Geometry"/>
+          <attribute name="MA Counties" dataType="Geometry"/>
+          <attribute name="MCAS Grade10 MATH 2010" dataType="Geometry"/>
+          <attribute name="IndigoCommuterLine" dataType="Geometry" keyType="objectid"/>
+          <attribute name="MCAS Grade10 ELA 2010" keyType="MCAS Grade10 ELA 2010" dataType="Geometry"/>
+          <attribute name="Major Ponds" dataType="Geometry"/>
+          <attribute name="MA Senate Districts" dataType="Geometry"/>
+          <attribute name="MCAS Grade10 Science 2010" dataType="Geometry"/>
+          <attribute name="US States" keyType="STATE_FIPS" dataType="Geometry"/>
+          <attribute name="MAPC Towns" keyType="MAPC Towns" dataType="Geometry"/>
+          <attribute name="Proposed Green Line Extension Stops" dataType="Geometry"/>
+          <attribute name="Massachusetts Municipalities" dataType="Geometry"/>
+          <attribute name="Census 2000 Tracts" keyType="CT_ID" dataType="Geometry"/>
+          <attribute name="Census 2000 Block Groups" dataType="Geometry"/>
+          <attribute name="OpenSpace" dataType="Geometry"/>
+          <attribute name="RMV VMT 1Km" dataType="Geometry"/>
+          <attribute name="MBTA Subway Stations" dataType="Geometry"/>
+          <attribute name="Boston Parcels" dataType="Geometry"/>
+          <attribute name="MAPC_VMT" dataType="Geometry"/>
+          <attribute name="Schools" keyType="Schools" dataType="Geometry"/>
+          <attribute name="MBTA Subway: Orange line" dataType="Geometry"/>
+          <attribute name="Boston Neighborhoods" dataType="Geometry"/>
+          <attribute name="MBTA Subway: Green line" dataType="Geometry"/>
+          <attribute name="MA House Districts" dataType="Geometry"/>
+          <attribute name="Boston Schools: 3rd Grade MCAS Scores" dataType="Geometry"/>
+          <attribute name="Boston Schools" dataType="Geometry"/>
+          <attribute name="Boston_Cambridge_VMT_250m" dataType="Geometry"/>
+          <attribute name="Arts and Culture Points" dataType="Geometry" keyType="Arts_And_Culture_ID"/>
+          <attribute name="Boston Turnaround Schools" dataType="Geometry"/>
+          <attribute name="PUMA geography (5 Percent)" dataType="Geometry"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/OpenIndicatorsDataServices</url>
+    <useWebServices>false</useWebServices>
+  </OpenIndicatorsDataSource>
+  <ScatterPlotTool name="ScatterPlotTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <activeLayerName>plot</activeLayerName>
+        <dataBounds>
+          <xMax>100</xMax>
+          <xMin>0</xMin>
+          <yMax>100</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <StaticObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>10</maxScreenRadius>
+                <minScreenRadius>5</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="DataTables">
+                              <category name="Childhood Poverty 2000 (Census tracts)">
+                                <attribute name="Percent(%) Children below poverty level" keyType="CT_ID" dataTableName="Childhood Poverty 2000 (Census tracts)" min="0" year="" max="100"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="DataTables">
+                              <category name="Educational Attainment over 25 (Census Tract)">
+                                <attribute name="Bachelors Degree (%)" keyType="CT_ID" dataTableName="Educational Attainment over 25 (Census Tract)" min="0" year="" max="100"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <plotter encoding="dynamic">
+              <AxisPlotter>
+                <axisFont>Arial</axisFont>
+                <axisFontBold>true</axisFontBold>
+                <axisFontColor>0</axisFontColor>
+                <axisFontItalic>false</axisFontItalic>
+                <axisFontSize>12</axisFontSize>
+                <axisFontUnderline>false</axisFontUnderline>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineAlpha>1</axisLineAlpha>
+                <axisLineColor>0</axisLineColor>
+                <axisLineDataBounds>
+                  <xMax>100</xMax>
+                  <xMin>0</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>100</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <axisLineThickness>2</axisLineThickness>
+                <axisTickAlpha>1</axisTickAlpha>
+                <axisTickColor>0</axisTickColor>
+                <axisTickLength>10</axisTickLength>
+                <axisTickThickness>2</axisTickThickness>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <tickCountRequested>5</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </AxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <plotter encoding="dynamic">
+              <AxisPlotter>
+                <axisFont>Arial</axisFont>
+                <axisFontBold>true</axisFontBold>
+                <axisFontColor>0</axisFontColor>
+                <axisFontItalic>false</axisFontItalic>
+                <axisFontSize>12</axisFontSize>
+                <axisFontUnderline>false</axisFontUnderline>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineAlpha>1</axisLineAlpha>
+                <axisLineColor>0</axisLineColor>
+                <axisLineDataBounds>
+                  <xMax>0</xMax>
+                  <xMin>0</xMin>
+                  <yMax>100</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>100</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <axisLineThickness>2</axisLineThickness>
+                <axisTickAlpha>1</axisTickAlpha>
+                <axisTickColor>0</axisTickColor>
+                <axisTickLength>10</axisTickLength>
+                <axisTickThickness>2</axisTickThickness>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <tickCountRequested>5</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </AxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <helpAvailable>true</helpAvailable>
+    <hideBorders>false</hideBorders>
+    <lockPanel>false</lockPanel>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <panelHeight>49.257%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>48.828%</panelWidth>
+    <panelX>51.172%</panelX>
+    <panelY>0%</panelY>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <userControlsAvailable>true</userControlsAvailable>
+  </ScatterPlotTool>
+  <ColormapHistogramTool name="ColormapHistogramTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <activeLayerName>plot</activeLayerName>
+        <dataBounds>
+          <xMax>9.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>305</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <HistogramPlotterHack>
+                <binnedColumn>
+                  <binningDefinition encoding="dynamic">
+                    <SimpleBinningDefinition>
+                      <numberOfBins>10</numberOfBins>
+                    </SimpleBinningDefinition>
+                  </binningDefinition>
+                  <internalDynamicColumn encoding="dynamic">
+                    <StaticObjectReference name="defaultColorDataColumn"/>
+                  </internalDynamicColumn>
+                </binnedColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+              </HistogramPlotterHack>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <plotter encoding="dynamic">
+              <AxisPlotter>
+                <axisFont>Arial</axisFont>
+                <axisFontBold>true</axisFontBold>
+                <axisFontColor>0</axisFontColor>
+                <axisFontItalic>false</axisFontItalic>
+                <axisFontSize>10</axisFontSize>
+                <axisFontUnderline>false</axisFontUnderline>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineAlpha>1</axisLineAlpha>
+                <axisLineColor>0</axisLineColor>
+                <axisLineDataBounds>
+                  <xMax>9.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>9.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <axisLineThickness>2</axisLineThickness>
+                <axisTickAlpha>1</axisTickAlpha>
+                <axisTickColor>0</axisTickColor>
+                <axisTickLength>10</axisTickLength>
+                <axisTickThickness>2</axisTickThickness>
+                <forceTickCount>true</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>9</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </AxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <plotter encoding="dynamic">
+              <AxisPlotter>
+                <axisFont>Arial</axisFont>
+                <axisFontBold>true</axisFontBold>
+                <axisFontColor>0</axisFontColor>
+                <axisFontItalic>false</axisFontItalic>
+                <axisFontSize>10</axisFontSize>
+                <axisFontUnderline>false</axisFontUnderline>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineAlpha>1</axisLineAlpha>
+                <axisLineColor>0</axisLineColor>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>305</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>305</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <axisLineThickness>2</axisLineThickness>
+                <axisTickAlpha>1</axisTickAlpha>
+                <axisTickColor>0</axisTickColor>
+                <axisTickLength>10</axisTickLength>
+                <axisTickThickness>2</axisTickThickness>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <tickCountRequested>5</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </AxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <helpAvailable>true</helpAvailable>
+    <hideBorders>false</hideBorders>
+    <lockPanel/>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <panelHeight>50.106%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>46.094%</panelWidth>
+    <panelX>53.125%</panelX>
+    <panelY>49.894%</panelY>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <userControlsAvailable>true</userControlsAvailable>
+  </ColormapHistogramTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <activeLayerName>plot7</activeLayerName>
+        <dataBounds>
+          <xMax>247078.13368562693</xMax>
+          <xMin>226375.2015923635</xMin>
+          <yMax>915592.5351179148</yMax>
+          <yMin>877275.414832399</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fillStyle encoding="dynamic">
+                  <SolidFillStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <color>
+                      <defaultValue>NaN</defaultValue>
+                      <internalDynamicColumn encoding="dynamic">
+                        <StaticObjectReference name="defaultColorColumn"/>
+                      </internalDynamicColumn>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                  </SolidFillStyle>
+                </fillStyle>
+                <geometry encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="GeometryCollections">
+                              <attribute name="Census 2000 Tracts" dataType="Geometry"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </geometry>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>none</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot3">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fillStyle encoding="dynamic">
+                  <SolidFillStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <color>
+                      <defaultValue>NaN</defaultValue>
+                      <internalDynamicColumn encoding="dynamic">
+                        <StaticObjectReference name="defaultColorColumn"/>
+                      </internalDynamicColumn>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                  </SolidFillStyle>
+                </fillStyle>
+                <geometry encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="GeometryCollections">
+                              <attribute name="Boston Outline" dataType="Geometry"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </geometry>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>none</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot8">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fillStyle encoding="dynamic">
+                  <SolidFillStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <color>
+                      <defaultValue>NaN</defaultValue>
+                      <internalDynamicColumn encoding="dynamic">
+                        <StaticObjectReference name="defaultColorColumn"/>
+                      </internalDynamicColumn>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                  </SolidFillStyle>
+                </fillStyle>
+                <geometry encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="GeometryCollections">
+                              <attribute name="IndigoCommuterLine" dataType="Geometry" keyType="objectid"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </geometry>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0x0000ff</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>none</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot9">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fillStyle encoding="dynamic">
+                  <SolidFillStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <color>
+                      <defaultValue>0x8000e0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                  </SolidFillStyle>
+                </fillStyle>
+                <geometry encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="GeometryCollections">
+                              <attribute name="Arts and Culture Points" dataType="Geometry"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </geometry>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>none</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot7">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fillStyle encoding="dynamic">
+                  <SolidFillStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <color>
+                      <defaultValue>0xFFFF00</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                  </SolidFillStyle>
+                </fillStyle>
+                <geometry encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="GeometryCollections">
+                              <attribute name="MBTA Subway Lines" dataType="Geometry"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </geometry>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0xFFFF00</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>none</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot4">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fillStyle encoding="dynamic">
+                  <SolidFillStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <color>
+                      <defaultValue>0x0000a1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic">
+                        <StaticObjectReference name="defaultColorColumn"/>
+                      </internalDynamicColumn>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                  </SolidFillStyle>
+                </fillStyle>
+                <geometry encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="GeometryCollections">
+                              <attribute name="Schools" dataType="Geometry"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </geometry>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>none</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <pointShapeSize>3</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot6">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fillStyle encoding="dynamic">
+                  <SolidFillStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <color>
+                      <defaultValue>NaN</defaultValue>
+                      <internalDynamicColumn encoding="dynamic">
+                        <StaticObjectReference name="defaultColorColumn"/>
+                      </internalDynamicColumn>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                  </SolidFillStyle>
+                </fillStyle>
+                <geometry encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="GeometryCollections">
+                              <attribute name="BostonParcels_Subset" dataType="Geometry"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </geometry>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>none</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot10">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fillStyle encoding="dynamic">
+                  <SolidFillStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <color>
+                      <defaultValue>NaN</defaultValue>
+                      <internalDynamicColumn encoding="dynamic">
+                        <StaticObjectReference name="defaultColorColumn"/>
+                      </internalDynamicColumn>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                  </SolidFillStyle>
+                </fillStyle>
+                <geometry encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="Open Indicators Server">
+                            <category name="GeometryCollections">
+                              <attribute name="Boston Schools: Circle of Promise Schools" dataType="Geometry"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </geometry>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>none</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>4</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <helpAvailable>true</helpAvailable>
+    <hideBorders>false</hideBorders>
+    <lockPanel>false</lockPanel>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <panelHeight>100%</panelHeight>
+    <panelStyleList>backgroundColor: 10079487; borderColor: 5067352;</panelStyleList>
+    <panelWidth>48.828%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <userControlsAvailable>true</userControlsAvailable>
+  </MapTool>
+</Weave>

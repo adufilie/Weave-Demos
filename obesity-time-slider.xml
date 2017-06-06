@@ -1,0 +1,1579 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisTitleTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </axisTitleTextFormat>
+    <backgroundColor>13421772</backgroundColor>
+    <collabServerIP>demo.oicweave.org</collabServerIP>
+    <collabServerName>ivpr-vm</collabServerName>
+    <collabServerPort>5222</collabServerPort>
+    <collabServerRoom/>
+    <collabSpectating>false</collabSpectating>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dashedSelectionColor>65280</dashedSelectionColor>
+    <dashedZoomColor>64255</dashedZoomColor>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAnnotation>true</enableAnnotation>
+    <enableAnnuliCircles>false</enableAnnuliCircles>
+    <enableAxisToolTips>true</enableAxisToolTips>
+    <enableBitmapFilters>true</enableBitmapFilters>
+    <enableBrowseData>true</enableBrowseData>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCollaborationBar>false</enableCollaborationBar>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDrawCircle>true</enableDrawCircle>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportCSV>true</enableExportCSV>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullScreen>false</enableFullScreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableLoadMyData>true</enableLoadMyData>
+    <enableManageDataSources>true</enableManageDataSources>
+    <enableManagePlugins>false</enableManagePlugins>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMarker>true</enableMarker>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enablePenTool>true</enablePenTool>
+    <enableProbeLines>true</enableProbeLines>
+    <enableProbeToolTip>true</enableProbeToolTip>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionSelectorBox>true</enableSelectionSelectorBox>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionHistoryControls>true</enableSessionHistoryControls>
+    <enableSessionMenu>true</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetSelectionBox>true</enableSubsetSelectionBox>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWeaveAnalystMode>false</enableWeaveAnalystMode>
+    <enableWindowMenu>true</enableWindowMenu>
+    <eventListeners encoding="dynamic"/>
+    <externalTools encoding="dynamic"/>
+    <geometryMetadataRequestMode>xyz</geometryMetadataRequestMode>
+    <geometryMinimumScreenArea>1</geometryMinimumScreenArea>
+    <macroLibraries encoding="csv-row">WeaveAPI</macroLibraries>
+    <macros encoding="dynamic"/>
+    <maxComputationTimePerFrame>100</maxComputationTimePerFrame>
+    <maxTooltipRecordsShown>1</maxTooltipRecordsShown>
+    <panelTitleTextFormat>
+      <bold>false</bold>
+      <color>16777215</color>
+      <font>Verdana</font>
+      <italic>false</italic>
+      <size>10</size>
+      <underline>false</underline>
+    </panelTitleTextFormat>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeBufferSize>10</probeBufferSize>
+    <probeInnerGlow>
+      <alpha>1</alpha>
+      <blurX>5</blurX>
+      <blurY>5</blurY>
+      <color>16777215</color>
+      <strength>10</strength>
+    </probeInnerGlow>
+    <probeLineFormatter>str = replace(lpad(string, 8, "\t"), "\t", "  ");str + " (" + title + ")"</probeLineFormatter>
+    <probeOuterGlow>
+      <alpha>1</alpha>
+      <blurX>3</blurX>
+      <blurY>3</blurY>
+      <color>0</color>
+      <strength>3</strength>
+    </probeOuterGlow>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <probeToolTipMaxWidth>400</probeToolTipMaxWidth>
+    <recordsTooltipLocation>Lower left</recordsTooltipLocation>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <SecondaryKeyNumColumn_useGlobalMinMaxValues>true</SecondaryKeyNumColumn_useGlobalMinMaxValues>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <selectionDropShadow>
+      <alpha>0.5</alpha>
+      <angle>45</angle>
+      <blurX>4</blurX>
+      <blurY>4</blurY>
+      <color>0</color>
+      <distance>2</distance>
+      <strength>1</strength>
+    </selectionDropShadow>
+    <selectionMode>rectangle</selectionMode>
+    <showAddExternalTools>false</showAddExternalTools>
+    <showCollaborationEditor>false</showCollaborationEditor>
+    <showCollaborationMenuItem>true</showCollaborationMenuItem>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEmptyProbeRecordIdentifiers>true</showEmptyProbeRecordIdentifiers>
+    <showEquationEditor>true</showEquationEditor>
+    <showErrors>true</showErrors>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showProbeWindow>true</showProbeWindow>
+    <showSelectedRecordsText>true</showSelectedRecordsText>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <startupJavaScript/>
+    <toolInteractions>
+      <defaultDragMode>zoom</defaultDragMode>
+      <pan>alt,drag</pan>
+      <probe>move</probe>
+      <select>drag</select>
+      <selectAdd>ctrl,drag</selectAdd>
+      <selectAll>ctrl,dclick</selectAll>
+      <selectRemove>ctrl,shift,drag</selectRemove>
+      <zoom>shift,drag
+wheel</zoom>
+      <zoomIn>dclick</zoomIn>
+      <zoomOut>shift,dclick</zoomOut>
+      <zoomToExtent>ctrl,alt,shift,dclick</zoomToExtent>
+    </toolInteractions>
+    <toolToggles encoding="dynamic">
+      <LinkableBoolean name="GraphTool">false</LinkableBoolean>
+      <LinkableBoolean name="DataStatisticsTool">false</LinkableBoolean>
+      <LinkableBoolean name="RamachandranPlotTool">false</LinkableBoolean>
+      <LinkableBoolean name="SchafersMissingDataTool">false</LinkableBoolean>
+      <LinkableBoolean name="DataFilter">false</LinkableBoolean>
+      <LinkableBoolean name="AttributeMenuTool">true</LinkableBoolean>
+      <LinkableBoolean name="CompoundBarChartTool">true</LinkableBoolean>
+      <LinkableBoolean name="ColormapHistogramTool">true</LinkableBoolean>
+      <LinkableBoolean name="ColorBinLegendTool">true</LinkableBoolean>
+      <LinkableBoolean name="CompoundRadVizTool">true</LinkableBoolean>
+      <LinkableBoolean name="CustomTool">true</LinkableBoolean>
+      <LinkableBoolean name="DataTableTool">true</LinkableBoolean>
+      <LinkableBoolean name="DimensionSliderTool">true</LinkableBoolean>
+      <LinkableBoolean name="GaugeTool">true</LinkableBoolean>
+      <LinkableBoolean name="HistogramTool">true</LinkableBoolean>
+      <LinkableBoolean name="Histogram2DTool">true</LinkableBoolean>
+      <LinkableBoolean name="LineChartTool">true</LinkableBoolean>
+      <LinkableBoolean name="MapTool">true</LinkableBoolean>
+      <LinkableBoolean name="PieChartTool">true</LinkableBoolean>
+      <LinkableBoolean name="PieChartHistogramTool">true</LinkableBoolean>
+      <LinkableBoolean name="RTextEditor">true</LinkableBoolean>
+      <LinkableBoolean name="RadVizTool">true</LinkableBoolean>
+      <LinkableBoolean name="ScatterPlotTool">true</LinkableBoolean>
+      <LinkableBoolean name="ThermometerTool">true</LinkableBoolean>
+      <LinkableBoolean name="TimeSliderTool">true</LinkableBoolean>
+      <LinkableBoolean name="TransposedTableTool">true</LinkableBoolean>
+      <LinkableBoolean name="CustomGraphicsTool">true</LinkableBoolean>
+      <LinkableBoolean name="CytoscapeWebTool">true</LinkableBoolean>
+      <LinkableBoolean name="KeyMappingTool">true</LinkableBoolean>
+      <LinkableBoolean name="LayerSettingsTool">true</LinkableBoolean>
+      <LinkableBoolean name="TreeTool">true</LinkableBoolean>
+    </toolToggles>
+    <version>Nightly Build (Mon Aug 18 12:27:03 EDT 2014)</version>
+    <visTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </visTextFormat>
+    <visTitleTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </visTitleTextFormat>
+    <windowSnapGridSize>1%</windowSnapGridSize>
+    <workspaceHeight>NaN</workspaceHeight>
+    <workspaceMultiplier>1</workspaceMultiplier>
+    <workspaceWidth>NaN</workspaceWidth>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp>&lt;colorRamp name="5-Color" source="OIC" category="basic"&gt;
+  &lt;node color="0xEFF3FF" position="0"/&gt;
+  &lt;node color="0xBDD7E7" position="0.25"/&gt;
+  &lt;node color="0x6BAED6" position="0.5"/&gt;
+  &lt;node color="0x3182BD" position="0.75"/&gt;
+  &lt;node color="0x08519C" position="1"/&gt;
+&lt;/colorRamp&gt;</ramp>
+    <recordColors/>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>8</numberOfBins>
+        <overrideBinNames/>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dataSourceName>WeaveDataSource</dataSourceName>
+        <metadata>
+          <dataTable>obesity-2010</dataTable>
+          <dataType>number</dataType>
+          <geometryCollection>States</geometryCollection>
+          <id>1076076</id>
+          <keyType>US State FIPS Code</keyType>
+          <max>40</max>
+          <min>0</min>
+          <name>Percent Obese (BMI &gt;= 30)</name>
+          <string>formatNumber(number, 1) + '%'</string>
+          <title>Percent Obese (BMI &gt;= 30)  (1995)</title>
+          <year>1995</year>
+        </metadata>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <filters encoding="dynamic"/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet" encoding="dynamic"/>
+  <KeySet name="alwaysHighlightKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml"/>
+    <hierarchyURL/>
+    <idFields/>
+    <rootId/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dataSourceName>WeaveDataSource</dataSourceName>
+      <metadata>
+        <dataTable>Obesity</dataTable>
+        <dataType>string</dataType>
+        <entityType>column</entityType>
+        <geometryCollection>States</geometryCollection>
+        <isEntity>true</isEntity>
+        <keyType>US State FIPS Code</keyType>
+        <name>State</name>
+        <title>State</title>
+        <weaveEntityId>97444</weaveEntityId>
+      </metadata>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic"/>
+  <TimeSliderTool name="TimeSliderTool">
+    <buttonRadius>3</buttonRadius>
+    <closeable>true</closeable>
+    <currentSliderPosition>0</currentSliderPosition>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <enableZOrder>true</enableZOrder>
+    <filterValues encoding="csv-row">1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010</filterValues>
+    <layoutMode>HSlider</layoutMode>
+    <linkGlobalColumns>true</linkGlobalColumns>
+    <linkLineCharts>false</linkLineCharts>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <maxLabelCount>10</maxLabelCount>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>11%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>100%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+    <showPlayButton>true</showPlayButton>
+    <timerDelay>2500</timerDelay>
+    <unlinkedTools encoding="dynamic"/>
+    <zOrder>0</zOrder>
+  </TimeSliderTool>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>0</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>0</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <plotManager>
+          <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+          <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+          <enableFixedAspectRatio>false</enableFixedAspectRatio>
+          <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+          <layerSettings encoding="dynamic">
+            <LayerSettings name="plot">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+          </layerSettings>
+          <marginBottom>5</marginBottom>
+          <marginLeft>5</marginLeft>
+          <marginRight>5</marginRight>
+          <marginTop>25</marginTop>
+          <maxZoomLevel>16</maxZoomLevel>
+          <minScreenSize>128</minScreenSize>
+          <minZoomLevel>0</minZoomLevel>
+          <overrideXMax>NaN</overrideXMax>
+          <overrideXMin>NaN</overrideXMin>
+          <overrideYMax>NaN</overrideYMax>
+          <overrideYMin>NaN</overrideYMin>
+          <plotters encoding="dynamic">
+            <ColorBinLegendPlotter name="plot">
+              <ascendingOrder>true</ascendingOrder>
+              <dynamicColorColumn encoding="dynamic">
+                <GlobalObjectReference name="defaultColorColumn"/>
+              </dynamicColorColumn>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <itemLabelFunction>string</itemLabelFunction>
+              <legendTitleFunction>string</legendTitleFunction>
+              <lineStyle>
+                <alpha>
+                  <defaultValue>0.5</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <caps>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </caps>
+                <color>
+                  <defaultValue>0</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </color>
+                <enable>true</enable>
+                <joints>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </joints>
+                <miterLimit>
+                  <defaultValue>3</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </miterLimit>
+                <pixelHinting>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </pixelHinting>
+                <scaleMode>
+                  <defaultValue>normal</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </scaleMode>
+                <weight>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <NormalizedColumn>
+                      <internalDynamicColumn encoding="dynamic"/>
+                      <max>5</max>
+                      <min>1</min>
+                    </NormalizedColumn>
+                  </internalDynamicColumn>
+                </weight>
+              </lineStyle>
+              <maxColumns>1</maxColumns>
+              <shapeSize>20</shapeSize>
+              <shapeType>circle</shapeType>
+            </ColorBinLegendPlotter>
+          </plotters>
+          <zoomBounds>
+            <xMax>1</xMax>
+            <xMin>0</xMin>
+            <yMax>1</yMax>
+            <yMin>0</yMin>
+          </zoomBounds>
+        </plotManager>
+        <zoomFactor>2</zoomFactor>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <enableTitle>false</enableTitle>
+    <enableZOrder>true</enableZOrder>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>21%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>11%</panelY>
+    <zOrder>0</zOrder>
+  </ColorBinLegendTool>
+  <ColormapHistogramTool name="ColormapHistogramTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <plotManager>
+          <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+          <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+          <enableFixedAspectRatio>false</enableFixedAspectRatio>
+          <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+          <layerSettings encoding="dynamic">
+            <LayerSettings name="yAxis">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>false</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="xAxis">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>false</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="plot">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="probeLine">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>false</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+          </layerSettings>
+          <marginBottom>105</marginBottom>
+          <marginLeft>50</marginLeft>
+          <marginRight>10</marginRight>
+          <marginTop>10</marginTop>
+          <maxZoomLevel>16</maxZoomLevel>
+          <minScreenSize>128</minScreenSize>
+          <minZoomLevel>0</minZoomLevel>
+          <overrideXMax>NaN</overrideXMax>
+          <overrideXMin>NaN</overrideXMin>
+          <overrideYMax>NaN</overrideYMax>
+          <overrideYMin>NaN</overrideYMin>
+          <plotters encoding="dynamic">
+            <SimpleAxisPlotter name="yAxis">
+              <axisLabelHorizontalDistance>-10</axisLabelHorizontalDistance>
+              <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+              <axisLabelVerticalDistance>0</axisLabelVerticalDistance>
+              <axisLineDataBounds>
+                <xMax>-0.5</xMax>
+                <xMin>-0.5</xMin>
+                <yMax>29</yMax>
+                <yMin>0</yMin>
+              </axisLineDataBounds>
+              <axisLineMaxValue>29</axisLineMaxValue>
+              <axisLineMinValue>0</axisLineMinValue>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <forceTickCount>false</forceTickCount>
+              <labelFunction>string</labelFunction>
+              <labelHorizontalAlign>right</labelHorizontalAlign>
+              <labelNumberFormatter>
+                <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                <decimalSeparatorTo>.</decimalSeparatorTo>
+                <precision>0</precision>
+                <rounding>none</rounding>
+                <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                <useNegativeSign>true</useNegativeSign>
+                <useThousandsSeparator>true</useThousandsSeparator>
+              </labelNumberFormatter>
+              <labelTextAlignment>left</labelTextAlignment>
+              <labelVerticalAlign>bottom</labelVerticalAlign>
+              <labelWordWrapSize>80</labelWordWrapSize>
+              <overrideAxisName/>
+              <showAxisName>true</showAxisName>
+              <showLabels>true</showLabels>
+              <tickCountRequested>10</tickCountRequested>
+              <tickMaxValue>NaN</tickMaxValue>
+              <tickMinValue>NaN</tickMinValue>
+            </SimpleAxisPlotter>
+            <SimpleAxisPlotter name="xAxis">
+              <axisLabelHorizontalDistance>-10</axisLabelHorizontalDistance>
+              <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+              <axisLabelVerticalDistance>0</axisLabelVerticalDistance>
+              <axisLineDataBounds>
+                <xMax>7.5</xMax>
+                <xMin>-0.5</xMin>
+                <yMax>0</yMax>
+                <yMin>0</yMin>
+              </axisLineDataBounds>
+              <axisLineMaxValue>7.5</axisLineMaxValue>
+              <axisLineMinValue>-0.5</axisLineMinValue>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <forceTickCount>true</forceTickCount>
+              <labelFunction>string</labelFunction>
+              <labelHorizontalAlign>right</labelHorizontalAlign>
+              <labelNumberFormatter>
+                <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                <decimalSeparatorTo>.</decimalSeparatorTo>
+                <precision>0</precision>
+                <rounding>none</rounding>
+                <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                <useNegativeSign>true</useNegativeSign>
+                <useThousandsSeparator>true</useThousandsSeparator>
+              </labelNumberFormatter>
+              <labelTextAlignment>left</labelTextAlignment>
+              <labelVerticalAlign>top</labelVerticalAlign>
+              <labelWordWrapSize>80</labelWordWrapSize>
+              <overrideAxisName/>
+              <showAxisName>true</showAxisName>
+              <showLabels>true</showLabels>
+              <tickCountRequested>8</tickCountRequested>
+              <tickMaxValue>7</tickMaxValue>
+              <tickMinValue>0</tickMinValue>
+            </SimpleAxisPlotter>
+            <HistogramPlotter name="plot">
+              <aggregationMethod>count</aggregationMethod>
+              <columnToAggregate encoding="dynamic"/>
+              <drawPartialBins>true</drawPartialBins>
+              <fillStyle>
+                <alpha>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <color>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </color>
+                <enable>true</enable>
+              </fillStyle>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <horizontalMode>false</horizontalMode>
+              <lineStyle>
+                <alpha>
+                  <defaultValue>0.5</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <caps>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </caps>
+                <color>
+                  <defaultValue>0</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </color>
+                <enable>true</enable>
+                <joints>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </joints>
+                <miterLimit>
+                  <defaultValue>3</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </miterLimit>
+                <pixelHinting>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </pixelHinting>
+                <scaleMode>
+                  <defaultValue>normal</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </scaleMode>
+                <weight>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <NormalizedColumn>
+                      <internalDynamicColumn encoding="dynamic"/>
+                      <max>5</max>
+                      <min>1</min>
+                    </NormalizedColumn>
+                  </internalDynamicColumn>
+                </weight>
+              </lineStyle>
+            </HistogramPlotter>
+            <ProbeLinePlotter name="probeLine">
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+            </ProbeLinePlotter>
+          </plotters>
+          <zoomBounds>
+            <xMax>7.5</xMax>
+            <xMin>-0.5</xMin>
+            <yMax>29</yMax>
+            <yMin>0</yMin>
+          </zoomBounds>
+        </plotManager>
+        <zoomFactor>2</zoomFactor>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <enableTitle>false</enableTitle>
+    <enableZOrder>true</enableZOrder>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>39%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>28%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>61%</panelY>
+    <zOrder>0</zOrder>
+  </ColormapHistogramTool>
+  <CompoundBarChartTool name="CompoundBarChartTool">
+    <attributesToIncludeInProbe encoding="json">[
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+]</attributesToIncludeInProbe>
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <plotManager>
+          <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+          <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+          <enableFixedAspectRatio>false</enableFixedAspectRatio>
+          <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+          <layerSettings encoding="dynamic">
+            <LayerSettings name="yAxis">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>false</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="xAxis">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>false</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="plot">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="probeLine">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>false</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+          </layerSettings>
+          <marginBottom>105</marginBottom>
+          <marginLeft>80</marginLeft>
+          <marginRight>30</marginRight>
+          <marginTop>30</marginTop>
+          <maxZoomLevel>16</maxZoomLevel>
+          <minScreenSize>128</minScreenSize>
+          <minZoomLevel>0</minZoomLevel>
+          <overrideXMax>NaN</overrideXMax>
+          <overrideXMin>NaN</overrideXMin>
+          <overrideYMax>NaN</overrideYMax>
+          <overrideYMin>NaN</overrideYMin>
+          <plotters encoding="dynamic">
+            <SimpleAxisPlotter name="yAxis">
+              <axisLabelHorizontalDistance>-10</axisLabelHorizontalDistance>
+              <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+              <axisLabelVerticalDistance>0</axisLabelVerticalDistance>
+              <axisLineDataBounds>
+                <xMax>-0.5</xMax>
+                <xMin>-0.5</xMin>
+                <yMax>20.1</yMax>
+                <yMin>0</yMin>
+              </axisLineDataBounds>
+              <axisLineMaxValue>20.1</axisLineMaxValue>
+              <axisLineMinValue>0</axisLineMinValue>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <forceTickCount>false</forceTickCount>
+              <labelFunction>string</labelFunction>
+              <labelHorizontalAlign>right</labelHorizontalAlign>
+              <labelNumberFormatter>
+                <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                <decimalSeparatorTo>.</decimalSeparatorTo>
+                <precision>0</precision>
+                <rounding>none</rounding>
+                <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                <useNegativeSign>true</useNegativeSign>
+                <useThousandsSeparator>true</useThousandsSeparator>
+              </labelNumberFormatter>
+              <labelTextAlignment>left</labelTextAlignment>
+              <labelVerticalAlign>bottom</labelVerticalAlign>
+              <labelWordWrapSize>80</labelWordWrapSize>
+              <overrideAxisName/>
+              <showAxisName>true</showAxisName>
+              <showLabels>true</showLabels>
+              <tickCountRequested>5</tickCountRequested>
+              <tickMaxValue>NaN</tickMaxValue>
+              <tickMinValue>NaN</tickMinValue>
+            </SimpleAxisPlotter>
+            <SimpleAxisPlotter name="xAxis">
+              <axisLabelHorizontalDistance>-10</axisLabelHorizontalDistance>
+              <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+              <axisLabelVerticalDistance>0</axisLabelVerticalDistance>
+              <axisLineDataBounds>
+                <xMax>47.5</xMax>
+                <xMin>-0.5</xMin>
+                <yMax>0</yMax>
+                <yMin>0</yMin>
+              </axisLineDataBounds>
+              <axisLineMaxValue>47.5</axisLineMaxValue>
+              <axisLineMinValue>-0.5</axisLineMinValue>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <forceTickCount>true</forceTickCount>
+              <labelFunction>string</labelFunction>
+              <labelHorizontalAlign>right</labelHorizontalAlign>
+              <labelNumberFormatter>
+                <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                <decimalSeparatorTo>.</decimalSeparatorTo>
+                <precision>0</precision>
+                <rounding>none</rounding>
+                <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                <useNegativeSign>true</useNegativeSign>
+                <useThousandsSeparator>true</useThousandsSeparator>
+              </labelNumberFormatter>
+              <labelTextAlignment>left</labelTextAlignment>
+              <labelVerticalAlign>top</labelVerticalAlign>
+              <labelWordWrapSize>80</labelWordWrapSize>
+              <overrideAxisName/>
+              <showAxisName>true</showAxisName>
+              <showLabels>true</showLabels>
+              <tickCountRequested>48</tickCountRequested>
+              <tickMaxValue>47</tickMaxValue>
+              <tickMinValue>0</tickMinValue>
+            </SimpleAxisPlotter>
+            <CompoundBarChartPlotter name="plot">
+              <barSpacing>0</barSpacing>
+              <chartColors>&lt;colorRamp name="Doppler Radar" tags="OIC,aesthetic,qualitative"&gt;0x04E9E7,0x009DF4,0x0201F4,0x01FC01,0x00C400,0x008C00,0x0FDF801,0xF99200,0xFD0000,0xBC0000,0xF800FD,0x9854C6&lt;/colorRamp&gt;</chartColors>
+              <colorColumn>
+                <defaultValue>NaN</defaultValue>
+                <internalDynamicColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </internalDynamicColumn>
+              </colorColumn>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <groupBySortColumn>false</groupBySortColumn>
+              <groupingMode>stack</groupingMode>
+              <heightColumns encoding="dynamic">
+                <DynamicColumn name="DynamicColumn" encoding="dynamic">
+                  <ReferencedColumn>
+                    <dataSourceName>WeaveDataSource</dataSourceName>
+                    <metadata>
+                      <dataTable>obesity-2010</dataTable>
+                      <dataType>number</dataType>
+                      <geometryCollection>States</geometryCollection>
+                      <id>1076076</id>
+                      <keyType>US State FIPS Code</keyType>
+                      <max>40</max>
+                      <min>0</min>
+                      <name>Percent Obese (BMI &gt;= 30)</name>
+                      <string>formatNumber(number, 1) + '%'</string>
+                      <title>Percent Obese (BMI &gt;= 30)  (1995)</title>
+                      <year>1995</year>
+                    </metadata>
+                  </ReferencedColumn>
+                </DynamicColumn>
+              </heightColumns>
+              <horizontalMode>false</horizontalMode>
+              <labelColor>0</labelColor>
+              <labelColumn encoding="dynamic">
+                <ReferencedColumn>
+                  <dataSourceName>WeaveDataSource</dataSourceName>
+                  <metadata>
+                    <dataTable>Obesity</dataTable>
+                    <dataType>string</dataType>
+                    <entityType>column</entityType>
+                    <geometryCollection>States</geometryCollection>
+                    <isEntity>true</isEntity>
+                    <keyType>US State FIPS Code</keyType>
+                    <name>State</name>
+                    <title>State</title>
+                    <weaveEntityId>97444</weaveEntityId>
+                  </metadata>
+                </ReferencedColumn>
+              </labelColumn>
+              <labelDataCoordinate>NaN</labelDataCoordinate>
+              <labelFormatter>string</labelFormatter>
+              <labelHorizontalAlign>right</labelHorizontalAlign>
+              <labelMaxWidth>200</labelMaxWidth>
+              <labelRelativeAngle>NaN</labelRelativeAngle>
+              <labelVerticalAlign>middle</labelVerticalAlign>
+              <line>
+                <alpha>
+                  <defaultValue>0.5</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <caps>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </caps>
+                <color>
+                  <defaultValue>0</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </color>
+                <enable>true</enable>
+                <joints>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </joints>
+                <miterLimit>
+                  <defaultValue>3</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </miterLimit>
+                <pixelHinting>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </pixelHinting>
+                <scaleMode>
+                  <defaultValue>normal</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </scaleMode>
+                <weight>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <NormalizedColumn>
+                      <internalDynamicColumn encoding="dynamic"/>
+                      <max>5</max>
+                      <min>1</min>
+                    </NormalizedColumn>
+                  </internalDynamicColumn>
+                </weight>
+              </line>
+              <negativeErrorColumns encoding="dynamic"/>
+              <positiveErrorColumns encoding="dynamic"/>
+              <recordLabelColoring>false</recordLabelColoring>
+              <recordValueLabelColoring>false</recordValueLabelColoring>
+              <showLabels>false</showLabels>
+              <showValueLabels>false</showValueLabels>
+              <sortColumn encoding="dynamic">
+                <ReferencedColumn>
+                  <dataSourceName>WeaveDataSource</dataSourceName>
+                  <metadata>
+                    <dataTable>obesity-2010</dataTable>
+                    <dataType>number</dataType>
+                    <geometryCollection>States</geometryCollection>
+                    <id>1076076</id>
+                    <keyType>US State FIPS Code</keyType>
+                    <max>40</max>
+                    <min>0</min>
+                    <name>Percent Obese (BMI &gt;= 30)</name>
+                    <string>formatNumber(number, 1) + '%'</string>
+                    <title>Percent Obese (BMI &gt;= 30)  (1995)</title>
+                    <year>1995</year>
+                  </metadata>
+                </ReferencedColumn>
+              </sortColumn>
+              <stackedMissingDataGap>true</stackedMissingDataGap>
+              <valueLabelColor>0</valueLabelColor>
+              <valueLabelDataCoordinate>NaN</valueLabelDataCoordinate>
+              <valueLabelHorizontalAlign>left</valueLabelHorizontalAlign>
+              <valueLabelMaxWidth>200</valueLabelMaxWidth>
+              <valueLabelRelativeAngle>NaN</valueLabelRelativeAngle>
+              <valueLabelVerticalAlign>middle</valueLabelVerticalAlign>
+              <zoomToSubset>true</zoomToSubset>
+              <zoomToSubsetBars>false</zoomToSubsetBars>
+            </CompoundBarChartPlotter>
+            <ProbeLinePlotter name="probeLine">
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+            </ProbeLinePlotter>
+          </plotters>
+          <zoomBounds>
+            <xMax>47.5</xMax>
+            <xMin>-0.5</xMin>
+            <yMax>20.1</yMax>
+            <yMin>0</yMin>
+          </zoomBounds>
+        </plotManager>
+        <zoomFactor>2</zoomFactor>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <enableTitle>false</enableTitle>
+    <enableZOrder>true</enableZOrder>
+    <linkHeightAndColorColumns>false</linkHeightAndColorColumns>
+    <linkHeightAndSortColumns>false</linkHeightAndSortColumns>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>39%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>72%</panelWidth>
+    <panelX>28%</panelX>
+    <panelY>61%</panelY>
+    <showAllLabels>true</showAllLabels>
+    <sizeAxisTickCountRequested>5</sizeAxisTickCountRequested>
+    <zOrder>0</zOrder>
+  </CompoundBarChartTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>0</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>0</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <plotManager>
+          <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+          <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+          <enableFixedAspectRatio>true</enableFixedAspectRatio>
+          <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+          <layerSettings encoding="dynamic">
+            <LayerSettings name="plot">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+            <LayerSettings name="Geometry labels">
+              <alpha>1</alpha>
+              <alwaysRenderSelection>false</alwaysRenderSelection>
+              <maxVisibleScale>Infinity</maxVisibleScale>
+              <minVisibleScale>0</minVisibleScale>
+              <selectable>true</selectable>
+              <visible>true</visible>
+            </LayerSettings>
+          </layerSettings>
+          <marginBottom>0</marginBottom>
+          <marginLeft>0</marginLeft>
+          <marginRight>0</marginRight>
+          <marginTop>0</marginTop>
+          <maxZoomLevel>16</maxZoomLevel>
+          <minScreenSize>128</minScreenSize>
+          <minZoomLevel>0</minZoomLevel>
+          <overrideXMax>NaN</overrideXMax>
+          <overrideXMin>NaN</overrideXMin>
+          <overrideYMax>NaN</overrideYMax>
+          <overrideYMin>NaN</overrideYMin>
+          <plotters encoding="dynamic">
+            <GeometryPlotter name="plot">
+              <fill>
+                <alpha>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <color>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </color>
+                <enable>true</enable>
+                <enableMissingDataGradient>false</enableMissingDataGradient>
+                <imageURL>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </imageURL>
+              </fill>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <geometryColumn>
+                <internalDynamicColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dataSourceName>WeaveDataSource</dataSourceName>
+                    <metadata>
+                      <dataType>geometry</dataType>
+                      <keyType>US State FIPS Code</keyType>
+                      <name>States</name>
+                      <title>States</title>
+                    </metadata>
+                  </ReferencedColumn>
+                </internalDynamicColumn>
+                <projectionSRS/>
+              </geometryColumn>
+              <iconSize>10</iconSize>
+              <line>
+                <alpha>
+                  <defaultValue>0.5</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alpha>
+                <caps>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </caps>
+                <color>
+                  <defaultValue>0</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </color>
+                <enable>true</enable>
+                <joints>
+                  <defaultValue/>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </joints>
+                <miterLimit>
+                  <defaultValue>3</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </miterLimit>
+                <pixelHinting>
+                  <defaultValue>false</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </pixelHinting>
+                <scaleMode>
+                  <defaultValue>none</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </scaleMode>
+                <weight>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <NormalizedColumn>
+                      <internalDynamicColumn encoding="dynamic"/>
+                      <max>5</max>
+                      <min>1</min>
+                    </NormalizedColumn>
+                  </internalDynamicColumn>
+                </weight>
+              </line>
+              <pixellation>1</pixellation>
+              <pointDataImageColumn encoding="dynamic"/>
+              <symbolPlotters encoding="dynamic"/>
+              <useFixedImageSize>false</useFixedImageSize>
+            </GeometryPlotter>
+            <GeometryLabelPlotter name="Geometry labels">
+              <angle>
+                <defaultValue>0</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </angle>
+              <bold>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </bold>
+              <color>
+                <defaultValue>0</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </color>
+              <destinationProjection/>
+              <filteredKeySet>
+                <keyFilter encoding="dynamic">
+                  <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                </keyFilter>
+              </filteredKeySet>
+              <font>
+                <defaultValue>Sophia Nubian</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </font>
+              <geometryColumn>
+                <internalDynamicColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dataSourceName>WeaveDataSource</dataSourceName>
+                    <metadata>
+                      <dataType>geometry</dataType>
+                      <keyType>US State FIPS Code</keyType>
+                      <name>States</name>
+                      <title>States</title>
+                    </metadata>
+                  </ReferencedColumn>
+                </internalDynamicColumn>
+                <projectionSRS/>
+              </geometryColumn>
+              <hAlign>
+                <defaultValue>center</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </hAlign>
+              <hideOverlappingText>true</hideOverlappingText>
+              <italic>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </italic>
+              <maxWidth>100</maxWidth>
+              <size>
+                <defaultValue>11</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </size>
+              <sortColumn encoding="dynamic"/>
+              <sourceProjection/>
+              <text encoding="dynamic">
+                <ReferencedColumn>
+                  <dataSourceName>WeaveDataSource</dataSourceName>
+                  <metadata>
+                    <dataTable>Obesity</dataTable>
+                    <dataType>string</dataType>
+                    <entityType>column</entityType>
+                    <geometryCollection>States</geometryCollection>
+                    <isEntity>true</isEntity>
+                    <keyType>US State FIPS Code</keyType>
+                    <name>State</name>
+                    <title>State</title>
+                    <weaveEntityId>97444</weaveEntityId>
+                  </metadata>
+                </ReferencedColumn>
+              </text>
+              <underline>
+                <defaultValue>false</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </underline>
+              <vAlign>
+                <defaultValue>middle</defaultValue>
+                <internalDynamicColumn encoding="dynamic"/>
+              </vAlign>
+              <xScreenOffset>0</xScreenOffset>
+              <yScreenOffset>0</yScreenOffset>
+              <zoomToSubset>false</zoomToSubset>
+            </GeometryLabelPlotter>
+          </plotters>
+          <zoomBounds>
+            <area>10399.540662797</area>
+            <xCenter>-114.52940722484</xCenter>
+            <yCenter>43.489989306277</yCenter>
+          </zoomBounds>
+        </plotManager>
+        <zoomFactor>2</zoomFactor>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <enableBackground>false</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableOverview>false</enableOverview>
+    <enableSubMenu>false</enableSubMenu>
+    <enableTitle>false</enableTitle>
+    <enableZOrder>true</enableZOrder>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maptoolsLocation>0</maptoolsLocation>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>79%</panelWidth>
+    <panelX>21%</panelX>
+    <panelY>11%</panelY>
+    <projectionSRS/>
+    <showMouseModeControls>true</showMouseModeControls>
+    <showZoomControls>true</showZoomControls>
+    <zoomSliderHeight>100</zoomSliderHeight>
+    <zoomToBaseMap>true</zoomToBaseMap>
+    <zOrder>0</zOrder>
+  </MapTool>
+  <ByteArray name="thumbnail.png" encoding="base64">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
+oVvy3fc/WEL6LIBCh4DOnxHUGlE+cIBYat75AwVzGiwJLGcBxAKIE8cIspzN7N+l49wBprTva5+P
+DSB/UXPp8Kx62RVSLHk1vYv+4DjLLQ/3VB/n9Oi9TWE1QG5NTEp0fpP80+/j5Z8+TpB//3GcXO+a
+ttJljs0GfwTtvr4+fayoybD94dUYKnJANdotwrBfA1qorbsWQCz33gCCufvmgAINDujfKaCEZ13X
+WicOrMbMHebHvobjYjjlhN+ycY8amCmGr6+vttxF9Yu1bVZWlrb0BTgWQCy3pAHCSnpRfb/8h0/i
+NDj+46p4GR6/9+JghD6974NFQUYTFgNRbzJ6MJLwDpUnKmAzinD8D3Y4nHKCvwUQyy15IZ1pUl3H
+iIRk1MrQrbuWDGI5y1laLMtZbhYAqa6t19OkxUyl5ZWa+K2XRQtL5phYi16msiuVsmLVui2yat1m
+Wb1+q6xW939Yu1nw43nVi+fFQKvsSOdV0XReX533n2jxl8+id0eGX5zzz5YZz6vN8wveWLFzzwEp
+Ki6VwqIiqaioFDfPk3L16jW5XFAgZWXlKvAW+eyLjfLFhm3y0crVsnL1evntJ6veSHyzYcuXsmHr
+l+rbrU7DfPKHdfrK+41bd+nwjmH8TgeJh4enJCYmSXJquqbu7h7p6u6W02dCJSYuXr8PCjqj855/
+uUCqqqv1de2m7fLx52vfWL7tu/bZ8gJ9umq97Phqv867Y14XsmzQlh27p9/ruLbJxm275FP17e8+
+XT0jnH6vGm7Ttq/0N/htVtfPVV7Wb9kpa9S3vKMs5P33n62ZVTt96HQq4Ix4enpJYlKSpKSla+rp
+6dW/7Qs4EyaxcQn6fdCZYHHz8pWCwiJ9ECHXtZt2yIptX+6Ri+npUlpaqg+n9jp5Sry8vCQ+Pl6f
+aLJGNXBw2DmJiU+UwJCzEnc+WXz9g+RcdJwEBoeLn8pAZnauePqckjNhEbLty72KCX0lISlFtqnG
+OhUQLLEJFxQjJ0ro2SjxDwyV1IuX1HfKPz5JMwTx+QeGSERUnJxQDPyFRvQWXcCAMyESGBgo/v7+
+EqgKcSkrR2/thELPnpPziYlaJY2a2cfvtD5Ugn8ncl2/eYcGyJvKFxoRrYEXdi5GXI65y8lTgbJ5
++1cSGRMvIeGR2j8hMVnn9W3Kdv5Cqo4vXtVh7PkLmpFJz0PVXfqlHMkvKNZ1DbiOuXnLUVdPlYcE
+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</ByteArray>
+</Weave>

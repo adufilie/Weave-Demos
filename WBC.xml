@@ -1,0 +1,1447 @@
+<Weave encoding="TypedSessionState">
+  <WeaveProperties name="WeaveProperties">
+    <enableDataImport>true</enableDataImport>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableMapLayerAddRemove>true</enableMapLayerAddRemove>
+    <enableMapLayerEdit>true</enableMapLayerEdit>
+    <enableMenuBar>true</enableMenuBar>
+    <enableSession>false</enableSession>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionLoad>true</enableSessionLoad>
+    <enableSessionSave>true</enableSessionSave>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableTaskbar>true</enableTaskbar>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolAutoResizeAndPosition>true</enableToolAutoResizeAndPosition>
+    <enableToolClickDebug>false</enableToolClickDebug>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <probePrefix/>
+    <probeSuffix/>
+    <rServicesURL>/OpenIndicatorsRServices</rServicesURL>
+    <showCopyright>true</showCopyright>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showVisToolCloseDialog>true</showVisToolCloseDialog>
+    <version>Beta 0.8</version>
+    <wsShapesURL>/OpenIndicatorsDataServices/WSShapesService?wsdl</wsShapesURL>
+  </WeaveProperties>
+  <OpenIndicatorsDataSource name="OpenIndicatorsDataSource">
+    <alertEnabled>true</alertEnabled>
+    <attributeHierarchy encoding="XML">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="Goal 1. Eradicate extreme poverty and hunger">
+          <category name="Target 1.A: Halve - between 1990 and 2015 - the proportion of people whose income is less than one dollar a day">
+            <category name="Poverty gap at $1.25 a day (PPP) (%)">
+              <attribute name="Country Code" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" max=""/>
+              <attribute name="Country Name" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" max=""/>
+              <attribute name="Series Code" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" max=""/>
+              <attribute name="Series Name" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1990" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1991" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1992" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1993" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1994" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1995" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1996" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1997" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1998" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_1999" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2000" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2001" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2002" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2003" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2004" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2005" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" max=""/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2006" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" max=""/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2007" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" max=""/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" max=""/>
+              <attribute name="Poverty gap at $1.25 a day (PPP) (%)_2009" year="" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Poverty gap at $2 a day (PPP) (%)">
+              <attribute name="Country Code" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $2 a day (PPP) (%)" max=""/>
+              <attribute name="Country Name" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $2 a day (PPP) (%)" max=""/>
+              <attribute name="Series Code" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $2 a day (PPP) (%)" max=""/>
+              <attribute name="Series Name" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1990" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1991" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1992" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1993" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1994" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1995" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1996" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1997" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1998" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_1999" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2000" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2001" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2002" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2003" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2004" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2005" year="" dataTableName="Poverty gap at $2 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2006" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $2 a day (PPP) (%)" max=""/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2007" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $2 a day (PPP) (%)" max=""/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $2 a day (PPP) (%)" max=""/>
+              <attribute name="Poverty gap at $2 a day (PPP) (%)_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Poverty gap at $2 a day (PPP) (%)" max=""/>
+            </category>
+            <category name="Poverty gap at national poverty line (%)"/>
+            <category name="Poverty gap at rural poverty line (%)"/>
+            <category name="Poverty gap at urban poverty line (%)"/>
+            <category name="Poverty headcount ratio at $1.25 a day (PPP)"/>
+            <category name="Poverty headcount ratio at $2 a day (PPP)"/>
+            <category name="Poverty headcount ratio at national poverty line"/>
+            <category name="Poverty headcount ratio at rural poverty line"/>
+            <category name="Poverty headcount ratio at urban poverty line"/>
+            <category name="Population, total">
+              <attribute name="Country Code" year="" dataTableName="Population, total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Population, total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Population, total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Population, total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population, total_1990" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_1991" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_1992" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_1993" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_1994" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_1995" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_1996" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_1997" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_1998" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_1999" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2000" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2001" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2002" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2003" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2004" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2005" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2006" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2007" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+              <attribute name="Population, total_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population, total" max=""/>
+            </category>
+          </category>
+          <category name="Target 1.B: Achieve full and productive employment and decent work for all_including women and young people">
+            <category name="Employment to population ratio 15+ total">
+              <attribute name="Country Code" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1990" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1991" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1992" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1993" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1994" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1995" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1996" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1997" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1998" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_1999" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2000" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2001" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2002" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2003" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2004" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2005" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2006" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2007" year="" dataTableName="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Employment to population ratio 15+ total" max=""/>
+              <attribute name="Employment to population ratio, 15+, total (%)_2009" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="Employment to population ratio 15+ total" max="88"/>
+            </category>
+            <category name="Employment to population ratio 15+ male">
+              <attribute name="Country Code" year="" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1990" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1991" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1992" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1993" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1994" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1995" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1996" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1997" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1998" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_1999" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2000" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2001" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2002" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2003" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2004" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2005" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2006" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2007" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2008" dataTableName="Employment to population ratio 15+ male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, male (%)_2009" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="Employment to population ratio 15+ male" max="92"/>
+            </category>
+            <category name="Employment to population ratio 15+ female">
+              <attribute name="Country Code" year="" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1990" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1991" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1992" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1993" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1994" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1995" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1996" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1997" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1998" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_1999" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2000" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2001" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2002" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2003" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2004" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2005" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2006" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2007" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2008" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Employment to population ratio, 15+, female (%)_2009" keyType="ISO ALPHA-3 Country Code"  min="0" dataTableName="Employment to population ratio 15+ female" max="89"/>
+            </category>
+          </category>
+        </category>
+        <category name="Goal 2. Achieve universal primary education">
+          <category name="Target 2.A: Ensure that by 2015 children everywhere_boys and girls alike_will be able to complete a full course of primary schooling">
+            <category name="School enrollment, primary (% net)">
+              <attribute name="Country Code" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1990" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1991" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1992" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1993" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1994" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1995" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1996" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1997" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1998" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_1999" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_2000" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_2001" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_2002" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_2003" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_2004" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_2005" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_2006" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_2007" year="" dataTableName="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="School enrollment, primary (% net))_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="School enrollment, primary (% net)" max=""/>
+              <attribute name="School enrollment, primary (% net))_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="School enrollment, primary (% net)" max=""/>
+            </category>
+            <category name="Total enrollment primary (% net)"/>
+            <category name="Primary completion rate, total (% of relevant age group)">
+              <attribute name="Country Code" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1990" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1991" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1992" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1993" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1994" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Primary completion rate, total (% of relevant age group)" max=""/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1995" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Primary completion rate, total (% of relevant age group)" max=""/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1996" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1997" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1998" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_1999" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2000" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2001" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2002" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2003" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2004" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2005" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2006" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2007" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2008" year="" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Primary completion rate, total (% of relevant age group))_2009" keyType="ISO ALPHA-3 Country Code"  min="0" dataTableName="Primary completion rate, total (% of relevant age group)" max="155"/>
+            </category>
+            <category name="Persistence to last grade of primary, female (% of cohort)"/>
+            <category name="Persistence to last grade of primary, male (% of cohort)"/>
+            <category name="Persistence to last grade of primary, total (% of cohort)"/>
+            <category name="Literacy rate adult total (% of people ages 15 and above">
+              <attribute name="Country Code" year="" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1990" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1991" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1992" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1993" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1994" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1995" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1996" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1997" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1998" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_1999" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2000" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2001" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2002" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2003" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2004" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2005" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2006" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2007" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2008" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2009" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="Literacy rate adult total (% of people ages 15 and above" max="100"/>
+            </category>
+            <category name="Literacy rate youth female (% of females ages 15-24)"/>
+            <category name="Literacy rate youth male (% of males ages 15-24)"/>
+            <category name="Literacy rate youth total (% of people ages 15-24)"/>
+          </category>
+        </category>
+        <category name="Goal 3. Promote gender equality and empower women">
+          <category name="Target 3.A: Eliminate gender disparity in primary and secondary education_preferably by 2005_and in all levels of education no later than 2015">
+            <category name="Proportion of seats held by women in national parliaments (%)">
+              <attribute name="Country Code" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1990" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1991" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1992" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1993" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1994" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1995" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1996" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1997" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1998" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_1999" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2000" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2001" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2002" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2003" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2004" year="" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2005" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="Proportion of seats held by women in national parliaments (%)" max="50"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2006" keyType="ISO ALPHA-3 Country Code"  min="0" dataTableName="Proportion of seats held by women in national parliaments (%)" max="50"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2007" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="Proportion of seats held by women in national parliaments (%)" max="50"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2008" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="Proportion of seats held by women in national parliaments (%)" max="50"/>
+              <attribute name="Proportion of seats held by women in national parliaments (%))_2009" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="Proportion of seats held by women in national parliaments (%)" max="56.4"/>
+            </category>
+            <category name="Ratio of female to male secondary enrollment (%)">
+              <attribute name="Country Code" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1990" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1991" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1992" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1993" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1994" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1995" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1996" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1997" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1998" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_1999" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2000" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2001" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2002" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2003" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2004" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2005" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2006" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2007" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2008" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male secondary enrollment (%))_2009" year="" dataTableName="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Ratio of female to male tertiary enrollment (%)">
+              <attribute name="Country Code" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1990" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1991" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1992" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1993" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1994" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1995" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1996" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1997" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1998" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_1999" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2000" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2001" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2002" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2003" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2004" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2005" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2006" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2007" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Ratio of female to male tertiary enrollment (%)" max=""/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Ratio of female to male tertiary enrollment (%)" max=""/>
+              <attribute name="Ratio of female to male tertiary enrollment (%))_2009" year="" dataTableName="Ratio of female to male tertiary enrollment (%)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Ratio of girls to boys in primary and secondary education (%)"/>
+            <category name="Ratio of female to male primary enrollment (%)"/>
+            <category name="Share of women employed in the nonagricultural sector">
+              <attribute name="Country Code" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1990" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1991" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1992" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1993" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1994" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1995" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1996" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1997" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1998" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_1999" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2000" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2001" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2002" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2003" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Share of women employed in the nonagricultural sector" max=""/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2004" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2005" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2006" year="" dataTableName="Share of women employed in the nonagricultural sector" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2007" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Share of women employed in the nonagricultural sector" max=""/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Share of women employed in the nonagricultural sector" max=""/>
+              <attribute name="Share of women employed in the nonagricultural sector (% of total nonagricultural employment)_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Share of women employed in the nonagricultural sector" max=""/>
+            </category>
+          </category>
+        </category>
+        <category name="Goal 4. Reduce child mortality">
+          <category name="Target 4.A: Reduce by two-thirds_between 1990 and 2015_the under-five mortality rate">
+            <category name="Mortality rate under-5 (per 1,000)"/>
+            <category name="Mortality rate infant (per 1000 live births)">
+              <attribute name="Country Code" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1990" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1991" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1992" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1993" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1994" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1995" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1996" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1997" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1998" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_1999" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2000" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2001" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2002" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2003" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2004" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2005" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2006" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2007" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2008" year="" dataTableName="Mortality rate infant (per 1000 live births)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mortality rate, infant (per 1,000 live births)_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Mortality rate infant (per 1000 live births)" max=""/>
+            </category>
+            <category name="Immunization measles (% of children ages 12-23 months)">
+              <attribute name="Country Code" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1990" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1991" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1992" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1993" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1994" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1995" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1996" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1997" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1998" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_1999" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2000" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2001" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2002" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2003" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2004" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2005" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2006" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2007" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2008" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Immunization, measles (% of children ages 12-23 months)_2009" year="" dataTableName="Immunization measles (% of children ages 12-23 months)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+          </category>
+        </category>
+        <category name="Goal 5. Improve maternal health">
+          <category name="Target 5.A: Reduce by three quarters_between 1990 and 2015_the maternal mortality ratio">
+            <category name="Maternal mortality ratio"/>
+            <category name="Births attended by skilled health staff (% of total)"/>
+          </category>
+          <category name="Target 5.B: Achieve_by 2015_universal access to reproductive health">
+            <category name="Unmet need for contraception (% of married women ages 15-49)"/>
+            <category name="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
+          </category>
+        </category>
+        <category name="Goal 6. Combat HIV-AIDS_malaria and other diseases">
+          <category name="Target 6.A: Have halted by 2015 and begun to reverse the spread of HIV-AIDS">
+            <category name="Prevalence of HIV female (% ages 15-24)"/>
+            <category name="Prevalence of HIV male (% ages 15-24)"/>
+            <category name="Prevalence of HIV total % of population ages 15-49">
+              <attribute name="Country Code" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1990" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Prevalence of HIV total % of population ages 15-49" max=""/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1991" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1992" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1993" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1994" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1995" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1996" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1997" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1998" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_1999" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2000" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2001" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2002" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2003" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2004" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2005" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2006" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2007" year="" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2008" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="Prevalence of HIV total % of population ages 15-49" max="30"/>
+              <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Prevalence of HIV total % of population ages 15-49" max=""/>
+            </category>
+            <category name="comprehensive correct knowledge of HIV-AIDS ages 15-24 female">
+              <attribute name="Country Code" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24, female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24, female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24, female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24, female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1990" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1991" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1992" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1993" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1994" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1995" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1996" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1997" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1998" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_1999" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2000" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2001" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2002" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2003" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2004" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2005" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2006" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2007" year="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" max=""/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 female_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="comprehensive correct knowledge of hiv-aids ages 15-24  female" max=""/>
+            </category>
+            <category name="comprehensive correct knowledge of HIV-AIDS ages 15-24 male">
+              <attribute name="Country Code" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1990" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1991" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1992" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1993" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1994" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1995" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1996" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1997" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1998" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_1999" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2000" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2001" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2002" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2003" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2004" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2005" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2006" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2007" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2008" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male_2009" year="" dataTableName="comprehensive correct knowledge of HIV-AIDS ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Condom use with non regular partner % adults(15-49) female"/>
+            <category name="Condom use with non regular partner % adults(15-49) male">
+              <attribute name="Country Code" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1990" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1991" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1992" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1993" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1994" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1995" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1996" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1997" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1998" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_1999" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2000" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2001" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2002" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2003" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2004" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2005" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2006" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2007" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Condom use with non regular partner % adults(15-49) male" max=""/>
+              <attribute name="Condom use with non regular partner, % adults(15-49), male)_2009" year="" dataTableName="Condom use with non regular partner % adults(15-49) male" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Condom use population ages 15-24 female">
+              <attribute name="Country Code" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1990" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1991" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1992" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1993" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1994" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1995" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1996" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1997" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1998" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_1999" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2000" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2001" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2002" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2003" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2004" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2005" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2006" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2007" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2008" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, female (% of females ages 15-24))_2009" year="" dataTableName="Condom use population ages 15-24 female" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Condom use population ages 15-24 male">
+              <attribute name="Country Code" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1990" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1991" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1992" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1993" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1994" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1995" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1996" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1997" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1998" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_1999" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2000" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2001" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2002" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2003" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2004" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2005" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2006" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2007" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Condom use population ages 15-24 male" max=""/>
+              <attribute name="Condom use, population ages 15-24, male (% of males ages 15-24))_2009" year="" dataTableName="Condom use population ages 15-24 male" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Ratio of school attendance of orphans to non-orphans ages 10-14">
+              <attribute name="Country Code" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1990" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1991" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1992" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1993" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1994" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1995" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1996" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1997" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1998" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_1999" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2000" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2001" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2002" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2003" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2004" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2005" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2006" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2007" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2008" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14)_2009" year="" dataTableName="Ratio of school attendance of orphans to non-orphans ages 10-14" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+          </category>
+          <category name="Target 6.B: Achieve_by 2010_universal access to treatment for HIV/AIDS for all those who need it">
+            <category name="Antiretroviral therapy"/>
+          </category>
+          <category name="Target 6.C: Have halted by 2015 and begun to reverse the incidence of malaria and other major diseases">
+            <category name="Malaria cases reported">
+              <attribute name="Country Code" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1990" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1991" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1992" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1993" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1994" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1995" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1996" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1997" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1998" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_1999" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_2000" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_2001" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_2002" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_2003" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_2004" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_2005" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_2006" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_2007" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Malaria cases reported" max=""/>
+              <attribute name="Malaria cases reported_2008" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Malaria cases reported_2009" year="" dataTableName="Malaria cases reported" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Children with fever receiving antimalarial drugs"/>
+            <category name="Use of insecticide-treated bed nets (% of under-5 population)"/>
+            <category name="Tuberculosis case detection rate (all forms)"/>
+            <category name="Tuberculosis death rate (per 100,000 people)"/>
+            <category name="Tuberculosis treatment success rate (% of registered cases)"/>
+            <category name="Incidence of tuberculosis (per 100,000 people)"/>
+          </category>
+        </category>
+        <category name="Goal 7. Ensure environmental sustainability">
+          <category name="Target 7.A: Integrate the principles of sustainable development into country policies and programmes and reverse the loss of environmental resources">
+            <category name="forest area (% of land area)">
+              <attribute name="Country_Code" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1990" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1991" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1992" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1993" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1994" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1995" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1996" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1997" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1998" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_1999" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_2000" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_2001" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_2002" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_2003" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_2004" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_2005" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_2006" year="" dataTableName="forest area (% of land area)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Forest area (% of land area)_2007" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="forest area (% of land area)" max=""/>
+              <attribute name="Forest area (% of land area)_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="forest area (% of land area)" max=""/>
+              <attribute name="Forest area (% of land area)_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="forest area (% of land area)" max=""/>
+            </category>
+            <category name="CO2 emissions (kg per PPP $ of GDP)">
+              <attribute name="Country Code" year="" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1990" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1991" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1992" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1993" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1994" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1995" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1996" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1997" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1998" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_1999" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2000" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2001" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2002" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2003" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2004" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2005" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2006"  dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2007" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2008" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="CO2 emissions (kg per PPP $ of GDP)" max="10"/>
+              <attribute name="CO2 emissions (kg per PPP $ of GDP))_2009" dataTableName="CO2 emissions (kg per PPP $ of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="CO2 emissions (kt)">
+              <attribute name="Country Code" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1990" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1991" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1992" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1993" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1994" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1995" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1996" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1997" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1998" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_1999" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_2000" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_2001" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_2002" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_2003" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_2004" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_2005" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_2006" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_2007" year="" dataTableName="CO2 emissions (kt)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="CO2 emissions (kt))_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="CO2 emissions (kt)" max=""/>
+              <attribute name="CO2 emissions (kt))_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="CO2 emissions (kt)" max=""/>
+            </category>
+            <category name="CO2 emissions (metric tons per capita)"/>
+            <category name="Energy use-kg of oil equi.- per $1000 GDP">
+              <attribute name="Country Code" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1990" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1991" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1992" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1993" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1994" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1995" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1996" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1997" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1998" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_1999" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2000" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2001" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2002" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" max=""/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2003" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2004" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2005" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2006" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2007" year="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" max=""/>
+              <attribute name="Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Energy use-kg of oil equi.- per $1000 GDP" max=""/>
+            </category>
+            <category name="Annual freshwater withdrawals, total (% of internal resources)"/>
+            <category name="Renewable internal freshwater resources per capita-cubic meters"/>
+          </category>
+          <category name="Target 7.B: Reduce biodiversity loss_achieving_by 2010_a significant reduction in the rate of loss">
+            <category name="Terrestrial protected areas (% of total surface area)"/>
+            <category name="Marine protected areas"/>
+          </category>
+          <category name="Target 7.C: Halve_by 2015_the proportion of people without sustainable access to safe drinking water and basic sanitation">
+            <category name="Improved water source % of population with access"/>
+            <category name="Annual freshwater withdrawals, total (% of internal resources)"/>
+            <category name="Renewable internal freshwater resources per capita-cubic meters">
+              <attribute name="Country Code" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1990" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1991" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1992" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1993" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1994" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1995" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" max=""/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1996" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1997" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1998" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_1999" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2000" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2001" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2002" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2003" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2004" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2005" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2006" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2007" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" max=""/>
+              <attribute name="Renewable internal freshwater resources per capita (cubic meters))_2009" year="" dataTableName="Renewable internal freshwater resources per capita-cubic meters" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+          </category>
+          <category name="Target 7.D: By 2020_to have achieved a significant improvement in the lives of at least 100 million slum dwellers">
+            <category name="Population living in slums (% of urban population)">
+              <attribute name="Country Code" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_1990" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_1991" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_1992" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_1993" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_1994" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_1995" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Population living in slums (% of urban population)" max=""/>
+              <attribute name="Population living in slums (% of urban population))_1996" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_1997" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_1998" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_1999" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2000" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2001" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2002" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2003" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2004" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2005" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2006" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2007" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2008" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Population living in slums (% of urban population))_2009" year="" dataTableName="Population living in slums (% of urban population)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+          </category>
+        </category>
+        <category name="Goal 8. Develop a global partnership for development">
+          <category name="Target 8.A: Develop further an open_rule-based_predictable_non-discriminatory trading and financial system">
+            <category name="tariffs imposed by developed countries on agricultural products"/>
+            <category name="tariffs imposed by developed countries on agri. products-LDCs"/>
+            <category name="tariffs imposed by developed countries on clothingproducts"/>
+            <category name="tariffs imposed by developed countries on textilel products"/>
+            <category name="tariffs imposed by developed countries on textilel products LDCs"/>
+            <category name="Agricultural support estimate (% of GDP)">
+              <attribute name="Country Code" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1990" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1991" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1992" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1993" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1994" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1995" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1996" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1997" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1998" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_1999" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2000" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2001" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2002" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2003" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2004" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2005" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2006" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2007" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2008" year="" dataTableName="Agricultural support estimate (% of GDP)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Agricultural support estimate (% of GDP))_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Agricultural support estimate (% of GDP)" max=""/>
+            </category>
+          </category>
+          <category name="Target 8.B: Address the special needs of the least developed countries">
+            <category name="Net ODA provided to the least developed countries (current US$)"/>
+            <category name="Net ODA provided to the least developed countries (pct. of GNI)"/>
+            <category name="Net ODA provided total (% of GNI"/>
+            <category name="Net ODA provided total (constant 2008 US$)"/>
+            <category name="Net ODA provided total (current US$)"/>
+            <category name="Net ODA received (% of GNI)"/>
+            <category name="Net ODA received per capita (current US$)"/>
+            <category name="Net ODA received (current US$)">
+              <attribute name="Country Code" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1990" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1991" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1992" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1993" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1994" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1995" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1996" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1997" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1998" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_1999" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_2000" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_2001" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_2002" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_2003" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_2004" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_2005" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_2006" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_2007" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Net official development assistance received (current US$)_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Net ODA received (current US$)" max=""/>
+              <attribute name="Net official development assistance received (current US$)_2009" year="" dataTableName="Net ODA received (current US$)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Net ODA and official aid received (current US$)"/>
+            <category name="Bilateral ODA commitments that is untied"/>
+            <category name="Bilateral, sector-allocable ODA to basic social services"/>
+          </category>
+          <category name="Target 8.C: Address the special needs of landlocked countries and small island developing States"/>
+          <category name="Target 8.D: Deal comprehensively with the debt problems of developing countries through national and international measures in order to make debt sustainable in the long term">
+            <category name="Debt relief committed under HIPC initiative cumulative US$"/>
+            <category name="Debt relief delivered in fully MDRI initiative cumulative US$"/>
+            <category name="Status under enhanced HIPC initiative"/>
+            <category name="Debt service-pct of exports excluding workers remittances"/>
+            <category name="Total debt service (% of exports of goods, services and income)">
+              <attribute name="Country Code" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1990" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1991" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1992" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1993" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1994" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1995" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1996" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1997" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1998" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Total debt service (% of exports of goods, services and income)" max=""/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_1999" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2000" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2001" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2002" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2003" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Total debt service (% of exports of goods, services and income)" max=""/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2004" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2005" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2006" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2007" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2008" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Total debt service (% of exports of goods, services and income)_2009" year="" dataTableName="Total debt service (% of exports of goods, services and income)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+          </category>
+          <category name="Target 8.E: In cooperation with pharmaceutical companies_provide access to affordable essential drugs in developing countries"/>
+          <category name="Target 8.F: In cooperation with the private sector_make available the benefits of new technologies_especially information and communications">
+            <category name="Telephone lines (per 100 people)">
+              <attribute name="Country Code" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1990" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1991" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1992" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1993" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1994" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1995" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1996" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1997" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1998" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_1999" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2000" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2001" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2002" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2003" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2004" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2005" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2006" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2007" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2008" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Telephone lines (per 100 people))_2009" year="" dataTableName="Telephone lines (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Mobile cellular subscriptions (per 100 people)">
+              <attribute name="Country Code" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Code" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1990" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1991" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1992" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1993" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1994" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1995" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1996" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1997" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1998" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_1999" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2000" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2001" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2002" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2003" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2004" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2005" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2006" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2007" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Mobile cellular subscriptions (per 100 people)" max=""/>
+              <attribute name="Mobile cellular subscriptions (per 100 people))_2009" year="" dataTableName="Mobile cellular subscriptions (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+            </category>
+            <category name="Internet users (per 100 people)">
+              <attribute name="Country Code" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Country Name" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Internet users (per 100 people)" max=""/>
+              <attribute name="Series Code" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Series Name" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1990" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1991" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1992" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1993" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1994" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1995" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1996" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1997" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1998" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_1999" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_2000" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_2001" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_2002" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_2003" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_2004" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_2005" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_2006" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_2007" year="" dataTableName="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code"/>
+              <attribute name="Internet users (per 100 people))_2008" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Internet users (per 100 people)" max=""/>
+              <attribute name="Internet users (per 100 people))_2009" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Internet users (per 100 people)" max=""/>
+            </category>
+          </category>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/OpenIndicatorsDataServices</url>
+  </OpenIndicatorsDataSource>
+  <Colormap name="Global Colormap" encoding="XML">
+    <hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+      <category name="Goal 1. Eradicate extreme poverty and hunger">
+        <category name="Target 1.B: Achieve full and productive employment and decent work for all_including women and young people">
+          <category name="Employment to population ratio 15+ total">
+            <attribute name="Employment to population ratio, 15+, total (%)_2009" keyType="ISO ALPHA-3 Country Code" min="0" dataTableName="Employment to population ratio 15+ total" max="88"/>
+          </category>
+        </category>
+      </category>
+    </hierarchy>
+  </Colormap>
+  <ProxyAttributeColumn name="Default Main Probe Column" encoding="XML">
+    <hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+      <category name="Goal 8. Develop a global partnership for development">
+        <category name="Target 8.F: In cooperation with the private sector_make available the benefits of new technologies_especially information and communications">
+          <category name="Internet users (per 100 people)">
+            <attribute name="Country Name" keyType="ISO ALPHA-3 Country Code" year="" min="" dataTableName="Internet users (per 100 people)" max=""/>
+          </category>
+        </category>
+      </category>
+    </hierarchy>
+  </ProxyAttributeColumn>
+  <ColormapTool name="ColormapTool">
+    <colormapTitle>Colormap and Histogram</colormapTitle>
+    <colorRampName>Jet</colorRampName>
+    <multiLayerColormap>
+      <attrSelector>
+        <panelHeight>46.957%</panelHeight>
+        <panelWidth>42.969%</panelWidth>
+        <panelX>57.023%</panelX>
+        <panelY>53.037%</panelY>
+      </attrSelector>
+      <layers encoding="TypedSessionState">
+        <AxesLayer name="axes">
+          <displayProperties>
+            <fillAlpha>1</fillAlpha>
+            <fillColor>NaN</fillColor>
+            <fillEnabled>true</fillEnabled>
+            <lineAlpha>0.5</lineAlpha>
+            <lineCaps/>
+            <lineColor>0</lineColor>
+            <lineEnabled>true</lineEnabled>
+            <lineJoints/>
+            <lineMiterLimit>3</lineMiterLimit>
+            <linePixelHinting>false</linePixelHinting>
+            <lineScaleMode>normal</lineScaleMode>
+            <lineWeight>1</lineWeight>
+            <pixellation>1</pixellation>
+            <screenHeight>10</screenHeight>
+            <screenWidth>10</screenWidth>
+            <screenX>NaN</screenX>
+            <screenY>NaN</screenY>
+          </displayProperties>
+          <layerIsVisible>true</layerIsVisible>
+          <xAxisEnabled>true</xAxisEnabled>
+          <yAxisEnabled>false</yAxisEnabled>
+        </AxesLayer>
+        <ColormapLayer name="plot">
+          <displayProperties>
+            <fillAlpha>1</fillAlpha>
+            <fillColor>9474192</fillColor>
+            <fillEnabled>true</fillEnabled>
+            <lineAlpha>0.5</lineAlpha>
+            <lineCaps/>
+            <lineColor>5592405</lineColor>
+            <lineEnabled>true</lineEnabled>
+            <lineJoints/>
+            <lineMiterLimit>3</lineMiterLimit>
+            <linePixelHinting>true</linePixelHinting>
+            <lineScaleMode>normal</lineScaleMode>
+            <lineWeight>1</lineWeight>
+            <pixellation>1</pixellation>
+            <screenHeight>10</screenHeight>
+            <screenWidth>10</screenWidth>
+            <screenX>NaN</screenX>
+            <screenY>NaN</screenY>
+          </displayProperties>
+          <enableProbe>true</enableProbe>
+          <enableSelection>true</enableSelection>
+          <keyType>ISO ALPHA-3 Country Code</keyType>
+          <layerIsVisible>true</layerIsVisible>
+          <probeDimension>Default Main Probe Column</probeDimension>
+        </ColormapLayer>
+      </layers>
+    </multiLayerColormap>
+    <numberOfDivisions>6</numberOfDivisions>
+    <panelHeight>32.175%</panelHeight>
+    <panelWidth>34.383%</panelWidth>
+    <panelX>65.352%</panelX>
+    <panelY>67.484%</panelY>
+    <reverse>false</reverse>
+  </ColormapTool>
+  <MapTool name="MapTool">
+    <map>
+      <aspectRatio>1</aspectRatio>
+      <attrSelector>
+        <panelHeight>46.957%</panelHeight>
+        <panelWidth>42.969%</panelWidth>
+        <panelX>57.02%</panelX>
+        <panelY>53.037%</panelY>
+      </attrSelector>
+      <layers encoding="TypedSessionState">
+        <StaticImageLayer name="background">
+          <displayProperties>
+            <fillAlpha>1</fillAlpha>
+            <fillColor>NaN</fillColor>
+            <fillEnabled>true</fillEnabled>
+            <lineAlpha>0.5</lineAlpha>
+            <lineCaps/>
+            <lineColor>0</lineColor>
+            <lineEnabled>true</lineEnabled>
+            <lineJoints/>
+            <lineMiterLimit>3</lineMiterLimit>
+            <linePixelHinting>false</linePixelHinting>
+            <lineScaleMode>normal</lineScaleMode>
+            <lineWeight>1</lineWeight>
+            <pixellation>1</pixellation>
+            <screenHeight>10</screenHeight>
+            <screenWidth>10</screenWidth>
+            <screenX>NaN</screenX>
+            <screenY>NaN</screenY>
+          </displayProperties>
+          <layerIsVisible>true</layerIsVisible>
+        </StaticImageLayer>
+        <MapLayer name="World Borders">
+          <displayProperties>
+            <fillAlpha>1</fillAlpha>
+            <fillColor>NaN</fillColor>
+            <fillEnabled>true</fillEnabled>
+            <lineAlpha>0.5</lineAlpha>
+            <lineCaps/>
+            <lineColor>0</lineColor>
+            <lineEnabled>true</lineEnabled>
+            <lineJoints/>
+            <lineMiterLimit>3</lineMiterLimit>
+            <linePixelHinting>false</linePixelHinting>
+            <lineScaleMode>normal</lineScaleMode>
+            <lineWeight>1</lineWeight>
+            <pixellation>1</pixellation>
+            <screenHeight>10</screenHeight>
+            <screenWidth>10</screenWidth>
+            <screenX>NaN</screenX>
+            <screenY>NaN</screenY>
+          </displayProperties>
+          <drawPointsAsCircles>false</drawPointsAsCircles>
+          <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+          <enableProbe>true</enableProbe>
+          <enableSelection>true</enableSelection>
+          <geometryCollectionName>World Borders</geometryCollectionName>
+          <hideShapesWithMissingData>false</hideShapesWithMissingData>
+          <keyType>ISO ALPHA-3 Country Code</keyType>
+          <layerIsVisible>true</layerIsVisible>
+          <probeDimension>Default Main Probe Column</probeDimension>
+        </MapLayer>
+      </layers>
+      <mapZoomControls>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minZoomLevel>-1</minZoomLevel>
+        <xCenter>-3.2303790719270467</xCenter>
+        <yCenter>11.385814081540545</yCenter>
+        <zoomLevel>0.423729446108208</zoomLevel>
+      </mapZoomControls>
+      <pixellation>1</pixellation>
+    </map>
+    <panelHeight>67.265%</panelHeight>
+    <panelWidth>64.716%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+  </MapTool>
+  <BarChartTool name="BarChartTool">
+    <multiLayerBarChart>
+      <attrSelector>
+        <panelHeight>46.957%</panelHeight>
+        <panelWidth>42.009%</panelWidth>
+        <panelX>57.984%</panelX>
+        <panelY>53.037%</panelY>
+      </attrSelector>
+      <layers encoding="TypedSessionState">
+        <AxesLayer name="axes">
+          <displayProperties>
+            <fillAlpha>1</fillAlpha>
+            <fillColor>NaN</fillColor>
+            <fillEnabled>true</fillEnabled>
+            <lineAlpha>0.5</lineAlpha>
+            <lineCaps/>
+            <lineColor>0</lineColor>
+            <lineEnabled>true</lineEnabled>
+            <lineJoints/>
+            <lineMiterLimit>3</lineMiterLimit>
+            <linePixelHinting>false</linePixelHinting>
+            <lineScaleMode>normal</lineScaleMode>
+            <lineWeight>1</lineWeight>
+            <pixellation>1</pixellation>
+            <screenHeight>10</screenHeight>
+            <screenWidth>10</screenWidth>
+            <screenX>NaN</screenX>
+            <screenY>NaN</screenY>
+          </displayProperties>
+          <layerIsVisible>true</layerIsVisible>
+          <xAxisEnabled>true</xAxisEnabled>
+          <yAxisEnabled>true</yAxisEnabled>
+        </AxesLayer>
+        <VBarChartLayer name="plot">
+          <displayProperties>
+            <fillAlpha>1</fillAlpha>
+            <fillColor>NaN</fillColor>
+            <fillEnabled>true</fillEnabled>
+            <lineAlpha>0.5</lineAlpha>
+            <lineCaps/>
+            <lineColor>0</lineColor>
+            <lineEnabled>true</lineEnabled>
+            <lineJoints/>
+            <lineMiterLimit>3</lineMiterLimit>
+            <linePixelHinting>false</linePixelHinting>
+            <lineScaleMode>normal</lineScaleMode>
+            <lineWeight>1</lineWeight>
+            <pixellation>1</pixellation>
+            <screenHeight>10</screenHeight>
+            <screenWidth>10</screenWidth>
+            <screenX>NaN</screenX>
+            <screenY>NaN</screenY>
+          </displayProperties>
+          <enableProbe>true</enableProbe>
+          <enableSelection>true</enableSelection>
+          <heightDimension encoding="XML">
+            <hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+              <category name="Goal 6. Combat HIV-AIDS_malaria and other diseases">
+                <category name="Target 6.A: Have halted by 2015 and begun to reverse the spread of HIV-AIDS">
+                  <category name="Prevalence of HIV total % of population ages 15-49">
+                    <attribute name="Prevalence of HIV, total (% of population ages 15-49))_2008" max="30" min="0" dataTableName="Prevalence of HIV total % of population ages 15-49" keyType="ISO ALPHA-3 Country Code"/>
+                  </category>
+                </category>
+              </category>
+            </hierarchy>
+          </heightDimension>
+          <keyType>ISO ALPHA-3 Country Code</keyType>
+          <layerIsVisible>true</layerIsVisible>
+          <probeDimension>Default Main Probe Column</probeDimension>
+          <sortAscending>true</sortAscending>
+          <sortingDimension encoding="XML">
+            <hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+              <category name="Goal 2. Achieve universal primary education">
+                <category name="Target 2.A: Ensure that by 2015 children everywhere_boys and girls alike_will be able to complete a full course of primary schooling">
+                  <category name="Literacy rate adult total (% of people ages 15 and above">
+                    <attribute name="Literacy rate, adult total (% of people ages 15 and above))_2009" max="100" min="0" dataTableName="Literacy rate adult total (% of people ages 15 and above" keyType="ISO ALPHA-3 Country Code"/>
+                  </category>
+                </category>
+              </category>
+            </hierarchy>
+          </sortingDimension>
+          <startBarsFromZero>true</startBarsFromZero>
+        </VBarChartLayer>
+      </layers>
+    </multiLayerBarChart>
+    <panelHeight>31.614%</panelHeight>
+    <panelWidth>65.078%</panelWidth>
+    <panelX>0.14063%</panelX>
+    <panelY>68.075%</panelY>
+  </BarChartTool>
+  <ScatterPlotTool name="ScatterPlotTool">
+    <multiLayerScatterPlot>
+      <attrSelector>
+        <panelHeight>46.957%</panelHeight>
+        <panelWidth>71.641%</panelWidth>
+        <panelX>28.352%</panelX>
+        <panelY>53.037%</panelY>
+      </attrSelector>
+      <layers encoding="TypedSessionState">
+        <AxesLayer name="axes">
+          <displayProperties>
+            <fillAlpha>1</fillAlpha>
+            <fillColor>NaN</fillColor>
+            <fillEnabled>true</fillEnabled>
+            <lineAlpha>0.5</lineAlpha>
+            <lineCaps/>
+            <lineColor>0</lineColor>
+            <lineEnabled>true</lineEnabled>
+            <lineJoints/>
+            <lineMiterLimit>3</lineMiterLimit>
+            <linePixelHinting>false</linePixelHinting>
+            <lineScaleMode>normal</lineScaleMode>
+            <lineWeight>1</lineWeight>
+            <pixellation>1</pixellation>
+            <screenHeight>10</screenHeight>
+            <screenWidth>10</screenWidth>
+            <screenX>NaN</screenX>
+            <screenY>NaN</screenY>
+          </displayProperties>
+          <layerIsVisible>true</layerIsVisible>
+          <xAxisEnabled>true</xAxisEnabled>
+          <yAxisEnabled>true</yAxisEnabled>
+        </AxesLayer>
+        <ScatterPlotLayer name="plot">
+          <currentMaxPointSize>7.701089285714285</currentMaxPointSize>
+          <currentMinPointSize>1.4641129032258065</currentMinPointSize>
+          <defaultPointSize>2</defaultPointSize>
+          <displayProperties>
+            <fillAlpha>1</fillAlpha>
+            <fillColor>NaN</fillColor>
+            <fillEnabled>true</fillEnabled>
+            <lineAlpha>0.5</lineAlpha>
+            <lineCaps/>
+            <lineColor>0</lineColor>
+            <lineEnabled>true</lineEnabled>
+            <lineJoints/>
+            <lineMiterLimit>3</lineMiterLimit>
+            <linePixelHinting>false</linePixelHinting>
+            <lineScaleMode>normal</lineScaleMode>
+            <lineWeight>1</lineWeight>
+            <pixellation>1</pixellation>
+            <screenHeight>10</screenHeight>
+            <screenWidth>10</screenWidth>
+            <screenX>NaN</screenX>
+            <screenY>NaN</screenY>
+          </displayProperties>
+          <enableCutoffAtBounds>false</enableCutoffAtBounds>
+          <enableProbe>true</enableProbe>
+          <enableSelection>true</enableSelection>
+          <enableSizeBy>false</enableSizeBy>
+          <keyType>ISO ALPHA-3 Country Code</keyType>
+          <layerIsVisible>true</layerIsVisible>
+          <probeDimension>Default Main Probe Column</probeDimension>
+          <sizeDimension encoding="XML">
+            <hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+              <category name="Goal 2. Achieve universal primary education">
+                <category name="Target 2.A: Ensure that by 2015 children everywhere_boys and girls alike_will be able to complete a full course of primary schooling">
+                  <category name="Primary completion rate, total (% of relevant age group)">
+                    <attribute name="Primary completion rate, total (% of relevant age group))_2009" max="155" min="0" dataTableName="Primary completion rate, total (% of relevant age group)" keyType="ISO ALPHA-3 Country Code"/>
+                  </category>
+                </category>
+              </category>
+            </hierarchy>
+          </sizeDimension>
+          <xDimension encoding="XML">
+            <hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+              <category name="Goal 1. Eradicate extreme poverty and hunger">
+                <category name="Target 1.B: Achieve full and productive employment and decent work for all_including women and young people">
+                  <category name="Employment to population ratio 15+ female">
+                    <attribute name="Employment to population ratio, 15+, female (%)_2009" max="89"  min="0" dataTableName="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code"/>
+                  </category>
+                </category>
+              </category>
+            </hierarchy>
+          </xDimension>
+          <yDimension encoding="XML">
+            <hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+              <category name="Goal 3. Promote gender equality and empower women">
+                <category name="Target 3.A: Eliminate gender disparity in primary and secondary education_preferably by 2005_and in all levels of education no later than 2015">
+                  <category name="Proportion of seats held by women in national parliaments (%)">
+                    <attribute name="Proportion of seats held by women in national parliaments (%))_2009" max="56.4" min="0" dataTableName="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code"/>
+                  </category>
+                </category>
+              </category>
+            </hierarchy>
+          </yDimension>
+        </ScatterPlotLayer>
+        <RegressionLineLayer name="RegressionLineLayer">
+          <displayProperties>
+            <fillAlpha>1</fillAlpha>
+            <fillColor>NaN</fillColor>
+            <fillEnabled>true</fillEnabled>
+            <lineAlpha>0.75</lineAlpha>
+            <lineCaps/>
+            <lineColor>8388608</lineColor>
+            <lineEnabled>true</lineEnabled>
+            <lineJoints/>
+            <lineMiterLimit>3</lineMiterLimit>
+            <linePixelHinting>false</linePixelHinting>
+            <lineScaleMode>normal</lineScaleMode>
+            <lineWeight>1</lineWeight>
+            <pixellation>1</pixellation>
+            <screenHeight>10</screenHeight>
+            <screenWidth>10</screenWidth>
+            <screenX>NaN</screenX>
+            <screenY>NaN</screenY>
+          </displayProperties>
+          <layerIsVisible>true</layerIsVisible>
+          <scatterPlotLayerName>plot</scatterPlotLayerName>
+        </RegressionLineLayer>
+      </layers>
+    </multiLayerScatterPlot>
+    <panelHeight>67.058%</panelHeight>
+    <panelWidth>34.188%</panelWidth>
+    <panelX>65.676%</panelX>
+    <panelY>0%</panelY>
+    <showControlPanel>false</showControlPanel>
+  </ScatterPlotTool>
+</Weave>

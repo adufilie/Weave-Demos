@@ -1,0 +1,1210 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>16777113</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>12</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionExport>true</enableSessionExport>
+    <enableSessionImport>true</enableSessionImport>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily/>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>12</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <probeInnerGlowAlpha>0.9</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>0.9</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>15725756</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <sessionStateEditor/>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>1.0 Beta 1</version>
+    <windowSnapGridSize>1</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="Thunderstorm" source="OIC" category="aesthetic">
+        <node color="0x585634" position="0"/>
+        <node color="0x4781B5" position="0.2"/>
+        <node color="0x6FBAFF" position="0.3"/>
+        <node color="0xffff00" position="1.0"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Employment by Sector (Bureau of Labor Statistics)">
+                  <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2000" max="1" keyType="US County FIPS Code"/>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Community Health Status Indicators">
+                <attribute name="FIPS" id="27261" dataTable="Community Health Status Indicators" geometryCollection="Counties" keyType="US County FIPS Code"/>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Community Health Status Indicators">
+                <attribute name="County" id="27262" dataTable="Community Health Status Indicators" geometryCollection="Counties" keyType="US County FIPS Code"/>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn3">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Community Health Status Indicators">
+                <attribute name="State Abbreviation" id="27264" dataTable="Community Health Status Indicators" geometryCollection="Counties" keyType="US County FIPS Code"/>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn4">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Educational Attainment (Census Bureau)">
+                <attribute name="Percent of persons with a college degree (4yrs or more)2000" dataTable="Educational Attainment" year="" keyType="US County FIPS Code"/>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="All County Level Data (with R)">
+        <attribute name="County Name" min="" dataTable="countyunemployment2000" year="2000" max="" keyType="US County FIPS Code"/>
+        <category name="Educational Attainment (Census Bureau)">
+          <attribute name="Less than high school, 2000" min="" dataTable="Educational Attainment" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Percent of persons with less than high school, 2000" min="" dataTable="Educational Attainment" year="2000" max="" keyType="US County FIPS Code"/>
+          <attribute name="High school only, 2000" dataTable="Educational Attainment" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent of persons with only a high school degree, 2000" dataTable="Educational Attainment" year="" keyType="US County FIPS Code"/>
+          <attribute name="Some college, 2000" dataTable="Educational Attainment" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent of persons completing some college, 2000" dataTable="Educational Attainment" year="" keyType="US County FIPS Code"/>
+          <attribute name="College degree (4yrs or more)2000" min="" dataTable="Educational Attainment" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Percent of persons with a college degree (4yrs or more)2000" dataTable="Educational Attainment" year="" keyType="US County FIPS Code"/>
+        </category>
+        <category name="Community Health Status Indicators (Center for Disease Control)" description="Click here to see all Identifiers">
+          <attribute name="Median Family Income 1999" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Average life expectancy" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="All causes of death" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Self-rated health status" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Average number of unhealthy days in past month" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Average life expectancy" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="All causes of death" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Self-rated health status" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Average number of unhealthy days in past month" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="low birth wt (less than2500 g)" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Very low birth wt (less than1500 g)" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Premature births (less than37 weeks)" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Births to women under 18" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Births to women over 40" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Births to unmarried women" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="No care in first trimester" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Infant mortality" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="White non Hispanic infant mortality" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Black non Hispanic infant mortality" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Hispanic infant mortality" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Neonatal infant mortality" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Post-neonatal infant mortality" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Breast cancer (female)" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Colon cancer" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Coronary heart disease" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Homicide" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Lung cancer" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Motor vehicle injuries" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Stroke" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Suicide" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Unintentional injury" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="No exercise" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Few Fruits and Vegetables" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Obesity" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="High blood pressure" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Smoker" min="" dataTable="Community Health Status Indicators" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Diabetes" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Uninsured individuals" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Medicare beneficiaries, elderly (age 65+)" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Medicare beneficiaries, disabled" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="County data, primary care physicians per 100,000 pop" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Dentists per 100,000 pop" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+          <attribute name="Health Professional Shortage Area" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+        </category>
+        <category name="Employment by Sector (Bureau of Labor Statistics)">
+          <attribute name="Pct Employment Total - All Industries" min="0" dataTable="BLS_Combined" year="2000" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2000" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Total - All Industries" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2001" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Total - All Industries" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2002" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Total - All Industries" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2003" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Total - All Industries" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2004" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Total - All Industries" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2005" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Total - All Industries" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2006" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Total - All Industries" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2007" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Total - All Industries" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2008" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Total - All Industries" min="-0.259" dataTable="BLS_Combined" year="2009" max="0.668" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Goods-Producing" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Natural Resources and Mining" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Construction" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Manufacturing" min="0" dataTable="BLS_Combined" year="2009" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Service-Providing" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Trade, Transportation, and Utilities" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Information" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Financial Activities" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Professional and Business Services" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Education and Health Services" min="0" dataTable="BLS_Combined" year="2009" max="1" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Leisure and Hospitality" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Other Services" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Public Administration" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Pct Employment Unclassified" dataTable="BLS_Combined" year="2009" keyType="US County FIPS Code"/>
+        </category>
+        <category name="Census Demographics (Census Bureau)">
+          <attribute name="GINI 2007-2009 Index" min="" dataTable="Combined County Data" year="2009" max="" keyType="US County FIPS Code"/>
+          <attribute name="TOTAL POPULATION" min="" dataTable="Census County Data" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Percent Male" min="" dataTable="Census County Data" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Percent Female" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="MEDIAN AGE" min="" dataTable="Census County Data" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Percent One Race" min="" dataTable="Census County Data" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Percent WHITE" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent BLACK OR AA" min="" dataTable="Census County Data" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Percent AMERIND OR ALASKA NATIVE" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent ASIAN" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent ASIAN INDIAN" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent CHINESE" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent FILIPINO" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent JAPANESE" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent KOREAN" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent VIETNAMESE" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent OTHER ASIAN" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Pct NATIVE HAWAII OR OTHER PACIFIC ISLANDER" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent NATIVE HAWAIIAN" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent GUAMIAN OR CHOMORRO" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent SAMOAN" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent OTHER PACIFIC ISLANDER" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent SOME OTHER RACE" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent TWO OR MORE RACES" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent Mexican" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent Puerto Rican" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent Cuban" min="" dataTable="Census County Data" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Percent Other Hispanic or Latino" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent Not Hispanic or Latino" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Percent White Alone" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Total Population" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent Householder" min="" dataTable="Census County Data" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent Spouse" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent Child" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent Own Child Under 18 Years" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent Other Relatives" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Pct Other Relatives Under 18 years" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent Nonrelatives" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent Unmarried Partner" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent IN Group Quarters" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent Institutionalized" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Relationship: Percent Noninstitutionalized" dataTable="Census County Data" year="" keyType="US County FIPS Code"/>
+          <attribute name="Average household size of owner-occupied units (2 expressed decimals)" min="" dataTable="Census County Data" year="" max="" keyType="US County FIPS Code"/>
+          <attribute name="Average household size of renter-occupied units (2 expressed decimals)" min="" dataTable="Census County Data" year="" max="" keyType="US County FIPS Code"/>
+        </category>
+        <category name="Annual Employment (Bureau of Labor Statistics)">
+          <attribute name="Unemployment Rate" min="" dataTable="County2000Unemployment" year="2000" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployment Rate" min="" dataTable="countyunemployment2001" year="2001" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployment Rate" min="" dataTable="countyunemployment2002" year="2002" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployment Rate" min="" dataTable="countyunemployment2003" year="2003" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployment Rate" min="" dataTable="countyunemployment2004" year="2004" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployment Rate" min="" dataTable="countyunemployment2005" year="2005" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployment Rate" min="" dataTable="countyunemployment2006" year="2006" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployment Rate" min="" dataTable="countyunemployment2007" year="2007" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployment Rate" min="" dataTable="countyunemployment2008" year="2008" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployment Rate" min="" dataTable="countyunemployment2009" year="2009" max="" keyType="US County FIPS Code"/>
+          <attribute name="Employed" dataTable="County2000Unemployment" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Employed" dataTable="countyunemployment2001" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Employed" dataTable="countyunemployment2002" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Employed" dataTable="countyunemployment2003" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Employed" dataTable="countyunemployment2004" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Employed" min="" dataTable="countyunemployment2005" year="2005" max="" keyType="US County FIPS Code"/>
+          <attribute name="Employed" dataTable="countyunemployment2006" year="2006" keyType="US County FIPS Code"/>
+          <attribute name="Employed" dataTable="countyunemployment2007" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Employed" dataTable="countyunemployment2008" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Employed" dataTable="countyunemployment2009" year="2009" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" dataTable="County2000Unemployment" year="2000" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" dataTable="countyunemployment2001" year="2001" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" dataTable="countyunemployment2002" year="2002" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" dataTable="countyunemployment2003" year="2003" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" dataTable="countyunemployment2004" year="2004" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" dataTable="countyunemployment2005" year="2005" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" min="" dataTable="countyunemployment2006" year="2006" max="" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" dataTable="countyunemployment2007" year="2007" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" dataTable="countyunemployment2008" year="2008" keyType="US County FIPS Code"/>
+          <attribute name="Unemployed" min="" dataTable="countyunemployment2009" year="2009" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" min="" dataTable="County2000Unemployment" year="2000" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" min="" dataTable="countyunemployment2001" year="2001" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" min="" dataTable="countyunemployment2002" year="2002" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" min="" dataTable="countyunemployment2003" year="2003" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" min="" dataTable="countyunemployment2004" year="2004" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" min="" dataTable="countyunemployment2005" year="2005" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" min="" dataTable="countyunemployment2006" year="2006" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" min="" dataTable="countyunemployment2007" year="2007" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" min="" dataTable="countyunemployment2008" year="2008" max="" keyType="US County FIPS Code"/>
+          <attribute name="Labor Force" dataTable="countyunemployment2009" year="2009" keyType="US County FIPS Code"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>16777113</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>-40.463082793779904</xMax>
+          <xMin>-202.09726761608005</xMin>
+          <yMax>70.53739296408656</yMax>
+          <yMin>13.363261705374905</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Counties">
+                                <attribute name="Counties" projectionSRS="EPSG:4326" dataType="Geometry" keyType="US County FIPS Code"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>false</closeable>
+    <draggable>false</draggable>
+    <enableBackground>true</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <enableOverview>false</enableOverview>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>10092543</panelBackgroundColor>
+    <panelBorderColor>10092492</panelBorderColor>
+    <panelHeight>52.065%</panelHeight>
+    <panelStyleList>backgroundColor: 10053222;
+ borderColor: 10053222;</panelStyleList>
+    <panelWidth>99.922%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS/>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </MapTool>
+  <ScatterPlotTool name="ScatterPlotTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>16777113</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>250</xMax>
+          <xMin>0</xMin>
+          <yMax>50</yMax>
+          <yMin>5</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>true</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>true</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>0</xMax>
+                  <xMin>0</xMin>
+                  <yMax>50</yMax>
+                  <yMin>5</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>50</axisLineMaxValue>
+                <axisLineMinValue>5</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>250</xMax>
+                  <xMin>0</xMin>
+                  <yMax>5</yMax>
+                  <yMin>5</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>250</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>10</maxScreenRadius>
+                <minScreenRadius>5</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Community Health Status Indicators (Center for Disease Control)" description="Click here to see all Identifiers">
+                              <attribute name="Dentists per 100,000 pop" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Community Health Status Indicators (Center for Disease Control)" description="Click here to see all Identifiers">
+                              <attribute name="High blood pressure" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="regressionLine">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <RegressionLinePlotter>
+                <drawLine>true</drawLine>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>3342387</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Community Health Status Indicators (Center for Disease Control)" description="Click here to see all Identifiers">
+                              <attribute name="Dentists per 100,000 pop" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Community Health Status Indicators (Center for Disease Control)" description="Click here to see all Identifiers">
+                              <attribute name="High blood pressure" dataTable="Community Health Status Indicators" year="" keyType="US County FIPS Code"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </RegressionLinePlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic"/>
+            <subsetFilter encoding="dynamic"/>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>false</closeable>
+    <draggable>false</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>false</maximizable>
+    <maximized>false</maximized>
+    <minimizable>false</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>47.826%</panelHeight>
+    <panelStyleList>backgroundColor: 10053222;
+ borderColor: 10053222;</panelStyleList>
+    <panelWidth>85.234%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>51.957%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>false</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ScatterPlotTool>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>16777113</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>9.5</yMax>
+          <yMin>-0.5</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <shapeSize>20</shapeSize>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>false</closeable>
+    <draggable>false</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <maximizable>false</maximizable>
+    <maximized>false</maximized>
+    <minimizable>false</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>48.152%</panelHeight>
+    <panelStyleList>backgroundColor: 10053222;
+ borderColor: 10053222;</panelStyleList>
+    <panelWidth>14.688%</panelWidth>
+    <panelX>85.234%</panelX>
+    <panelY>51.848%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>false</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ColorBinLegendTool>
+</Weave>

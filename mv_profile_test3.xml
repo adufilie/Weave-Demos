@@ -1,0 +1,1332 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>0</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>11</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily>Verdana</panelTitleFontFamily>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>1.0 Beta Nightly Build</version>
+    <windowSnapGridSize>5</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="Grayscale">
+        <node color="0x000000" position="0.0"/>
+        <node color="0xffffff" position="1.0"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="mv_Middlesex_ct">
+                    <attribute id="153723" name="Total households DP02e1" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="Data Tables">
+          <category name="mv_Middlesex_ct">
+            <attribute id="153714" name="FIPS" dataType="string" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153715" name="Geographic Name" dataType="string" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153716" name="Table Number" dataType="string" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153717" name="Table Order" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153718" name="Stub" dataType="string" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153719" name="Estimate" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153720" name="Margin of Error" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153721" name="Percent" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153722" name="Pct Margin of Error" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153723" name="Total households DP02e1" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153724" name="Family households (families) DP02e2" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153725" name="With own children under 18 years DP02e3" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153726" name="Married-couple family DP02e4" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153727" name="With own children under 18 years DP02e5" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153728" name="Male householder no wife present family DP02e6" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153729" name="With own children under 18 years DP02e7" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153730" name="Female householder no husband present family DP02e8" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153731" name="With own children under 18 years DP02e9" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153732" name="Nonfamily households DP02e10" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153733" name="Householder living alone DP02e11" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153734" name="65 years and over DP02e12" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153735" name="Households with one or more people under 18 years DP02e13" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153736" name="Households with one or more people 65 years and over DP02e14" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153737" name="Average household size DP02e15" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153738" name="Average family size DP02e16" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153739" name="Population in households DP02e17" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153740" name="Householder DP02e18" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153741" name="Spouse DP02e19" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153742" name="Child DP02e20" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153743" name="Other relatives DP02e21" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153744" name="Nonrelatives DP02e22" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153745" name="Unmarried partner DP02e23" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153746" name="Males 15 years and over DP02e24" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153747" name="Never married DP02e25" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153748" name="Now married except separated DP02e26" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153749" name="Separated DP02e27" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153750" name="Widowed DP02e28" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153751" name="Divorced DP02e29" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153752" name="Females 15 years and over DP02e30" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153753" name="Never married DP02e31" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153754" name="Now married except separated DP02e32" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153755" name="Separated DP02e33" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153756" name="Widowed DP02e34" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153757" name="Divorced DP02e35" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153758" name="Number of women 15 to 50 years old who had a birth in the past 12 months DP02e36" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153759" name="Unmarried women (widowed divorced and never married) DP02e37" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153760" name="Per 1000 unmarried women DP02e38" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153761" name="Per 1000 women 15 to 50 years old DP02e39" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153762" name="Per 1000 women 15 to 19 years old DP02e40" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153763" name="Per 1000 women 20 to 34 years old DP02e41" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153764" name="Per 1000 women 35 to 50 years old DP02e42" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153765" name="Number of grandparents living with own grandchildren under 18 years DP02e43" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153766" name="Responsible for grandchildren DP02e44" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153767" name="Less than 1 year DP02e45" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153768" name="1 or 2 years DP02e46" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153769" name="3 or 4 years DP02e47" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153770" name="5 or more years DP02e48" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153771" name="Number of grandparents responsible for own grandchildren under 18 years DP02e49" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153772" name="Who are female DP02e50" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153773" name="Who are married DP02e51" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153774" name="Population 3 years and over enrolled in school DP02e52" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153775" name="Nursery school preschool DP02e53" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153776" name="Kindergarten DP02e54" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153777" name="Elementary school (grades 1-8) DP02e55" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153778" name="High school (grades 9-12) DP02e56" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153779" name="College or graduate school DP02e57" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153780" name="Population 25 years and over DP02e58" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153781" name="Less than 9th grade DP02e59" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153782" name="9th to 12th grade no diploma DP02e60" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153783" name="High school graduate (includes equivalency) DP02e61" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153784" name="Some college no degree DP02e62" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153785" name="Associate's degree DP02e63" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153786" name="Bachelor's degree DP02e64" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153787" name="Graduate or professional degree DP02e65" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153788" name="Percent high school graduate or higher DP02e66" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153789" name="Percent bachelor's degree or higher DP02e67" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153790" name="Civilian population 18 years and over DP02e68" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153791" name="Civilian veterans DP02e69" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153792" name="Total Civilian Noninstitutionalized Population DP02e70" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153793" name="With a disability DP02e71" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153794" name="Under 18 years DP02e72" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153795" name="With a disability DP02e73" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153796" name="18 to 64 years DP02e74" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153797" name="With a disability DP02e75" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153798" name="65 years and over DP02e76" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153799" name="With a disability DP02e77" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153800" name="Population 1 year and over DP02e78" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153801" name="Same house DP02e79" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153802" name="Different house in the U.S. DP02e80" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153803" name="Same county DP02e81" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153804" name="Different county DP02e82" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153805" name="Same state DP02e83" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153806" name="Different state DP02e84" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153807" name="Abroad DP02e85" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153808" name="Total population DP02e86" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153809" name="Native DP02e87" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153810" name="Born in United States DP02e88" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153811" name="State of residence DP02e89" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153812" name="Different state DP02e90" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153813" name="Born in Puerto Rico U.S. Island areas or born abroad to American parent(s) DP02e91" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153814" name="Foreign born DP02e92" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153815" name="Foreign-born population DP02e93" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153816" name="Naturalized U.S. citizen DP02e94" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153817" name="Not a U.S. citizen DP02e95" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153818" name="Population born outside the United States DP02e96" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153819" name="Native DP02e97" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153820" name="Entered 2000 or later DP02e98" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153821" name="Entered before 2000 DP02e99" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153822" name="Foreign born DP02e100" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153823" name="Entered 2000 or later DP02e101" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153824" name="Entered before 2000 DP02e102" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153825" name="Foreign-born population excluding population born at sea DP02e103" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153826" name="Europe DP02e104" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153827" name="Asia DP02e105" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153828" name="Africa DP02e106" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153829" name="Oceania DP02e107" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153830" name="Latin America DP02e108" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153831" name="Northern America DP02e109" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153832" name="Population 5 years and over DP02e110" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153833" name="English only DP02e111" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153834" name="Language other than English DP02e112" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153835" name="Speak English less than &quot;very well&quot; DP02e113" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153836" name="Spanish DP02e114" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153837" name="Speak English less than &quot;very well&quot; DP02e115" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153838" name="Other Indo-European languages DP02e116" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153839" name="Speak English less than &quot;very well&quot; DP02e117" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153840" name="Asian and Pacific Islander languages DP02e118" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153841" name="Speak English less than &quot;very well&quot; DP02e119" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153842" name="Other languages DP02e120" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153843" name="Speak English less than &quot;very well&quot; DP02e121" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153844" name="Total population DP02e122" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153845" name="American DP02e123" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153846" name="Arab DP02e124" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153847" name="Czech DP02e125" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153848" name="Danish DP02e126" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153849" name="Dutch DP02e127" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153850" name="English DP02e128" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153851" name="French (except Basque) DP02e129" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153852" name="French Canadian DP02e130" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153853" name="German DP02e131" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153854" name="Greek DP02e132" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153855" name="Hungarian DP02e133" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153856" name="Irish DP02e134" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153857" name="Italian DP02e135" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153858" name="Lithuanian DP02e136" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153859" name="Norwegian DP02e137" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153860" name="Polish DP02e138" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153861" name="Portuguese DP02e139" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153862" name="Russian DP02e140" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153863" name="Scotch-Irish DP02e141" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153864" name="Scottish DP02e142" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153865" name="Slovak DP02e143" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153866" name="Subsaharan African DP02e144" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153867" name="Swedish DP02e145" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153868" name="Swiss DP02e146" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153869" name="Ukrainian DP02e147" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153870" name="Welsh DP02e148" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153871" name="West Indian (excluding Hispanic origin groups) DP02e149" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153872" name="Population 16 years and over DP03e1" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153873" name="In labor force DP03e2" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153874" name="Civilian labor force DP03e3" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153875" name="Employed DP03e4" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153876" name="Unemployed DP03e5" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153877" name="Armed Forces DP03e6" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153878" name="Not in labor force DP03e7" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153879" name="Civilian labor force DP03e8" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153880" name="Percent Unemployed DP03e9" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153881" name="Females 16 years and over DP03e10" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153882" name="In labor force DP03e11" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153883" name="Civilian labor force DP03e12" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153884" name="Employed DP03e13" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153885" name="Own children under 6 years DP03e14" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153886" name="All parents in family in labor force DP03e15" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153887" name="Own children 6 to 17 years DP03e16" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153888" name="All parents in family in labor force DP03e17" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153889" name="Workers 16 years and over DP03e18" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153890" name="Car truck or van -- drove alone DP03e19" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153891" name="Car truck or van -- carpooled DP03e20" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153892" name="Public transportation (excluding taxicab) DP03e21" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153893" name="Walked DP03e22" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153894" name="Other means DP03e23" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153895" name="Worked at home DP03e24" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153896" name="Mean travel time to work (minutes) DP03e25" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153897" name="Civilian employed population 16 years and over DP03e26" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153898" name="Management professional and related occupations DP03e27" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153899" name="Service occupations DP03e28" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153900" name="Sales and office occupations DP03e29" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153901" name="Farming fishing and forestry occupations DP03e30" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153902" name="Construction extraction maintenance and repair occupations DP03e31" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153903" name="Production transportation and material moving occupations DP03e32" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153904" name="Civilian employed population 16 years and over DP03e33" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153905" name="Agriculture forestry fishing and hunting and mining DP03e34" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153906" name="Construction DP03e35" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153907" name="Manufacturing DP03e36" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153908" name="Wholesale trade DP03e37" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153909" name="Retail trade DP03e38" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153910" name="Transportation and warehousing and utilities DP03e39" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153911" name="Information DP03e40" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153912" name="Finance and insurance and real estate and rental and leasing DP03e41" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153913" name="Professional scientific and management and administrative and waste management services DP03e42" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153914" name="Educational services and health care and social assistance DP03e43" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153915" name="Arts entertainment and recreation and accommodation and food services DP03e44" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153916" name="Other services except public administration DP03e45" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153917" name="Public administration DP03e46" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153918" name="Civilian employed population 16 years and over DP03e47" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153919" name="Private wage and salary workers DP03e48" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153920" name="Government workers DP03e49" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153921" name="Self-employed in own not incorporated business workers DP03e50" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153922" name="Unpaid family workers DP03e51" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153923" name="Total households DP03e52" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153924" name="Less than $10000 DP03e53" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153925" name="$10000 to $14999 DP03e54" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153926" name="$15000 to $24999 DP03e55" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153927" name="$25000 to $34999 DP03e56" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153928" name="$35000 to $49999 DP03e57" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153929" name="$50000 to $74999 DP03e58" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153930" name="$75000 to $99999 DP03e59" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153931" name="$100000 to $149999 DP03e60" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153932" name="$150000 to $199999 DP03e61" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153933" name="$200000 or more DP03e62" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153934" name="Median household income (dollars) DP03e63" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153935" name="Mean household income (dollars) DP03e64" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153936" name="With earnings DP03e65" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153937" name="Mean earnings (dollars) DP03e66" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153938" name="With Social Security DP03e67" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153939" name="Mean Social Security income (dollars) DP03e68" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153940" name="With retirement income DP03e69" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153941" name="Mean retirement income (dollars) DP03e70" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153942" name="With Supplemental Security Income DP03e71" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153943" name="Mean Supplemental Security Income (dollars) DP03e72" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153944" name="With cash public assistance income DP03e73" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153945" name="Mean cash public assistance income (dollars) DP03e74" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153946" name="With Food Stamp/SNAP benefits in the past 12 months DP03e75" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153947" name="Families DP03e76" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153948" name="Less than $10000 DP03e77" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153949" name="$10000 to $14999 DP03e78" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153950" name="$15000 to $24999 DP03e79" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153951" name="$25000 to $34999 DP03e80" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153952" name="$35000 to $49999 DP03e81" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153953" name="$50000 to $74999 DP03e82" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153954" name="$75000 to $99999 DP03e83" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153955" name="$100000 to $149999 DP03e84" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153956" name="$150000 to $199999 DP03e85" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153957" name="$200000 or more DP03e86" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153958" name="Median family income (dollars) DP03e87" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153959" name="Mean family income (dollars) DP03e88" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153960" name="Per capita income (dollars) DP03e89" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153961" name="Nonfamily households DP03e90" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153962" name="Median nonfamily income (dollars) DP03e91" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153963" name="Mean nonfamily income (dollars) DP03e92" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153964" name="Median earnings for workers (dollars) DP03e93" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153965" name="Median earnings for male full-time year-round workers (dollars) DP03e94" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153966" name="Median earnings for female full-time year-round workers (dollars) DP03e95" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153967" name="Civilian Noninstitutionalized Population DP03e96" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153968" name="With health insurance coverage DP03e97" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153969" name="With private health insurance coverage DP03e98" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153970" name="With public health coverage DP03e99" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153971" name="No health insurance coverage DP03e100" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153972" name="Civilian Noninstitutionalized Population Under 18 years DP03e101" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153973" name="No health insurance coverage DP03e102" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153974" name="All families DP03e103" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153975" name="With related children under 18 years DP03e104" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153976" name="With related children under 5 years only DP03e105" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153977" name="Married couple families DP03e106" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153978" name="With related children under 18 years DP03e107" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153979" name="With related children under 5 years only DP03e108" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153980" name="Families with female householder no husband present DP03e109" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153981" name="With related children under 18 years DP03e110" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153982" name="With related children under 5 years only DP03e111" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153983" name="All people DP03e112" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153984" name="Under 18 years DP03e113" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153985" name="Related children under 18 years DP03e114" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153986" name="Related children under 5 years DP03e115" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153987" name="Related children 5 to 17 years DP03e116" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153988" name="18 years and over DP03e117" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153989" name="18 to 64 years DP03e118" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153990" name="65 years and over DP03e119" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153991" name="People in families DP03e120" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153992" name="Unrelated individuals 15 years and over DP03e121" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153993" name="Total housing units DP04e1" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153994" name="Occupied housing units DP04e2" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153995" name="Vacant housing units DP04e3" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153996" name="Homeowner vacancy rat DP04e4" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153997" name="Rental vacancy rate DP04e5" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153998" name="Total housing units DP04e6" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="153999" name="1-unit detached DP04e7" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154000" name="1-unit attached DP04e8" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154001" name="2 units DP04e9" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154002" name="3 or 4 units DP04e10" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154003" name="5 to 9 units DP04e11" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154004" name="10 to 19 units DP04e12" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154005" name="20 or more units DP04e13" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154006" name="Mobile home DP04e14" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154007" name="Boat RV van etc. DP04e15" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154008" name="Total housing units DP04e16" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154009" name="Built 2005 or later DP04e17" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154010" name="Built 2000 to 2004 DP04e18" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154011" name="Built 1990 to 1999 DP04e19" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154012" name="Built 1980 to 1989 DP04e20" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154013" name="Built 1970 to 1979 DP04e21" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154014" name="Built 1960 to 1969 DP04e22" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154015" name="Built 1950 to 1959 DP04e23" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154016" name="Built 1940 to 1949 DP04e24" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154017" name="Built 1939 or earlier DP04e25" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154018" name="Total housing units DP04e26" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154019" name="1 room DP04e27" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154020" name="2 rooms DP04e28" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154021" name="3 rooms DP04e29" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154022" name="4 rooms DP04e30" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154023" name="5 rooms DP04e31" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154024" name="6 rooms DP04e32" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154025" name="7 rooms DP04e33" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154026" name="8 rooms DP04e34" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154027" name="9 rooms or more DP04e35" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154028" name="Median rooms DP04e36" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154029" name="Total housing units DP04e37" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154030" name="No bedroom DP04e38" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154031" name="1 bedroom DP04e39" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154032" name="2 bedroom DP04e40" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154033" name="3 bedroom DP04e41" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154034" name="4 bedroom DP04e42" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154035" name="5 or more bedrooms DP04e43" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154036" name="Occupied housing units DP04e44" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154037" name="Owner-occupied DP04e45" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154038" name="Renter-occupied DP04e46" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154039" name="Average household size of owner-occupied unit DP04e47" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154040" name="Average household size of renter-occupied unit DP04e48" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154041" name="Occupied housing units DP04e49" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154042" name="Moved in 2005 or later DP04e50" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154043" name="Moved in 2000 to 2004 DP04e51" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154044" name="Moved in 1990 to 1999 DP04e52" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154045" name="Moved in 1980 to 1989 DP04e53" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154046" name="Moved in 1970 to 1979 DP04e54" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154047" name="Moved in 1969 or earlier DP04e55" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154048" name="Occupied housing units DP04e56" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154049" name="No vehicles available DP04e57" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154050" name="1 vehicle available DP04e58" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154051" name="2 vehicles available DP04e59" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154052" name="3 or more vehicles available DP04e60" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154053" name="Occupied housing units DP04e61" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154054" name="Utility gas DP04e62" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154055" name="Bottled tank or LP gas DP04e63" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154056" name="Electricity DP04e64" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154057" name="Fuel oil kerosene etc. DP04e65" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154058" name="Coal or coke DP04e66" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154059" name="Wood DP04e67" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154060" name="Solar energy DP04e68" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154061" name="Other fuel DP04e69" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154062" name="No fuel used DP04e70" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154063" name="Occupied housing units DP04e71" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154064" name="Lacking complete plumbing facilities DP04e72" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154065" name="Lacking complete kitchen facilities DP04e73" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154066" name="No telephone service available DP04e74" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154067" name="Occupied housing units DP04e75" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154068" name="1.00 or less DP04e76" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154069" name="1.01 to 1.50 DP04e77" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154070" name="1.51 or more DP04e78" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154071" name="Owner-occupied units DP04e79" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154072" name="Less than $50000 DP04e80" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154073" name="$50000 to $99999 DP04e81" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154074" name="$100000 to $149999 DP04e82" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154075" name="$150000 to $199999 DP04e83" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154076" name="$200000 to $299999 DP04e84" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154077" name="$300000 to $499999 DP04e85" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154078" name="$500000 to $999999 DP04e86" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154079" name="$1000000 or more DP04e87" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154080" name="Median (dollars) DP04e88" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154081" name="Owner-occupied units DP04e89" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154082" name="Housing units with a mortgage DP04e90" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154083" name="Housing units without a mortgage DP04e91" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154084" name="Housing units with a mortgage DP04e92" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154085" name="Less than $300 DP04e93" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154086" name="$300 to $499 DP04e94" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154087" name="$500 to $699 DP04e95" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154088" name="$700 to $999 DP04e96" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154089" name="$1000 to $1499 DP04e97" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154090" name="$1500 to $1999 DP04e98" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154091" name="$2000 or more DP04e99" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154092" name="Median (dollars) DP04e100" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154093" name="Housing units without a mortgage DP04e101" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154094" name="Less than $100 DP04e102" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154095" name="$100 to $199 DP04e103" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154096" name="$200 to $299 DP04e104" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154097" name="$300 to $399 DP04e105" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154098" name="$400 or more DP04e106" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154099" name="Median (dollars) DP04e107" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154100" name="Housing units with a mortgage (excluding units where SMOCAPI cannot be computed) DP04e108" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154101" name="Less than 20.0 percent DP04e109" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154102" name="20.0 to 24.9 percent DP04e110" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154103" name="25.0 to 29.9 percent DP04e111" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154104" name="30.0 to 34.9 percent DP04e112" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154105" name="35.0 percent or more DP04e113" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154106" name="Not computed DP04e114" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154107" name="Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed) DP04e115" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154108" name="Less than 10.0 percent DP04e116" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154109" name="10.0 to 14.9 percent DP04e117" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154110" name="15.0 to 19.9 percent DP04e118" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154111" name="20.0 to 24.9 percent DP04e119" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154112" name="25.0 to 29.9 percent DP04e120" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154113" name="30.0 to 34.9 percent DP04e121" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154114" name="35.0 percent or more DP04e122" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154115" name="Not computed DP04e123" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154116" name="Occupied units paying rent DP04e124" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154117" name="Less than $200 DP04e125" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154118" name="$200 to $299 DP04e126" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154119" name="$300 to $499 DP04e127" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154120" name="$500 to $749 DP04e128" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154121" name="$750 to $999 DP04e129" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154122" name="$1000 to $1499 DP04e130" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154123" name="$1500 or more DP04e131" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154124" name="Median (dollars) DP04e132" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154125" name="No rent paid DP04e133" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154126" name="Occupied units paying rent (excluding units where GRAPI cannot be computed) DP04e134" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154127" name="Less than 15.0 percent DP04e135" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154128" name="15.0 to 19.9 percent DP04e136" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154129" name="20.0 to 24.9 percent DP04e137" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154130" name="25.0 to 29.9 percent DP04e138" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154131" name="30.0 to 34.9 percent DP04e139" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154132" name="35.0 percent or more DP04e140" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154133" name="Not computed DP04e141" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154134" name="Total population DP05e1" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154135" name="Male DP05e2" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154136" name="Female DP05e3" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154137" name="Under 5 years DP05e4" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154138" name="5 to 9 years DP05e5" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154139" name="10 to 14 years DP05e6" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154140" name="15 to 19 years DP05e7" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154141" name="20 to 24 years DP05e8" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154142" name="25 to 34 years DP05e9" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154143" name="35 to 44 years DP05e10" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154144" name="45 to 54 years DP05e11" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154145" name="55 to 59 years DP05e12" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154146" name="60 to 64 years DP05e13" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154147" name="65 to 74 years DP05e14" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154148" name="75 to 84 years DP05e15" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154149" name="85 years and over DP05e16" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154150" name="Median age (years) DP05e17" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154151" name="18 years and over DP05e18" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154152" name="21 years and over DP05e19" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154153" name="62 years and over DP05e20" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154154" name="65 years and over DP05e21" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154155" name="18 years and over DP05e22" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154156" name="Male DP05e23" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154157" name="Female DP05e24" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154158" name="65 years and over DP05e25" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154159" name="Male DP05e26" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154160" name="Female DP05e27" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154161" name="Total population DP05e28" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154162" name="One race DP05e29" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154163" name="Two or more races DP05e30" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154164" name="One race DP05e31" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154165" name="White DP05e32" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154166" name="Black or African American DP05e33" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154167" name="American Indian and Alaska Native DP05e34" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154168" name="Cherokee tribal grouping DP05e35" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154169" name="Chippewa tribal grouping DP05e36" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154170" name="avajo tribal grouping DP05e37" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154171" name="Sioux tribal grouping DP05e38" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154172" name="Asian DP05e39" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154173" name="Asian Indian DP05e40" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154174" name="Chinese DP05e41" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154175" name="Filipino DP05e42" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154176" name="Japanese DP05e43" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154177" name="Korean DP05e44" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154178" name="Vietnamese DP05e45" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154179" name="Other Asian DP05e46" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154180" name="Native Hawaiian and Other Pacific Islander DP05e47" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154181" name="Native Hawaiian DP05e48" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154182" name="Guamanian or Chamorro DP05e49" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154183" name="Samoan DP05e50" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154184" name="Other Pacific Islander DP05e51" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154185" name="Some other race DP05e52" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154186" name="Two or more races DP05e53" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154187" name="White and Black or African American DP05e54" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154188" name="White and American Indian and Alaska Native DP05e55" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154189" name="White and Asian DP05e56" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154190" name="Black or African American and American Indian and Alaska Native DP05e57" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154191" name="Total population DP05e58" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154192" name="White DP05e59" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154193" name="Black or African American DP05e60" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154194" name="American Indian and Alaska Native DP05e61" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154195" name="Asian DP05e62" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154196" name="Native Hawaiian and Other Pacific Islander DP05e63" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154197" name="Some other race DP05e64" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154198" name="Total population DP05e65" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154199" name="Hispanic or Latino (of any race) DP05e66" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154200" name="Mexican DP05e67" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154201" name="Puerto Rican DP05e68" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154202" name="Cuban DP05e69" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154203" name="Other Hispanic or Latino DP05e70" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154204" name="Not Hispanic or Latino DP05e71" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154205" name="White alone DP05e72" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154206" name="Black or African American alone DP05e73" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154207" name="American Indian and Alaska Native alone DP05e74" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154208" name="Asian alone DP05e75" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154209" name="Native Hawaiian and Other Pacific Islander alone DP05e76" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154210" name="Some other race alone DP05e77" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154211" name="Two or more races DP05e78" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154212" name="Two races including Some other race DP05e79" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154213" name="Two races excluding Some other race and Three or more races DP05e80" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+            <attribute id="154214" name="Total housing units DP05e81" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+          </category>
+          <category name="mvhp"/>
+        </category>
+        <category name="Geometry Collections">
+          <attribute name="11_4_reprojected" dataType="Geometry"/>
+          <attribute name="11_4_reprojected_geometry" dataType="Geometry"/>
+          <attribute name="arra_mass_points201004" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="Arrests_Nashua" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts11" dataType="Geometry"/>
+          <attribute name="Atlanta Transportation Analysis Zones" dataType="Geometry"/>
+          <attribute name="Atlanta_CLCC_GDCH" dataType="Geometry"/>
+          <attribute name="Atlanta_ES_4th_CRCT_Reading" dataType="Geometry"/>
+          <attribute name="Atlanta_Head_Start" dataType="Geometry"/>
+          <attribute name="Atlanta_LowPerfSchools" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Counties" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Interstates" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Places" dataType="Geometry"/>
+          <attribute name="Atlanta_NPUs" dataType="Geometry"/>
+          <attribute name="Atlanta_Pre-K" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3_5" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3Plus" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln6_10" dataType="Geometry"/>
+          <attribute name="BCFutureLandUse_2009" dataType="Geometry"/>
+          <attribute name="bike trails" dataType="Geometry"/>
+          <attribute name="bikeped_facilities" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels Subset" dataType="Geometry"/>
+          <attribute name="Boston Parcels" dataType="Geometry"/>
+          <attribute name="boston_foreclosure_deeds" dataType="Geometry"/>
+          <attribute name="Boston_Hositals" dataType="Geometry"/>
+          <attribute name="Boston_Hositals111" dataType="Geometry"/>
+          <attribute name="Boston_Neighborhoods" dataType="Geometry"/>
+          <attribute name="boston_roads" dataType="Geometry"/>
+          <attribute name="Boston_zips" dataType="Geometry"/>
+          <attribute name="carcinogen" dataType="Geometry"/>
+          <attribute name="CATCHMENTS_poly_region" dataType="Geometry"/>
+          <attribute name="CBSA2003" dataType="Geometry"/>
+          <attribute name="CBSAs" dataType="Geometry"/>
+          <attribute name="cd99_110" dataType="Geometry"/>
+          <attribute name="cd_110thCongress" dataType="Geometry"/>
+          <attribute name="Census Trats MA 2010" dataType="Geometry"/>
+          <attribute name="census2000blockgroups_poly_orig" dataType="Geometry"/>
+          <attribute name="census2000tracts_ICC_Towns" dataType="Geometry"/>
+          <attribute name="census_msad" dataType="Geometry"/>
+          <attribute name="CHCS_PT" dataType="Geometry"/>
+          <attribute name="chic_counties" dataType="Geometry"/>
+          <attribute name="Chicago Census Tracts" dataType="Geometry"/>
+          <attribute name="chicago_arra_munis" dataType="Geometry"/>
+          <attribute name="chicago_arra_point" dataType="Geometry"/>
+          <attribute name="Chicago_Muni_ARRA" dataType="Geometry"/>
+          <attribute name="chicpoint2" dataType="Geometry"/>
+          <attribute name="chicpoint2111" dataType="Geometry"/>
+          <attribute name="chicpoint3" dataType="Geometry"/>
+          <attribute name="CHN_adm1" dataType="Geometry"/>
+          <attribute name="CHN_adm2" dataType="Geometry"/>
+          <attribute name="CHN_adm3" dataType="Geometry"/>
+          <attribute name="CityofAtlanta" dataType="Geometry"/>
+          <attribute name="Community_ED EEC" dataType="Geometry"/>
+          <attribute name="Counties" dataType="Geometry"/>
+          <attribute name="Countries" dataType="Geometry"/>
+          <attribute name="County Subdivisions" dataType="Geometry"/>
+          <attribute name="DEGREES BY INSTITUTION " dataType="Geometry"/>
+          <attribute name="DEMO_Shape" dataType="Geometry"/>
+          <attribute name="eec2" dataType="Geometry"/>
+          <attribute name="eec_artificial_child" dataType="Geometry"/>
+          <attribute name="eec_comprehensive_family" dataType="Geometry"/>
+          <attribute name="eec_familyservices_reproj" dataType="Geometry"/>
+          <attribute name="eec_lowellschools_reproj" dataType="Geometry"/>
+          <attribute name="eec_prek_pregnant_reproj" dataType="Geometry"/>
+          <attribute name="eec_prekpregnant_reproj" dataType="Geometry"/>
+          <attribute name="EEC_Providers" dataType="Geometry"/>
+          <attribute name="eec_regcnt_MA_ElemSchoolDistricts" dataType="Geometry"/>
+          <attribute name="eec_registrants_ma" dataType="Geometry"/>
+          <attribute name="eec_SchAged_TeenParents" dataType="Geometry"/>
+          <attribute name="eec_schoolagedchildren_reproj" dataType="Geometry"/>
+          <attribute name="eec_test1" dataType="Geometry"/>
+          <attribute name="eec_test2" dataType="Geometry"/>
+          <attribute name="emassnh_catchments" dataType="Geometry"/>
+          <attribute name="EPA_emissions_CO2_1995-2010" dataType="Geometry"/>
+          <attribute name="Exempt" dataType="Geometry"/>
+          <attribute name="FamilyServices" dataType="Geometry"/>
+          <attribute name="FCHC" dataType="Geometry"/>
+          <attribute name="fd_2005" dataType="Geometry"/>
+          <attribute name="fd_2006" dataType="Geometry"/>
+          <attribute name="fd_2007" dataType="Geometry"/>
+          <attribute name="fd_2008" dataType="Geometry"/>
+          <attribute name="fd_2009" dataType="Geometry"/>
+          <attribute name="fd_2010" dataType="Geometry"/>
+          <attribute name="FD_points_Lowell_new1" dataType="Geometry"/>
+          <attribute name="fe_2007_44_elsd" dataType="Geometry"/>
+          <attribute name="fe_2007_44_unsd" dataType="Geometry"/>
+          <attribute name="firms" dataType="Geometry"/>
+          <attribute name="FullPoints_Final" dataType="Geometry"/>
+          <attribute name="FullPoints_Lowell" dataType="Geometry"/>
+          <attribute name="fullpoints_lowell_reprojected" dataType="Geometry"/>
+          <attribute name="GHA_boundaries" dataType="Geometry"/>
+          <attribute name="GHA_outline" dataType="Geometry"/>
+          <attribute name="hb_states" dataType="Geometry"/>
+          <attribute name="hbstates" dataType="Geometry"/>
+          <attribute name="HeadStart" dataType="Geometry"/>
+          <attribute name="higher_ed_ma" dataType="Geometry"/>
+          <attribute name="higher_ed_ma_x" dataType="Geometry"/>
+          <attribute name="HigherEd Institutions - Crime" dataType="Geometry"/>
+          <attribute name="hwt_point" dataType="Geometry"/>
+          <attribute name="ICMB_ct" dataType="Geometry"/>
+          <attribute name="IPEDS(For)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Non)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Public)2009" dataType="Geometry"/>
+          <attribute name="ireland_counties" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v3" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v4" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v5" dataType="Geometry"/>
+          <attribute name="ireland_municipal_combined" dataType="Geometry"/>
+          <attribute name="ireland_nation" dataType="Geometry"/>
+          <attribute name="ireland_regions" dataType="Geometry"/>
+          <attribute name="Lawrence Parcel" dataType="Geometry"/>
+          <attribute name="lawrence_home buyers active" dataType="Geometry"/>
+          <attribute name="LCW Home purchase" dataType="Geometry"/>
+          <attribute name="LGSAC" dataType="Geometry"/>
+          <attribute name="lowell_nccs_3" dataType="Geometry"/>
+          <attribute name="lowell_neighborhoods_reprojected" dataType="Geometry"/>
+          <attribute name="Lowell_Parcels" dataType="Geometry"/>
+          <attribute name="lowell_registrants" dataType="Geometry"/>
+          <attribute name="LowellFD_2009_Final" dataType="Geometry"/>
+          <attribute name="lowelltracts_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MA Census Tract" dataType="Geometry"/>
+          <attribute name="MA Census Tract 6-digit" dataType="Geometry"/>
+          <attribute name="MA PRISONS" dataType="Geometry"/>
+          <attribute name="MA SCHOOLS" dataType="Geometry"/>
+          <attribute name="MA Train lines" dataType="Geometry"/>
+          <attribute name="ma_childcare_2009_sample_points" dataType="Geometry"/>
+          <attribute name="MA_COC" dataType="Geometry"/>
+          <attribute name="MA_EEC_Registrants" dataType="Geometry"/>
+          <attribute name="MA_Major_Streams_Lines" dataType="Geometry"/>
+          <attribute name="ma_SCHOOLS_PT" dataType="Geometry"/>
+          <attribute name="ma_shapes_delete" dataType="Geometry"/>
+          <attribute name="ma_town_region3" dataType="Geometry"/>
+          <attribute name="MA_Towns_MultiPoly_TOWN" dataType="Geometry"/>
+          <attribute name="ma_tract_w_eec_regcnt_and_town" dataType="Geometry"/>
+          <attribute name="ma_tracts_w_eec_regcnt" dataType="Geometry"/>
+          <attribute name="MA_ZCTA" dataType="Geometry"/>
+          <attribute name="MA_ZipCodes_Poly" dataType="Geometry"/>
+          <attribute name="MAPC_Municipalities" dataType="Geometry"/>
+          <attribute name="Mars_bkg" dataType="Geometry"/>
+          <attribute name="Mars_Points" dataType="Geometry"/>
+          <attribute name="mass towns" dataType="Geometry"/>
+          <attribute name="mass_benchmarks" dataType="Geometry"/>
+          <attribute name="mass_towns" dataType="Geometry"/>
+          <attribute name="Massachusetts Towns" dataType="Geometry"/>
+          <attribute name="MassARRA" dataType="Geometry"/>
+          <attribute name="MassARRALowellOnly" dataType="Geometry"/>
+          <attribute name="MassARRApoint" dataType="Geometry"/>
+          <attribute name="MassARRAPoint" dataType="Geometry"/>
+          <attribute name="MassARRAVer6" dataType="Geometry"/>
+          <attribute name="masstowns_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MBTA BUS ROUTES" dataType="Geometry"/>
+          <attribute name="MBTA BUS Stops" dataType="Geometry"/>
+          <attribute name="MBTA_ARC" dataType="Geometry"/>
+          <attribute name="MBTA_NODE" dataType="Geometry"/>
+          <attribute name="MBTABUSROUTES_ARC" dataType="Geometry"/>
+          <attribute name="MBTABUSSTOPS_PT" dataType="Geometry"/>
+          <attribute name="Merged Turi" dataType="Geometry"/>
+          <attribute name="MetroBoston_Schools" dataType="Geometry"/>
+          <attribute name="Metropolitan Division" dataType="Geometry"/>
+          <attribute name="MEX" dataType="Geometry"/>
+          <attribute name="MFI Ben" dataType="Geometry"/>
+          <attribute name="MFI_GH" dataType="Geometry"/>
+          <attribute name="MFI_GH1" dataType="Geometry"/>
+          <attribute name="MFI_Points_2007" dataType="Geometry"/>
+          <attribute name="MSA_Tracts" dataType="Geometry"/>
+          <attribute name="mvhp" dataType="Geometry"/>
+          <attribute name="mvhp_reprojected_v2" dataType="Geometry"/>
+          <attribute name="mys1" dataType="Geometry"/>
+          <attribute name="mys2" dataType="Geometry"/>
+          <attribute name="mys4" dataType="Geometry"/>
+          <attribute name="Nashua_Tract" dataType="Geometry"/>
+          <attribute name="NCCS_Lowell" dataType="Geometry"/>
+          <attribute name="nccs_ma_reprojected" dataType="Geometry"/>
+          <attribute name="nccs_shape2" dataType="Geometry"/>
+          <attribute name="nccs_shape_CT" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA_FIPS22051" dataType="Geometry"/>
+          <attribute name="nccs_shape_MA" dataType="Geometry"/>
+          <attribute name="nccs_shape_MACT" dataType="Geometry"/>
+          <attribute name="ne_cd99_110" dataType="Geometry"/>
+          <attribute name="ne_lldistricts" dataType="Geometry"/>
+          <attribute name="ne_lsdistricts" dataType="Geometry"/>
+          <attribute name="ne_streams" dataType="Geometry"/>
+          <attribute name="nehucs10" dataType="Geometry"/>
+          <attribute name="new_england_subbasins" dataType="Geometry"/>
+          <attribute name="NewEngland_Cousub" dataType="Geometry"/>
+          <attribute name="newengland_subbasins_v2" dataType="Geometry"/>
+          <attribute name="nhpn" dataType="Geometry"/>
+          <attribute name="nhpn1" dataType="Geometry"/>
+          <attribute name="NREL_NewEnglandShapeWGS84" dataType="Geometry"/>
+          <attribute name="nuclear-facilities-update" dataType="Geometry"/>
+          <attribute name="nuclear_seismic-hazard" dataType="Geometry"/>
+          <attribute name="nuclear_states" dataType="Geometry"/>
+          <attribute name="nuclear_us_earthquakes" dataType="Geometry"/>
+          <attribute name="od_2005" dataType="Geometry"/>
+          <attribute name="od_2006_reprojected" dataType="Geometry"/>
+          <attribute name="od_2007" dataType="Geometry"/>
+          <attribute name="od_2008" dataType="Geometry"/>
+          <attribute name="od_2009" dataType="Geometry"/>
+          <attribute name="od_2010" dataType="Geometry"/>
+          <attribute name="Ohio County Subdivisions" dataType="Geometry"/>
+          <attribute name="Ohio Places" dataType="Geometry"/>
+          <attribute name="ON no FD 2005" dataType="Geometry"/>
+          <attribute name="on no fd 2006_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2007_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2008_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2009_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2010_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd_2005" dataType="Geometry"/>
+          <attribute name="perc" dataType="Geometry"/>
+          <attribute name="Plants" dataType="Geometry"/>
+          <attribute name="pma_us96" dataType="Geometry"/>
+          <attribute name="pma_us96_pmsa" dataType="Geometry"/>
+          <attribute name="PreK" dataType="Geometry"/>
+          <attribute name="PreK2" dataType="Geometry"/>
+          <attribute name="Prek3" dataType="Geometry"/>
+          <attribute name="Prek4" dataType="Geometry"/>
+          <attribute name="PreK6" dataType="Geometry"/>
+          <attribute name="PreKPregnant" dataType="Geometry"/>
+          <attribute name="PrekPregnant2" dataType="Geometry"/>
+          <attribute name="PreKPregnant3" dataType="Geometry"/>
+          <attribute name="private_IPEDS" dataType="Geometry"/>
+          <attribute name="Public Libraries MA" dataType="Geometry"/>
+          <attribute name="Public School Pre K" dataType="Geometry"/>
+          <attribute name="railways" dataType="Geometry"/>
+          <attribute name="Registrants_US1" dataType="Geometry"/>
+          <attribute name="registrants_us1" dataType="Geometry"/>
+          <attribute name="RGGI" dataType="Geometry"/>
+          <attribute name="RGGI2" dataType="Geometry"/>
+          <attribute name="ri_bg" dataType="Geometry"/>
+          <attribute name="ri_schools08_projected" dataType="Geometry"/>
+          <attribute name="roads" dataType="Geometry"/>
+          <attribute name="Rwanda_Districts" dataType="Geometry"/>
+          <attribute name="Rwanda_Provinces" dataType="Geometry"/>
+          <attribute name="SchoolAged" dataType="Geometry"/>
+          <attribute name="schooldis_elem_POLY" dataType="Geometry"/>
+          <attribute name="schooldishigh_POLY_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_maPOLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTELEM_POLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTHIGH_POLY" dataType="Geometry"/>
+          <attribute name="shapes_demo" dataType="Geometry"/>
+          <attribute name="Soil Waste MA" dataType="Geometry"/>
+          <attribute name="st99_d00" dataType="Geometry"/>
+          <attribute name="State" dataType="Geometry"/>
+          <attribute name="States" dataType="Geometry"/>
+          <attribute name="StatesforNREL" dataType="Geometry"/>
+          <attribute name="STEM BY INSTITUTION" dataType="Geometry"/>
+          <attribute name="Styrene" dataType="Geometry"/>
+          <attribute name="Success_Boston_Student_Cohorts" dataType="Geometry"/>
+          <attribute name="sulfuricacid" dataType="Geometry"/>
+          <attribute name="ta tatata" dataType="Geometry"/>
+          <attribute name="test" dataType="Geometry"/>
+          <attribute name="TEST" dataType="Geometry"/>
+          <attribute name="test_nccs" dataType="Geometry"/>
+          <attribute name="test_st99" dataType="Geometry"/>
+          <attribute name="tgr33001lkA" dataType="Geometry"/>
+          <attribute name="tl_2009_09_bg00" dataType="Geometry"/>
+          <attribute name="tl_2009_us_cbsa" dataType="Geometry"/>
+          <attribute name="tl_2009_us_state" dataType="Geometry"/>
+          <attribute name="tl_2010_us_state10" dataType="Geometry"/>
+          <attribute name="tr25_d00_reprojected" dataType="Geometry"/>
+          <attribute name="TRAINS_NODE" dataType="Geometry"/>
+          <attribute name="Turi points" dataType="Geometry"/>
+          <attribute name="turi points" dataType="Geometry"/>
+          <attribute name="turi points 2008" dataType="Geometry"/>
+          <attribute name="turi00" dataType="Geometry"/>
+          <attribute name="turi01" dataType="Geometry"/>
+          <attribute name="turi02" dataType="Geometry"/>
+          <attribute name="turi03" dataType="Geometry"/>
+          <attribute name="turi04" dataType="Geometry"/>
+          <attribute name="turi05" dataType="Geometry"/>
+          <attribute name="turi06" dataType="Geometry"/>
+          <attribute name="turi06-" dataType="Geometry"/>
+          <attribute name="turi07" dataType="Geometry"/>
+          <attribute name="turi07new" dataType="Geometry"/>
+          <attribute name="turi08" dataType="Geometry"/>
+          <attribute name="turi90" dataType="Geometry"/>
+          <attribute name="turi91" dataType="Geometry"/>
+          <attribute name="turi92" dataType="Geometry"/>
+          <attribute name="turi93" dataType="Geometry"/>
+          <attribute name="turi94" dataType="Geometry"/>
+          <attribute name="turi95" dataType="Geometry"/>
+          <attribute name="turi96" dataType="Geometry"/>
+          <attribute name="turi97" dataType="Geometry"/>
+          <attribute name="turi98" dataType="Geometry"/>
+          <attribute name="turi99" dataType="Geometry"/>
+          <attribute name="TURI_all_2008" dataType="Geometry"/>
+          <attribute name="Turkey" dataType="Geometry"/>
+          <attribute name="US_AKHI_moved" dataType="Geometry"/>
+          <attribute name="us_cbsa" dataType="Geometry"/>
+          <attribute name="us_interstates" dataType="Geometry"/>
+          <attribute name="US_Outline" dataType="Geometry"/>
+          <attribute name="US_States_WGS" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectable" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectabledelete" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectableWITHFIPS" dataType="Geometry"/>
+          <attribute name="USoilPlatforms" dataType="Geometry"/>
+          <attribute name="waterways" dataType="Geometry"/>
+          <attribute name="wb_test" dataType="Geometry"/>
+          <attribute name="wb_testest" dataType="Geometry"/>
+          <attribute name="wbfasdljk" dataType="Geometry"/>
+          <attribute name="welwellwelllll" dataType="Geometry"/>
+          <attribute name="westminster_const_region" dataType="Geometry"/>
+          <attribute name="world" dataType="Geometry"/>
+          <attribute name="World Borders" dataType="Geometry"/>
+          <attribute name="World Borders (UN Codes)" dataType="Geometry"/>
+          <attribute name="World UN" dataType="Geometry"/>
+          <attribute name="WT_FAAOE_2000_2011" dataType="Geometry"/>
+          <attribute name="yb_points" dataType="Geometry"/>
+          <attribute name="youthbuild_points" dataType="Geometry"/>
+          <attribute name="ZillowNeighborhoods" dataType="Geometry"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="mv_Middlesex_ct">
+                  <attribute id="153714" name="FIPS" dataType="string" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="mv_Middlesex_ct">
+                  <attribute id="153715" name="Geographic Name" dataType="string" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn3">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="mv_Middlesex_ct">
+                  <attribute id="153723" name="Total households DP02e1" dataType="number" dataTable="mv_Middlesex_ct" keyType="US Census Tract ID"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>345666.9055636757</xMax>
+          <xMin>84928.86893227199</xMin>
+          <yMax>971381.9788584614</yMax>
+          <yMin>893914.4465392607</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.ZOOM_MODE</defaultMouseMode>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot2">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="Massachusetts Towns" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+                <spatialCallbacks/>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="MA Census Tract" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+                <spatialCallbacks/>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>true</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <enableOverview>false</enableOverview>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.738%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>73.75%</panelWidth>
+    <panelX>5%</panelX>
+    <panelY>0.8726%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS/>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </MapTool>
+</Weave>

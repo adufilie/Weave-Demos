@@ -1,0 +1,1847 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>0</axisFontColor>
+    <axisFontFamily>Arial</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>11</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRadViz2>true</enableAddRadViz2>
+    <enableAddRamachandranPlot>true</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddSP2>true</enableAddSP2>
+    <enableAddStickFigurePlot>true</enableAddStickFigurePlot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableAddWordle>true</enableAddWordle>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMenuBarOnTop>true</enableMenuBarOnTop>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionExport>true</enableSessionExport>
+    <enableSessionImport>true</enableSessionImport>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolBorders>true</enableToolBorders>
+    <enableToolClose>true</enableToolClose>
+    <enableToolDrag>true</enableToolDrag>
+    <enableToolMaximize>true</enableToolMaximize>
+    <enableToolMinimize>true</enableToolMinimize>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolResize>true</enableToolResize>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily>Verdana</panelTitleFontFamily>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServicesURL>/OpenIndicatorsDataServices</rServicesURL>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>Beta 0.9.6 dev</version>
+    <windowSnapGridSize>5</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp printFriendly="true" category="basic" colorblindSafe="true" dataFormat="sequential" reverse="false" name="RdPu" source="ColorBrewer" singlehue="false">
+        <node color="0xFEEBE2" position="0"/>
+        <node color="0xFBB4B9" position="0.25"/>
+        <node color="0xF768A1" position="0.5"/>
+        <node color="0xC51B8A" position="0.75"/>
+        <node color="0x7A0177" position="1.0"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <EqualIntervalBinningDefinition>
+        <dataInterval>3</dataInterval>
+      </EqualIntervalBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="chsi_summary_measures_of_health">
+                    <attribute dataType="number" id="103468" name="County data, self-rated health status" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="CHSI Demographics">
+                  <attribute geometryCollection="Counties" id="46436" name="FIPS" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn12">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="chsi_measures_of_birth_and_death">
+                  <attribute dataType="string" id="108385" name="CHSI_State_Abbr" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="CHSI Demographics">
+                  <attribute geometryCollection="Counties" id="46437" name="Name of county" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn4">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="CHSI Demographics">
+                  <attribute geometryCollection="Counties" id="46452" name="County data, population under age 19" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn5">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="CHSI Relative Health Importance">
+                  <attribute geometryCollection="Counties" id="46418" name="Relative health indicator, births to women over 40" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn6">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="chsi_leading_causes_of_death">
+                  <attribute dataType="number" id="104127" name="County data  ages 15-24  cancer  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn7">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="chsi_measures_of_birth_and_death">
+                  <attribute dataType="number" id="108459" name="County data  infant mortality  post-neonatal" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn8">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="chsi_preventive_services_use">
+                  <attribute dataType="number" id="108328" name="Favorable indicator  Measles" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn9">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="chsi_summary_measures_of_health">
+                  <attribute dataType="number" id="103458" name="County data, average life expectancy" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn10">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="chsi_vulnerable_populations_env_health">
+                  <attribute dataType="number" id="108362" name="County data  severely work disabled" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn11">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="chsirisk">
+                  <attribute geometryCollection="Counties" id="27106" name="County data, no exercise" dataTable="chsirisk" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="Data Tables">
+          <category name="Identifiers">
+            <attribute geometryCollection="Counties" id="46436" name="FIPS" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46437" name="Name of county" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46438" name="Name of State or District of Columbia" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute dataType="string" id="108385" name="CHSI_State_Abbr" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46440" name="CHSI Peer County Stratum Number" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+          </category>
+          <category name="CHSI Demographics">
+            <attribute geometryCollection="Counties" id="46441" name="Listing of strata factors" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46442" name="Number of peer counties" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46443" name="County data, population size" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46446" name="County data, population density (people per square mile)" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46449" name="County data, individuals living below poverty level" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46452" name="County data, population under age 19" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46455" name="County data, population age 19-64" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46458" name="County data, population age 65-84" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46461" name="County data, population age 85+" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46464" name="County data, White" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46467" name="County data, Black" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46470" name="County data, American Indian" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46473" name="County data, AsianPacific Islander" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46476" name="County data, Hispanic origin" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+          </category>
+          <category name="CHSI Relative Health Importance">
+            <attribute geometryCollection="Counties" id="46414" name="Relative health indicator, low birth wt (less than2500 g)" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46415" name="Relative health indicator, very low birth wt (less than1500 g)" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46416" name="Relative health indicator, premature births (less than37 weeks)" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46417" name="Relative health indicator,  births to women under 18" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46418" name="Relative health indicator, births to women over 40" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46419" name="Relative health indicator, births to unmarried women" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46420" name="Relative health indicator, no care in first trimester" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46421" name="Relative health indicator, infant mortality" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46422" name="Relative health indicator, White non Hispanic infant mortality" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46423" name="Relative health indicator, Black non Hispanic infant mortality" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46424" name="Relative health indicator, Hispanic infant mortality" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46425" name="Relative health indicator, neonatal infant mortality" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46426" name="Relative health indicator, post-neonatal infant mortality" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46427" name="Relative health indicator, breast cancer (female)" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46428" name="Relative health indicator, colon cancer" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46429" name="Relative health indicator, coronary heart disease" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46430" name="Relative health indicator, homicide" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46431" name="Relative health indicator, lung cancer" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46432" name="Relative health indicator, motor vehicle injuries" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46433" name="Relative health indicator, stroke" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46434" name="Relative health indicator, suicide" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="46435" name="Relative health indicator, unintentional injury" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+          </category>
+          <category name="chsi_leading_causes_of_death">
+            <attribute dataType="number" id="104022" name="County data  under age 1  complications of pregnancy per birth  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104025" name="County data  under age 1  complications of pregnancy per birth  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104028" name="County data  under age 1  complications of pregnancy per birth  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104031" name="County data  under age 1  complications of pregnancy per birth  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104034" name="County data  under age 1  birth defects  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104037" name="County data  under age 1  birth defects  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104040" name="County data  under age 1  birth defects  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104043" name="County data  under age 1  birth defects  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104046" name="County data  ages 1-14  injuries  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104049" name="County data  ages 1-14  injuries  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104052" name="County data  ages 1-14  injuries  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104055" name="County data  ages 1-14  injuries  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104058" name="County data  ages 1-14  cancer  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104061" name="County data  ages 1-14  cancer  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104064" name="County data  ages 1-14  cancer  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104067" name="County data  ages 1-14  cancer  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104070" name="County data  ages 1-14  homicide  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104073" name="County data  ages 1-14  homicide  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104076" name="County data  ages 1-14  homicide  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104079" name="County data  ages 1-14  homicide  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104082" name="County data  ages 15-24  injuries  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104085" name="County data  ages 15-24  injuries  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104088" name="County data  ages 15-24  injuries  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104091" name="County data  ages 15-24  injuries  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104094" name="County data  ages 15-24  homicide  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104097" name="County data  ages 15-24  homicide  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104100" name="County data  ages 15-24  homicide  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104103" name="County data  ages 15-24  homicide  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104106" name="County data  ages 15-24  suicide  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104109" name="County data  ages 15-24  suicide  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104112" name="County data  ages 15-24  suicide  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104115" name="County data  ages 15-24  suicide  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104118" name="County data  ages 15-24  cancer  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104121" name="County data  ages 15-24  cancer  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104124" name="County data  ages 15-24  cancer  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104127" name="County data  ages 15-24  cancer  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104130" name="County data  ages 25-44  injuries  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104133" name="County data  ages 25-44  injuries  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104136" name="County data  ages 25-44  injuries  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104139" name="County data  ages 25-44  injuries  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104142" name="County data  ages 25-44  cancer  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104145" name="County data  ages 25-44  cancer  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104148" name="County data  ages 25-44  cancer  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104151" name="County data  ages 25-44  cancer  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104154" name="County data  ages 25-44  heart disease  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104157" name="County data  ages 25-44  heart disease  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104160" name="County data  ages 25-44  heart disease  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104163" name="County data  ages 25-44  heart disease  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104166" name="County data  ages 25-44  suicide  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104169" name="County data  ages 25-44  suicide  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104172" name="County data  ages 25-44  suicide  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104175" name="County data  ages 25-44  suicide  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104178" name="County data  ages 25-44  hiv per aids  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104181" name="County data  ages 25-44  hiv per aids  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104184" name="County data  ages 25-44  hiv per aids  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104187" name="County data  ages 25-44  hiv per aids  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104190" name="County data  ages 25-44  homicide  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104193" name="County data  ages 25-44  homicide  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104196" name="County data  ages 25-44  homicide  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104199" name="County data  ages 25-44  homicide  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104202" name="County data  ages 45-64  cancer  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104205" name="County data  ages 45-64  cancer  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104208" name="County data  ages 45-64  cancer  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104211" name="County data  ages 45-64  cancer  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104214" name="County data  ages 45-64  heart disease  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104217" name="County data  ages 45-64  heart disease  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104220" name="County data  ages 45-64  heart disease  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104223" name="County data  ages 45-64  heart disease  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104226" name="County data  ages 65+  heart disease  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104229" name="County data  ages 65+  heart disease  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104232" name="County data  ages 65+  heart disease  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104235" name="County data  ages 65+  heart disease  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104238" name="County data  ages 65+  cancer  White" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104241" name="County data  ages 65+  cancer  Black" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104244" name="County data  ages 65+  cancer  other" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="104247" name="County data  ages 65+  cancer  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+            <attribute dataType="string" id="104250" name="Time period of reported data for national leading causes of dealth" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+          </category>
+          <category name="chsi_measures_of_birth_and_death">
+            <attribute dataType="number" id="108387" name="County data  birth measures  low birth wt. (&lt;2500 g)" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108388" name="Favorable indicator  birth measures  low birth wt. (&lt;2500 g)" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108393" name="County data  birth measures  very low birth wt. (&lt;1500 g)" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108394" name="Favorable indicator  birth measures  very low birth wt. (&lt;1500 g)" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108399" name="County data  birth measures  premature births (&lt;37 weeks)" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108400" name="Favorable indicator  birth measures  premature births (&lt;37 weeks)" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108405" name="County data  birth measures  births to women under 18" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108406" name="Favorable indicator  birth measures  births to women under 18" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108411" name="County data  birth measures  births to women over 40" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108412" name="Favorable indicator  birth measures  births to women over 40" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108417" name="County data  birth measures  births to unmarried women" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108418" name="Favorable indicator  birth measures  births to unmarried women" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108423" name="County data  birth measures  no care in first trimester" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108424" name="Favorable indicator  birth measures  no care in first trimester" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108429" name="County data  infant mortality" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108430" name="Favorable indicator  infant mortality" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108435" name="County data  infant mortality  White non Hispanic" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108436" name="Favorable indicator  infant mortality  White non Hispanic" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108441" name="County data  infant mortality  Black non Hispanic" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108442" name="Favorable indicator  infant mortality  Black non Hispanic" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108447" name="County data  infant mortality  Hispanic" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108448" name="Favorable indicator  infant mortality  Hispanic" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108453" name="County data  infant mortality  neonatal" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108454" name="Favorable indicator  infant mortality  neonatal" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108459" name="County data  infant mortality  post-neonatal" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108460" name="Favorable indicator  infant mortality  post-neonatal" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108465" name="County data  death measures  breast cancer (female)" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108466" name="Favorable indicator  death measures  breast cancer (female)" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108471" name="County data  death measures  colon cancer" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108472" name="Favorable indicator  death measures  colon cancer" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108477" name="County data  death measures  coronary heart disease" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108478" name="Favorable indicator  death measures  coronary heart disease" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108483" name="County data  death measures  homicide" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108484" name="Favorable indicator  death measures  homicide" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108489" name="County data  death measures  lung cancer" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108490" name="Favorable indicator  death measures  lung cancer" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108495" name="County data  death measures  motor vehicle injuries" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108496" name="Favorable indicator  death measures  motor vehicle injuries" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108501" name="County data  death measures  stroke" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108502" name="Favorable indicator  death measures  stroke" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108507" name="County data  death measures  suicide" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108508" name="Favorable indicator  death measures  suicide" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108513" name="County data  death measures  unintentional injury" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108514" name="Favorable indicator  death measures  unintentional injury" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108519" name="County data  total number of births" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108520" name="County data  total number of deaths" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+            <attribute dataType="string" id="108521" name="Time period of reported data for measures of birth and death" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+          </category>
+          <category name="chsi_preventive_services_use">
+            <attribute dataType="number" id="108318" name="County data  Haemophilus Influenzae B reported cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108319" name="Favorable indicator  Haemophilus Influenzae B" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108320" name="County data  Haemophilus Influenzae B expected cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108321" name="County data  Hepatitis A reported cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108322" name="Favorable indicator  Hepatitis A" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108323" name="County data  Hepatitis A expected cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108324" name="County data  Hepatitis B reported cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108325" name="Favorable indicator  Hepatitis B" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108326" name="County data  Hepatitis B expected cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108327" name="County data  Measles reported cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108328" name="Favorable indicator  Measles" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108329" name="County data  Measles expected cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108330" name="County data  Pertussis reported cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108331" name="Favorable indicator  Pertussis" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108332" name="County data  Pertussis expected cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108333" name="County data  Congenital Rubella Syndrome reported cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108334" name="Favorable indicator  Congenital Rubella Syndrome" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108335" name="County data  Congenital Rubella Syndrome expected cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108336" name="County data  Syphilis reported cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108337" name="Favorable indicator  Syphilis" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108338" name="County data  Syphilis expected cases" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="string" id="108339" name="Time period of reported data for infectious disease cases in the preventive services use" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108340" name="County data  pap smears 18plus" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108343" name="County data  mammography 50plus" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108346" name="County data  sigmoidoscopy 50plus" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108349" name="County data  pneumonia vaccine 65plus" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108352" name="County data  flu vaccine 65plus" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+          </category>
+          <category name="chsi_summary_measures_of_health">
+            <attribute dataType="number" id="103458" name="County data, average life expectancy" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="103461" name="Medium for all US counties, average life expectancy" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="103462" name="County data, all causes of death" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="103465" name="Medium for all US counties, all causes of death" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="103468" name="County data, self-rated health status" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="103471" name="Medium for all US counties, self-rated health status" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="103474" name="County data, average number of unhealthy days in past month" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="103477" name="MediumforallUScounties,averagenumberofunhealthydaysinpastmonth" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+          </category>
+          <category name="chsi_vulnerable_populations_env_health">
+            <attribute dataType="number" id="108360" name="County data  no high school diploma among adults age 25 and older" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108361" name="County data  unemployed" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108362" name="County data  severely work disabled" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108363" name="County data  major depression" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108364" name="County data  recent drug users within past month" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108365" name="County data  E.coli reported cases" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108366" name="Favorable indicator  E.coli" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108367" name="County data  E.coli expected cases" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108368" name="County data  Salmonella reported cases" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108369" name="Favorable indicator  Salmonella" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108370" name="County data  Salmonella expected cases" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108371" name="County data  Shigella reported cases" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108372" name="Favorable indicator  Shigella" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108373" name="County data  Shigella expected cases" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108374" name="County data  toxic chemicals released annually" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108375" name="Air quality standard indicator  carbon monoxide" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108376" name="Air quality standard indicator  nitrogen dioxide" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108377" name="Air quality standard indicator  sulfur dioxide" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108378" name="Air quality standard indicator  ozone" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108379" name="Air quality standard indicator  particulate matter" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="number" id="108380" name="Air quality standard indicator  lead" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+            <attribute dataType="string" id="108381" name="Time period of reported data for infectious disease in the environmental health" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+          </category>
+          <category name="chsidemographics">
+            <attribute geometryCollection="Counties" id="27138" name="County data, population size" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27141" name="County data, population density (people per square mile)" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27144" name="County data, individuals living below poverty level" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27147" name="County data, population under age 19" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27150" name="County data, population age 19-64" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27153" name="County data, population age 65-84" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27156" name="County data, population age 85+" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27159" name="County data, White" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27162" name="County data, Black" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27165" name="County data, American Indian" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27168" name="County data, AsianPacific Islander" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27171" name="County data, Hispanic origin" dataTable="chsidemographics" keyType="US County FIPS Code"/>
+          </category>
+          <category name="chsi risk factors">
+            <attribute geometryCollection="Counties" id="27106" name="County data, no exercise" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27109" name="County data, few fruitsvegetables" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27112" name="County data, obesity" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27115" name="County data, high blood pressure" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27118" name="County data, smoker" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27121" name="County data, diabetes" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27124" name="County data, uninsured individuals" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27125" name="County data, medicare beneficiaries, elderly (age 65+)" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27126" name="County data, medicare beneficiaries, disabled" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27127" name="County data, primary care physicians per 100,000 pop" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27128" name="County data, dentists per 100,000 pop" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27129" name="IndicatorforanyCommunityMigrantHealthCenterslocatedinthecounty" dataTable="chsirisk" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="27130" name="Indicatorforsinglecountydesign_HealthProfessionalShortageArea" dataTable="chsirisk" keyType="US County FIPS Code"/>
+          </category>
+          <category name="Counties">
+            <attribute projectionSRS="EPSG:4326" dataType="Geometry" name="Counties" keyType="US County FIPS Code"/>
+          </category>
+          <category name="Obesity_County_2004_2007">
+            <attribute geometryCollection="Counties" id="45534" name="State" dataTable="Obesity_County_2004_2007" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="45535" name="County" dataTable="Obesity_County_2004_2007" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="45536" name="STATE_FIPS" dataTable="Obesity_County_2004_2007" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="45537" name="FIPS" dataTable="Obesity_County_2004_2007" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="45538" name="COUNTY_FIPS" dataTable="Obesity_County_2004_2007" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="45539" name="2004 Estimated Percent Obese" max="30.2" min="22.8" year="2004" dataTable="Obesity_County_2004_2007" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="45540" name="2005 Estimated Percent Obese" max="28.9" min="26.1" year="2005" dataTable="Obesity_County_2004_2007" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="45541" name="2006 Estimated Percent Obese" max="27.9" min="27.9" year="2006" dataTable="Obesity_County_2004_2007" keyType="US County FIPS Code"/>
+            <attribute geometryCollection="Counties" id="45542" name="2007 Estimated Percent Obese" max="30" min="29.3" year="2007" dataTable="Obesity_County_2004_2007" keyType="US County FIPS Code"/>
+          </category>
+        </category>
+        <category name="Geometry Collections">
+          <attribute name="11_4_reprojected" dataType="Geometry"/>
+          <attribute name="11_4_reprojected_geometry" dataType="Geometry"/>
+          <attribute name="arra_mass_points201004" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="arra_point" dataType="Geometry"/>
+          <attribute name="Arrests_Nashua" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts" dataType="Geometry"/>
+          <attribute name="Atlanta Superdistricts11" dataType="Geometry"/>
+          <attribute name="Atlanta Transportation Analysis Zones" dataType="Geometry"/>
+          <attribute name="Atlanta_CLCC_GDCH" dataType="Geometry"/>
+          <attribute name="Atlanta_ES_4th_CRCT_Reading" dataType="Geometry"/>
+          <attribute name="Atlanta_Head_Start" dataType="Geometry"/>
+          <attribute name="Atlanta_LowPerfSchools" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Counties" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Interstates" dataType="Geometry"/>
+          <attribute name="Atlanta_MSA_Places" dataType="Geometry"/>
+          <attribute name="Atlanta_NPUs" dataType="Geometry"/>
+          <attribute name="Atlanta_Pre-K" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3_5" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln3Plus" dataType="Geometry"/>
+          <attribute name="Atlanta_Vuln6_10" dataType="Geometry"/>
+          <attribute name="bikeped_facilities" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels" dataType="Geometry"/>
+          <attribute name="Boston 2005 Parcels Subset" dataType="Geometry"/>
+          <attribute name="boston_foreclosure_deeds" dataType="Geometry"/>
+          <attribute name="Boston_Hositals" dataType="Geometry"/>
+          <attribute name="Boston_Hositals111" dataType="Geometry"/>
+          <attribute name="Boston_Neighborhoods" dataType="Geometry"/>
+          <attribute name="boston_roads" dataType="Geometry"/>
+          <attribute name="Boston_zips" dataType="Geometry"/>
+          <attribute name="CATCHMENTS_poly_region" dataType="Geometry"/>
+          <attribute name="CBSAs" dataType="Geometry"/>
+          <attribute name="cd_110thCongress" dataType="Geometry"/>
+          <attribute name="Census Trats MA 2010" dataType="Geometry"/>
+          <attribute name="census2000blockgroups_poly_orig" dataType="Geometry"/>
+          <attribute name="census2000tracts_ICC_Towns" dataType="Geometry"/>
+          <attribute name="chic_counties" dataType="Geometry"/>
+          <attribute name="Chicago Census Tracts" dataType="Geometry"/>
+          <attribute name="chicago_arra_munis" dataType="Geometry"/>
+          <attribute name="chicago_arra_point" dataType="Geometry"/>
+          <attribute name="Chicago_Muni_ARRA" dataType="Geometry"/>
+          <attribute name="chicpoint2" dataType="Geometry"/>
+          <attribute name="chicpoint2111" dataType="Geometry"/>
+          <attribute name="chicpoint3" dataType="Geometry"/>
+          <attribute name="CHN_adm1" dataType="Geometry"/>
+          <attribute name="CHN_adm2" dataType="Geometry"/>
+          <attribute name="CHN_adm3" dataType="Geometry"/>
+          <attribute name="CityofAtlanta" dataType="Geometry"/>
+          <attribute name="Counties" dataType="Geometry"/>
+          <attribute name="Countries" dataType="Geometry"/>
+          <attribute name="County Subdivisions" dataType="Geometry"/>
+          <attribute name="eec2" dataType="Geometry"/>
+          <attribute name="eec_artificial_child" dataType="Geometry"/>
+          <attribute name="eec_familyservices_reproj" dataType="Geometry"/>
+          <attribute name="eec_lowellschools_reproj" dataType="Geometry"/>
+          <attribute name="eec_prekpregnant_reproj" dataType="Geometry"/>
+          <attribute name="EEC_Providers" dataType="Geometry"/>
+          <attribute name="eec_regcnt_MA_ElemSchoolDistricts" dataType="Geometry"/>
+          <attribute name="eec_registrants_ma" dataType="Geometry"/>
+          <attribute name="eec_schoolagedchildren_reproj" dataType="Geometry"/>
+          <attribute name="eec_test1" dataType="Geometry"/>
+          <attribute name="eec_test2" dataType="Geometry"/>
+          <attribute name="emassnh_catchments" dataType="Geometry"/>
+          <attribute name="FamilyServices" dataType="Geometry"/>
+          <attribute name="fd_2005" dataType="Geometry"/>
+          <attribute name="fd_2006" dataType="Geometry"/>
+          <attribute name="fd_2007" dataType="Geometry"/>
+          <attribute name="fd_2008" dataType="Geometry"/>
+          <attribute name="fd_2009" dataType="Geometry"/>
+          <attribute name="fd_2010" dataType="Geometry"/>
+          <attribute name="FD_points_Lowell_new1" dataType="Geometry"/>
+          <attribute name="fe_2007_44_elsd" dataType="Geometry"/>
+          <attribute name="fe_2007_44_unsd" dataType="Geometry"/>
+          <attribute name="FullPoints_Final" dataType="Geometry"/>
+          <attribute name="FullPoints_Lowell" dataType="Geometry"/>
+          <attribute name="fullpoints_lowell_reprojected" dataType="Geometry"/>
+          <attribute name="GHA_boundaries" dataType="Geometry"/>
+          <attribute name="GHA_outline" dataType="Geometry"/>
+          <attribute name="higher_ed_ma" dataType="Geometry"/>
+          <attribute name="higher_ed_ma_x" dataType="Geometry"/>
+          <attribute name="hwt_point" dataType="Geometry"/>
+          <attribute name="ICMB_ct" dataType="Geometry"/>
+          <attribute name="IPEDS(For)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Non)2009" dataType="Geometry"/>
+          <attribute name="IPEDS(Public)2009" dataType="Geometry"/>
+          <attribute name="ireland_counties" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v3" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v4" dataType="Geometry"/>
+          <attribute name="ireland_latlongpoints_v5" dataType="Geometry"/>
+          <attribute name="ireland_municipal_combined" dataType="Geometry"/>
+          <attribute name="ireland_nation" dataType="Geometry"/>
+          <attribute name="ireland_regions" dataType="Geometry"/>
+          <attribute name="Lawrence Parcel" dataType="Geometry"/>
+          <attribute name="lawrence_home buyers active" dataType="Geometry"/>
+          <attribute name="LCW Home purchase" dataType="Geometry"/>
+          <attribute name="lowell_nccs_3" dataType="Geometry"/>
+          <attribute name="lowell_neighborhoods_reprojected" dataType="Geometry"/>
+          <attribute name="Lowell_Parcels" dataType="Geometry"/>
+          <attribute name="lowell_registrants" dataType="Geometry"/>
+          <attribute name="LowellFD_2009_Final" dataType="Geometry"/>
+          <attribute name="lowelltracts_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MA Census Tract" dataType="Geometry"/>
+          <attribute name="MA Census Tract 6-digit" dataType="Geometry"/>
+          <attribute name="ma_childcare_2009_sample_points" dataType="Geometry"/>
+          <attribute name="MA_COC" dataType="Geometry"/>
+          <attribute name="MA_EEC_Registrants" dataType="Geometry"/>
+          <attribute name="MA_Major_Streams_Lines" dataType="Geometry"/>
+          <attribute name="ma_SCHOOLS_PT" dataType="Geometry"/>
+          <attribute name="ma_shapes_delete" dataType="Geometry"/>
+          <attribute name="ma_town_region3" dataType="Geometry"/>
+          <attribute name="MA_Towns_MultiPoly_TOWN" dataType="Geometry"/>
+          <attribute name="ma_tract_w_eec_regcnt_and_town" dataType="Geometry"/>
+          <attribute name="ma_tracts_w_eec_regcnt" dataType="Geometry"/>
+          <attribute name="MA_ZCTA" dataType="Geometry"/>
+          <attribute name="MA_ZipCodes_Poly" dataType="Geometry"/>
+          <attribute name="MAPC_Municipalities" dataType="Geometry"/>
+          <attribute name="mass_benchmarks" dataType="Geometry"/>
+          <attribute name="Massachusetts Towns" dataType="Geometry"/>
+          <attribute name="MassARRA" dataType="Geometry"/>
+          <attribute name="MassARRALowellOnly" dataType="Geometry"/>
+          <attribute name="MassARRApoint" dataType="Geometry"/>
+          <attribute name="MassARRAPoint" dataType="Geometry"/>
+          <attribute name="MassARRAVer6" dataType="Geometry"/>
+          <attribute name="masstowns_w_eec_registrant_count" dataType="Geometry"/>
+          <attribute name="MBTA_ARC" dataType="Geometry"/>
+          <attribute name="MBTABUSROUTES_ARC" dataType="Geometry"/>
+          <attribute name="MBTABUSSTOPS_PT" dataType="Geometry"/>
+          <attribute name="MetroBoston_Schools" dataType="Geometry"/>
+          <attribute name="Metropolitan Division" dataType="Geometry"/>
+          <attribute name="MFI Ben" dataType="Geometry"/>
+          <attribute name="MFI_GH" dataType="Geometry"/>
+          <attribute name="MFI_GH1" dataType="Geometry"/>
+          <attribute name="MFI_Points_2007" dataType="Geometry"/>
+          <attribute name="MSA_Tracts" dataType="Geometry"/>
+          <attribute name="mvhp" dataType="Geometry"/>
+          <attribute name="Nashua_Tract" dataType="Geometry"/>
+          <attribute name="NCCS_Lowell" dataType="Geometry"/>
+          <attribute name="nccs_ma_reprojected" dataType="Geometry"/>
+          <attribute name="nccs_shape2" dataType="Geometry"/>
+          <attribute name="nccs_shape_CT" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA" dataType="Geometry"/>
+          <attribute name="nccs_shape_LA_FIPS22051" dataType="Geometry"/>
+          <attribute name="nccs_shape_MA" dataType="Geometry"/>
+          <attribute name="nccs_shape_MACT" dataType="Geometry"/>
+          <attribute name="ne_cd99_110" dataType="Geometry"/>
+          <attribute name="ne_lldistricts" dataType="Geometry"/>
+          <attribute name="ne_lsdistricts" dataType="Geometry"/>
+          <attribute name="ne_streams" dataType="Geometry"/>
+          <attribute name="nehucs10" dataType="Geometry"/>
+          <attribute name="new_england_subbasins" dataType="Geometry"/>
+          <attribute name="newengland_subbasins_v2" dataType="Geometry"/>
+          <attribute name="NREL_NewEnglandShapeWGS84" dataType="Geometry"/>
+          <attribute name="od_2005" dataType="Geometry"/>
+          <attribute name="od_2006_reprojected" dataType="Geometry"/>
+          <attribute name="od_2007" dataType="Geometry"/>
+          <attribute name="od_2008" dataType="Geometry"/>
+          <attribute name="od_2009" dataType="Geometry"/>
+          <attribute name="od_2010" dataType="Geometry"/>
+          <attribute name="Ohio County Subdivisions" dataType="Geometry"/>
+          <attribute name="Ohio Places" dataType="Geometry"/>
+          <attribute name="ON no FD 2005" dataType="Geometry"/>
+          <attribute name="on no fd 2006_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2007_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2008_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2009_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd 2010_reprojected" dataType="Geometry"/>
+          <attribute name="on no fd_2005" dataType="Geometry"/>
+          <attribute name="PreK" dataType="Geometry"/>
+          <attribute name="PreK2" dataType="Geometry"/>
+          <attribute name="Prek3" dataType="Geometry"/>
+          <attribute name="Prek4" dataType="Geometry"/>
+          <attribute name="PreK6" dataType="Geometry"/>
+          <attribute name="PreKPregnant" dataType="Geometry"/>
+          <attribute name="PrekPregnant2" dataType="Geometry"/>
+          <attribute name="PreKPregnant3" dataType="Geometry"/>
+          <attribute name="private_IPEDS" dataType="Geometry"/>
+          <attribute name="Registrants_US1" dataType="Geometry"/>
+          <attribute name="registrants_us1" dataType="Geometry"/>
+          <attribute name="ri_bg" dataType="Geometry"/>
+          <attribute name="ri_schools08_projected" dataType="Geometry"/>
+          <attribute name="Rwanda_Districts" dataType="Geometry"/>
+          <attribute name="Rwanda_Provinces" dataType="Geometry"/>
+          <attribute name="SchoolAged" dataType="Geometry"/>
+          <attribute name="schooldis_elem_POLY" dataType="Geometry"/>
+          <attribute name="schooldishigh_POLY_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_ma" dataType="Geometry"/>
+          <attribute name="schooldist_elem_maPOLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTELEM_POLY" dataType="Geometry"/>
+          <attribute name="SCHOOLDISTHIGH_POLY" dataType="Geometry"/>
+          <attribute name="st99_d00" dataType="Geometry"/>
+          <attribute name="State" dataType="Geometry"/>
+          <attribute name="States" dataType="Geometry"/>
+          <attribute name="StatesforNREL" dataType="Geometry"/>
+          <attribute name="Success_Boston_Student_Cohorts" dataType="Geometry"/>
+          <attribute name="test" dataType="Geometry"/>
+          <attribute name="test_nccs" dataType="Geometry"/>
+          <attribute name="tl_2009_09_bg00" dataType="Geometry"/>
+          <attribute name="tl_2009_us_state" dataType="Geometry"/>
+          <attribute name="tr25_d00_reprojected" dataType="Geometry"/>
+          <attribute name="Turi points" dataType="Geometry"/>
+          <attribute name="turi points" dataType="Geometry"/>
+          <attribute name="turi points 2008" dataType="Geometry"/>
+          <attribute name="turi00" dataType="Geometry"/>
+          <attribute name="turi01" dataType="Geometry"/>
+          <attribute name="turi02" dataType="Geometry"/>
+          <attribute name="turi03" dataType="Geometry"/>
+          <attribute name="turi04" dataType="Geometry"/>
+          <attribute name="turi05" dataType="Geometry"/>
+          <attribute name="turi06" dataType="Geometry"/>
+          <attribute name="turi07" dataType="Geometry"/>
+          <attribute name="turi07new" dataType="Geometry"/>
+          <attribute name="turi08" dataType="Geometry"/>
+          <attribute name="turi90" dataType="Geometry"/>
+          <attribute name="turi91" dataType="Geometry"/>
+          <attribute name="turi92" dataType="Geometry"/>
+          <attribute name="turi93" dataType="Geometry"/>
+          <attribute name="turi94" dataType="Geometry"/>
+          <attribute name="turi95" dataType="Geometry"/>
+          <attribute name="turi96" dataType="Geometry"/>
+          <attribute name="turi97" dataType="Geometry"/>
+          <attribute name="turi98" dataType="Geometry"/>
+          <attribute name="turi99" dataType="Geometry"/>
+          <attribute name="TURI_all_2008" dataType="Geometry"/>
+          <attribute name="Turkey" dataType="Geometry"/>
+          <attribute name="us_cbsa" dataType="Geometry"/>
+          <attribute name="us_interstates" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectable" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectabledelete" dataType="Geometry"/>
+          <attribute name="USCoastFinalver2selectableWITHFIPS" dataType="Geometry"/>
+          <attribute name="USoilPlatforms" dataType="Geometry"/>
+          <attribute name="USoilPlatformsDelete" dataType="Geometry"/>
+          <attribute name="westminster_const_region" dataType="Geometry"/>
+          <attribute name="world" dataType="Geometry"/>
+          <attribute name="World Borders" dataType="Geometry"/>
+          <attribute name="World Borders (UN Codes)" dataType="Geometry"/>
+          <attribute name="World UN" dataType="Geometry"/>
+          <attribute name="yb_points" dataType="Geometry"/>
+          <attribute name="youthbuild_points" dataType="Geometry"/>
+          <attribute name="ZillowNeighborhoods" dataType="Geometry"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/OpenIndicatorsDataServices/DataService</url>
+  </WeaveDataSource>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axisColor>13421772</axisColor>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Arial</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <axisLineAlpha>1</axisLineAlpha>
+        <axisThickness>10</axisThickness>
+        <dataBounds>
+          <xMax>-52.496356441085865</xMax>
+          <xMin>-190.90844472269742</xMin>
+          <yMax>79.8305184910428</yMax>
+          <yMin>14.995382401235263</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot2">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="States" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="Counties" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+        <tickAlpha>1</tickAlpha>
+        <tickColor>16777215</tickColor>
+        <tickLength>10</tickLength>
+        <tickThickness>1</tickThickness>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>false</closeable>
+    <draggable>false</draggable>
+    <enableBackground>false</enableBackground>
+    <enableBorders>false</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>false</enableHelpPanel>
+    <linkColormap>false</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel>false</lockPanel>
+    <maximizable>false</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>13434624</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>74.219%</panelWidth>
+    <panelX>0.39063%</panelX>
+    <panelY>0%</panelY>
+    <projectionSRS/>
+    <resizeable>false</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </MapTool>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axisColor>13421772</axisColor>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Arial</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <axisLineAlpha>1</axisLineAlpha>
+        <axisThickness>10</axisThickness>
+        <dataBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>15.5</yMax>
+          <yMin>-0.5</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <shapeSize>20</shapeSize>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+        <tickAlpha>1</tickAlpha>
+        <tickColor>16777215</tickColor>
+        <tickLength>10</tickLength>
+        <tickThickness>1</tickThickness>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>false</draggable>
+    <enableBorders>false</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>false</enableHelpPanel>
+    <linkColormap>true</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel>false</lockPanel>
+    <maximizable>false</maximizable>
+    <maximized>false</maximized>
+    <minimizable>false</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>25%</panelWidth>
+    <panelX>74.609%</panelX>
+    <panelY>0.5618%</panelY>
+    <resizeable>false</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ColorBinLegendTool>
+  <HistogramTool name="ColorHistogramTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axisColor>13421772</axisColor>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Arial</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <axisLineAlpha>1</axisLineAlpha>
+        <axisThickness>10</axisThickness>
+        <dataBounds>
+          <xMax>15.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>542</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>542</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>542</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>15.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>15.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <forceTickCount>true</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>16</tickCountRequested>
+                <tickMaxValue>15</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <HistogramPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <fillStyle>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                </fillStyle>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+              </HistogramPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <drawLine>false</drawLine>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <x1>-0.5</x1>
+                <x2>4</x2>
+                <x3>0</x3>
+                <xColumn encoding="dynamic"/>
+                <y1>542</y1>
+                <y2>542</y2>
+                <y3>0</y3>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+        <tickAlpha>1</tickAlpha>
+        <tickColor>16777215</tickColor>
+        <tickLength>10</tickLength>
+        <tickThickness>1</tickThickness>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>false</closeable>
+    <draggable>false</draggable>
+    <enableBorders>false</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>false</enableHelpPanel>
+    <linkColormap>true</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel>false</lockPanel>
+    <maximizable>false</maximizable>
+    <maximized>false</maximized>
+    <minimizable>false</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>16764159</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>50%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>50%</panelY>
+    <resizeable>false</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </HistogramTool>
+  <DataTableTool name="DataTableTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axisColor>13421772</axisColor>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Arial</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <axisLineAlpha>1</axisLineAlpha>
+        <axisThickness>10</axisThickness>
+        <dataBounds>
+          <xMax>NaN</xMax>
+          <xMin>NaN</xMin>
+          <yMax>NaN</yMax>
+          <yMin>NaN</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic"/>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+        <tickAlpha>1</tickAlpha>
+        <tickColor>16777215</tickColor>
+        <tickLength>10</tickLength>
+        <tickThickness>1</tickThickness>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>false</closeable>
+    <columns encoding="dynamic">
+      <DynamicColumn name="DynamicColumn" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="CHSI Demographics">
+                      <attribute geometryCollection="Counties" id="46436" name="FIPS" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn2" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="CHSI Demographics">
+                      <attribute geometryCollection="Counties" id="46437" name="Name of county" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn3" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="CHSI Demographics">
+                      <attribute geometryCollection="Counties" id="46439" name="Two-character postal abbreviation for state name" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn4" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="CHSI Demographics">
+                      <attribute geometryCollection="Counties" id="46452" name="County data, population under age 19" dataTable="CHSI Demographics" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn5" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="CHSI Relative Health Importance">
+                      <attribute geometryCollection="Counties" id="46418" name="Relative health indicator, births to women over 40" dataTable="CHSI Relative Health Importance" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn6" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="chsi_leading_causes_of_death">
+                      <attribute dataType="number" id="104127" name="County data  ages 15-24  cancer  Hispanic" dataTable="chsi_leading_causes_of_death" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn7" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="chsi_measures_of_birth_and_death">
+                      <attribute dataType="number" id="108459" name="County data  infant mortality  post-neonatal" dataTable="chsi_measures_of_birth_and_death" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn8" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="chsi_preventive_services_use">
+                      <attribute dataType="number" id="108328" name="Favorable indicator  Measles" dataTable="chsi_preventive_services_use" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn9" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="chsi_summary_measures_of_health">
+                      <attribute dataType="number" id="103458" name="County data, average life expectancy" dataTable="chsi_summary_measures_of_health" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn10" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="chsi_vulnerable_populations_env_health">
+                      <attribute dataType="number" id="108362" name="County data  severely work disabled" dataTable="chsi_vulnerable_populations_env_health" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+      <DynamicColumn name="DynamicColumn11" encoding="dynamic">
+        <ReferencedColumn>
+          <dynamicColumnReference encoding="dynamic">
+            <HierarchyColumnReference>
+              <dataSourceName>WeaveDataSource</dataSourceName>
+              <hierarchyPath encoding="xml">
+                <hierarchy>
+                  <category name="Data Tables">
+                    <category name="chsirisk">
+                      <attribute geometryCollection="Counties" id="27106" name="County data, no exercise" dataTable="chsirisk" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </hierarchy>
+              </hierarchyPath>
+            </HierarchyColumnReference>
+          </dynamicColumnReference>
+        </ReferencedColumn>
+      </DynamicColumn>
+    </columns>
+    <draggable>false</draggable>
+    <enableBorders>false</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <linkColormap>true</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel>false</lockPanel>
+    <maximizable>false</maximizable>
+    <maximized>false</maximized>
+    <minimizable>false</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>48.828%</panelWidth>
+    <panelX>51.172%</panelX>
+    <panelY>50%</panelY>
+    <resizeable>false</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <showControls>false</showControls>
+    <sortFieldIndex>3</sortFieldIndex>
+    <sortInDescendingOrder>false</sortInDescendingOrder>
+    <toolTitle/>
+  </DataTableTool>
+</Weave>

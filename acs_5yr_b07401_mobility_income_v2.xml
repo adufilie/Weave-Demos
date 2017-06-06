@@ -1,0 +1,1014 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>0</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>11</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionExport>true</enableSessionExport>
+    <enableSessionImport>true</enableSessionImport>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily>Verdana</panelTitleFontFamily>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <sessionStateEditor>TextArea</sessionStateEditor>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>1.0 Beta 1</version>
+    <windowSnapGridSize>5</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="YlOrRd" source="ColorBrewer" colorblindSafe="true" category="basic" dataFormat="sequential" singlehue="false">
+        <node color="0xFFFFB2" position="0"/>
+        <node color="0xFECC5C" position="0.25"/>
+        <node color="0xFD8D3C" position="0.5"/>
+        <node color="0xF03B20" position="0.75"/>
+        <node color="0xBD0026" position="1.0"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="American Community Survey File 2 ">
+                  <category name="Mobility in the Last Year by Income Table B07401">
+                    <category name="Moved Within Same County">
+                      <attribute id="147956" name="$35000 to $49999 B07410e30" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+                    </category>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="American Community Survey File 2 ">
+          <category name="Mobility in the Last Year by Income Table B07401">
+            <category name="Identifiers">
+              <attribute id="147874" name="Alaska Native Regional Corporati" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147875" name="American Indian AreaAlaska Nati" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147876" name="American Indian AreaAlaska Nati_1" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147877" name="American Indian Tribal Subdivisi" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147878" name="American Indian Tribal Subdivisi_2" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147879" name="American Indian Trust LandHawai" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147880" name="Area Name" dataTable="acs5yr_consolidated_county_0002_v2" dataType="string" keyType="US County FIPS Code"/>
+              <attribute id="147881" name="Block Group" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147882" name="Census Tract" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147883" name="Character Iteration" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147884" name="Combined Statistical Area" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147885" name="Consolidated City" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147886" name="County" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147887" name="County Subdivision (FIPS)" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147888" name="Current Congressional District" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147889" name="Division" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147890" name="File Type" dataTable="acs5yr_consolidated_county_0002_v2" dataType="string" keyType="US County FIPS Code"/>
+              <attribute id="147891" name="FIPS" dataTable="acs5yr_consolidated_county_0002_v2" dataType="string" keyType="US County FIPS Code"/>
+              <attribute id="147892" name="geographic Component" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147893" name="geographic Identifier" dataTable="acs5yr_consolidated_county_0002_v2" dataType="string" keyType="US County FIPS Code"/>
+              <attribute id="147894" name="Logical Record Number" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147895" name="Metropolitan and Micropolitan St" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147896" name="Metropolitan Area Central City" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147897" name="Metropolitan Division" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147898" name="MetropolitanMicropolitan Indica" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147899" name="New England City and Town Area" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147900" name="New England City and Town Area D" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147901" name="New England City and Town Combin" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147902" name="Place (FIPS Code)" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147903" name="Principal City Indicator" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147904" name="Public Use Microdata Area - 1% F" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147905" name="Public Use Microdata Area - 5% F" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147906" name="Region" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147907" name="School District (Elementary)" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147908" name="School District (Secondary)" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147909" name="School District (Unified)" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147910" name="Sequence Number" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147911" name="State (Census Code)" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147912" name="State (FIPS Code)" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147913" name="State Legislative District Lower" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147914" name="State Legislative District Upper" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147915" name="State Postal Abbreviation" dataTable="acs5yr_consolidated_county_0002_v2" dataType="string" keyType="US County FIPS Code"/>
+              <attribute id="147916" name="Subbarrio (FIPS)" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147917" name="Summary Level" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147918" name="Traffic Analysis Zone" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147919" name="Urban Area" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147920" name="Urban Area Central Place" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147921" name="Urban Growth Area" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147922" name="UrbanRural" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147923" name="US" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147924" name="Voting District" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147925" name="ZIP Code Tabulation Area (3-digi" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+            </category>
+            <category name="Total Population">
+              <attribute id="147927" name="Total living in area 1 year ago: B07410e1" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+            </category>
+            <category name="No Income">
+              <attribute id="147928" name="No income B07410e2" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+            </category>
+            <category name="With Income">
+              <attribute id="147929" name="With income: B07410e3" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147930" name="$1 to $9999 or loss B07410e4" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147931" name="$10000 to $14999 B07410e5" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147932" name="$15000 to $24999 B07410e6" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147933" name="$25000 to $34999 B07410e7" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147934" name="$35000 to $49999 B07410e8" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147935" name="$50000 to $64999 B07410e9" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147936" name="$65000 to $74999 B07410e10" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147937" name="$75000 or more B07410e11" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+            </category>
+            <category name="Same House">
+              <attribute id="147938" name="Same house: B07410e12" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147939" name="No income B07410e13" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147940" name="With income: B07410e14" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147941" name="$1 to $9999 or loss B07410e15" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147942" name="$10000 to $14999 B07410e16" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147943" name="$15000 to $24999 B07410e17" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147944" name="$25000 to $34999 B07410e18" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147945" name="$35000 to $49999 B07410e19" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147946" name="$50000 to $64999 B07410e20" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147947" name="$65000 to $74999 B07410e21" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147948" name="$75000 or more B07410e22" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+            </category>
+            <category name="Moved Within Same County">
+              <attribute id="147949" name="Moved within same county: B07410e23" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147950" name="No income B07410e24" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147951" name="With income: B07410e25" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147952" name="$1 to $9999 or loss B07410e26" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147953" name="$10000 to $14999 B07410e27" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147954" name="$15000 to $24999 B07410e28" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147955" name="$25000 to $34999 B07410e29" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147956" name="$35000 to $49999 B07410e30" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147957" name="$50000 to $64999 B07410e31" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147958" name="$65000 to $74999 B07410e32" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147959" name="$75000 or more B07410e33" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+            </category>
+            <category name="Moved to a Different County">
+              <attribute id="147960" name="Moved to different county within same state: B07410e34" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147961" name="No income B07410e35" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147962" name="With income: B07410e36" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147963" name="$1 to $9999 or loss B07410e37" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147964" name="$10000 to $14999 " dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147965" name="$15000 to $24999 B07410e39" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147966" name="$25000 to $34999 B07410e40" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147967" name="$35000 to $49999 B07410e41" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147968" name="$50000 to $64999 B07410e42" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147969" name="$65000 to $74999 B07410e43" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147970" name="$75000 or more B07410e44" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+            </category>
+            <category name="Moved to a Different State">
+              <attribute id="147971" name="Moved to different state: B07410e45" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147972" name="No income B07410e46" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147973" name="With income: B07410e47" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147974" name="$1 to $9999 or loss B07410e48" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147975" name="$10000 to $14999 B07410e49" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147976" name="$15000 to $24999 B07410e50" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147977" name="$25000 to $34999 B07410e51" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147978" name="$35000 to $49999 B07410e52" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147979" name="$50000 to $64999 B07410e53" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147980" name="$65000 to $74999 B07410e54" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147981" name="$75000 or more B07410e55" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+            </category>
+            <category name="Error Ranges for Variables">
+              <attribute id="147982" name="Error : Total living in area 1 year ago: B07410m1" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147983" name="Error : No income B07410m2" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147984" name="Error : With income: B07410m3" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147985" name="Error : $1 to $9999 or loss B07410m4" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147986" name="Error : $10000 to $14999 B07410m5" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147987" name="Error : $15000 to $24999 B07410m6" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147988" name="Error : $25000 to $34999 B07410m7" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147989" name="Error : $35000 to $49999 " dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147990" name="Error : $50000 to $64999 B07410m9" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147991" name="Error : $65000 to $74999 B07410m10" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147992" name="Error : $75000 or more B07410m11" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147993" name="Error : Same house: B07410m12" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147994" name="Error : No income B07410m13" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147995" name="Error : With income: B07410m14" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147996" name="Error : $1 to $9999 or loss B07410m15" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147997" name="Error : $10000 to $14999 " dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147998" name="Error : $15000 to $24999 B07410m17" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="147999" name="Error : $25000 to $34999 B07410m18" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148000" name="Error : $35000 to $49999 B07410m19" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148001" name="Error : $50000 to $64999 B07410m20" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148002" name="Error : $65000 to $74999 B07410m21" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148003" name="Error : $75000 or more B07410m22" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148004" name="Error : Moved within same county: B07410m23" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148005" name="Error : No income B07410m24" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148006" name="Error : With income: B07410m25" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148007" name="Error : $1 to $9999 or loss B07410m26" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148008" name="Error : $10000 to $14999 B07410m27" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148009" name="Error : $15000 to $24999 B07410m28" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148010" name="Error : $25000 to $34999 B07410m29" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148011" name="Error : $35000 to $49999 B07410m30" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148012" name="Error : $50000 to $64999 B07410m31" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148013" name="Error : $65000 to $74999 " dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148014" name="Error : $75000 or more B07410m33" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148015" name="Error : Moved to different county within same state: B07410m34" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148016" name="Error : No income B07410m35" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148017" name="Error : With income: B07410m36" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148018" name="Error : $1 to $9999 or loss B07410m37" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148019" name="Error : $10000 to $14999 B07410m38" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148020" name="Error : $15000 to $24999 B07410m39" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148021" name="Error : $25000 to $34999 B07410m40" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148022" name="Error : $35000 to $49999 B07410m41" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148023" name="Error : $50000 to $64999 B07410m42" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148024" name="Error : $65000 to $74999 B07410m43" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148025" name="Error : $75000 or more B07410m44" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148026" name="Error : Moved to different state: B07410m45" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148027" name="Error : No income B07410m46" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148028" name="Error : With income: B07410m47" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148029" name="Error : $1 to $9999 or loss B07410m48" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148030" name="Error : $10000 to $14999 B07410m49" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148031" name="Error : $15000 to $24999 B07410m50" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148032" name="Error : $25000 to $34999 B07410m51" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148033" name="Error : $35000 to $49999 " dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148034" name="Error : $50000 to $64999 B07410m53" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148035" name="Error : $65000 to $74999 B07410m54" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+              <attribute id="148036" name="Error : $75000 or more B07410m55" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+            </category>
+          </category>
+        </category>
+        <category name="Geometry Collections">
+          <attribute name="Counties" dataType="Geometry"/>
+          <attribute name="Countries" dataType="Geometry"/>
+          <attribute name="States" dataType="Geometry"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="acs5yr_consolidated_county_0002_v2">
+                  <attribute id="147880" name="Area Name" dataTable="acs5yr_consolidated_county_0002_v2" dataType="string" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="acs5yr_consolidated_county_0002_v2">
+                  <attribute id="147891" name="FIPS" dataTable="acs5yr_consolidated_county_0002_v2" dataType="string" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn3">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="acs5yr_consolidated_county_0002_v2">
+                  <attribute id="147937" name="$75000 or more B07410e11" dataTable="acs5yr_consolidated_county_0002_v2" dataType="number" keyType="US County FIPS Code"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>9.5</yMax>
+          <yMin>-0.5</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <shapeSize>20</shapeSize>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50.383%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>25.781%</panelWidth>
+    <panelX>74.219%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ColorBinLegendTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>-56.33787756328857</xMax>
+          <xMin>-163.9177552041836</xMin>
+          <yMax>65.3326579962212</yMax>
+          <yMin>16.0110737150117</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.PAN_MODE</defaultMouseMode>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="Counties" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>true</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <enableOverview>false</enableOverview>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50.383%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>74.609%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS/>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </MapTool>
+  <HistogramTool name="ColorHistogramTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>9.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>3086</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>3086</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>3086</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>9.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>9.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <forceTickCount>true</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>9</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <HistogramPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <fillStyle>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                </fillStyle>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+              </HistogramPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.836%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>50%</panelWidth>
+    <panelX>2.3438%</panelX>
+    <panelY>49.836%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </HistogramTool>
+</Weave>

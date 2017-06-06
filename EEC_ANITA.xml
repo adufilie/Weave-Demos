@@ -1,0 +1,2929 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>0</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>12</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRadViz2>true</enableAddRadViz2>
+    <enableAddRamachandranPlot>true</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddSP2>true</enableAddSP2>
+    <enableAddStickFigurePlot>true</enableAddStickFigurePlot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableAddWordle>true</enableAddWordle>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionExport>true</enableSessionExport>
+    <enableSessionImport>true</enableSessionImport>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolBorders>true</enableToolBorders>
+    <enableToolClose>true</enableToolClose>
+    <enableToolDrag>true</enableToolDrag>
+    <enableToolMaximize>true</enableToolMaximize>
+    <enableToolMinimize>true</enableToolMinimize>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolResize>true</enableToolResize>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily/>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>Beta 0.9.6 dev</version>
+    <windowSnapGridSize>5</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="Van Gogh" category="aesthetic" source="OIC">
+        <node color="0x31415A" position="0"/>
+        <node color="0x609DCD" position="0.15"/>
+        <node color="0xE9B400" position="0.3"/>
+        <node color="0xFFFF00" position="0.4"/>
+        <node color="0xBE2E00" position="0.8"/>
+        <node color="0xBE2E00" position="1"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="EEC">
+                    <attribute dataType="number" id="98250" keyType="Massachusetts Town ID" name="Final Ranking Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="EEC">
+                  <attribute dataTable="EEC" id="98222" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataType="string"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="EEC">
+                  <attribute dataTable="EEC" id="98244" keyType="Massachusetts Town ID" name="Pct. Persons  Living Below 100 Poverty Level Score" geometryCollection="Massachusetts Towns" dataType="number"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn3">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="Community_ED EEC">
+                  <attribute dataTable="Community_ED EEC" id="113542" keyType="Community_ED EEC" name="NAME" geometryCollection="Community_ED EEC" dataType="string"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="Community_ED EEC">
+                  <attribute dataTable="Community_ED EEC" id="113537" keyType="Community_ED EEC" name="Definition" geometryCollection="Community_ED EEC" dataType="string"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn4">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables">
+                <category name="Public Libraries MA">
+                  <attribute dataTable="Public Libraries MA" id="113610" keyType="Public Libraries MA" name="Library" geometryCollection="Public Libraries MA" dataType="string"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="Data Tables">
+          <category name="dropout_us_ma_bos">
+            <attribute id="82542" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="year_code"/>
+            <attribute id="82543" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="year"/>
+            <attribute id="82544" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="national dropout rate"/>
+            <attribute id="82545" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name=" MA Dropout Rate"/>
+            <attribute id="82546" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Boston Dropout Rate"/>
+            <attribute id="82547" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="national dropout rate_White"/>
+            <attribute id="82548" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="national dropout rate_Black"/>
+            <attribute id="82549" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="national dropout rate_Hispanic"/>
+            <attribute id="82550" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="national dropout rate_Asian Pacific/Islander"/>
+            <attribute id="82551" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="national dropout rate_Amer/Indian/Alaska Native"/>
+            <attribute id="82552" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Mean Annual Earnings_All person"/>
+            <attribute id="82553" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Mean Annual Earnings_Dropout/ Not a high school graduate"/>
+            <attribute id="82554" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Mean Annual Earnings_High school graduate only"/>
+            <attribute id="82555" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Mean Annual Earnings_Some college, no degree"/>
+            <attribute id="82556" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Mean Annual Earnings_Associate's"/>
+            <attribute id="82557" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Mean Annual Earnings_Bachelor's"/>
+            <attribute id="82558" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Mean Annual Earnings_Master's"/>
+            <attribute id="82559" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Mean Annual Earnings_Professional"/>
+            <attribute id="82560" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="Mean Annual Earnings_Doctorate"/>
+            <attribute id="82561" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="MA  Prison expenditures $"/>
+            <attribute id="82562" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="MA  Prison Population"/>
+            <attribute id="82563" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="MA  Prison Cost/person"/>
+            <attribute id="82564" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="MA  Education expenditures $"/>
+            <attribute id="82565" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="MA  Student Population"/>
+            <attribute id="82566" keyType="ma_SCHOOLS_PT" dataTable="dropout_us_ma_bos" geometryCollection="ma_SCHOOLS_PT" name="MA  Education Cost/student"/>
+          </category>
+          <category name="EEC">
+            <attribute dataType="string" id="98222" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="string" id="98223" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98224" keyType="Massachusetts Town ID" name="Pct. Less than Adequate Prenatal Care Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98225" keyType="Massachusetts Town ID" name="Pct. Low Birth Weight Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98226" keyType="Massachusetts Town ID" name="Pct. Premature Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98227" keyType="Massachusetts Town ID" name="IMR Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98228" keyType="Massachusetts Town ID" name="Maternal Smoking Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98229" keyType="Massachusetts Town ID" name="Percent Mothers Not Intending to Breastfeed Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98230" keyType="Massachusetts Town ID" name="Asthma Hospitalizations Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98231" keyType="Massachusetts Town ID" name="Lead Poisoning Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98232" keyType="Massachusetts Town ID" name="EI Enrollment Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98233" keyType="Massachusetts Town ID" name="Dropout Rate Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98234" keyType="Massachusetts Town ID" name="Poor Performing Schools" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98235" keyType="Massachusetts Town ID" name="Pct. waitilisted for subsidized child care" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98236" keyType="Massachusetts Town ID" name="Unintentional Injuries Score*" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98237" keyType="Massachusetts Town ID" name="Composite Child Maltreatment Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98238" keyType="Massachusetts Town ID" name="Teen Birth Rate Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98239" keyType="Massachusetts Town ID" name="Pct. Children with Mothers with less than High School Degree Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98240" keyType="Massachusetts Town ID" name="Pct. Children Living in Single Parent Households Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98241" keyType="Massachusetts Town ID" name="Substance Abuse Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98242" keyType="Massachusetts Town ID" name="Violent Crime  Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98243" keyType="Massachusetts Town ID" name="Unemployment Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98244" keyType="Massachusetts Town ID" name="Pct. Persons  Living Below 100 Poverty Level Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98245" keyType="Massachusetts Town ID" name="Pct. women giving birth who are on public assistance Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98246" keyType="Massachusetts Town ID" name="ESL Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98247" keyType="Massachusetts Town ID" name="Limited English Proficiency Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98248" keyType="Massachusetts Town ID" name="Pct. non-white (Race Variable)" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98249" keyType="Massachusetts Town ID" name="Pct. of Foreign Born Mothers" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+            <attribute dataType="number" id="98250" keyType="Massachusetts Town ID" name="Final Ranking Score" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+          </category>
+          <category name="enrollment_city"/>
+          <category name="Example Table">
+            <attribute id="46479" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="SUMLEV"/>
+            <attribute id="46480" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="REGION"/>
+            <attribute id="46481" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="DIVISION"/>
+            <attribute id="46482" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="STATE"/>
+            <attribute id="46483" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NAME"/>
+            <attribute id="46484" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="CENSUS2000POP"/>
+            <attribute id="46485" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="ESTIMATESBASE2000"/>
+            <attribute id="46486" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="POPESTIMATE2000"/>
+            <attribute id="46487" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="POPESTIMATE2001"/>
+            <attribute id="46488" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="POPESTIMATE2002"/>
+            <attribute id="46489" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="POPESTIMATE2003"/>
+            <attribute id="46490" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="POPESTIMATE2004"/>
+            <attribute id="46491" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="POPESTIMATE2005"/>
+            <attribute id="46492" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="POPESTIMATE2006"/>
+            <attribute id="46493" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="POPESTIMATE2007"/>
+            <attribute id="46494" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NPOPCHG_2000"/>
+            <attribute id="46495" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NPOPCHG_2001"/>
+            <attribute id="46496" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NPOPCHG_2002"/>
+            <attribute id="46497" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NPOPCHG_2003"/>
+            <attribute id="46498" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NPOPCHG_2004"/>
+            <attribute id="46499" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NPOPCHG_2005"/>
+            <attribute id="46500" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NPOPCHG_2006"/>
+            <attribute id="46501" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NPOPCHG_2007"/>
+            <attribute id="46502" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="BIRTHS2000"/>
+            <attribute id="46503" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="BIRTHS2001"/>
+            <attribute id="46504" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="BIRTHS2002"/>
+            <attribute id="46505" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="BIRTHS2003"/>
+            <attribute id="46506" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="BIRTHS2004"/>
+            <attribute id="46507" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="BIRTHS2005"/>
+            <attribute id="46508" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="BIRTHS2006"/>
+            <attribute id="46509" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="BIRTHS2007"/>
+            <attribute id="46510" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="DEATHS2000"/>
+            <attribute id="46511" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="DEATHS2001"/>
+            <attribute id="46512" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="DEATHS2002"/>
+            <attribute id="46513" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="DEATHS2003"/>
+            <attribute id="46514" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="DEATHS2004"/>
+            <attribute id="46515" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="DEATHS2005"/>
+            <attribute id="46516" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="DEATHS2006"/>
+            <attribute id="46517" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="DEATHS2007"/>
+            <attribute id="46518" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NATURALINC2000"/>
+            <attribute id="46519" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NATURALINC2001"/>
+            <attribute id="46520" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NATURALINC2002"/>
+            <attribute id="46521" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NATURALINC2003"/>
+            <attribute id="46522" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NATURALINC2004"/>
+            <attribute id="46523" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NATURALINC2005"/>
+            <attribute id="46524" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NATURALINC2006"/>
+            <attribute id="46525" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NATURALINC2007"/>
+            <attribute id="46526" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNATIONALMIG2000"/>
+            <attribute id="46527" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNATIONALMIG2001"/>
+            <attribute id="46528" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNATIONALMIG2002"/>
+            <attribute id="46529" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNATIONALMIG2003"/>
+            <attribute id="46530" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNATIONALMIG2004"/>
+            <attribute id="46531" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNATIONALMIG2005"/>
+            <attribute id="46532" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNATIONALMIG2006"/>
+            <attribute id="46533" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNATIONALMIG2007"/>
+            <attribute id="46534" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNALMIG2000"/>
+            <attribute id="46535" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNALMIG2001"/>
+            <attribute id="46536" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNALMIG2002"/>
+            <attribute id="46537" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNALMIG2003"/>
+            <attribute id="46538" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNALMIG2004"/>
+            <attribute id="46539" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNALMIG2005"/>
+            <attribute id="46540" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNALMIG2006"/>
+            <attribute id="46541" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="INTERNALMIG2007"/>
+            <attribute id="46542" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NETMIG2000"/>
+            <attribute id="46543" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NETMIG2001"/>
+            <attribute id="46544" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NETMIG2002"/>
+            <attribute id="46545" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NETMIG2003"/>
+            <attribute id="46546" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NETMIG2004"/>
+            <attribute id="46547" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NETMIG2005"/>
+            <attribute id="46548" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NETMIG2006"/>
+            <attribute id="46549" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="NETMIG2007"/>
+            <attribute id="46550" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RESIDUAL2000"/>
+            <attribute id="46551" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RESIDUAL2001"/>
+            <attribute id="46552" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RESIDUAL2002"/>
+            <attribute id="46553" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RESIDUAL2003"/>
+            <attribute id="46554" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RESIDUAL2004"/>
+            <attribute id="46555" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RESIDUAL2005"/>
+            <attribute id="46556" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RESIDUAL2006"/>
+            <attribute id="46557" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RESIDUAL2007"/>
+            <attribute id="46558" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RBIRTH2001"/>
+            <attribute id="46559" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RBIRTH2002"/>
+            <attribute id="46560" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RBIRTH2003"/>
+            <attribute id="46561" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RBIRTH2004"/>
+            <attribute id="46562" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RBIRTH2005"/>
+            <attribute id="46563" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RBIRTH2006"/>
+            <attribute id="46564" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RBIRTH2007"/>
+            <attribute id="46565" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RDEATH2001"/>
+            <attribute id="46566" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RDEATH2002"/>
+            <attribute id="46567" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RDEATH2003"/>
+            <attribute id="46568" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RDEATH2004"/>
+            <attribute id="46569" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RDEATH2005"/>
+            <attribute id="46570" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RDEATH2006"/>
+            <attribute id="46571" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RDEATH2007"/>
+            <attribute id="46572" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNATURALINC2001"/>
+            <attribute id="46573" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNATURALINC2002"/>
+            <attribute id="46574" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNATURALINC2003"/>
+            <attribute id="46575" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNATURALINC2004"/>
+            <attribute id="46576" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNATURALINC2005"/>
+            <attribute id="46577" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNATURALINC2006"/>
+            <attribute id="46578" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNATURALINC2007"/>
+            <attribute id="46579" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNATIONALMIG2001"/>
+            <attribute id="46580" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNATIONALMIG2002"/>
+            <attribute id="46581" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNATIONALMIG2003"/>
+            <attribute id="46582" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNATIONALMIG2004"/>
+            <attribute id="46583" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNATIONALMIG2005"/>
+            <attribute id="46584" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNATIONALMIG2006"/>
+            <attribute id="46585" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNATIONALMIG2007"/>
+            <attribute id="46586" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNALMIG2001"/>
+            <attribute id="46587" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNALMIG2002"/>
+            <attribute id="46588" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNALMIG2003"/>
+            <attribute id="46589" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNALMIG2004"/>
+            <attribute id="46590" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNALMIG2005"/>
+            <attribute id="46591" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNALMIG2006"/>
+            <attribute id="46592" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RINTERNALMIG2007"/>
+            <attribute id="46593" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNETMIG2001"/>
+            <attribute id="46594" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNETMIG2002"/>
+            <attribute id="46595" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNETMIG2003"/>
+            <attribute id="46596" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNETMIG2004"/>
+            <attribute id="46597" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNETMIG2005"/>
+            <attribute id="46598" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNETMIG2006"/>
+            <attribute id="46599" keyType="US State FIPS Code" dataTable="Example Table" geometryCollection="States" name="RNETMIG2007"/>
+          </category>
+          <category name="Exempt">
+            <attribute projectionSRS="" keyType="Exempt" name="Exempt" dataType="Geometry"/>
+            <attribute dataType="string" id="109417" keyType="Exempt" name="City" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="string" id="109418" keyType="Exempt" name="EECRegion" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109419" keyType="Exempt" name="ID" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109420" keyType="Exempt" name="InfantCapa" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109421" keyType="Exempt" name="Kindergart" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109422" keyType="Exempt" name="Latitude" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109423" keyType="Exempt" name="Longitude" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109424" keyType="Exempt" name="PreschoolC" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="string" id="109425" keyType="Exempt" name="Program Ty" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="string" id="109426" keyType="Exempt" name="ProgramNam" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109427" keyType="Exempt" name="SchoolAgeC" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109428" keyType="Exempt" name="the_geom_id" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109429" keyType="Exempt" name="ToddlerCap" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="number" id="109430" keyType="Exempt" name="TotalCapac" geometryCollection="Exempt" dataTable="Exempt"/>
+            <attribute dataType="string" id="109431" keyType="Exempt" name="Zipcode" geometryCollection="Exempt" dataTable="Exempt"/>
+          </category>
+          <category name="Public Libraries MA">
+            <attribute projectionSRS="" keyType="Public Libraries MA" name="Public Libraries MA" dataType="Geometry"/>
+            <attribute dataType="number" id="113608" keyType="Public Libraries MA" name="ID" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="number" id="113609" keyType="Public Libraries MA" name="Latitude" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="string" id="113610" keyType="Public Libraries MA" name="Library" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="string" id="113611" keyType="Public Libraries MA" name="LibraryTyp" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="number" id="113612" keyType="Public Libraries MA" name="Longitude" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="string" id="113613" keyType="Public Libraries MA" name="MailingAdd" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="string" id="113614" keyType="Public Libraries MA" name="MailingCit" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="string" id="113615" keyType="Public Libraries MA" name="MailingSta" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="string" id="113616" keyType="Public Libraries MA" name="MailingZip" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="string" id="113617" keyType="Public Libraries MA" name="Organizati" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="string" id="113618" keyType="Public Libraries MA" name="PO Box" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="string" id="113619" keyType="Public Libraries MA" name="Region" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+            <attribute dataType="number" id="113620" keyType="Public Libraries MA" name="the_geom_id" geometryCollection="Public Libraries MA" dataTable="Public Libraries MA"/>
+          </category>
+          <category name="Exempt by town">
+            <attribute dataType="string" id="113043" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="Exempt by town"/>
+            <attribute dataType="string" id="113044" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="Exempt by town"/>
+            <attribute dataType="number" id="113045" keyType="Massachusetts Town ID" name="InfantCapacity" geometryCollection="Massachusetts Towns" dataTable="Exempt by town"/>
+            <attribute dataType="number" id="113046" keyType="Massachusetts Town ID" name="ToddlerCapacity" geometryCollection="Massachusetts Towns" dataTable="Exempt by town"/>
+            <attribute dataType="number" id="113047" keyType="Massachusetts Town ID" name="PreschoolCapacity" geometryCollection="Massachusetts Towns" dataTable="Exempt by town"/>
+            <attribute dataType="number" id="113048" keyType="Massachusetts Town ID" name="KindergartenCapacity" geometryCollection="Massachusetts Towns" dataTable="Exempt by town"/>
+            <attribute dataType="number" id="113049" keyType="Massachusetts Town ID" name="SchoolAgeCapacity" geometryCollection="Massachusetts Towns" dataTable="Exempt by town"/>
+            <attribute dataType="number" id="113050" keyType="Massachusetts Town ID" name="Exempt TotalCapacity" geometryCollection="Massachusetts Towns" dataTable="Exempt by town"/>
+          </category>
+          <category name="Absence V-Contract_town">
+            <attribute dataType="string" geometryCollection="Massachusetts Towns" name="Geography" keyType="Massachusetts Town ID" id="116486" dataTable="Absence V-Contract_town"/>
+            <attribute dataType="string" geometryCollection="Massachusetts Towns" name="MA_Town_ID" keyType="Massachusetts Town ID" id="116487" dataTable="Absence V-Contract_town"/>
+            <attribute dataType="number" geometryCollection="Massachusetts Towns" name="TotalDays" keyType="Massachusetts Town ID" id="116488" dataTable="Absence V-Contract_town"/>
+            <attribute dataType="number" geometryCollection="Massachusetts Towns" name="TotalAbsences" keyType="Massachusetts Town ID" id="116489" dataTable="Absence V-Contract_town"/>
+            <attribute dataType="number" geometryCollection="Massachusetts Towns" name="Rate TotalAbsence" keyType="Massachusetts Town ID" id="116490" dataTable="Absence V-Contract_town"/>
+          </category>
+          <category name="FCC_SGSAC by town">
+            <attribute dataType="string" id="113051" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="FCC_SGSAC by town"/>
+            <attribute dataType="string" id="113052" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="FCC_SGSAC by town"/>
+            <attribute dataType="number" id="113053" keyType="Massachusetts Town ID" name="InfantCapacity" geometryCollection="Massachusetts Towns" dataTable="FCC_SGSAC by town"/>
+            <attribute dataType="number" id="113054" keyType="Massachusetts Town ID" name="FCC_SGSAC TotalCapacity" geometryCollection="Massachusetts Towns" dataTable="FCC_SGSAC by town"/>
+          </category>
+          <category name="FCHC"/>
+          <category name="IEvouchers"/>
+          <category name="Head Start by town">
+            <attribute name="Geography" id="113055" dataTable="Head Start by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="string"/>
+            <attribute name="MA_Town_ID" id="113056" dataTable="Head Start by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="string"/>
+            <attribute name="HeadStart TotalCapacity" id="113057" dataTable="Head Start by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+          </category>
+          <category name="informal Child Care Towns">
+            <attribute dataType="string" id="110614" keyType="Massachusetts Town ID" name="TOWN_ID" geometryCollection="Massachusetts Towns" dataTable="informal Child Care Towns"/>
+            <attribute dataType="string" id="110615" keyType="Massachusetts Town ID" name="TOWN" geometryCollection="Massachusetts Towns" dataTable="informal Child Care Towns"/>
+            <attribute dataType="number" id="110616" keyType="Massachusetts Town ID" name="FIPS_STCO" geometryCollection="Massachusetts Towns" dataTable="informal Child Care Towns"/>
+            <attribute dataType="number" id="110617" keyType="Massachusetts Town ID" name="Informal Child Care Providers" geometryCollection="Massachusetts Towns" dataTable="informal Child Care Towns"/>
+          </category>
+          <category name="Lead Poisoning Rates 1998 -2008 Municipal"/>
+          <category name="lead_town"/>
+          <category name="level 4 schools with PreK"/>
+          <category name="LGSAC"/>
+          <category name="LGSAC by town">
+            <attribute dataType="string" id="113058" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="LGSAC by town"/>
+            <attribute dataType="string" id="113059" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="LGSAC by town"/>
+            <attribute dataType="number" id="113060" keyType="Massachusetts Town ID" name="InfantCapacity" geometryCollection="Massachusetts Towns" dataTable="LGSAC by town"/>
+            <attribute dataType="number" id="113061" keyType="Massachusetts Town ID" name="ToddlerCapacity" geometryCollection="Massachusetts Towns" dataTable="LGSAC by town"/>
+            <attribute dataType="number" id="113062" keyType="Massachusetts Town ID" name="PreschoolCapacity" geometryCollection="Massachusetts Towns" dataTable="LGSAC by town"/>
+            <attribute dataType="number" id="113063" keyType="Massachusetts Town ID" name="KindergartenCapacity" geometryCollection="Massachusetts Towns" dataTable="LGSAC by town"/>
+            <attribute dataType="number" id="113064" keyType="Massachusetts Town ID" name="SchoolAgeCapacity" geometryCollection="Massachusetts Towns" dataTable="LGSAC by town"/>
+            <attribute dataType="number" id="113065" keyType="Massachusetts Town ID" name="LGSAC_TotalCapacity" geometryCollection="Massachusetts Towns" dataTable="LGSAC by town"/>
+          </category>
+          <category name="MA Pop">
+            <attribute dataType="string" id="113621" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="string" id="113622" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113623" keyType="Massachusetts Town ID" name="Population" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113624" keyType="Massachusetts Town ID" name="Families" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113625" keyType="Massachusetts Town ID" name="Pct. in Sample" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113626" keyType="Massachusetts Town ID" name="Male" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113627" keyType="Massachusetts Town ID" name="Female" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113628" keyType="Massachusetts Town ID" name="White" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113629" keyType="Massachusetts Town ID" name="Black" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113630" keyType="Massachusetts Town ID" name="Age less than1" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113631" keyType="Massachusetts Town ID" name="Age 1-2" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113632" keyType="Massachusetts Town ID" name="Age 3-4" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113633" keyType="Massachusetts Town ID" name="Age under 5" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113634" keyType="Massachusetts Town ID" name="Age 5" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113635" keyType="Massachusetts Town ID" name="Age 6" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113636" keyType="Massachusetts Town ID" name="Age 7-9" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113637" keyType="Massachusetts Town ID" name="Age 10-11" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113638" keyType="Massachusetts Town ID" name="Age 12-13" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113639" keyType="Massachusetts Town ID" name="Age 13 or less" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113640" keyType="Massachusetts Town ID" name="HH Marr_ w/Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113641" keyType="Massachusetts Town ID" name="HH Marr_ w/o Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113642" keyType="Massachusetts Town ID" name="HH M w/Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113643" keyType="Massachusetts Town ID" name="HH M w/o Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113644" keyType="Massachusetts Town ID" name="HH F w/Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113645" keyType="Massachusetts Town ID" name="HH Nonfamily" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113646" keyType="Massachusetts Town ID" name="Fam Marr_ w/Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113647" keyType="Massachusetts Town ID" name="Fam Marr_ w/o Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113648" keyType="Massachusetts Town ID" name="Fam M w/Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113649" keyType="Massachusetts Town ID" name="Fam F w/Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113650" keyType="Massachusetts Town ID" name="Fam F w/o Ch_ less than18" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113651" keyType="Massachusetts Town ID" name="Sch_ Pub_ Preprimary" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113652" keyType="Massachusetts Town ID" name="Sch_ Priv_ Preprimary" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113653" keyType="Massachusetts Town ID" name="Sch_ Pub_ Elem/High" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113654" keyType="Massachusetts Town ID" name="Sch_ Priv_ Elem/High" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113655" keyType="Massachusetts Town ID" name="Sch_ Pub_ College" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113656" keyType="Massachusetts Town ID" name="Sch_ Priv_ College" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113657" keyType="Massachusetts Town ID" name="Sch_ Not Enrolled" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113658" keyType="Massachusetts Town ID" name="Edu_ 25+_ less than9th grade" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113659" keyType="Massachusetts Town ID" name="Edu_ 25+_ 9-12 n/grad" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113660" keyType="Massachusetts Town ID" name="Edu_ 25+_ HS Grad" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113661" keyType="Massachusetts Town ID" name="Edu_ 25+_ Coll_ n/grad" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113662" keyType="Massachusetts Town ID" name="Edu_ 25+_ Associate" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113663" keyType="Massachusetts Town ID" name="Edu_ 25+_ Bachelors" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113664" keyType="Massachusetts Town ID" name="Edu_ 25+_ Grad/Prof_" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113665" keyType="Massachusetts Town ID" name="Wht 25+_ less than9th grade" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113666" keyType="Massachusetts Town ID" name="Wht 25+_ HS Grad" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113667" keyType="Massachusetts Town ID" name="Wht 25+_ Coll_ n/grad" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113668" keyType="Massachusetts Town ID" name="Wht 25+_ Associate" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113669" keyType="Massachusetts Town ID" name="Wht 25+_ Bachelors" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+            <attribute dataType="number" id="113670" keyType="Massachusetts Town ID" name="Wht 25+_ Grad/Prof_" geometryCollection="Massachusetts Towns" dataTable="MA Pop"/>
+          </category>
+          <category name="macs_lunch_g3_0310"/>
+          <category name="ContractedKids_byAgeGroup">
+            <attribute dataType="string" id="110054" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="ContractedKids_byAgeGroup"/>
+            <attribute dataType="string" id="110055" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="ContractedKids_byAgeGroup"/>
+            <attribute dataType="number" id="110056" keyType="Massachusetts Town ID" name="Infant" geometryCollection="Massachusetts Towns" dataTable="ContractedKids_byAgeGroup"/>
+            <attribute dataType="number" id="110057" keyType="Massachusetts Town ID" name="Preschool" geometryCollection="Massachusetts Towns" dataTable="ContractedKids_byAgeGroup"/>
+            <attribute dataType="number" id="110058" keyType="Massachusetts Town ID" name="School Age" geometryCollection="Massachusetts Towns" dataTable="ContractedKids_byAgeGroup"/>
+            <attribute dataType="number" id="110059" keyType="Massachusetts Town ID" name="Toddler" geometryCollection="Massachusetts Towns" dataTable="ContractedKids_byAgeGroup"/>
+            <attribute dataType="number" id="110060" keyType="Massachusetts Town ID" name="Total Kids" geometryCollection="Massachusetts Towns" dataTable="ContractedKids_byAgeGroup"/>
+          </category>
+          <category name="Contractedkids_bytype">
+            <attribute dataType="string" id="110047" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="Contractedkids_bytype"/>
+            <attribute dataType="string" id="110048" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="Contractedkids_bytype"/>
+            <attribute dataType="number" id="110049" keyType="Massachusetts Town ID" name="HOME" geometryCollection="Massachusetts Towns" dataTable="Contractedkids_bytype"/>
+            <attribute dataType="number" id="110050" keyType="Massachusetts Town ID" name="IE" geometryCollection="Massachusetts Towns" dataTable="Contractedkids_bytype"/>
+            <attribute dataType="number" id="110051" keyType="Massachusetts Town ID" name="SUP" geometryCollection="Massachusetts Towns" dataTable="Contractedkids_bytype"/>
+            <attribute dataType="number" id="110052" keyType="Massachusetts Town ID" name="TEEN" geometryCollection="Massachusetts Towns" dataTable="Contractedkids_bytype"/>
+            <attribute dataType="number" id="110053" keyType="Massachusetts Town ID" name="Total Kids" geometryCollection="Massachusetts Towns" dataTable="Contractedkids_bytype"/>
+          </category>
+          <category name="ContractedKidsvcdescr"/>
+          <category name="ContractedKids_byAgeGroup"/>
+          <category name="Contractedkids_bytype"/>
+          <category name="ContractedKidsvcdescr"/>
+          <category name="ContractedKids_byAgeGroup"/>
+          <category name="Contractedkids_bytype"/>
+          <category name="ContractedKidsvcdescr"/>
+          <category name="Subsidy_TotalCapacity">
+            <attribute dataType="string" geometryCollection="Massachusetts Towns" name="Geography" keyType="Massachusetts Town ID" id="113548" dataTable="Subsidy_TotalCapacity"/>
+            <attribute dataType="string" geometryCollection="Massachusetts Towns" name="MA_Town_ID" keyType="Massachusetts Town ID" id="113549" dataTable="Subsidy_TotalCapacity"/>
+            <attribute dataType="number" geometryCollection="Massachusetts Towns" name="ContractedKids_byAgeGroup_Total Kids" keyType="Massachusetts Town ID" id="113550" dataTable="Subsidy_TotalCapacity"/>
+            <attribute dataType="number" geometryCollection="Massachusetts Towns" name="VoucherKidby_AgeGroup_Total Kids" keyType="Massachusetts Town ID" id="113551" dataTable="Subsidy_TotalCapacity"/>
+            <attribute dataType="number" geometryCollection="Massachusetts Towns" name="Total Subsidies in Mass" keyType="Massachusetts Town ID" id="113552" dataTable="Subsidy_TotalCapacity"/>
+          </category>
+          <category name="TotalLicCapacityinMA">
+            <attribute dataType="string" id="113553" keyType="Massachusetts Town ID" name="EEC_Final Sheet.Geography" geometryCollection="Massachusetts Towns" dataTable="TotalLicCapacityinMA"/>
+            <attribute dataType="string" id="113554" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="TotalLicCapacityinMA"/>
+            <attribute dataType="number" id="113555" keyType="Massachusetts Town ID" name="FCC_SGSAC_TotalCapacity" geometryCollection="Massachusetts Towns" dataTable="TotalLicCapacityinMA"/>
+            <attribute dataType="number" id="113556" keyType="Massachusetts Town ID" name="LGSAC_TotalCapacity" geometryCollection="Massachusetts Towns" dataTable="TotalLicCapacityinMA"/>
+            <attribute dataType="number" id="113557" keyType="Massachusetts Town ID" name="ExemptTotalCapacity" geometryCollection="Massachusetts Towns" dataTable="TotalLicCapacityinMA"/>
+            <attribute dataType="number" id="113558" keyType="Massachusetts Town ID" name="Total_PublicSchoolsPreK" geometryCollection="Massachusetts Towns" dataTable="TotalLicCapacityinMA"/>
+            <attribute dataType="number" id="113559" keyType="Massachusetts Town ID" name="TotalLicCapacityMA" geometryCollection="Massachusetts Towns" dataTable="TotalLicCapacityinMA"/>
+          </category>
+          <category name="mcas_district_g3_2008"/>
+          <category name="mcas_g3_0310"/>
+          <category name="mcas_g3_0610"/>
+          <category name="mcas_lunch_g3_0310"/>
+          <category name="mcas_lunch_g3_0610"/>
+          <category name="MCAS_lunch_g3_2010"/>
+          <category name="mcas_obesity_g3_0809"/>
+          <category name="mcas_obesity_poverty_g3_08"/>
+          <category name="mcas_obesity_poverty_g3_0809"/>
+          <category name="mcas_obesity_poverty_g3_089"/>
+          <category name="mcas_obesity_poverty_g3_08_089"/>
+          <category name="mcas_performance_g3_2008"/>
+          <category name="mcas_performance_g3_2009"/>
+          <category name="mcas_teacherinfo_amanda"/>
+          <category name="PreK"/>
+          <category name="PreK2"/>
+          <category name="Prek3"/>
+          <category name="Prek4"/>
+          <category name="PreK6"/>
+          <category name="PreKPregnant"/>
+          <category name="PrekPregnant2"/>
+          <category name="PreKPregnant3"/>
+          <category name="public school enrollment by state"/>
+          <category name="Public School Pre K"/>
+          <category name="Public School Pre k by town">
+            <attribute dataType="string" id="113066" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="Public School Pre k by town"/>
+            <attribute dataType="string" id="113067" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="Public School Pre k by town"/>
+            <attribute dataType="number" id="113068" keyType="Massachusetts Town ID" name="Total PublicSchoolsPreK" geometryCollection="Massachusetts Towns" dataTable="Public School Pre k by town"/>
+          </category>
+          <category name="VoucherKidsby_AgeGroup"/>
+          <category name="VoucherKidsby_programtype">
+            <attribute dataType="string" id="110081" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="string" id="110082" keyType="Massachusetts Town ID" name="MA_Town_ID" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110083" keyType="Massachusetts Town ID" name="After Early HeadStart" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110084" keyType="Massachusetts Town ID" name="After Kindergarten Only" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110085" keyType="Massachusetts Town ID" name="B &amp; A Kindergarten Half time" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110086" keyType="Massachusetts Town ID" name="B &amp; A Kindergarten or Full time -  2" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110087" keyType="Massachusetts Town ID" name="Before and After HeadStart" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110088" keyType="Massachusetts Town ID" name="Before Head Start" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110089" keyType="Massachusetts Town ID" name="Before Kindergarten Only" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110090" keyType="Massachusetts Town ID" name="Counseling" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110091" keyType="Massachusetts Town ID" name="Early HeadStart" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110092" keyType="Massachusetts Town ID" name="Head Start Programs" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110093" keyType="Massachusetts Town ID" name="Home Visits" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110094" keyType="Massachusetts Town ID" name="Infant (0-14 Mo)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110095" keyType="Massachusetts Town ID" name="Infant (0-14 Mo) 50%" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110096" keyType="Massachusetts Town ID" name="Infant/Toddler" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110097" keyType="Massachusetts Town ID" name="Infant/Toddler 50%" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110098" keyType="Massachusetts Town ID" name="Informal In Home" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110099" keyType="Massachusetts Town ID" name="Informal In Home Relative" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110100" keyType="Massachusetts Town ID" name="Informal Relative (Master)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110101" keyType="Massachusetts Town ID" name="KEEP (ARRA)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110102" keyType="Massachusetts Town ID" name="NFD: In Home Child Care" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110103" keyType="Massachusetts Town ID" name="No Name  3" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110104" keyType="Massachusetts Town ID" name="No Name  5" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110105" keyType="Massachusetts Town ID" name="No Name  6" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110106" keyType="Massachusetts Town ID" name="No Name 4" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110107" keyType="Massachusetts Town ID" name="Over 2 - Indep Family Child Care at 50 Precent" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110108" keyType="Massachusetts Town ID" name="Over 2 Family Day Care System" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110109" keyType="Massachusetts Town ID" name="Over 2 Family Day Care System  50%" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110110" keyType="Massachusetts Town ID" name="Over 2 Independent Family Day" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110111" keyType="Massachusetts Town ID" name="Parent Counseling" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110112" keyType="Massachusetts Town ID" name="Pre-School (2 Yr 9 Mo - Kindergarten)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110113" keyType="Massachusetts Town ID" name="Preschool Child Care Ed (ARRA)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110114" keyType="Massachusetts Town ID" name="Pre-School(2Yr 9Mo- Kindergarten) 50%" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110115" keyType="Massachusetts Town ID" name="Pre-School/School Age (2 Yr9 Mo - 7 Years)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110116" keyType="Massachusetts Town ID" name="Preschool/School Age at 50 Percent" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110117" keyType="Massachusetts Town ID" name="School Age -  Before School Only (1st Gr-12Yr 9Mo)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110118" keyType="Massachusetts Town ID" name="School Age - After School Only (1st Gr-12Yr 9Mo)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110119" keyType="Massachusetts Town ID" name="School Age - Before &amp; After School (1st Gr-12Yr 9Mo)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110120" keyType="Massachusetts Town ID" name="School Age - Summer camp  (1st Grade - 12Yr 9Mo)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110121" keyType="Massachusetts Town ID" name="Supportive Services" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110122" keyType="Massachusetts Town ID" name="Teen Contract Infant/Toddler" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110123" keyType="Massachusetts Town ID" name="Teen Contract Preschool" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110124" keyType="Massachusetts Town ID" name="Toddler (15 Mo - 2 Yr 8 Mo)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110125" keyType="Massachusetts Town ID" name="Toddler (15 Mo - 2 Yr 8 Mo) 50%" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110126" keyType="Massachusetts Town ID" name="Toddler/Pre-School (15 Mo - 7 Yr)" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110127" keyType="Massachusetts Town ID" name="Under 2 - Indep Family Child Care at 50 Precent" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110128" keyType="Massachusetts Town ID" name="Under 2 Family Day Care System" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110129" keyType="Massachusetts Town ID" name="Under 2 Family Day Care System  50%" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110130" keyType="Massachusetts Town ID" name="Under 2 Independent Family Day Care" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+            <attribute dataType="number" id="110131" keyType="Massachusetts Town ID" name="Total Kids" geometryCollection="Massachusetts Towns" dataTable="VoucherKidsby_programtype"/>
+          </category>
+          <category name="Voucherkidsby_ServiceCode"/>
+          <category name="Community_ED EEC">
+            <attribute projectionSRS="" keyType="Community_ED EEC" name="Community_ED EEC" dataType="Geometry"/>
+            <attribute dataType="string" id="113536" keyType="Community_ED EEC" name="CITY" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="string" id="113537" keyType="Community_ED EEC" name="Definition" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="number" id="113538" keyType="Community_ED EEC" name="EIN" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="number" id="113539" keyType="Community_ED EEC" name="FIPS" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="number" id="113540" keyType="Community_ED EEC" name="LATITUDE" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="number" id="113541" keyType="Community_ED EEC" name="LONGITUDE" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="string" id="113542" keyType="Community_ED EEC" name="NAME" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="string" id="113543" keyType="Community_ED EEC" name="NTEE1" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="string" id="113544" keyType="Community_ED EEC" name="NTEECC" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="string" id="113545" keyType="Community_ED EEC" name="STATE" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="number" id="113546" keyType="Community_ED EEC" name="the_geom_id" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+            <attribute dataType="number" id="113547" keyType="Community_ED EEC" name="zip5" geometryCollection="Community_ED EEC" dataTable="Community_ED EEC"/>
+          </category>
+        </category>
+        <category name="Geometry Collections">
+          <attribute name="Community_ED EEC" dataType="Geometry"/>
+          <attribute name="Public Libraries MA" dataType="Geometry"/>
+          <attribute name="nccs_ma_reprojected" dataType="Geometry"/>
+          <attribute name="CBSAs" dataType="Geometry"/>
+          <attribute name="eec_prekpregnant_reproj" dataType="Geometry"/>
+          <attribute name="EEC_Providers" dataType="Geometry"/>
+          <attribute name="Exempt" dataType="Geometry"/>
+          <attribute name="FamilyServices" dataType="Geometry"/>
+          <attribute name="FCHC" dataType="Geometry"/>
+          <attribute name="HeadStart" dataType="Geometry"/>
+          <attribute name="LGSAC" dataType="Geometry"/>
+          <attribute name="ma_childcare_2009_sample_points" dataType="Geometry"/>
+          <attribute name="MA_COC" dataType="Geometry"/>
+          <attribute name="MA_EEC_Registrants" dataType="Geometry"/>
+          <attribute name="Massachusetts Towns" dataType="Geometry"/>
+          <attribute name="PreK" dataType="Geometry"/>
+          <attribute name="PreK2" dataType="Geometry"/>
+          <attribute name="Prek3" dataType="Geometry"/>
+          <attribute name="Prek4" dataType="Geometry"/>
+          <attribute name="PreK6" dataType="Geometry"/>
+          <attribute name="PreKPregnant" dataType="Geometry"/>
+          <attribute name="PrekPregnant2" dataType="Geometry"/>
+          <attribute name="PreKPregnant3" dataType="Geometry"/>
+          <attribute name="Public School Pre K" dataType="Geometry"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <EquationColumn name="EquationEditorColumn">
+    <columnTitle>Equation Column</columnTitle>
+    <equation>toNumber(NaN)</equation>
+    <keyColumn encoding="dynamic"/>
+    <unitType/>
+    <variables encoding="dynamic">
+      <ReferencedColumn name="ReferencedColumn">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="MA Pop">
+                    <attribute dataTable="MA Pop" id="113569" keyType="Massachusetts Town ID" name="Age less than1" geometryCollection="Massachusetts Towns" dataType="number"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn2">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="MA Pop">
+                    <attribute dataTable="MA Pop" id="113570" keyType="Massachusetts Town ID" name="Age 1-2" geometryCollection="Massachusetts Towns" dataType="number"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn3">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="MA Pop">
+                    <attribute dataTable="MA Pop" id="113571" keyType="Massachusetts Town ID" name="Age 3-4" geometryCollection="Massachusetts Towns" dataType="number"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn4">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="MA Pop">
+                    <attribute dataTable="MA Pop" id="113572" keyType="Massachusetts Town ID" name="Age 5" geometryCollection="Massachusetts Towns" dataType="number"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn5">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="MA Pop">
+                    <attribute dataTable="MA Pop" id="113573" keyType="Massachusetts Town ID" name="Age 6" geometryCollection="Massachusetts Towns" dataType="number"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn7">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="MA Pop">
+                    <attribute dataTable="MA Pop" id="113574" keyType="Massachusetts Town ID" name="Age 7-9" geometryCollection="Massachusetts Towns" dataType="number"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn6">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="MA Pop">
+                    <attribute dataTable="MA Pop" id="113575" keyType="Massachusetts Town ID" name="Age 10-11" geometryCollection="Massachusetts Towns" dataType="number"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn8">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="MA Pop">
+                    <attribute dataTable="MA Pop" id="113576" keyType="Massachusetts Town ID" name="Age 12-13" geometryCollection="Massachusetts Towns" dataType="number"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </variables>
+  </EquationColumn>
+  <ScatterPlotTool name="ScatterPlotTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>2400</xMax>
+          <xMin>1000</xMin>
+          <yMax>30000</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>true</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>true</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>15000804</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>1000</xMax>
+                  <xMin>1000</xMin>
+                  <yMax>30000</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>30000</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>2400</xMax>
+                  <xMin>1000</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>2400</axisLineMaxValue>
+                <axisLineMinValue>1000</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>36</maxScreenRadius>
+                <minScreenRadius>4</minScreenRadius>
+                <radiusColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="MA Pop">
+                                <attribute dataType="number" id="113633" dataTable="MA Pop" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" name="Age under 5"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </radiusColumn>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="EEC">
+                                <attribute dataType="number" id="98250" dataTable="EEC" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" name="Final Ranking Score"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="TotalLicCapacityinMA">
+                                <attribute dataType="number" id="113559" dataTable="TotalLicCapacityinMA" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" name="TotalLicCapacityMA"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="regressionLine">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <RegressionLinePlotter>
+                <drawLine>true</drawLine>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>16711680</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>4</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="EEC">
+                                <attribute dataType="number" id="98250" dataTable="EEC" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" name="Final Ranking Score"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="TotalLicCapacityinMA">
+                                <attribute dataType="number" id="113559" dataTable="TotalLicCapacityinMA" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" name="TotalLicCapacityMA"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </RegressionLinePlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <drawLine>false</drawLine>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <x1>1000</x1>
+                <x2>1694</x2>
+                <x3>1694</x3>
+                <xColumn encoding="dynamic"/>
+                <y1>525</y1>
+                <y2>525</y2>
+                <y3>0</y3>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>70</marginBottom>
+        <marginLeft>70</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <linkColormap>true</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel>false</lockPanel>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.451%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>99.219%</panelWidth>
+    <panelX>0.39063%</panelX>
+    <panelY>50.549%</panelY>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ScatterPlotTool>
+  <CompoundBarChartTool name="CompoundBarChartTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>350.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>32060</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>32060</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>32060</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>5</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>350.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>350.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <forceTickCount>true</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>351</tickCountRequested>
+                <tickMaxValue>350</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <CompoundBarChartPlotter>
+                <barSpacing>0.5565217391304348</barSpacing>
+                <chartColors encoding="xml">
+                  <colorRamp name="Arizona Skyline" source="OIC" category="aesthetic">
+                    <node color="0x5683B9" position="0"/>
+                    <node color="0xFFF0A1" position="0.25"/>
+                    <node color="0xE0991B" position="0.5"/>
+                    <node color="0xC23600" position="0.75"/>
+                    <node color="0x503000" position="1"/>
+                  </colorRamp>
+                </chartColors>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <groupMode>false</groupMode>
+                <heightColumns encoding="dynamic">
+                  <ReferencedColumn name="ReferencedColumn">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="FCC_SGSAC by town">
+                                <attribute name="FCC_SGSAC TotalCapacity" id="113054" dataTable="FCC_SGSAC by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn2">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="Exempt by town">
+                                <attribute name="Exempt TotalCapacity" id="113050" dataTable="Exempt by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn4">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="Public School Pre k by town">
+                                <attribute name="Total PublicSchoolsPreK" id="113068" dataTable="Public School Pre k by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn5">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="LGSAC by town">
+                                <attribute name="LGSAC_TotalCapacity" id="113065" dataTable="LGSAC by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn6">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="Head Start by town">
+                                <attribute dataType="number" id="113057" keyType="Massachusetts Town ID" name="HeadStart TotalCapacity" geometryCollection="Massachusetts Towns" dataTable="Head Start by town"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn3">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="informal Child Care Towns">
+                                <attribute name="Informal Child Care Providers" id="110617" dataTable="informal Child Care Towns" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </heightColumns>
+                <horizontalMode>false</horizontalMode>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <sortColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="EEC">
+                                <attribute dataType="number" id="98250" dataTable="EEC" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" name="Final Ranking Score"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </sortColumn>
+              </CompoundBarChartPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <drawLine>false</drawLine>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <x1>-0.5</x1>
+                <x2>4</x2>
+                <x3>0</x3>
+                <xColumn encoding="dynamic"/>
+                <y1>4636.164197530865</y1>
+                <y2>4636.164197530865</y2>
+                <y3>0</y3>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>95</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <labelColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables">
+                  <category name="EEC">
+                    <attribute dataType="string" id="98222" keyType="Massachusetts Town ID" name="Geography" geometryCollection="Massachusetts Towns" dataTable="EEC"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </labelColumn>
+    <linkColormap>true</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel/>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>true</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>100%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>80.859%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+    <resizeable>true</resizeable>
+    <showAllLabels>true</showAllLabels>
+    <showCloseDialog>false</showCloseDialog>
+    <sizeAxisTickCountRequested>5</sizeAxisTickCountRequested>
+    <toolTitle/>
+  </CompoundBarChartTool>
+  <BarChartLegendTool name="BarChartLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>5.5</yMax>
+          <yMin>-0.5</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>NaN</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <BarChartLegendPlotter>
+                <chartColors encoding="xml">
+                  <colorRamp name="Arizona Skyline" source="OIC" category="aesthetic">
+                    <node color="0x5683B9" position="0"/>
+                    <node color="0xFFF0A1" position="0.25"/>
+                    <node color="0xE0991B" position="0.5"/>
+                    <node color="0xC23600" position="0.75"/>
+                    <node color="0x503000" position="1"/>
+                  </colorRamp>
+                </chartColors>
+                <columns encoding="dynamic">
+                  <ReferencedColumn name="ReferencedColumn">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="FCC_SGSAC by town">
+                                <attribute name="FCC_SGSAC TotalCapacity" id="113054" dataTable="FCC_SGSAC by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn2">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="Exempt by town">
+                                <attribute name="Exempt TotalCapacity" id="113050" dataTable="Exempt by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn4">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="Public School Pre k by town">
+                                <attribute name="Total PublicSchoolsPreK" id="113068" dataTable="Public School Pre k by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn5">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="LGSAC by town">
+                                <attribute name="LGSAC_TotalCapacity" id="113065" dataTable="LGSAC by town" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn6">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="Head Start by town">
+                                <attribute dataType="number" id="113057" keyType="Massachusetts Town ID" name="HeadStart TotalCapacity" geometryCollection="Massachusetts Towns" dataTable="Head Start by town"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                  <ReferencedColumn name="ReferencedColumn3">
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="Data Tables">
+                              <category name="informal Child Care Towns">
+                                <attribute name="Informal Child Care Providers" id="110617" dataTable="informal Child Care Towns" keyType="Massachusetts Town ID" geometryCollection="Massachusetts Towns" dataType="number"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </columns>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <shapeSize>12</shapeSize>
+              </BarChartLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="color legend">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <shapeSize>20</shapeSize>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <dynamicBarChartTool encoding="dynamic">
+      <GlobalObjectReference name="CompoundBarChartTool"/>
+    </dynamicBarChartTool>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <linkColormap>true</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel/>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>true</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>100%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>19.141%</panelWidth>
+    <panelX>80.859%</panelX>
+    <panelY>0%</panelY>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </BarChartLegendTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>348598.69491635304</xMax>
+          <xMin>17742.598325527448</xMin>
+          <yMax>950175.7406860237</yMax>
+          <yMin>826648.3987511493</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>15000804</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="Massachusetts Towns" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot2">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>204</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="Exempt" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pointShapeSize>3</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot5">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>16777215</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="HeadStart" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot6">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>16777215</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="LGSAC" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pointShapeSize>3</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot4">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>6710886</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="FCHC" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pointShapeSize>3</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot7">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>10053120</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="Community_ED EEC" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot8">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>10066329</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections">
+                                <attribute name="Public Libraries MA" dataType="Geometry"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pointShapeSize>3</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>false</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <linkColormap>false</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel>false</lockPanel>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>16777215</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.457%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>89.453%</panelWidth>
+    <panelX>0.39063%</panelX>
+    <panelY>0.54348%</panelY>
+    <projectionSRS/>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </MapTool>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>9.5</yMax>
+          <yMin>-0.5</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>15000804</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <shapeSize>20</shapeSize>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <linkColormap>true</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel>false</lockPanel>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.451%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>9.7656%</panelWidth>
+    <panelX>90.234%</panelX>
+    <panelY>0.54945%</panelY>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ColorBinLegendTool>
+</Weave>

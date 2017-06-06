@@ -1,0 +1,629 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dataInfoURL/>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddOpenIndicatorsDataSource>true</enableAddOpenIndicatorsDataSource>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRadViz2>false</enableAddRadViz2>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddSP2>true</enableAddSP2>
+    <enableAddStickFigurePlot>true</enableAddStickFigurePlot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableBorders>true</enableBorders>
+    <enableCloseWindow>true</enableCloseWindow>
+    <enableDataImport>true</enableDataImport>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportSessionState>true</enableExportSessionState>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableMapLayerAddRemove>true</enableMapLayerAddRemove>
+    <enableMapLayerEdit>true</enableMapLayerEdit>
+    <enableMaximizeWindow>true</enableMaximizeWindow>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMenuBarOnTop>true</enableMenuBarOnTop>
+    <enableMinimizeWindow>true</enableMinimizeWindow>
+    <enableNewDataset>true</enableNewDataset>
+    <enableRightClick>true</enableRightClick>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSession>false</enableSession>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionImport>true</enableSessionImport>
+    <enableSessionLoad>true</enableSessionLoad>
+    <enableSessionSave>true</enableSessionSave>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolAutoResizeAndPosition>true</enableToolAutoResizeAndPosition>
+    <enableToolClickDebug>false</enableToolClickDebug>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <fontBold>false</fontBold>
+    <fontColor>NaN</fontColor>
+    <fontFamily>Verdana</fontFamily>
+    <fontItalic>false</fontItalic>
+    <fontSize>10</fontSize>
+    <fontUnderline>false</fontUnderline>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <probeBevelAngle>45</probeBevelAngle>
+    <probeBevelBlur>1</probeBevelBlur>
+    <probeBevelDistance>1</probeBevelDistance>
+    <probeBevelHighlightAlpha>1</probeBevelHighlightAlpha>
+    <probeBevelHighlightColor>16777215</probeBevelHighlightColor>
+    <probeBevelShadowAlpha>1</probeBevelShadowAlpha>
+    <probeBevelShadowColor>16777215</probeBevelShadowColor>
+    <probeBevelType>outer</probeBevelType>
+    <probeInnerGlowAlpha>0.9</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipAlpha>0.95</probeToolTipAlpha>
+    <probeToolTipBackgroundColor>15725756</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>NaN</probeToolTipFontColor>
+    <rServicesURL>/OpenIndicatorsDataServices</rServicesURL>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeColumnEditor>true</showProbeColumnEditor>
+    <showViewBar>false</showViewBar>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>Beta 0.9.3 dev</version>
+    <windowSnapGridSize>1</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <StaticObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp photocopyable="true" source="ColorBrewer" singlehue="false" printFriendly="true" dataFormat="diverging" category="basic" name="Spectral">
+        <node position="0" color="0xD7191C"/>
+        <node position="0.25" color="0xFDAE61"/>
+        <node position="0.5" color="0xFFFFBF"/>
+        <node position="0.75" color="0xABDDA4"/>
+        <node position="1.0" color="0x2B83BA"/>
+      </colorRamp>
+    </ramp>
+    <reverse>false</reverse>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <StaticObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <StaticObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <columnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy name="IVPR Indicator Server">
+                <category name="DataTables">
+                  <category name="Goal 1. Eradicate extreme poverty and hunger">
+                    <category name="Target 1.B: Achieve full and productive employment and decent work for all_including women and young people">
+                      <category name="Employment to population ratio 15+ total">
+                        <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" max="" year="" name="Employment to population ratio, 15+, total (%)_2009"/>
+                      </category>
+                    </category>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </columnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excludedKeys/>
+    <includedKeys/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <sessionedKeyType/>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet">
+    <sessionedKeys/>
+    <sessionedKeyType/>
+  </KeySet>
+  <KeySet name="defaultProbeKeySet">
+    <sessionedKeys/>
+    <sessionedKeyType>ISO ALPHA-3 Country Code</sessionedKeyType>
+  </KeySet>
+  <LinkableObjectMap name="savedSelections" encoding="dynamic"/>
+  <LinkableObjectMap name="savedSubsets" encoding="dynamic"/>
+  <LinkableObjectMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableObjectMap name="Probed Columns" encoding="dynamic"/>
+  <OpenIndicatorsDataSource name="OpenIndicatorsDataSource">
+    <alertEnabled>true</alertEnabled>
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="GeometryCollections">
+          <attribute name="world" dataType="Geometry"/>
+          <attribute keyType="ISO ALPHA-3 Country Code" name="World Borders" dataType="Geometry"/>
+          <attribute name="World Borders (UN Codes)" dataType="Geometry"/>
+          <attribute name="World UN" dataType="Geometry"/>
+          <attribute name="yb_points" dataType="Geometry"/>
+          <attribute name="youthbuild_points" dataType="Geometry"/>
+        </category>
+        <category name="DataTables">
+          <category name="Goal 1. Eradicate extreme poverty and hunger">
+            <category name="Target 1.A: Halve - between 1990 and 2015 - the proportion of people whose income is less than one dollar a day">
+              <category name="Poverty gap at $1.25 a day (PPP) (%)">
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Country Code"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" max="" year="" name="Country Name"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Series Code"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" max="" year="" name="Series Name"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1990"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1991"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1992"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1993"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1994"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1995"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1996"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1997"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1998"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1999"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2000"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2001"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2002"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2003"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2004"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2005"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2006"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2007"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2008"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Poverty gap at $1.25 a day (PPP) (%)" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2009"/>
+              </category>
+              <category name="Poverty gap at $2 a day (PPP) (%)"/>
+              <category name="Poverty gap at national poverty line (%)"/>
+              <category name="Poverty gap at rural poverty line (%)"/>
+              <category name="Poverty gap at urban poverty line (%)"/>
+              <category name="Poverty headcount ratio at $1.25 a day (PPP)"/>
+              <category name="Poverty headcount ratio at $2 a day (PPP)"/>
+              <category name="Poverty headcount ratio at national poverty line"/>
+              <category name="Poverty headcount ratio at rural poverty line"/>
+              <category name="Poverty headcount ratio at urban poverty line"/>
+            </category>
+            <category name="Target 1.B: Achieve full and productive employment and decent work for all_including women and young people">
+              <category name="Employment to population ratio 15+ total">
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Country Code"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Country Name"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Series Code"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Series Name"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1990"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1991"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1992"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1993"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1994"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1995"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1996"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1997"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1998"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_1999"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_2000"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_2001"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_2002"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_2003"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_2004"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_2005"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" max="" year="" name="Employment to population ratio, 15+, total (%)_2006"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" year="" name="Employment to population ratio, 15+, total (%)_2007"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" max="" year="" name="Employment to population ratio, 15+, total (%)_2008"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ total" max="" year="" name="Employment to population ratio, 15+, total (%)_2009"/>
+              </category>
+              <category name="Employment to population ratio 15+ male"/>
+              <category name="Employment to population ratio 15+ female">
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Country Code" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Country Name" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Series Code" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Series Name" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1990" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1991" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1992" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1993" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1994" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1995" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1996" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1997" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1998" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_1999" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2000" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2001" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2002" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2003" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2004" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2005" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2006" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2007" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2008" year=""/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Employment to population ratio 15+ female" name="Employment to population ratio, 15+, female (%)_2009" year=""/>
+              </category>
+            </category>
+          </category>
+          <category name="Goal 2. Achieve universal primary education">
+            <category name="Target 2.A: Ensure that by 2015 children everywhere_boys and girls alike_will be able to complete a full course of primary schooling">
+              <category name="School enrollment, primary (% net)"/>
+              <category name="Total enrollment primary (% net)"/>
+              <category name="Primary completion rate, total (% of relevant age group)"/>
+              <category name="Persistence to last grade of primary, female (% of cohort)"/>
+              <category name="Persistence to last grade of primary, male (% of cohort)"/>
+              <category name="Persistence to last grade of primary, total (% of cohort)"/>
+              <category name="Literacy rate adult total (% of people ages 15 and above"/>
+              <category name="Literacy rate youth female (% of females ages 15-24)"/>
+              <category name="Literacy rate youth male (% of males ages 15-24)"/>
+              <category name="Literacy rate youth total (% of people ages 15-24)"/>
+            </category>
+          </category>
+          <category name="Goal 3. Promote gender equality and empower women">
+            <category name="Target 3.A: Eliminate gender disparity in primary and secondary education_preferably by 2005_and in all levels of education no later than 2015">
+              <category name="Proportion of seats held by women in national parliaments (%)"/>
+              <category name="Ratio of female to male secondary enrollment (%)"/>
+              <category name="Ratio of female to male tertiary enrollment (%)"/>
+              <category name="Ratio of girls to boys in primary and secondary education (%)"/>
+              <category name="Ratio of female to male primary enrollment (%)"/>
+              <category name="Share of women employed in the nonagricultural sector"/>
+            </category>
+          </category>
+          <category name="Goal 4. Reduce child mortality">
+            <category name="Target 4.A: Reduce by two-thirds_between 1990 and 2015_the under-five mortality rate">
+              <category name="Mortality rate under-5 (per 1,000)"/>
+              <category name="Mortality rate infant (per 1000 live births)"/>
+              <category name="Immunization measles (% of children ages 12-23 months)"/>
+            </category>
+          </category>
+          <category name="Goal 5. Improve maternal health">
+            <category name="Target 5.A: Reduce by three quarters_between 1990 and 2015_the maternal mortality ratio">
+              <category name="Maternal mortality ratio"/>
+              <category name="Births attended by skilled health staff (% of total)"/>
+            </category>
+            <category name="Target 5.B: Achieve_by 2015_universal access to reproductive health">
+              <category name="Unmet need for contraception (% of married women ages 15-49)"/>
+              <category name="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
+            </category>
+          </category>
+          <category name="Goal 6. Combat HIV-AIDS_malaria and other diseases">
+            <category name="Target 6.A: Have halted by 2015 and begun to reverse the spread of HIV-AIDS">
+              <category name="Prevalence of HIV female (% ages 15-24)"/>
+              <category name="Prevalence of HIV male (% ages 15-24)"/>
+              <category name="Prevalence of HIV total % of population ages 15-49"/>
+              <category name="Comprehensive correct knowledge of HIV-AIDS ages 15-24  female"/>
+              <category name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male"/>
+              <category name="Condom use with non regular partner % adults(15-49) female"/>
+              <category name="Condom use with non regular partner % adults(15-49) male"/>
+              <category name="Condom use population ages 15-24 female"/>
+              <category name="Condom use population ages 15-24 male"/>
+              <category name="pct females_15-49_ having comprehensive  knowledge about HIV"/>
+              <category name="pct males_15-49_ having comprehensive  knowledge about HIV"/>
+              <category name="Ratio of school attendance of orphans to non-orphans ages 10-14"/>
+            </category>
+            <category name="Target 6.B: Achieve_by 2010_universal access to treatment for HIV/AIDS for all those who need it">
+              <category name="Antiretroviral therapy"/>
+            </category>
+            <category name="Target 6.C: Have halted by 2015 and begun to reverse the incidence of malaria and other major diseases">
+              <category name="Malaria cases reported"/>
+              <category name="Children with fever receiving antimalarial drugs"/>
+              <category name="Use of insecticide-treated bed nets (% of under-5 population)"/>
+              <category name="Tuberculosis case detection rate (all forms)"/>
+              <category name="Tuberculosis death rate (per 100,000 people)"/>
+              <category name="Tuberculosis treatment success rate (% of registered cases)"/>
+              <category name="Incidence of tuberculosis (per 100,000 people)"/>
+            </category>
+          </category>
+          <category name="Goal 7. Ensure environmental sustainability">
+            <category name="Target 7.A: Integrate the principles of sustainable development into country policies and programmes and reverse the loss of environmental resources">
+              <category name="forest area (% of land area)"/>
+              <category name="CO2 emissions (kg per PPP $ of GDP)"/>
+              <category name="CO2 emissions (kt)"/>
+              <category name="CO2 emissions (metric tons per capita)"/>
+              <category name="Energy use-kg of oil equi.- per $1000 GDP"/>
+              <category name="Annual freshwater withdrawals, total (% of internal resources)"/>
+              <category name="Renewable internal freshwater resources per capita-cubic meters"/>
+            </category>
+            <category name="Target 7.B: Reduce biodiversity loss_achieving_by 2010_a significant reduction in the rate of loss">
+              <category name="Terrestrial protected areas (% of total surface area)"/>
+              <category name="Marine protected areas"/>
+            </category>
+            <category name="Target 7.C: Halve_by 2015_the proportion of people without sustainable access to safe drinking water and basic sanitation">
+              <category name="Improved water source % of population with access"/>
+              <category name="Annual freshwater withdrawals, total (% of internal resources)"/>
+              <category name="Renewable internal freshwater resources per capita-cubic meters"/>
+            </category>
+            <category name="Target 7.D: By 2020_to have achieved a significant improvement in the lives of at least 100 million slum dwellers">
+              <category name="Population living in slums (% of urban population)"/>
+            </category>
+          </category>
+          <category name="Goal 8. Develop a global partnership for development">
+            <category name="Target 8.A: Develop further an open_rule-based_predictable_non-discriminatory trading and financial system">
+              <category name="tariffs imposed by developed countries on agricultural products"/>
+              <category name="tariffs imposed by developed countries on agri. products-LDCs"/>
+              <category name="tariffs imposed by developed countries on clothingproducts"/>
+              <category name="tariffs imposed by developed countries on textilel products"/>
+              <category name="tariffs imposed by developed countries on textilel products LDCs"/>
+              <category name="Agricultural support estimate (% of GDP)"/>
+            </category>
+            <category name="Target 8.B: Address the special needs of the least developed countries">
+              <category name="Net ODA provided to the least developed countries (current US$)"/>
+              <category name="Net ODA provided to the least developed countries (pct. of GNI)"/>
+              <category name="Net ODA provided total (% of GNI"/>
+              <category name="Net ODA provided total (constant 2008 US$)"/>
+              <category name="Net ODA provided total (current US$)"/>
+              <category name="Net ODA received (% of GNI)"/>
+              <category name="Net ODA received per capita (current US$)"/>
+              <category name="Net ODA received (current US$)"/>
+              <category name="Net ODA and official aid received (current US$)"/>
+              <category name="Bilateral ODA commitments that is untied"/>
+              <category name="Bilateral, sector-allocable ODA to basic social services"/>
+            </category>
+            <category name="Target 8.C: Address the special needs of landlocked countries and small island developing States"/>
+            <category name="Target 8.D: Deal comprehensively with the debt problems of developing countries through national and international measures in order to make debt sustainable in the long term">
+              <category name="Debt relief committed under HIPC initiative cumulative US$">
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Country Code"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" max="" year="" name="Country Name"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Series Code"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Series Name"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1990"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1991"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1992"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1993"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1994"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1995"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1996"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1997"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1998"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1999"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2000"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2001"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2002"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2003"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2004"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2005"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2006"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2007"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2008"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Debt relief committed under HIPC initiative cumulative US$" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2009"/>
+              </category>
+              <category name="Debt relief delivered in fully MDRI initiative cumulative US$"/>
+              <category name="Status under enhanced HIPC initiative"/>
+              <category name="Debt service-pct of exports excluding workers remittances"/>
+              <category name="Total debt service (% of exports of goods, services and income)"/>
+            </category>
+            <category name="Target 8.E: In cooperation with pharmaceutical companies_provide access to affordable essential drugs in developing countries"/>
+            <category name="Target 8.F: In cooperation with the private sector_make available the benefits of new technologies_especially information and communications">
+              <category name="Telephone lines (per 100 people)"/>
+              <category name="Mobile cellular subscriptions (per 100 people)"/>
+              <category name="Internet users (per 100 people)">
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" year="" name="Country Code"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" year="" name="Country Name"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" year="" name="Series Code"/>
+                <attribute keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" year="" name="Series Name"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1990"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1991"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1992"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1993"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1994"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1995"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1996"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1997"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1998"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_1999"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2000"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2001"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2002"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2003"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2004"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2005"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2006"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2007"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2008"/>
+                <attribute min="" keyType="ISO ALPHA-3 Country Code" dataTableName="Internet users (per 100 people)" max="" year="" name="Internet users (per 100 people))_2009"/>
+              </category>
+            </category>
+          </category>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/OpenIndicatorsDataServices</url>
+  </OpenIndicatorsDataSource>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <activeLayerName>plot</activeLayerName>
+        <axisFont>Arial</axisFont>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>10</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <axisLineAlpha>1</axisLineAlpha>
+        <axisLineColor>0</axisLineColor>
+        <axisLineThickness>2</axisLineThickness>
+        <axisTickAlpha>1</axisTickAlpha>
+        <axisTickColor>0</axisTickColor>
+        <axisTickLength>10</axisTickLength>
+        <axisTickThickness>2</axisTickThickness>
+        <dataBounds>
+          <xMax>234.24954017704965</xMax>
+          <xMin>-234.24954017704945</xMin>
+          <yMax>113.50962481967238</yMax>
+          <yMin>-119.88602881967225</yMin>
+        </dataBounds>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers/>
+        <enableAutoZoomYToNiceNumbers/>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fillStyle encoding="dynamic">
+                  <SolidFillStyle>
+                    <alpha>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <color>
+                      <defaultValue>NaN</defaultValue>
+                      <internalDynamicColumn encoding="dynamic">
+                        <StaticObjectReference name="defaultColorColumn"/>
+                      </internalDynamicColumn>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                  </SolidFillStyle>
+                </fillStyle>
+                <geometry encoding="dynamic">
+                  <ReferencedColumn>
+                    <columnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy name="IVPR Indicator Server">
+                            <category name="GeometryCollections">
+                              <attribute keyType="ISO ALPHA-3 Country Code" name="World Borders" dataType="Geometry"/>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </columnReference>
+                  </ReferencedColumn>
+                </geometry>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <StaticObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>none</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <StaticObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionBlurringAmount>NaN</selectionBlurringAmount>
+            <selectionFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <StaticObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>true</enableBackground>
+    <helpAvailable>true</helpAvailable>
+    <hideBorders>false</hideBorders>
+    <linkColormap>false</linkColormap>
+    <linkProbing>true</linkProbing>
+    <linkSelection>true</linkSelection>
+    <linkSubset>true</linkSubset>
+    <lockPanel/>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <panelHeight>66.058%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>60.542%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <userControlsAvailable>true</userControlsAvailable>
+  </MapTool>
+</Weave>

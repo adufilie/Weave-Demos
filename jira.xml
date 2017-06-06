@@ -1,0 +1,53 @@
+<Weave encoding="TypedSessionState">
+  <WeaveProperties name="WeaveProperties">
+    <enableDataImport>true</enableDataImport>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableMapLayerAddRemove>true</enableMapLayerAddRemove>
+    <enableMapLayerEdit>true</enableMapLayerEdit>
+    <enableMenuBar>true</enableMenuBar>
+    <enableSession>false</enableSession>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionLoad>true</enableSessionLoad>
+    <enableSessionSave>true</enableSessionSave>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableTaskbar>true</enableTaskbar>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolAutoResizeAndPosition>true</enableToolAutoResizeAndPosition>
+    <enableToolClickDebug>false</enableToolClickDebug>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <probePrefix/>
+    <probeSuffix/>
+    <rServicesURL>/OpenIndicatorsRServices</rServicesURL>
+    <showCopyright>true</showCopyright>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showVisToolCloseDialog>true</showVisToolCloseDialog>
+    <version>Beta 0.8</version>
+    <wsShapesURL>/OpenIndicatorsDataServices/WSShapesService?wsdl</wsShapesURL>
+  </WeaveProperties>
+  <OpenIndicatorsDataSource name="OpenIndicatorsDataSource">
+    <alertEnabled>true</alertEnabled>
+    <attributeHierarchy encoding="XML">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="Weave Jira Issues"/>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/OpenIndicatorsDataServices</url>
+  </OpenIndicatorsDataSource>
+  <Colormap name="Global Colormap" encoding="XML">
+    <hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+      <category name="Aggregated Fore_ODNO">
+        <attribute name="Foreclosure" max="40" dataTableName="Aggregated Fore_ODNO" year="2008" min="0" keyType="US Census Tract 6-digit ID"/>
+      </category>
+    </hierarchy>
+  </Colormap>
+  <ProxyAttributeColumn name="Default Main Probe Column" encoding="XML">
+    <hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+      <category name="Aggregated Fore_ODNO">
+        <attribute name="Census tract" max="" dataTableName="Aggregated Fore_ODNO" year="" min="" keyType="US Census Tract 6-digit ID"/>
+      </category>
+    </hierarchy>
+  </ProxyAttributeColumn>
+</Weave>

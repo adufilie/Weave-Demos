@@ -1,0 +1,1423 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>16777215</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>12</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>0</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddCompoundRadViz>true</enableAddCompoundRadViz>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRamachandranPlot>true</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily/>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeInnerGlowAlpha>0.7</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>26214</probeInnerGlowColor>
+    <probeInnerGlowStrength>3</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>1</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>0.9</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>6724095</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>1.0 Beta Nightly Build</version>
+    <windowSnapGridSize>1</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp printFriendly="true" reverse="false" dataFormat="diverging" colorblindSafe="true" category="basic" source="ColorBrewer" singlehue="false" name="RdYlBu">
+        <node color="0xD7191C" position="0"/>
+        <node color="0xFDAE61" position="0.25"/>
+        <node color="0xFFFFBF" position="0.5"/>
+        <node color="0xABD9E9" position="0.75"/>
+        <node color="0x2C7BB6" position="1.0"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="DataTables">
+                  <category name="Goal 1. Eradicate extreme poverty and hunger">
+                    <category name="Target 1.B: Achieve full and productive employment and decent work for all_including women and young people">
+                      <category name="Employment to population ratio 15+ total">
+                        <attribute dataTable="Employment to population ratio 15+ total" max="88" keyType="ISO ALPHA-3 Country Code" min="0" year="" name="Employment to population ratio, 15+, total (%)_2008"/>
+                      </category>
+                    </category>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="DataTables">
+                <category name="Goal 1. Eradicate extreme poverty and hunger">
+                  <category name="Target 1.A: Halve - between 1990 and 2015 - the proportion of people whose income is less than one dollar a day">
+                    <category name="Poverty gap at $1.25 a day (PPP) (%)">
+                      <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Country Name"/>
+                    </category>
+                  </category>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="DataTables">
+                <category name="Goal 2. Achieve universal primary education">
+                  <category name="Target 2.A: Ensure that by 2015 children everywhere_boys and girls alike_will be able to complete a full course of primary schooling">
+                    <category name="Total enrollment primary (% net)">
+                      <attribute dataTable="Total enrollment primary (% net)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Total enrollment, primary (% net))_2009"/>
+                    </category>
+                  </category>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn3">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="DataTables">
+                <category name="Goal 1. Eradicate extreme poverty and hunger">
+                  <category name="Target 1.A: Halve - between 1990 and 2015 - the proportion of people whose income is less than one dollar a day">
+                    <category name="Population, total">
+                      <attribute dataTable="Population, total" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Population, total_2009"/>
+                    </category>
+                  </category>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <WeaveDataSource name="OpenIndicatorsDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category name="GeometryCollections">
+          <attribute dataType="Geometry" name="world"/>
+          <attribute name="World Borders" keyType="ISO ALPHA-3 Country Code" dataType="Geometry"/>
+          <attribute dataType="Geometry" name="World Borders (UN Codes)"/>
+          <attribute dataType="Geometry" name="World UN"/>
+          <attribute dataType="Geometry" name="yb_points"/>
+          <attribute dataType="Geometry" name="youthbuild_points"/>
+        </category>
+        <category name="DataTables">
+          <category name="Goal 1. Eradicate extreme poverty and hunger">
+            <category name="Target 1.A: Halve - between 1990 and 2015 - the proportion of people whose income is less than one dollar a day">
+              <category name="Poverty gap at $1.25 a day (PPP) (%)">
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Country Code"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Country Name"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Series Code"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Series Name"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1990"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1991"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1992"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1993"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1994"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1995"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1996"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1997"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1998"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_1999"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2000"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2001"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2002"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2003"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2004"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2005"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2006"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2007"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2008"/>
+                <attribute dataTable="Poverty gap at $1.25 a day (PPP) (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Poverty gap at $1.25 a day (PPP) (%)_2009"/>
+              </category>
+              <category name="Poverty gap at $2 a day (PPP) (%)"/>
+              <category name="Poverty gap at national poverty line (%)"/>
+              <category name="Poverty gap at rural poverty line (%)"/>
+              <category name="Poverty gap at urban poverty line (%)"/>
+              <category name="Poverty headcount ratio at $1.25 a day (PPP)"/>
+              <category name="Poverty headcount ratio at $2 a day (PPP)"/>
+              <category name="Poverty headcount ratio at national poverty line"/>
+              <category name="Poverty headcount ratio at rural poverty line"/>
+              <category name="Poverty headcount ratio at urban poverty line"/>
+              <category name="Population, total">
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Country Code"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Country Name"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Series Code"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Series Name"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1990"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1991"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1992"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1993"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1994"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1995"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1996"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1997"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1998"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_1999"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_2000"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_2001"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_2002"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_2003"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_2004"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_2005"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_2006"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_2007"/>
+                <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" year="" name="Population, total_2008"/>
+                <attribute dataTable="Population, total" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Population, total_2009"/>
+              </category>
+            </category>
+            <category name="Target 1.B: Achieve full and productive employment and decent work for all_including women and young people">
+              <category name="Employment to population ratio 15+ total">
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Country Code"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Country Name"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Series Code"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Series Name"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1990"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1991"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1992"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1993"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1994"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1995"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1996"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1997"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1998"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_1999"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_2000"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_2001"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_2002"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_2003"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_2004"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_2005"/>
+                <attribute dataTable="Employment to population ratio 15+ total" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Employment to population ratio, 15+, total (%)_2006"/>
+                <attribute dataTable="Employment to population ratio 15+ total" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, total (%)_2007"/>
+                <attribute dataTable="Employment to population ratio 15+ total" max="88" keyType="ISO ALPHA-3 Country Code" min="0" year="" name="Employment to population ratio, 15+, total (%)_2008"/>
+                <attribute dataTable="Employment to population ratio 15+ total" max="88" keyType="ISO ALPHA-3 Country Code" min="0" year="" name="Employment to population ratio, 15+, total (%)_2009"/>
+              </category>
+              <category name="Employment to population ratio 15+ male"/>
+              <category name="Employment to population ratio 15+ female">
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Country Code"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Country Name"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Series Code"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Series Name"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1990"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1991"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1992"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1993"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1994"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1995"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1996"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1997"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1998"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_1999"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_2000"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_2001"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_2002"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_2003"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_2004"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_2005"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_2006"/>
+                <attribute dataTable="Employment to population ratio 15+ female" keyType="ISO ALPHA-3 Country Code" year="" name="Employment to population ratio, 15+, female (%)_2007"/>
+                <attribute dataTable="Employment to population ratio 15+ female" max="89" keyType="ISO ALPHA-3 Country Code" min="0" year="" name="Employment to population ratio, 15+, female (%)_2008"/>
+                <attribute dataTable="Employment to population ratio 15+ female" max="89" keyType="ISO ALPHA-3 Country Code" min="0" year="2009" name="Employment to population ratio, 15+, female (%)_2009"/>
+              </category>
+            </category>
+          </category>
+          <category name="Goal 2. Achieve universal primary education">
+            <category name="Target 2.A: Ensure that by 2015 children everywhere_boys and girls alike_will be able to complete a full course of primary schooling">
+              <category name="School enrollment, primary (% net)">
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61129" geometryCollection="World UN" name="Country Code"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61130" geometryCollection="World UN" name="Country Name"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61131" geometryCollection="World UN" name="Series Code"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61132" geometryCollection="World UN" name="Series Name"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61133" geometryCollection="World UN" name="School enrollment, primary (% net))_1990"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61134" geometryCollection="World UN" name="School enrollment, primary (% net))_1991"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61135" geometryCollection="World UN" name="School enrollment, primary (% net))_1992"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61136" geometryCollection="World UN" name="School enrollment, primary (% net))_1993"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61137" geometryCollection="World UN" name="School enrollment, primary (% net))_1994"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61138" geometryCollection="World UN" name="School enrollment, primary (% net))_1995"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61139" geometryCollection="World UN" name="School enrollment, primary (% net))_1996"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61140" geometryCollection="World UN" name="School enrollment, primary (% net))_1997"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61141" geometryCollection="World UN" name="School enrollment, primary (% net))_1998"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61142" geometryCollection="World UN" name="School enrollment, primary (% net))_1999"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61143" geometryCollection="World UN" name="School enrollment, primary (% net))_2000"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61144" geometryCollection="World UN" name="School enrollment, primary (% net))_2001"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61145" geometryCollection="World UN" name="School enrollment, primary (% net))_2002"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61146" geometryCollection="World UN" name="School enrollment, primary (% net))_2003"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61147" geometryCollection="World UN" name="School enrollment, primary (% net))_2004"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61148" geometryCollection="World UN" name="School enrollment, primary (% net))_2005"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61149" geometryCollection="World UN" name="School enrollment, primary (% net))_2006"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61150" geometryCollection="World UN" name="School enrollment, primary (% net))_2007"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61151" geometryCollection="World UN" name="School enrollment, primary (% net))_2008"/>
+                <attribute dataTable="School enrollment, primary (% net)" keyType="ISO ALPHA-3 Country Code" id="61152" geometryCollection="World UN" name="School enrollment, primary (% net))_2009"/>
+              </category>
+              <category name="Total enrollment primary (% net)">
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Country Code"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Country Name"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Series Code"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Series Name"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1990"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1991"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1992"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1993"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1994"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1995"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1996"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1997"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1998"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_1999"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_2000"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_2001"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_2002"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_2003"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_2004"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_2005"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_2006"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_2007"/>
+                <attribute dataTable="Total enrollment primary (% net)" keyType="ISO ALPHA-3 Country Code" year="" name="Total enrollment, primary (% net))_2008"/>
+                <attribute dataTable="Total enrollment primary (% net)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Total enrollment, primary (% net))_2009"/>
+              </category>
+              <category name="Primary completion rate, total (% of relevant age group)"/>
+              <category name="Persistence to last grade of primary, female (% of cohort)"/>
+              <category name="Persistence to last grade of primary, male (% of cohort)"/>
+              <category name="Persistence to last grade of primary, total (% of cohort)"/>
+              <category name="Literacy rate adult total (% of people ages 15 and above"/>
+              <category name="Literacy rate youth female (% of females ages 15-24)"/>
+              <category name="Literacy rate youth male (% of males ages 15-24)"/>
+              <category name="Literacy rate youth total (% of people ages 15-24)"/>
+            </category>
+          </category>
+          <category name="Goal 3. Promote gender equality and empower women">
+            <category name="Target 3.A: Eliminate gender disparity in primary and secondary education_preferably by 2005_and in all levels of education no later than 2015">
+              <category name="Proportion of seats held by women in national parliaments (%)">
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Country Code"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Country Name"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Series Code"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="" name="Series Name"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1990" name="Proportion of seats held by women in national parliaments (%))_1990"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1991" name="Proportion of seats held by women in national parliaments (%))_1991"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1992" name="Proportion of seats held by women in national parliaments (%))_1992"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1993" name="Proportion of seats held by women in national parliaments (%))_1993"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1994" name="Proportion of seats held by women in national parliaments (%))_1994"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1995" name="Proportion of seats held by women in national parliaments (%))_1995"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1996" name="Proportion of seats held by women in national parliaments (%))_1996"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1997" name="Proportion of seats held by women in national parliaments (%))_1997"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1998" name="Proportion of seats held by women in national parliaments (%))_1998"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="1999" name="Proportion of seats held by women in national parliaments (%))_1999"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="2000" name="Proportion of seats held by women in national parliaments (%))_2000"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="2001" name="Proportion of seats held by women in national parliaments (%))_2001"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="2002" name="Proportion of seats held by women in national parliaments (%))_2002"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="2003" name="Proportion of seats held by women in national parliaments (%))_2003"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="2004" name="Proportion of seats held by women in national parliaments (%))_2004"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="2005" name="Proportion of seats held by women in national parliaments (%))_2005"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="2006" name="Proportion of seats held by women in national parliaments (%))_2006"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="2007" name="Proportion of seats held by women in national parliaments (%))_2007"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" year="2008" name="Proportion of seats held by women in national parliaments (%))_2008"/>
+                <attribute dataTable="Proportion of seats held by women in national parliaments (%)" max="56.4" keyType="ISO ALPHA-3 Country Code" min="0" year="2009" name="Proportion of seats held by women in national parliaments (%))_2009"/>
+              </category>
+              <category name="Ratio of female to male secondary enrollment (%)">
+                <attribute dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60985" geometryCollection="World UN" name="Country Code"/>
+                <attribute dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60986" geometryCollection="World UN" name="Country Name"/>
+                <attribute dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60987" geometryCollection="World UN" name="Series Code"/>
+                <attribute dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60988" geometryCollection="World UN" name="Series Name"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60989" year="1990" name="Ratio of female to male secondary enrollment (%))_1990"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60990" year="1991" name="Ratio of female to male secondary enrollment (%))_1991"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60991" year="1992" name="Ratio of female to male secondary enrollment (%))_1992"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60992" year="1993" name="Ratio of female to male secondary enrollment (%))_1993"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60993" year="1994" name="Ratio of female to male secondary enrollment (%))_1994"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60994" year="1995" name="Ratio of female to male secondary enrollment (%))_1995"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60995" year="1996" name="Ratio of female to male secondary enrollment (%))_1996"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60996" year="1997" name="Ratio of female to male secondary enrollment (%))_1997"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60997" year="1998" name="Ratio of female to male secondary enrollment (%))_1998"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60998" year="1999" name="Ratio of female to male secondary enrollment (%))_1999"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="60999" year="2000" name="Ratio of female to male secondary enrollment (%))_2000"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61000" year="2001" name="Ratio of female to male secondary enrollment (%))_2001"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61001" year="2002" name="Ratio of female to male secondary enrollment (%))_2002"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61002" year="2003" name="Ratio of female to male secondary enrollment (%))_2003"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61003" year="2004" name="Ratio of female to male secondary enrollment (%))_2004"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61004" year="2005" name="Ratio of female to male secondary enrollment (%))_2005"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61005" year="2006" name="Ratio of female to male secondary enrollment (%))_2006"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61006" year="2007" name="Ratio of female to male secondary enrollment (%))_2007"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61007" year="2008" name="Ratio of female to male secondary enrollment (%))_2008"/>
+                <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61008" year="2009" name="Ratio of female to male secondary enrollment (%))_2009"/>
+              </category>
+              <category name="Ratio of female to male tertiary enrollment (%)"/>
+              <category name="Ratio of girls to boys in primary and secondary education (%)"/>
+              <category name="Ratio of female to male primary enrollment (%)"/>
+              <category name="Share of women employed in the nonagricultural sector"/>
+            </category>
+          </category>
+          <category name="Goal 4. Reduce child mortality">
+            <category name="Target 4.A: Reduce by two-thirds_between 1990 and 2015_the under-five mortality rate">
+              <category name="Mortality rate under-5 (per 1,000)"/>
+              <category name="Mortality rate infant (per 1000 live births)"/>
+              <category name="Immunization measles (% of children ages 12-23 months)"/>
+            </category>
+          </category>
+          <category name="Goal 5. Improve maternal health">
+            <category name="Target 5.A: Reduce by three quarters_between 1990 and 2015_the maternal mortality ratio">
+              <category name="Maternal mortality ratio"/>
+              <category name="Births attended by skilled health staff (% of total)"/>
+            </category>
+            <category name="Target 5.B: Achieve_by 2015_universal access to reproductive health">
+              <category name="Unmet need for contraception (% of married women ages 15-49)"/>
+              <category name="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
+            </category>
+          </category>
+          <category name="Goal 6. Combat HIV-AIDS_malaria and other diseases">
+            <category name="Target 6.A: Have halted by 2015 and begun to reverse the spread of HIV-AIDS">
+              <category name="Prevalence of HIV female (% ages 15-24)"/>
+              <category name="Prevalence of HIV male (% ages 15-24)"/>
+              <category name="Prevalence of HIV total % of population ages 15-49"/>
+              <category name="Comprehensive correct knowledge of HIV-AIDS ages 15-24  female"/>
+              <category name="Comprehensive correct knowledge of HIV-AIDS ages 15-24 male"/>
+              <category name="Condom use with non regular partner % adults(15-49) female"/>
+              <category name="Condom use with non regular partner % adults(15-49) male"/>
+              <category name="Condom use population ages 15-24 female"/>
+              <category name="Condom use population ages 15-24 male"/>
+              <category name="pct females_15-49_ having comprehensive  knowledge about HIV"/>
+              <category name="pct males_15-49_ having comprehensive  knowledge about HIV"/>
+              <category name="Ratio of school attendance of orphans to non-orphans ages 10-14"/>
+            </category>
+            <category name="Target 6.B: Achieve_by 2010_universal access to treatment for HIV/AIDS for all those who need it">
+              <category name="Antiretroviral therapy"/>
+            </category>
+            <category name="Target 6.C: Have halted by 2015 and begun to reverse the incidence of malaria and other major diseases">
+              <category name="Malaria cases reported"/>
+              <category name="Children with fever receiving antimalarial drugs"/>
+              <category name="Use of insecticide-treated bed nets (% of under-5 population)"/>
+              <category name="Tuberculosis case detection rate (all forms)"/>
+              <category name="Tuberculosis death rate (per 100,000 people)"/>
+              <category name="Tuberculosis treatment success rate (% of registered cases)"/>
+              <category name="Incidence of tuberculosis (per 100,000 people)"/>
+            </category>
+          </category>
+          <category name="Goal 7. Ensure environmental sustainability">
+            <category name="Target 7.A: Integrate the principles of sustainable development into country policies and programmes and reverse the loss of environmental resources">
+              <category name="forest area (% of land area)"/>
+              <category name="CO2 emissions (kg per PPP $ of GDP)"/>
+              <category name="CO2 emissions (kt)"/>
+              <category name="CO2 emissions (metric tons per capita)"/>
+              <category name="Energy use-kg of oil equi.- per $1000 GDP"/>
+              <category name="Annual freshwater withdrawals, total (% of internal resources)"/>
+              <category name="Renewable internal freshwater resources per capita-cubic meters"/>
+            </category>
+            <category name="Target 7.B: Reduce biodiversity loss_achieving_by 2010_a significant reduction in the rate of loss">
+              <category name="Terrestrial protected areas (% of total surface area)"/>
+              <category name="Marine protected areas"/>
+            </category>
+            <category name="Target 7.C: Halve_by 2015_the proportion of people without sustainable access to safe drinking water and basic sanitation">
+              <category name="Improved water source % of population with access"/>
+              <category name="Annual freshwater withdrawals, total (% of internal resources)"/>
+              <category name="Renewable internal freshwater resources per capita-cubic meters"/>
+            </category>
+            <category name="Target 7.D: By 2020_to have achieved a significant improvement in the lives of at least 100 million slum dwellers">
+              <category name="Population living in slums (% of urban population)"/>
+            </category>
+          </category>
+          <category name="Goal 8. Develop a global partnership for development">
+            <category name="Target 8.A: Develop further an open_rule-based_predictable_non-discriminatory trading and financial system">
+              <category name="tariffs imposed by developed countries on agricultural products"/>
+              <category name="tariffs imposed by developed countries on agri. products-LDCs"/>
+              <category name="tariffs imposed by developed countries on clothingproducts"/>
+              <category name="tariffs imposed by developed countries on textilel products"/>
+              <category name="tariffs imposed by developed countries on textilel products LDCs"/>
+              <category name="Agricultural support estimate (% of GDP)"/>
+            </category>
+            <category name="Target 8.B: Address the special needs of the least developed countries">
+              <category name="Net ODA provided to the least developed countries (current US$)"/>
+              <category name="Net ODA provided to the least developed countries (pct. of GNI)"/>
+              <category name="Net ODA provided total (% of GNI"/>
+              <category name="Net ODA provided total (constant 2008 US$)"/>
+              <category name="Net ODA provided total (current US$)"/>
+              <category name="Net ODA received (% of GNI)"/>
+              <category name="Net ODA received per capita (current US$)"/>
+              <category name="Net ODA received (current US$)"/>
+              <category name="Net ODA and official aid received (current US$)"/>
+              <category name="Bilateral ODA commitments that is untied"/>
+              <category name="Bilateral, sector-allocable ODA to basic social services"/>
+            </category>
+            <category name="Target 8.C: Address the special needs of landlocked countries and small island developing States"/>
+            <category name="Target 8.D: Deal comprehensively with the debt problems of developing countries through national and international measures in order to make debt sustainable in the long term">
+              <category name="Debt relief committed under HIPC initiative cumulative US$">
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Country Code"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Country Name"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Series Code"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Series Name"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1990"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1991"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1992"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1993"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1994"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1995"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1996"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1997"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1998"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_1999"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2000"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2001"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2002"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2003"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2004"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2005"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2006"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2007"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2008"/>
+                <attribute dataTable="Debt relief committed under HIPC initiative cumulative US$" keyType="ISO ALPHA-3 Country Code" year="" name="Debt relief committed under HIPC initiative, cumulative US$ in end-2008 NPV terms_2009"/>
+              </category>
+              <category name="Debt relief delivered in fully MDRI initiative cumulative US$"/>
+              <category name="Status under enhanced HIPC initiative"/>
+              <category name="Debt service-pct of exports excluding workers remittances"/>
+              <category name="Total debt service (% of exports of goods, services and income)"/>
+            </category>
+            <category name="Target 8.E: In cooperation with pharmaceutical companies_provide access to affordable essential drugs in developing countries"/>
+            <category name="Target 8.F: In cooperation with the private sector_make available the benefits of new technologies_especially information and communications">
+              <category name="Telephone lines (per 100 people)"/>
+              <category name="Mobile cellular subscriptions (per 100 people)"/>
+              <category name="Internet users (per 100 people)">
+                <attribute dataTable="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code" year="" name="Country Code"/>
+                <attribute dataTable="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code" year="" name="Country Name"/>
+                <attribute dataTable="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code" year="" name="Series Code"/>
+                <attribute dataTable="Internet users (per 100 people)" keyType="ISO ALPHA-3 Country Code" year="" name="Series Name"/>
+                <attribute dataTable="Internet users (per 100 people)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Internet users (per 100 people))_1990"/>
+                <attribute dataTable="Internet users (per 100 people)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Internet users (per 100 people))_1991"/>
+                <attribute dataTable="Internet users (per 100 people)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Internet users (per 100 people))_1992"/>
+                <attribute dataTable="Internet users (per 100 people)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Internet users (per 100 people))_1993"/>
+                <attribute dataTable="Internet users (per 100 people)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Internet users (per 100 people))_1994"/>
+                <attribute dataTable="Internet users (per 100 people)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Internet users (per 100 people))_1995"/>
+                <attribute dataTable="Internet users (per 100 people)" max="" keyType="ISO ALPHA-3 Country Code" min="" year="" name="Internet users (per 100 people))_1996"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="1997" name="Internet users (per 100 people))_1997"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="1998" name="Internet users (per 100 people))_1998"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="1999" name="Internet users (per 100 people))_1999"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2000" name="Internet users (per 100 people))_2000"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2001" name="Internet users (per 100 people))_2001"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2002" name="Internet users (per 100 people))_2002"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2003" name="Internet users (per 100 people))_2003"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2004" name="Internet users (per 100 people))_2004"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2005" name="Internet users (per 100 people))_2005"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2006" name="Internet users (per 100 people))_2006"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2007" name="Internet users (per 100 people))_2007"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2008" name="Internet users (per 100 people))_2008"/>
+                <attribute dataTable="Internet users (per 100 people)" max="90" keyType="ISO ALPHA-3 Country Code" min="0" year="2009" name="Internet users (per 100 people))_2009"/>
+              </category>
+            </category>
+          </category>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <ScatterPlotTool name="ScatterPlotTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>16777215</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>60</xMax>
+          <xMin>0</xMin>
+          <yMax>180</yMax>
+          <yMin>0</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>true</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>true</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>15000804</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>0</xMax>
+                  <xMin>0</xMin>
+                  <yMax>180</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>180</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <spatialCallbacks/>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>60</xMax>
+                  <xMin>0</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>60</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <spatialCallbacks/>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>10</maxScreenRadius>
+                <minScreenRadius>4</minScreenRadius>
+                <radiusColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="Goal 1. Eradicate extreme poverty and hunger">
+                                <category name="Target 1.A: Halve - between 1990 and 2015 - the proportion of people whose income is less than one dollar a day">
+                                  <category name="Population, total">
+                                    <attribute dataTable="Population, total" keyType="ISO ALPHA-3 Country Code" max="" min="" year="" name="Population, total_2009"/>
+                                  </category>
+                                </category>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </radiusColumn>
+                <spatialCallbacks/>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="Goal 3. Promote gender equality and empower women">
+                                <category name="Target 3.A: Eliminate gender disparity in primary and secondary education_preferably by 2005_and in all levels of education no later than 2015">
+                                  <category name="Proportion of seats held by women in national parliaments (%)">
+                                    <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" max="56.4" min="0" year="2009" name="Proportion of seats held by women in national parliaments (%))_2009"/>
+                                  </category>
+                                </category>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="Goal 3. Promote gender equality and empower women">
+                                <category name="Target 3.A: Eliminate gender disparity in primary and secondary education_preferably by 2005_and in all levels of education no later than 2015">
+                                  <category name="Ratio of female to male secondary enrollment (%)">
+                                    <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61007" year="2008" name="Ratio of female to male secondary enrollment (%))_2008"/>
+                                  </category>
+                                </category>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="regressionLine">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <RegressionLinePlotter>
+                <drawLine>false</drawLine>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <spatialCallbacks/>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="Goal 3. Promote gender equality and empower women">
+                                <category name="Target 3.A: Eliminate gender disparity in primary and secondary education_preferably by 2005_and in all levels of education no later than 2015">
+                                  <category name="Proportion of seats held by women in national parliaments (%)">
+                                    <attribute dataTable="Proportion of seats held by women in national parliaments (%)" keyType="ISO ALPHA-3 Country Code" max="56.4" min="0" year="2009" name="Proportion of seats held by women in national parliaments (%))_2009"/>
+                                  </category>
+                                </category>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category name="DataTables">
+                              <category name="Goal 3. Promote gender equality and empower women">
+                                <category name="Target 3.A: Eliminate gender disparity in primary and secondary education_preferably by 2005_and in all levels of education no later than 2015">
+                                  <category name="Ratio of female to male secondary enrollment (%)">
+                                    <attribute max="166" min="0" geometryCollection="World UN" dataTable="Ratio of female to male secondary enrollment (%)" keyType="ISO ALPHA-3 Country Code" id="61007" year="2008" name="Ratio of female to male secondary enrollment (%))_2008"/>
+                                  </category>
+                                </category>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </RegressionLinePlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic"/>
+            <subsetFilter encoding="dynamic"/>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+                <spatialCallbacks/>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>0</panelBackgroundColor>
+    <panelBorderColor>0</panelBorderColor>
+    <panelHeight>42.022%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>99.922%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>57.978%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ScatterPlotTool>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>16777215</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>9.5</yMax>
+          <yMin>-0.5</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>15000804</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <shapeSize>20</shapeSize>
+                <spatialCallbacks/>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <enableTitle>false</enableTitle>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>0</panelBackgroundColor>
+    <panelBorderColor>0</panelBorderColor>
+    <panelHeight>57.64%</panelHeight>
+    <panelStyleList/>
+    <panelWidth>11.406%</panelWidth>
+    <panelX>88.516%</panelX>
+    <panelY>0.5618%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </ColorBinLegendTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>16777215</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>12</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <dataBounds>
+          <xMax>184.73226825705132</xMax>
+          <xMin>-143.96197857143642</xMin>
+          <yMax>81.49155227072166</yMax>
+          <yMin>-68.25991187049877</yMin>
+        </dataBounds>
+        <defaultMouseMode>InteractiveVisualization.SELECT_MODE_REPLACE</defaultMouseMode>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>15000804</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="wms">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>false</layerIsVisible>
+            <plotter encoding="dynamic">
+              <WMSPlotter>
+                <displayMissingImage>false</displayMissingImage>
+                <gridSpacing>12</gridSpacing>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <preferLowerQuality>false</preferLowerQuality>
+                <serviceName>NASA OnEarth</serviceName>
+                <spatialCallbacks/>
+                <srs>EPSG:4326</srs>
+                <styles>Dec</styles>
+              </WMSPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <enableBitmapFilters>true</enableBitmapFilters>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>0.7</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="GeometryCollections">
+                                <attribute dataType="Geometry" name="World Borders"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS>EPSG:4326</projectionSRS>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointShapeSize>5</pointShapeSize>
+                <spatialCallbacks/>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <shadowAmount>0</shadowAmount>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>false</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableControlPanel>true</enableControlPanel>
+    <enableHelpPanel>true</enableHelpPanel>
+    <enableOverview>false</enableOverview>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>0</panelBorderColor>
+    <panelHeight>57.753%</panelHeight>
+    <panelStyleList>backgroundColor:3E6B4F; borderColor: 3355443;</panelStyleList>
+    <panelWidth>88.281%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0.5618%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS>EPSG:4326</projectionSRS>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <toolTitle/>
+  </MapTool>
+</Weave>

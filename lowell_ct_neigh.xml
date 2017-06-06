@@ -1,0 +1,2401 @@
+<Weave encoding="dynamic">
+  <KeySet name="alwaysHighlightKeySet"/>
+  <WeaveProperties name="WeaveProperties">
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <defaultTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </defaultTextFormat>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddAttributeMenuTool>true</enableAddAttributeMenuTool>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddCollaborationTool>false</enableAddCollaborationTool>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddCompoundRadViz>true</enableAddCompoundRadViz>
+    <enableAddCustomTool>true</enableAddCustomTool>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGraphTool>true</enableAddGraphTool>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRamachandranPlot>false</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableBitmapFilters>true</enableBitmapFilters>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDrawCircle>true</enableDrawCircle>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportCSV>true</enableExportCSV>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullScreen>false</enableFullScreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMarker>true</enableMarker>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableProbeToolTip>true</enableProbeToolTip>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionSelectorBox>true</enableSelectionSelectorBox>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetSelectionBox>true</enableSubsetSelectionBox>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <eventListeners encoding="dynamic"/>
+    <geometryMetadataRequestMode>xyz</geometryMetadataRequestMode>
+    <geometryMinimumScreenArea>1</geometryMinimumScreenArea>
+    <jriServiceURL>/WeaveServices/JRIService</jriServiceURL>
+    <macroLibraries>weave.api::WeaveAPI</macroLibraries>
+    <macros encoding="dynamic"/>
+    <maxTooltipRecordsShown>1</maxTooltipRecordsShown>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleTextFormat>
+      <bold>false</bold>
+      <color>16777215</color>
+      <font>Verdana</font>
+      <italic>false</italic>
+      <size>10</size>
+      <underline>false</underline>
+    </panelTitleTextFormat>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <probeToolTipMaxWidth>400</probeToolTipMaxWidth>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showSelectedRecordsText>true</showSelectedRecordsText>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <startupJavaScript/>
+    <toolInteractions>
+      <defaultDragMode>select</defaultDragMode>
+      <pan>alt,drag</pan>
+      <probe>move</probe>
+      <select>drag</select>
+      <selectAdd>ctrl,drag</selectAdd>
+      <selectRemove>ctrl,shift,drag</selectRemove>
+      <zoom>shift,drag
+wheel</zoom>
+      <zoomIn>dclick</zoomIn>
+      <zoomOut>shift,dclick</zoomOut>
+      <zoomToExtent>ctrl,alt,shift,dclick</zoomToExtent>
+    </toolInteractions>
+    <version>1.0 Beta (Thu Feb 23 15:39:13 EST 2012)</version>
+    <windowSnapGridSize>5</windowSnapGridSize>
+    <workspaceHeight>NaN</workspaceHeight>
+    <workspaceMultiplier>1</workspaceMultiplier>
+    <workspaceWidth>NaN</workspaceWidth>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp>0xFFFF00,0xFF0000,0x660000</ramp>
+    <recordColors/>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+        <overrideBinNames/>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass." name="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass.">
+                  <category title="Income and Benefits in 2009 Dollars" name="Income and Benefits in 2009 Dollars">
+                    <attribute dataTable="acs5yr_ct_midessex" name="Median household income (dollars) DP03e63" id="155009" title="Median household income (dollars) DP03e63" dataType="number" keyType="US Census Tract ID"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap encoding="dynamic" name="savedSelections"/>
+  <LinkableHashMap encoding="dynamic" name="savedSubsets"/>
+  <LinkableHashMap encoding="dynamic" name="Probe Header Columns"/>
+  <LinkableHashMap encoding="dynamic" name="Probed Columns">
+    <ReferencedColumn name="ReferencedColumn3">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="lowell_ct_neigh" name="lowell_ct_neigh">
+                  <attribute keyType="US Census Tract ID" dataTable="lowell_ct_neigh" name="fips_55" id="170227" title="fips_55" dataType="string"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="acs5yr_ct_midessex" name="acs5yr_ct_midessex">
+                  <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Geographic Name" id="169487" title="Geographic Name" dataType="string"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="acs5yr_ct_midessex" name="acs5yr_ct_midessex">
+                  <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Median family income (dollars) DP03e87" id="169730" title="Median family income (dollars) DP03e87" dataType="number"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category title="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass." name="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass.">
+          <category title="Identifiers" name="Identifiers">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="FIPS" id="154789" title="FIPS" dataType="string"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Geographic Name" id="154790" title="Geographic Name" dataType="string"/>
+          </category>
+          <category title="Households by Type" name="Households by Type">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Total households DP02e1" id="154798" title="Total households DP02e1" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Female householder no husband present family DP02e8" id="154805" title="Female householder no husband present family DP02e8" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Households with one or more people under 18 years DP02e13" id="154810" title="Households with one or more people under 18 years DP02e13" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Households with one or more people 65 years and over DP02e14" id="154811" title="Households with one or more people 65 years and over DP02e14" dataType="number"/>
+          </category>
+          <category title="Fertility" name="Fertility">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Number of women 15 to 50 years old who had a birth in the past 12 months DP02e36" id="154833" title="Number of women 15 to 50 years old who had a birth in the past 12 months DP02e36" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Unmarried women (widowed divorced and never married) DP02e37" id="154834" title="Unmarried women (widowed divorced and never married) DP02e37" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Per 1000 women 15 to 19 years old DP02e40" id="154837" title="Per 1000 women 15 to 19 years old DP02e40" dataType="number"/>
+          </category>
+          <category title="School Enrollment" name="School Enrollment">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Population 3 years and over enrolled in school DP02e52" id="154849" title="Population 3 years and over enrolled in school DP02e52" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Nursery school preschool DP02e53" id="154850" title="Nursery school preschool DP02e53" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Kindergarten DP02e54" id="154851" title="Kindergarten DP02e54" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Elementary school (grades 1-8) DP02e55" id="154852" title="Elementary school (grades 1-8) DP02e55" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="High school (grades 9-12) DP02e56" id="154853" title="High school (grades 9-12) DP02e56" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="College or graduate school DP02e57" id="154854" title="College or graduate school DP02e57" dataType="number"/>
+          </category>
+          <category title="Educational Attainment" name="Educational Attainment">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Population 25 years and over DP02e58" id="154855" title="Population 25 years and over DP02e58" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Less than 9th grade DP02e59" id="154856" title="Less than 9th grade DP02e59" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="9th to 12th grade no diploma DP02e60" id="154857" title="9th to 12th grade no diploma DP02e60" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="High school graduate (includes equivalency) DP02e61" id="154858" title="High school graduate (includes equivalency) DP02e61" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Some college no degree DP02e62" id="154859" title="Some college no degree DP02e62" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Associate's degree DP02e63" id="154860" title="Associate's degree DP02e63" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Bachelor's degree DP02e64" id="154861" title="Bachelor's degree DP02e64" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Graduate or professional degree DP02e65" id="154862" title="Graduate or professional degree DP02e65" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Percent high school graduate or higher DP02e66" id="154863" title="Percent high school graduate or higher DP02e66" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Percent bachelor's degree or higher DP02e67" id="154864" title="Percent bachelor's degree or higher DP02e67" dataType="number"/>
+          </category>
+          <category title="Place of Birth" name="Place of Birth">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Total population DP02e86" id="154883" title="Total population DP02e86" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Born in United States DP02e88" id="154885" title="Born in United States DP02e88" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Foreign born DP02e92" id="154889" title="Foreign born DP02e92" dataType="number"/>
+          </category>
+          <category title="Year of Entry" name="Year of Entry">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Population born outside the United States DP02e96" id="154893" title="Population born outside the United States DP02e96" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Native DP02e97" id="154894" title="Native DP02e97" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Entered 2000 or later DP02e98" id="154895" title="Entered 2000 or later DP02e98" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Entered before 2000 DP02e99" id="154896" title="Entered before 2000 DP02e99" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Foreign born DP02e100" id="154897" title="Foreign born DP02e100" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Entered 2000 or later DP02e101" id="154898" title="Entered 2000 or later DP02e101" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Entered before 2000 DP02e102" id="154899" title="Entered before 2000 DP02e102" dataType="number"/>
+          </category>
+          <category title="Employment Status" name="Employment Status">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Population 16 years and over DP03e1" id="154947" title="Population 16 years and over DP03e1" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="In labor force DP03e2" id="154948" title="In labor force DP03e2" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Civilian labor force DP03e3" id="154949" title="Civilian labor force DP03e3" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Employed DP03e4" id="154950" title="Employed DP03e4" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Unemployed DP03e5" id="154951" title="Unemployed DP03e5" dataType="number"/>
+          </category>
+          <category title="Income and Benefits in 2009 Dollars" name="Income and Benefits in 2009 Dollars">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Total households DP03e52" id="154998" title="Total households DP03e52" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Median household income (dollars) DP03e63" id="155009" title="Median household income (dollars) DP03e63" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Mean household income (dollars) DP03e64" id="155010" title="Mean household income (dollars) DP03e64" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="With Food Stamp/SNAP benefits in the past 12 months DP03e75" id="155021" title="With Food Stamp/SNAP benefits in the past 12 months DP03e75" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Families DP03e76" id="155022" title="Families DP03e76" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Median family income (dollars) DP03e87" id="155033" title="Median family income (dollars) DP03e87" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Mean family income (dollars) DP03e88" id="155034" title="Mean family income (dollars) DP03e88" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Per capita income (dollars) DP03e89" id="155035" title="Per capita income (dollars) DP03e89" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Median earnings for workers (dollars) DP03e93" id="155039" title="Median earnings for workers (dollars) DP03e93" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Median earnings for male full-time year-round workers (dollars) DP03e94" id="155040" title="Median earnings for male full-time year-round workers (dollars) DP03e94" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Median earnings for female full-time year-round workers (dollars) DP03e95" id="155041" title="Median earnings for female full-time year-round workers (dollars) DP03e95" dataType="number"/>
+          </category>
+          <category title="Income Below Poverty Level Last 12 Months" name="Income Below Poverty Level Last 12 Months">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="All families DP03e103" id="155049" title="All families DP03e103" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="With related children under 18 years DP03e104" id="155050" title="With related children under 18 years DP03e104" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="With related children under 5 years only DP03e105" id="155051" title="With related children under 5 years only DP03e105" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Married couple families DP03e106" id="155052" title="Married couple families DP03e106" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="With related children under 18 years DP03e107" id="155053" title="With related children under 18 years DP03e107" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="With related children under 5 years only DP03e108" id="155054" title="With related children under 5 years only DP03e108" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Families with female householder no husband present DP03e109" id="155055" title="Families with female householder no husband present DP03e109" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="With related children under 18 years DP03e110" id="155056" title="With related children under 18 years DP03e110" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="With related children under 5 years only DP03e111" id="155057" title="With related children under 5 years only DP03e111" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="All people DP03e112" id="155058" title="All people DP03e112" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Under 18 years DP03e113" id="155059" title="Under 18 years DP03e113" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Related children under 18 years DP03e114" id="155060" title="Related children under 18 years DP03e114" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Related children under 5 years DP03e115" id="155061" title="Related children under 5 years DP03e115" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Related children 5 to 17 years DP03e116" id="155062" title="Related children 5 to 17 years DP03e116" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="18 years and over DP03e117" id="155063" title="18 years and over DP03e117" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="18 to 64 years DP03e118" id="155064" title="18 to 64 years DP03e118" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="65 years and over DP03e119" id="155065" title="65 years and over DP03e119" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="People in families DP03e120" id="155066" title="People in families DP03e120" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Unrelated individuals 15 years and over DP03e121" id="155067" title="Unrelated individuals 15 years and over DP03e121" dataType="number"/>
+          </category>
+          <category title="Housing Tenure" name="Housing Tenure">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Occupied housing units DP04e44" id="155111" title="Occupied housing units DP04e44" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Owner-occupied DP04e45" id="155112" title="Owner-occupied DP04e45" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Renter-occupied DP04e46" id="155113" title="Renter-occupied DP04e46" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Average household size of owner-occupied unit DP04e47" id="155114" title="Average household size of owner-occupied unit DP04e47" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Average household size of renter-occupied unit DP04e48" id="155115" title="Average household size of renter-occupied unit DP04e48" dataType="number"/>
+          </category>
+          <category title="Selected Monthly Ownership Costs as Percentage of Income - SMOCAPI" name="Selected Monthly Ownership Costs as Percentage of Income - SMOCAPI">
+            <category title="SMOCAPI - Housing Units With Mortgage" name="SMOCAPI - Housing Units With Mortgage">
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Housing units with a mortgage (excluding units where SMOCAPI cannot be computed) DP04e108" id="155175" title="Housing units with a mortgage (excluding units where SMOCAPI cannot be computed) DP04e108" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Less than 20.0 percent DP04e109" id="155176" title="Less than 20.0 percent DP04e109" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="20.0 to 24.9 percent DP04e110" id="155177" title="20.0 to 24.9 percent DP04e110" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="25.0 to 29.9 percent DP04e111" id="155178" title="25.0 to 29.9 percent DP04e111" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="30.0 to 34.9 percent DP04e112" id="155179" title="30.0 to 34.9 percent DP04e112" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="35.0 percent or more DP04e113" id="155180" title="35.0 percent or more DP04e113" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Not computed DP04e114" id="155181" title="Not computed DP04e114" dataType="number"/>
+            </category>
+            <category title="SMOCAPI - Housing Units Without Mortgage" name="SMOCAPI - Housing Units Without Mortgage">
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed) DP04e115" id="155182" title="Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed) DP04e115" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Less than 10.0 percent DP04e116" id="155183" title="Less than 10.0 percent DP04e116" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="10.0 to 14.9 percent DP04e117" id="155184" title="10.0 to 14.9 percent DP04e117" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="15.0 to 19.9 percent DP04e118" id="155185" title="15.0 to 19.9 percent DP04e118" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="20.0 to 24.9 percent DP04e119" id="155186" title="20.0 to 24.9 percent DP04e119" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="25.0 to 29.9 percent DP04e120" id="155187" title="25.0 to 29.9 percent DP04e120" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="30.0 to 34.9 percent DP04e121" id="155188" title="30.0 to 34.9 percent DP04e121" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="35.0 percent or more DP04e122" id="155189" title="35.0 percent or more DP04e122" dataType="number"/>
+              <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Not computed DP04e123" id="155190" title="Not computed DP04e123" dataType="number"/>
+            </category>
+          </category>
+          <category title="Gross Rent as Percentage of Household Income - GRAPI" name="Gross Rent as Percentage of Household Income - GRAPI">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Occupied units paying rent (excluding units where GRAPI cannot be computed) DP04e134" id="155201" title="Occupied units paying rent (excluding units where GRAPI cannot be computed) DP04e134" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Less than 15.0 percent DP04e135" id="155202" title="Less than 15.0 percent DP04e135" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="15.0 to 19.9 percent DP04e136" id="155203" title="15.0 to 19.9 percent DP04e136" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="20.0 to 24.9 percent DP04e137" id="155204" title="20.0 to 24.9 percent DP04e137" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="25.0 to 29.9 percent DP04e138" id="155205" title="25.0 to 29.9 percent DP04e138" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="30.0 to 34.9 percent DP04e139" id="155206" title="30.0 to 34.9 percent DP04e139" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="35.0 percent or more DP04e140" id="155207" title="35.0 percent or more DP04e140" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Not computed DP04e141" id="155208" title="Not computed DP04e141" dataType="number"/>
+          </category>
+          <category title="Race" name="Race">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Total population DP05e28" id="155236" title="Total population DP05e28" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="One race DP05e29" id="155237" title="One race DP05e29" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Two or more races DP05e30" id="155238" title="Two or more races DP05e30" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="One race DP05e31" id="155239" title="One race DP05e31" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="White DP05e32" id="155240" title="White DP05e32" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Black or African American DP05e33" id="155241" title="Black or African American DP05e33" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Asian DP05e39" id="155247" title="Asian DP05e39" dataType="number"/>
+          </category>
+          <category title="Hispanic or Latino and Race" name="Hispanic or Latino and Race">
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Total population DP05e65" id="155273" title="Total population DP05e65" dataType="number"/>
+            <attribute keyType="US Census Tract ID" dataTable="acs5yr_ct_midessex" name="Hispanic or Latino (of any race) DP05e66" id="155274" title="Hispanic or Latino (of any race) DP05e66" dataType="number"/>
+          </category>
+          <category title="lowell_ct_neigh" name="lowell_ct_neigh">
+            <attribute keyType="US Census Tract ID" dataTable="lowell_ct_neigh" name="ct_id" id="170226" title="ct_id" dataType="string"/>
+            <attribute keyType="US Census Tract ID" dataTable="lowell_ct_neigh" name="fips_55" id="170227" title="fips_55" dataType="string"/>
+            <attribute keyType="US Census Tract ID" dataTable="lowell_ct_neigh" name="the_geom_id" id="170228" title="the_geom_id" dataType="number"/>
+          </category>
+        </category>
+        <category title="Geometry Collections" name="Geometry Collections">
+          <attribute name="11_4_reprojected" dataType="geometry" title="11_4_reprojected" keyType=""/>
+          <attribute name="11_4_reprojected_geometry" dataType="geometry" title="11_4_reprojected_geometry" keyType="11_4_reprojected_geometry"/>
+          <attribute name="AGM_grantmakers" dataType="geometry" title="AGM_grantmakers" keyType="AGM_grantmakers"/>
+          <attribute name="agm_recipient_grantamounts" dataType="geometry" title="agm_recipient_grantamounts" keyType="agm_recipient_grantamounts"/>
+          <attribute name="agm_recipients" dataType="geometry" title="agm_recipients" keyType="agm_recipients"/>
+          <attribute name="arra_mass_points201004" dataType="geometry" title="arra_mass_points201004" keyType="arra_mass_points201004"/>
+          <attribute name="arra_point" dataType="geometry" title="arra_point" keyType=""/>
+          <attribute name="arra_point" dataType="geometry" title="arra_point" keyType=""/>
+          <attribute name="Arrests_Nashua" dataType="geometry" title="Arrests_Nashua" keyType=""/>
+          <attribute name="Atlanta Superdistricts" dataType="geometry" title="Atlanta Superdistricts" keyType="Atlanta Superdistrict ID"/>
+          <attribute name="Atlanta Superdistricts11" dataType="geometry" title="Atlanta Superdistricts11" keyType="Atlanta Superdistrict ID"/>
+          <attribute name="Atlanta Transportation Analysis Zones" dataType="geometry" title="Atlanta Transportation Analysis Zones" keyType="Atlanta Transportation Analysis Zone ID"/>
+          <attribute name="Atlanta_CLCC_GDCH" dataType="geometry" title="Atlanta_CLCC_GDCH" keyType="Atlanta_CLCC_GDCH"/>
+          <attribute name="Atlanta_ES_4th_CRCT_Reading" dataType="geometry" title="Atlanta_ES_4th_CRCT_Reading" keyType="Atlanta_ES_4th_CRCT_Reading"/>
+          <attribute name="Atlanta_Head_Start" dataType="geometry" title="Atlanta_Head_Start" keyType="Atlanta_Head_Start"/>
+          <attribute name="Atlanta_LowPerfSchools" dataType="geometry" title="Atlanta_LowPerfSchools" keyType="Atlanta_LowPerfSchools"/>
+          <attribute name="Atlanta_MSA_Counties" dataType="geometry" title="Atlanta_MSA_Counties" keyType="Atlanta_MSA_Counties"/>
+          <attribute name="Atlanta_MSA_Interstates" dataType="geometry" title="Atlanta_MSA_Interstates" keyType="Atlanta_MSA_Interstates"/>
+          <attribute name="Atlanta_MSA_Places" dataType="geometry" title="Atlanta_MSA_Places" keyType="Atlanta_MSA_Places"/>
+          <attribute name="Atlanta_NPUs" dataType="geometry" title="Atlanta_NPUs" keyType="Atlanta_NPUs"/>
+          <attribute name="Atlanta_Pre-K" dataType="geometry" title="Atlanta_Pre-K" keyType="Atlanta_Pre-K"/>
+          <attribute name="Atlanta_Vuln3_5" dataType="geometry" title="Atlanta_Vuln3_5" keyType="Atlanta_Vuln3_5"/>
+          <attribute name="Atlanta_Vuln3Plus" dataType="geometry" title="Atlanta_Vuln3Plus" keyType="Atlanta_Vuln3Plus"/>
+          <attribute name="Atlanta_Vuln6_10" dataType="geometry" title="Atlanta_Vuln6_10" keyType="Atlanta_Vuln6_10"/>
+          <attribute name="BCFutureLandUse_2009" dataType="geometry" title="BCFutureLandUse_2009" keyType="BCFutureLandUse_2009"/>
+          <attribute name="bike trails" dataType="geometry" title="bike trails" keyType="bike trails"/>
+          <attribute name="bikeped_facilities" dataType="geometry" title="bikeped_facilities" keyType="bikeped_facilities"/>
+          <attribute name="Boston 2005 Parcels" dataType="geometry" title="Boston 2005 Parcels" keyType="Boston Parcel ID"/>
+          <attribute name="Boston 2005 Parcels Subset" dataType="geometry" title="Boston 2005 Parcels Subset" keyType="Boston Parcel ID"/>
+          <attribute name="Boston Parcels" dataType="geometry" title="Boston Parcels" keyType="Boston Parcels"/>
+          <attribute name="boston_foreclosure_deeds" dataType="geometry" title="boston_foreclosure_deeds" keyType=""/>
+          <attribute name="Boston_Hositals" dataType="geometry" title="Boston_Hositals" keyType="Boston_Hositals"/>
+          <attribute name="Boston_Hositals111" dataType="geometry" title="Boston_Hositals111" keyType="Boston_Hositals"/>
+          <attribute name="Boston_Neighborhoods" dataType="geometry" title="Boston_Neighborhoods" keyType="Boston_Neighborhoods"/>
+          <attribute name="boston_roads" dataType="geometry" title="boston_roads" keyType="boston_roads"/>
+          <attribute name="Boston_zips" dataType="geometry" title="Boston_zips" keyType="Boston_zips"/>
+          <attribute name="carcinogen" dataType="geometry" title="carcinogen" keyType="carcinogen"/>
+          <attribute name="CATCHMENTS_poly_region" dataType="geometry" title="CATCHMENTS_poly_region" keyType="CATCHMENTS_poly_region"/>
+          <attribute name="CBSA2003" dataType="geometry" title="CBSA2003" keyType="CBSA2003"/>
+          <attribute name="CBSAs" dataType="geometry" title="CBSAs" keyType="CBSAs"/>
+          <attribute name="cd99_110" dataType="geometry" title="cd99_110" keyType="cd99_110"/>
+          <attribute name="cd_110thCongress" dataType="geometry" title="cd_110thCongress" keyType="cd_110thCongress"/>
+          <attribute name="Census Trats MA 2010" dataType="geometry" title="Census Trats MA 2010" keyType="Census Trats MA 2010"/>
+          <attribute name="census2000blockgroups_poly_orig" dataType="geometry" title="census2000blockgroups_poly_orig" keyType=""/>
+          <attribute name="census2000tracts_ICC_Towns" dataType="geometry" title="census2000tracts_ICC_Towns" keyType="ICMB_ct"/>
+          <attribute name="census_msad" dataType="geometry" title="census_msad" keyType="CBSA2003"/>
+          <attribute name="CHCS_PT" dataType="geometry" title="CHCS_PT" keyType="CHCS_PT"/>
+          <attribute name="chic_counties" dataType="geometry" title="chic_counties" keyType=""/>
+          <attribute name="Chicago Census Tracts" dataType="geometry" title="Chicago Census Tracts" keyType="US Census Tract ID"/>
+          <attribute name="chicago_arra_munis" dataType="geometry" title="chicago_arra_munis" keyType="Chicago Municipal Codes"/>
+          <attribute name="chicago_arra_point" dataType="geometry" title="chicago_arra_point" keyType=""/>
+          <attribute name="Chicago_Muni_ARRA" dataType="geometry" title="Chicago_Muni_ARRA" keyType=""/>
+          <attribute name="chicpoint2" dataType="geometry" title="chicpoint2" keyType=""/>
+          <attribute name="chicpoint2111" dataType="geometry" title="chicpoint2111" keyType=""/>
+          <attribute name="chicpoint3" dataType="geometry" title="chicpoint3" keyType=""/>
+          <attribute name="CHN_adm1" dataType="geometry" title="CHN_adm1" keyType="CHN_adm1"/>
+          <attribute name="CHN_adm2" dataType="geometry" title="CHN_adm2" keyType="CHN_adm2"/>
+          <attribute name="CHN_adm3" dataType="geometry" title="CHN_adm3" keyType="CHN_adm3"/>
+          <attribute name="CityofAtlanta" dataType="geometry" title="CityofAtlanta" keyType="CityofAtlanta"/>
+          <attribute name="Community_ED EEC" dataType="geometry" title="Community_ED EEC" keyType="Community_ED EEC"/>
+          <attribute name="connecticut_usproj" dataType="geometry" title="connecticut_usproj" keyType="US State FIPS Code"/>
+          <attribute name="Counties" dataType="geometry" title="Counties" keyType="US County FIPS Code"/>
+          <attribute name="Countries" dataType="geometry" title="Countries" keyType="Countries"/>
+          <attribute name="County Subdivisions" dataType="geometry" title="County Subdivisions" keyType="US County Subdivision FIPS Code"/>
+          <attribute name="DEGREES BY INSTITUTION " dataType="geometry" title="DEGREES BY INSTITUTION " keyType="DEGREES BY INSTITUTION "/>
+          <attribute name="DEMO_Shape" dataType="geometry" title="DEMO_Shape" keyType="DEMO_Shape"/>
+          <attribute name="dhe_states" dataType="geometry" title="dhe_states" keyType="US State FIPS Code"/>
+          <attribute name="eec2" dataType="geometry" title="eec2" keyType="eec2"/>
+          <attribute name="eec_artificial_child" dataType="geometry" title="eec_artificial_child" keyType="eec_artificial_child"/>
+          <attribute name="eec_comprehensive_family" dataType="geometry" title="eec_comprehensive_family" keyType="eec_comprehensive_family"/>
+          <attribute name="eec_familyservices_reproj" dataType="geometry" title="eec_familyservices_reproj" keyType="eec_familyservices_reproj"/>
+          <attribute name="eec_lowellschools_reproj" dataType="geometry" title="eec_lowellschools_reproj" keyType="eec_lowellschools_reproj"/>
+          <attribute name="eec_prek_pregnant_reproj" dataType="geometry" title="eec_prek_pregnant_reproj" keyType="eec_prek_pregnant_reproj"/>
+          <attribute name="eec_prekpregnant_reproj" dataType="geometry" title="eec_prekpregnant_reproj" keyType="eec_prekpregnant_reproj"/>
+          <attribute name="EEC_Providers" dataType="geometry" title="EEC_Providers" keyType="EEC_Providers"/>
+          <attribute name="eec_regcnt_MA_ElemSchoolDistricts" dataType="geometry" title="eec_regcnt_MA_ElemSchoolDistricts" keyType="eec_regcnt_MA_ElemSchoolDistricts"/>
+          <attribute name="eec_registrants_ma" dataType="geometry" title="eec_registrants_ma" keyType="eec_registrants_ma"/>
+          <attribute name="eec_SchAged_TeenParents" dataType="geometry" title="eec_SchAged_TeenParents" keyType="eec_SchAged_TeenParents"/>
+          <attribute name="eec_schoolagedchildren_reproj" dataType="geometry" title="eec_schoolagedchildren_reproj" keyType="eec_schoolagedchildren_reproj"/>
+          <attribute name="eec_test1" dataType="geometry" title="eec_test1" keyType="eec_test1"/>
+          <attribute name="eec_test2" dataType="geometry" title="eec_test2" keyType="eec_test2"/>
+          <attribute name="emassnh_catchments" dataType="geometry" title="emassnh_catchments" keyType="CATCHMENTS_poly_region"/>
+          <attribute name="EPA_emissions_CO2_1995-2010" dataType="geometry" title="EPA_emissions_CO2_1995-2010" keyType="EPA_emissions_CO2_1995-2010"/>
+          <attribute name="Exempt" dataType="geometry" title="Exempt" keyType="Exempt"/>
+          <attribute name="FamilyServices" dataType="geometry" title="FamilyServices" keyType="FamilyServices"/>
+          <attribute name="FCHC" dataType="geometry" title="FCHC" keyType="FCHC"/>
+          <attribute name="fd_2005" dataType="geometry" title="fd_2005" keyType="fd_2005"/>
+          <attribute name="fd_2006" dataType="geometry" title="fd_2006" keyType="fd_2006"/>
+          <attribute name="fd_2007" dataType="geometry" title="fd_2007" keyType="fd_2007"/>
+          <attribute name="fd_2008" dataType="geometry" title="fd_2008" keyType="fd_2008"/>
+          <attribute name="fd_2009" dataType="geometry" title="fd_2009" keyType="fd_2009"/>
+          <attribute name="fd_2010" dataType="geometry" title="fd_2010" keyType="fd_2010"/>
+          <attribute name="FD_points_Lowell_new1" dataType="geometry" title="FD_points_Lowell_new1" keyType=""/>
+          <attribute name="fe_2007_44_elsd" dataType="geometry" title="fe_2007_44_elsd" keyType="Rhode Island School District"/>
+          <attribute name="fe_2007_44_unsd" dataType="geometry" title="fe_2007_44_unsd" keyType="Rhode Island School District"/>
+          <attribute name="firms" dataType="geometry" title="firms" keyType="firms"/>
+          <attribute name="FullPoints_Final" dataType="geometry" title="FullPoints_Final" keyType=""/>
+          <attribute name="FullPoints_Lowell" dataType="geometry" title="FullPoints_Lowell" keyType=""/>
+          <attribute name="fullpoints_lowell_reprojected" dataType="geometry" title="fullpoints_lowell_reprojected" keyType=""/>
+          <attribute name="GHA_boundaries" dataType="geometry" title="GHA_boundaries" keyType="GHA_boundaries"/>
+          <attribute name="GHA_outline" dataType="geometry" title="GHA_outline" keyType="GHA_outline"/>
+          <attribute name="hb_states" dataType="geometry" title="hb_states" keyType="hb_states"/>
+          <attribute name="hbstates" dataType="geometry" title="hbstates" keyType="hbstates"/>
+          <attribute name="HeadStart" dataType="geometry" title="HeadStart" keyType="HeadStart"/>
+          <attribute name="higher_ed_ma" dataType="geometry" title="higher_ed_ma" keyType=""/>
+          <attribute name="higher_ed_ma_x" dataType="geometry" title="higher_ed_ma_x" keyType="higher_ed_ma_x"/>
+          <attribute name="HigherEd Institutions - Crime" dataType="geometry" title="HigherEd Institutions - Crime" keyType="HigherEd Institutions - Crime"/>
+          <attribute name="hwt_point" dataType="geometry" title="hwt_point" keyType=""/>
+          <attribute name="ICMB_ct" dataType="geometry" title="ICMB_ct" keyType="ICMB_ct"/>
+          <attribute name="IPEDS(For)2009" dataType="geometry" title="IPEDS(For)2009" keyType="IPEDS(For)2009"/>
+          <attribute name="IPEDS(Non)2009" dataType="geometry" title="IPEDS(Non)2009" keyType="IPEDS(Non)2009"/>
+          <attribute name="IPEDS(Public)2009" dataType="geometry" title="IPEDS(Public)2009" keyType="IPEDS(Public)2009"/>
+          <attribute name="ireland_counties" dataType="geometry" title="ireland_counties" keyType=""/>
+          <attribute name="ireland_latlongpoints" dataType="geometry" title="ireland_latlongpoints" keyType=""/>
+          <attribute name="ireland_latlongpoints_v3" dataType="geometry" title="ireland_latlongpoints_v3" keyType=""/>
+          <attribute name="ireland_latlongpoints_v4" dataType="geometry" title="ireland_latlongpoints_v4" keyType=""/>
+          <attribute name="ireland_latlongpoints_v5" dataType="geometry" title="ireland_latlongpoints_v5" keyType=""/>
+          <attribute name="ireland_municipal_combined" dataType="geometry" title="ireland_municipal_combined" keyType=""/>
+          <attribute name="ireland_nation" dataType="geometry" title="ireland_nation" keyType=""/>
+          <attribute name="ireland_regions" dataType="geometry" title="ireland_regions" keyType=""/>
+          <attribute name="Lawrence Parcel" dataType="geometry" title="Lawrence Parcel" keyType=""/>
+          <attribute name="lawrence_home buyers active" dataType="geometry" title="lawrence_home buyers active" keyType=""/>
+          <attribute name="LCW Home purchase" dataType="geometry" title="LCW Home purchase" keyType=""/>
+          <attribute name="LGSAC" dataType="geometry" title="LGSAC" keyType="LGSAC"/>
+          <attribute name="lowell_ct_w_neigh" dataType="geometry" title="lowell_ct_w_neigh" keyType="US Census Tract ID"/>
+          <attribute name="lowell_nccs_3" dataType="geometry" title="lowell_nccs_3" keyType="lowell_nccs_3"/>
+          <attribute name="lowell_neighborhoods_reprojected" dataType="geometry" title="lowell_neighborhoods_reprojected" keyType="Neighborhood"/>
+          <attribute name="Lowell_Parcels" dataType="geometry" title="Lowell_Parcels" keyType=""/>
+          <attribute name="lowell_registrants" dataType="geometry" title="lowell_registrants" keyType="lowell_registrants"/>
+          <attribute name="LowellFD_2009_Final" dataType="geometry" title="LowellFD_2009_Final" keyType=""/>
+          <attribute name="lowelltracts_w_eec_registrant_count" dataType="geometry" title="lowelltracts_w_eec_registrant_count" keyType="lowelltracts_w_eec_registrant_count"/>
+          <attribute name="MA Census Tract" dataType="geometry" title="MA Census Tract" keyType="US Census Tract ID"/>
+          <attribute name="MA Census Tract 6-digit" dataType="geometry" title="MA Census Tract 6-digit" keyType="US Census Tract 6-digit ID"/>
+          <attribute name="MA PRISONS" dataType="geometry" title="MA PRISONS" keyType="MA PRISONS"/>
+          <attribute name="MA SCHOOLS" dataType="geometry" title="MA SCHOOLS" keyType="org code"/>
+          <attribute name="MA Train lines" dataType="geometry" title="MA Train lines" keyType="MA Train lines"/>
+          <attribute name="ma_childcare_2009_sample_points" dataType="geometry" title="ma_childcare_2009_sample_points" keyType=""/>
+          <attribute name="MA_COC" dataType="geometry" title="MA_COC" keyType=""/>
+          <attribute name="ma_ct2010_usproj" dataType="geometry" title="ma_ct2010_usproj" keyType="US Census Tract ID"/>
+          <attribute name="MA_EEC_Registrants" dataType="geometry" title="MA_EEC_Registrants" keyType="MA_EEC_Registrants"/>
+          <attribute name="MA_Major_Streams_Lines" dataType="geometry" title="MA_Major_Streams_Lines" keyType="MA_Major_Streams_Lines"/>
+          <attribute name="ma_SCHOOLS_PT" dataType="geometry" title="ma_SCHOOLS_PT" keyType="org code"/>
+          <attribute name="ma_shapes_delete" dataType="geometry" title="ma_shapes_delete" keyType="Atlanta Superdistrict ID"/>
+          <attribute name="ma_town_region3" dataType="geometry" title="ma_town_region3" keyType="ma_town_region3"/>
+          <attribute name="MA_Towns_MultiPoly_TOWN" dataType="geometry" title="MA_Towns_MultiPoly_TOWN" keyType="MA_Towns_MultiPoly_TOWN"/>
+          <attribute name="ma_tract_w_eec_regcnt_and_town" dataType="geometry" title="ma_tract_w_eec_regcnt_and_town" keyType="ma_tract_w_eec_regcnt_and_town"/>
+          <attribute name="ma_tracts_w_eec_regcnt" dataType="geometry" title="ma_tracts_w_eec_regcnt" keyType="ma_tracts_w_eec_regcnt"/>
+          <attribute name="MA_ZCTA" dataType="geometry" title="MA_ZCTA" keyType=""/>
+          <attribute name="MA_ZipCodes_Poly" dataType="geometry" title="MA_ZipCodes_Poly" keyType="MA_ZipCodes_Poly"/>
+          <attribute name="MAPC_Municipalities" dataType="geometry" title="MAPC_Municipalities" keyType="MAPC_Municipalities"/>
+          <attribute name="Mars_bkg" dataType="geometry" title="Mars_bkg" keyType="Mars_bkg"/>
+          <attribute name="Mars_Points" dataType="geometry" title="Mars_Points" keyType="Mars_Points"/>
+          <attribute name="mass towns" dataType="geometry" title="mass towns" keyType="ICMB_ct"/>
+          <attribute name="mass_benchmarks" dataType="geometry" title="mass_benchmarks" keyType="mass_benchmarks"/>
+          <attribute name="mass_cousub2010_massproj" dataType="geometry" title="mass_cousub2010_massproj" keyType="US County Subdivision FIPS Code"/>
+          <attribute name="mass_towns" dataType="geometry" title="mass_towns" keyType="ICMB_ct"/>
+          <attribute name="Massachusetts Towns" dataType="geometry" title="Massachusetts Towns" keyType="Massachusetts Town ID"/>
+          <attribute name="Massachusetts Towns Unprojected" dataType="geometry" title="Massachusetts Towns Unprojected" keyType="US County Subdivision FIPS Code"/>
+          <attribute name="massachusetts_usproj" dataType="geometry" title="massachusetts_usproj" keyType="US State FIPS Code"/>
+          <attribute name="MassARRA" dataType="geometry" title="MassARRA" keyType="Point_ID"/>
+          <attribute name="MassARRALowellOnly" dataType="geometry" title="MassARRALowellOnly" keyType="MassARRALowellOnly"/>
+          <attribute name="MassARRApoint" dataType="geometry" title="MassARRApoint" keyType="MassARRApoint"/>
+          <attribute name="MassARRAPoint" dataType="geometry" title="MassARRAPoint" keyType="MassARRAPoint"/>
+          <attribute name="MassARRAVer6" dataType="geometry" title="MassARRAVer6" keyType="Atlanta Superdistrict ID"/>
+          <attribute name="masstowns_w_eec_registrant_count" dataType="geometry" title="masstowns_w_eec_registrant_count" keyType="masstowns_w_eec_registrant_count"/>
+          <attribute name="MBTA BUS ROUTES" dataType="geometry" title="MBTA BUS ROUTES" keyType="MBTA BUS ROUTES"/>
+          <attribute name="MBTA BUS Stops" dataType="geometry" title="MBTA BUS Stops" keyType="MBTA BUS Stops"/>
+          <attribute name="MBTA_ARC" dataType="geometry" title="MBTA_ARC" keyType="MBTA_ARC"/>
+          <attribute name="MBTA_NODE" dataType="geometry" title="MBTA_NODE" keyType="MBTA_NODE"/>
+          <attribute name="MBTABUSROUTES_ARC" dataType="geometry" title="MBTABUSROUTES_ARC" keyType="MBTABUSROUTES_ARC"/>
+          <attribute name="MBTABUSSTOPS_PT" dataType="geometry" title="MBTABUSSTOPS_PT" keyType="MBTABUSSTOPS_PT"/>
+          <attribute name="Merged Turi" dataType="geometry" title="Merged Turi" keyType="Merged Turi"/>
+          <attribute name="MetroBoston_Schools" dataType="geometry" title="MetroBoston_Schools" keyType="MetroBoston_Schools"/>
+          <attribute name="Metropolitan Division" dataType="geometry" title="Metropolitan Division" keyType="Metropolitan Division"/>
+          <attribute name="MEX" dataType="geometry" title="MEX" keyType="MEX"/>
+          <attribute name="MFI Ben" dataType="geometry" title="MFI Ben" keyType="MFI Ben"/>
+          <attribute name="MFI_GH" dataType="geometry" title="MFI_GH" keyType="MFI_GH"/>
+          <attribute name="MFI_GH1" dataType="geometry" title="MFI_GH1" keyType="MFI_GH1"/>
+          <attribute name="MFI_Points_2007" dataType="geometry" title="MFI_Points_2007" keyType="MFI_Points_2007"/>
+          <attribute name="minnesota_usproj" dataType="geometry" title="minnesota_usproj" keyType="US State FIPS Code"/>
+          <attribute name="missouri_usproj" dataType="geometry" title="missouri_usproj" keyType="US State FIPS Code"/>
+          <attribute name="MSA_Tracts" dataType="geometry" title="MSA_Tracts" keyType="Atlanta_MSA_Tracts"/>
+          <attribute name="mv_ct_concentrate" dataType="geometry" title="mv_ct_concentrate" keyType="US Census Tract ID"/>
+          <attribute name="mv_ct_concentrate_massproj" dataType="geometry" title="mv_ct_concentrate_massproj" keyType="US Census Tract ID"/>
+          <attribute name="mvhp" dataType="geometry" title="mvhp" keyType="mvhp"/>
+          <attribute name="mvhp_reprojected_v2" dataType="geometry" title="mvhp_reprojected_v2" keyType="mvhp_reprojected_v2"/>
+          <attribute name="mys1" dataType="geometry" title="mys1" keyType="mys1"/>
+          <attribute name="mys2" dataType="geometry" title="mys2" keyType="mys2"/>
+          <attribute name="mys4" dataType="geometry" title="mys4" keyType="mys4"/>
+          <attribute name="Nashua_Tract" dataType="geometry" title="Nashua_Tract" keyType=""/>
+          <attribute name="NCCS_Lowell" dataType="geometry" title="NCCS_Lowell" keyType="NCCS_Lowell"/>
+          <attribute name="nccs_ma_reprojected" dataType="geometry" title="nccs_ma_reprojected" keyType="nccs_ma_reprojected"/>
+          <attribute name="nccs_shape2" dataType="geometry" title="nccs_shape2" keyType="nccs_shape2"/>
+          <attribute name="nccs_shape_CT" dataType="geometry" title="nccs_shape_CT" keyType="nccs_shape_CT"/>
+          <attribute name="nccs_shape_LA" dataType="geometry" title="nccs_shape_LA" keyType="nccs_shape_LA"/>
+          <attribute name="nccs_shape_LA_FIPS22051" dataType="geometry" title="nccs_shape_LA_FIPS22051" keyType="nccs_shape_LA_FIPS22051"/>
+          <attribute name="nccs_shape_MA" dataType="geometry" title="nccs_shape_MA" keyType="nccs_shape_MA"/>
+          <attribute name="nccs_shape_MACT" dataType="geometry" title="nccs_shape_MACT" keyType="nccs_shape2"/>
+          <attribute name="ne_cd99_110" dataType="geometry" title="ne_cd99_110" keyType="ne_cd99_110"/>
+          <attribute name="ne_lldistricts" dataType="geometry" title="ne_lldistricts" keyType="ne_lldistricts"/>
+          <attribute name="ne_lsdistricts" dataType="geometry" title="ne_lsdistricts" keyType="ne_lsdistricts"/>
+          <attribute name="ne_streams" dataType="geometry" title="ne_streams" keyType="ne_streams"/>
+          <attribute name="nehucs10" dataType="geometry" title="nehucs10" keyType="nehucs10"/>
+          <attribute name="new_england_subbasins" dataType="geometry" title="new_england_subbasins" keyType="new_england_subbasins"/>
+          <attribute name="NewEngland_Cousub" dataType="geometry" title="NewEngland_Cousub" keyType="US County Subdivision FIPS Code"/>
+          <attribute name="newengland_subbasins_v2" dataType="geometry" title="newengland_subbasins_v2" keyType="newengland_subbasins_v2"/>
+          <attribute name="newhampshire_usproj" dataType="geometry" title="newhampshire_usproj" keyType="US State FIPS Code"/>
+          <attribute name="nhpn" dataType="geometry" title="nhpn" keyType="nhpn"/>
+          <attribute name="nhpn1" dataType="geometry" title="nhpn1" keyType="nhpn1"/>
+          <attribute name="northcarolina_usproj" dataType="geometry" title="northcarolina_usproj" keyType="US State FIPS Code"/>
+          <attribute name="NREL_NewEnglandShapeWGS84" dataType="geometry" title="NREL_NewEnglandShapeWGS84" keyType="NREL_NewEnglandShapeWGS84"/>
+          <attribute name="nuclear-facilities-update" dataType="geometry" title="nuclear-facilities-update" keyType="nuclear-facilities-update"/>
+          <attribute name="nuclear_seismic-hazard" dataType="geometry" title="nuclear_seismic-hazard" keyType="nuclear_seismic-hazard"/>
+          <attribute name="nuclear_states" dataType="geometry" title="nuclear_states" keyType="US State FIPS Code"/>
+          <attribute name="nuclear_us_earthquakes" dataType="geometry" title="nuclear_us_earthquakes" keyType="nuclear_us_earthquakes"/>
+          <attribute name="od_2005" dataType="geometry" title="od_2005" keyType="od_2005"/>
+          <attribute name="od_2006_reprojected" dataType="geometry" title="od_2006_reprojected" keyType="od_2006_reprojected"/>
+          <attribute name="od_2007" dataType="geometry" title="od_2007" keyType="od_2007"/>
+          <attribute name="od_2008" dataType="geometry" title="od_2008" keyType="od_2008"/>
+          <attribute name="od_2009" dataType="geometry" title="od_2009" keyType="od_2009"/>
+          <attribute name="od_2010" dataType="geometry" title="od_2010" keyType="od_2010"/>
+          <attribute name="Ohio County Subdivisions" dataType="geometry" title="Ohio County Subdivisions" keyType="Ohio FIPS codes"/>
+          <attribute name="Ohio Places" dataType="geometry" title="Ohio Places" keyType="Ohio FIPS codes"/>
+          <attribute name="ON no FD 2005" dataType="geometry" title="ON no FD 2005" keyType="ON no FD 2005"/>
+          <attribute name="on no fd 2006_reprojected" dataType="geometry" title="on no fd 2006_reprojected" keyType="on no fd 2006_reprojected"/>
+          <attribute name="on no fd 2007_reprojected" dataType="geometry" title="on no fd 2007_reprojected" keyType="on no fd 2007_reprojected"/>
+          <attribute name="on no fd 2008_reprojected" dataType="geometry" title="on no fd 2008_reprojected" keyType="on no fd 2008_reprojected"/>
+          <attribute name="on no fd 2009_reprojected" dataType="geometry" title="on no fd 2009_reprojected" keyType="on no fd 2009_reprojected"/>
+          <attribute name="on no fd 2010_reprojected" dataType="geometry" title="on no fd 2010_reprojected" keyType="on no fd 2010_reprojected"/>
+          <attribute name="on no fd_2005" dataType="geometry" title="on no fd_2005" keyType="on no fd_2005"/>
+          <attribute name="oregon_usproj" dataType="geometry" title="oregon_usproj" keyType="US State FIPS Code"/>
+          <attribute name="perc" dataType="geometry" title="perc" keyType="perc"/>
+          <attribute name="Plants" dataType="geometry" title="Plants" keyType="Plants"/>
+          <attribute name="pma_us96" dataType="geometry" title="pma_us96" keyType="pma_us96"/>
+          <attribute name="pma_us96_pmsa" dataType="geometry" title="pma_us96_pmsa" keyType="pma_us96_pmsa"/>
+          <attribute name="PreK" dataType="geometry" title="PreK" keyType="PreK"/>
+          <attribute name="PreK2" dataType="geometry" title="PreK2" keyType="PreK2"/>
+          <attribute name="Prek3" dataType="geometry" title="Prek3" keyType="Prek3"/>
+          <attribute name="Prek4" dataType="geometry" title="Prek4" keyType="Prek4"/>
+          <attribute name="PreK6" dataType="geometry" title="PreK6" keyType="PreK6"/>
+          <attribute name="PreKPregnant" dataType="geometry" title="PreKPregnant" keyType="PreKPregnant"/>
+          <attribute name="PrekPregnant2" dataType="geometry" title="PrekPregnant2" keyType="PrekPregnant2"/>
+          <attribute name="PreKPregnant3" dataType="geometry" title="PreKPregnant3" keyType="PreKPregnant3"/>
+          <attribute name="private_IPEDS" dataType="geometry" title="private_IPEDS" keyType="private_IPEDS"/>
+          <attribute name="Public Libraries MA" dataType="geometry" title="Public Libraries MA" keyType="Public Libraries MA"/>
+          <attribute name="Public School Pre K" dataType="geometry" title="Public School Pre K" keyType="Public School Pre K"/>
+          <attribute name="railways" dataType="geometry" title="railways" keyType="railways"/>
+          <attribute name="Registrants_US1" dataType="geometry" title="Registrants_US1" keyType="Registrants_US1"/>
+          <attribute name="registrants_us1" dataType="geometry" title="registrants_us1" keyType="registrants_us1"/>
+          <attribute name="RGGI" dataType="geometry" title="RGGI" keyType="RGGI"/>
+          <attribute name="RGGI2" dataType="geometry" title="RGGI2" keyType="RGGI_GDMReport"/>
+          <attribute name="rggi_2010_month_test" dataType="geometry" title="rggi_2010_month_test" keyType="rggi_2010_month_test"/>
+          <attribute name="rhodeisland_usproj" dataType="geometry" title="rhodeisland_usproj" keyType="US State FIPS Code"/>
+          <attribute name="ri_bg" dataType="geometry" title="ri_bg" keyType="ri_bg"/>
+          <attribute name="ri_schools08_projected" dataType="geometry" title="ri_schools08_projected" keyType=""/>
+          <attribute name="roads" dataType="geometry" title="roads" keyType="roads"/>
+          <attribute name="Rwanda_Districts" dataType="geometry" title="Rwanda_Districts" keyType="Rwanda_Districts"/>
+          <attribute name="Rwanda_Provinces" dataType="geometry" title="Rwanda_Provinces" keyType="Rwanda_Provinces"/>
+          <attribute name="SchoolAged" dataType="geometry" title="SchoolAged" keyType="SchoolAged"/>
+          <attribute name="schooldis_elem_POLY" dataType="geometry" title="schooldis_elem_POLY" keyType="schooldis_elem_POLY"/>
+          <attribute name="schooldishigh_POLY_ma" dataType="geometry" title="schooldishigh_POLY_ma" keyType="schooldishigh_POLY_ma"/>
+          <attribute name="schooldist_elem_ma" dataType="geometry" title="schooldist_elem_ma" keyType="schooldist_elem_ma"/>
+          <attribute name="schooldist_elem_maPOLY" dataType="geometry" title="schooldist_elem_maPOLY" keyType="schooldist_elem_maPOLY"/>
+          <attribute name="SCHOOLDISTELEM_POLY" dataType="geometry" title="SCHOOLDISTELEM_POLY" keyType="SCHOOLDISTELEM_POLY"/>
+          <attribute name="SCHOOLDISTHIGH_POLY" dataType="geometry" title="SCHOOLDISTHIGH_POLY" keyType="SCHOOLDISTHIGH_POLY"/>
+          <attribute name="shapes_demo" dataType="geometry" title="shapes_demo" keyType="shapes_demo"/>
+          <attribute name="Soil Waste MA" dataType="geometry" title="Soil Waste MA" keyType="Soil Waste MA"/>
+          <attribute name="st99_d00" dataType="geometry" title="st99_d00" keyType="st99_d00"/>
+          <attribute name="st99_d001" dataType="geometry" title="st99_d001" keyType="st99_d001"/>
+          <attribute name="st99_d00123" dataType="geometry" title="st99_d00123" keyType="st99_d00123"/>
+          <attribute name="st99_d001234" dataType="geometry" title="st99_d001234" keyType="st99_d001234"/>
+          <attribute name="st99_d002" dataType="geometry" title="st99_d002" keyType="st99_d002"/>
+          <attribute name="st99_d003" dataType="geometry" title="st99_d003" keyType="st99_d003"/>
+          <attribute name="st99_d0034" dataType="geometry" title="st99_d0034" keyType="st99_d0034"/>
+          <attribute name="State" dataType="geometry" title="State" keyType="US State FIPS Code"/>
+          <attribute name="States" dataType="geometry" title="States" keyType="US State FIPS Code"/>
+          <attribute name="StatesforNREL" dataType="geometry" title="StatesforNREL" keyType="StatesforNREL"/>
+          <attribute name="STEM BY INSTITUTION" dataType="geometry" title="STEM BY INSTITUTION" keyType="STEM BY INSTITUTION"/>
+          <attribute name="Styrene" dataType="geometry" title="Styrene" keyType="Styrene"/>
+          <attribute name="Success_Boston_Student_Cohorts" dataType="geometry" title="Success_Boston_Student_Cohorts" keyType="Success_Boston_Student_Cohorts"/>
+          <attribute name="sulfuricacid" dataType="geometry" title="sulfuricacid" keyType="sulfuricacid"/>
+          <attribute name="ta tatata" dataType="geometry" title="ta tatata" keyType="ta tatata"/>
+          <attribute name="test" dataType="geometry" title="test" keyType="test"/>
+          <attribute name="TEST" dataType="geometry" title="TEST" keyType="TEST"/>
+          <attribute name="test_nccs" dataType="geometry" title="test_nccs" keyType="test_nccs"/>
+          <attribute name="test_st99" dataType="geometry" title="test_st99" keyType="test_st99"/>
+          <attribute name="testtodelete" dataType="geometry" title="testtodelete" keyType="testtodelete"/>
+          <attribute name="tgr33001lkA" dataType="geometry" title="tgr33001lkA" keyType="tgr33001lkA"/>
+          <attribute name="tl_2009_09_bg00" dataType="geometry" title="tl_2009_09_bg00" keyType="BKGPIDFP00"/>
+          <attribute name="tl_2009_us_cbsa" dataType="geometry" title="tl_2009_us_cbsa" keyType="tl_2009_us_cbsa"/>
+          <attribute name="tl_2009_us_state" dataType="geometry" title="tl_2009_us_state" keyType="tl_2009_us_state"/>
+          <attribute name="tl_2010_us_cbsa10" dataType="geometry" title="tl_2010_us_cbsa10" keyType="tl_2010_us_cbsa10"/>
+          <attribute name="tl_2010_us_state10" dataType="geometry" title="tl_2010_us_state10" keyType="tl_2010_us_state10"/>
+          <attribute name="tr25_d00_reprojected" dataType="geometry" title="tr25_d00_reprojected" keyType=""/>
+          <attribute name="TRAINS_NODE" dataType="geometry" title="TRAINS_NODE" keyType="TRAINS_NODE"/>
+          <attribute name="Turi points" dataType="geometry" title="Turi points" keyType="Turi points"/>
+          <attribute name="turi points" dataType="geometry" title="turi points" keyType="turi points"/>
+          <attribute name="turi points 2008" dataType="geometry" title="turi points 2008" keyType="turi points 2008"/>
+          <attribute name="turi00" dataType="geometry" title="turi00" keyType="turi00"/>
+          <attribute name="turi01" dataType="geometry" title="turi01" keyType="turi01"/>
+          <attribute name="turi02" dataType="geometry" title="turi02" keyType="turi02"/>
+          <attribute name="turi03" dataType="geometry" title="turi03" keyType="turi03"/>
+          <attribute name="turi04" dataType="geometry" title="turi04" keyType="turi04"/>
+          <attribute name="turi05" dataType="geometry" title="turi05" keyType="turi05"/>
+          <attribute name="turi06" dataType="geometry" title="turi06" keyType="turi06"/>
+          <attribute name="turi06-" dataType="geometry" title="turi06-" keyType="turi06-"/>
+          <attribute name="turi07" dataType="geometry" title="turi07" keyType="turi07"/>
+          <attribute name="turi07new" dataType="geometry" title="turi07new" keyType="turi07new"/>
+          <attribute name="turi08" dataType="geometry" title="turi08" keyType="turi08"/>
+          <attribute name="turi90" dataType="geometry" title="turi90" keyType="turi90"/>
+          <attribute name="turi91" dataType="geometry" title="turi91" keyType="turi91"/>
+          <attribute name="turi92" dataType="geometry" title="turi92" keyType="turi92"/>
+          <attribute name="turi93" dataType="geometry" title="turi93" keyType="turi93"/>
+          <attribute name="turi94" dataType="geometry" title="turi94" keyType="turi94"/>
+          <attribute name="turi95" dataType="geometry" title="turi95" keyType="turi95"/>
+          <attribute name="turi96" dataType="geometry" title="turi96" keyType="turi96"/>
+          <attribute name="turi97" dataType="geometry" title="turi97" keyType="turi97"/>
+          <attribute name="turi98" dataType="geometry" title="turi98" keyType="turi98"/>
+          <attribute name="turi99" dataType="geometry" title="turi99" keyType="turi99"/>
+          <attribute name="TURI_all_2008" dataType="geometry" title="TURI_all_2008" keyType="TURI_all_2008"/>
+          <attribute name="turi_perc_drycleaners_MA" dataType="geometry" title="turi_perc_drycleaners_MA" keyType="turi_perc_drycleaners_MA"/>
+          <attribute name="turi_perc_MAproj" dataType="geometry" title="turi_perc_MAproj" keyType="turi_perc_MAproj"/>
+          <attribute name="Turkey" dataType="geometry" title="Turkey" keyType=""/>
+          <attribute name="US_AKHI_moved" dataType="geometry" title="US_AKHI_moved" keyType="US State FIPS Code"/>
+          <attribute name="us_cbsa" dataType="geometry" title="us_cbsa" keyType="us_cbsa"/>
+          <attribute name="US_COUNTIES_GOOGLE_MERCATOR_bald" dataType="geometry" title="US_COUNTIES_GOOGLE_MERCATOR_bald" keyType="fipsstco"/>
+          <attribute name="us_interstates" dataType="geometry" title="us_interstates" keyType="us_interstates"/>
+          <attribute name="US_Outline" dataType="geometry" title="US_Outline" keyType="US State FIPS Code"/>
+          <attribute name="US_Outline_As_State" dataType="geometry" title="US_Outline_As_State" keyType="US State FIPS Code"/>
+          <attribute name="US_States_WGS" dataType="geometry" title="US_States_WGS" keyType="US State FIPS Code"/>
+          <attribute name="USCoastFinalver2selectable" dataType="geometry" title="USCoastFinalver2selectable" keyType="USCoastFinalver2selectable"/>
+          <attribute name="USCoastFinalver2selectabledelete" dataType="geometry" title="USCoastFinalver2selectabledelete" keyType="US State FIPS Code"/>
+          <attribute name="USCoastFinalver2selectableWITHFIPS" dataType="geometry" title="USCoastFinalver2selectableWITHFIPS" keyType="US State FIPS Code"/>
+          <attribute name="USoilPlatforms" dataType="geometry" title="USoilPlatforms" keyType="USoilPlatforms"/>
+          <attribute name="utah_usproj" dataType="geometry" title="utah_usproj" keyType="US State FIPS Code"/>
+          <attribute name="washington_usproj" dataType="geometry" title="washington_usproj" keyType="US State FIPS Code"/>
+          <attribute name="waterways" dataType="geometry" title="waterways" keyType="waterways"/>
+          <attribute name="wb_test" dataType="geometry" title="wb_test" keyType="wb_test"/>
+          <attribute name="wb_testest" dataType="geometry" title="wb_testest" keyType="wb_testest"/>
+          <attribute name="wbfasdljk" dataType="geometry" title="wbfasdljk" keyType="wbfasdljk"/>
+          <attribute name="welwellwelllll" dataType="geometry" title="welwellwelllll" keyType="welwellwelllll"/>
+          <attribute name="westminster_const_region" dataType="geometry" title="westminster_const_region" keyType="westminster_const_region"/>
+          <attribute name="world" dataType="geometry" title="world" keyType=""/>
+          <attribute name="World Borders" dataType="geometry" title="World Borders" keyType="ISO ALPHA-3 Country Code"/>
+          <attribute name="World Borders (UN Codes)" dataType="geometry" title="World Borders (UN Codes)" keyType="UN Codes"/>
+          <attribute name="World UN" dataType="geometry" title="World UN" keyType="World EU"/>
+          <attribute name="WT_FAAOE_2000_2011" dataType="geometry" title="WT_FAAOE_2000_2011" keyType="STUDY(ASN)"/>
+          <attribute name="yb_points" dataType="geometry" title="yb_points" keyType=""/>
+          <attribute name="youthbuild_points" dataType="geometry" title="youthbuild_points" keyType=""/>
+          <attribute name="ZillowNeighborhoods" dataType="geometry" title="ZillowNeighborhoods" keyType="ZillowNeighborhoods"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <HistogramTool name="ColorHistogramTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>130</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>130</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <labelWordWrapSize>80</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <showLabels>true</showLabels>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>9.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>9.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <forceTickCount>true</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <labelWordWrapSize>100</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <showLabels>true</showLabels>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>9</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <HistogramPlotter>
+                <drawPartialBins>true</drawPartialBins>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <fillStyle>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                </fillStyle>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+              </HistogramPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>100</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <zoomBounds>
+          <xMax>9.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>130</yMax>
+          <yMin>0</yMin>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>47.993%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>50%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>51.483%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+  </HistogramTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>0</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>0</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataGradient>false</enableMissingDataGradient>
+                  <imageURL>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </imageURL>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category title="Geometry Collections" name="Geometry Collections">
+                                <attribute name="Massachusetts Towns" dataType="geometry" title="Massachusetts Towns" keyType="Massachusetts Town ID"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointDataImageColumn encoding="dynamic"/>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot2">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataGradient>false</enableMissingDataGradient>
+                  <imageURL>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </imageURL>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category title="Geometry Collections" name="Geometry Collections">
+                                <attribute name="lowell_ct_w_neigh" dataType="geometry" title="lowell_ct_w_neigh" keyType="US Census Tract ID"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointDataImageColumn encoding="dynamic"/>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="plot3">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>false</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataGradient>false</enableMissingDataGradient>
+                  <imageURL>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </imageURL>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category title="Geometry Collections" name="Geometry Collections">
+                                <attribute name="lowell_neighborhoods_reprojected" dataType="geometry" title="lowell_neighborhoods_reprojected" keyType="Neighborhood"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointDataImageColumn encoding="dynamic"/>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <zoomBounds>
+          <area>65412233.458337</area>
+          <xCenter>214153.18668969</xCenter>
+          <yCenter>931814.50413946</yCenter>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>false</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableOverview>false</enableOverview>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50.611%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>67.5%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0.8726%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS/>
+    <resizeable>true</resizeable>
+    <showMouseModeControls>true</showMouseModeControls>
+    <showZoomControls>true</showZoomControls>
+  </MapTool>
+  <ScatterPlotTool name="ScatterPlotTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+        <enableAutoZoomXToNiceNumbers>true</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>true</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>0</xMax>
+                  <xMin>0</xMin>
+                  <yMax>14</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>14</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <labelWordWrapSize>80</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <showLabels>true</showLabels>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>60</xMax>
+                  <xMin>0</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>60</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <labelWordWrapSize>80</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <showLabels>true</showLabels>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <circlePlotter>
+                  <fillStyle encoding="dynamic">
+                    <SolidFillStyle>
+                      <alpha>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <color>
+                        <defaultValue>NaN</defaultValue>
+                        <internalDynamicColumn encoding="dynamic">
+                          <GlobalObjectReference name="defaultColorColumn"/>
+                        </internalDynamicColumn>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                    </SolidFillStyle>
+                  </fillStyle>
+                  <keySet>
+                    <keyFilter encoding="dynamic">
+                      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                    </keyFilter>
+                  </keySet>
+                  <lineStyle encoding="dynamic">
+                    <SolidLineStyle>
+                      <alpha>
+                        <defaultValue>0.5</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <caps>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </caps>
+                      <color>
+                        <defaultValue>0</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                      <joints>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </joints>
+                      <miterLimit>
+                        <defaultValue>3</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </miterLimit>
+                      <pixelHinting>
+                        <defaultValue>false</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </pixelHinting>
+                      <scaleMode>
+                        <defaultValue>normal</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </scaleMode>
+                      <weight>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </weight>
+                    </SolidLineStyle>
+                  </lineStyle>
+                </circlePlotter>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>12</maxScreenRadius>
+                <minScreenRadius>3</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass." name="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass.">
+                              <category title="Race" name="Race">
+                                <attribute dataTable="acs5yr_ct_midessex" name="Asian DP05e39" id="155247" title="Asian DP05e39" dataType="number" keyType="US Census Tract ID"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass." name="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass.">
+                              <category title="Employment Status" name="Employment Status">
+                                <attribute dataTable="acs5yr_ct_midessex" name="Unemployed DP03e5" id="154951" title="Unemployed DP03e5" dataType="number" keyType="US Census Tract ID"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+                <zoomToSubset>false</zoomToSubset>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+          <SelectablePlotLayer name="undefinedX">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <circlePlotter>
+                  <fillStyle encoding="dynamic">
+                    <SolidFillStyle>
+                      <alpha>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <color>
+                        <defaultValue>NaN</defaultValue>
+                        <internalDynamicColumn encoding="dynamic">
+                          <GlobalObjectReference name="defaultColorColumn"/>
+                        </internalDynamicColumn>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                    </SolidFillStyle>
+                  </fillStyle>
+                  <keySet>
+                    <keyFilter encoding="dynamic">
+                      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                    </keyFilter>
+                  </keySet>
+                  <lineStyle encoding="dynamic">
+                    <SolidLineStyle>
+                      <alpha>
+                        <defaultValue>0.5</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <caps>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </caps>
+                      <color>
+                        <defaultValue>0</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                      <joints>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </joints>
+                      <miterLimit>
+                        <defaultValue>3</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </miterLimit>
+                      <pixelHinting>
+                        <defaultValue>false</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </pixelHinting>
+                      <scaleMode>
+                        <defaultValue>normal</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </scaleMode>
+                      <weight>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </weight>
+                    </SolidLineStyle>
+                  </lineStyle>
+                </circlePlotter>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>12</maxScreenRadius>
+                <minScreenRadius>3</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic"/>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass." name="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass.">
+                              <category title="Employment Status" name="Employment Status">
+                                <attribute dataTable="acs5yr_ct_midessex" name="Unemployed DP03e5" id="154951" title="Unemployed DP03e5" dataType="number" keyType="US Census Tract ID"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+                <zoomToSubset>false</zoomToSubset>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="undefinedY">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <circlePlotter>
+                  <fillStyle encoding="dynamic">
+                    <SolidFillStyle>
+                      <alpha>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <color>
+                        <defaultValue>NaN</defaultValue>
+                        <internalDynamicColumn encoding="dynamic">
+                          <GlobalObjectReference name="defaultColorColumn"/>
+                        </internalDynamicColumn>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                    </SolidFillStyle>
+                  </fillStyle>
+                  <keySet>
+                    <keyFilter encoding="dynamic">
+                      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                    </keyFilter>
+                  </keySet>
+                  <lineStyle encoding="dynamic">
+                    <SolidLineStyle>
+                      <alpha>
+                        <defaultValue>0.5</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <caps>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </caps>
+                      <color>
+                        <defaultValue>0</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                      <joints>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </joints>
+                      <miterLimit>
+                        <defaultValue>3</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </miterLimit>
+                      <pixelHinting>
+                        <defaultValue>false</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </pixelHinting>
+                      <scaleMode>
+                        <defaultValue>normal</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </scaleMode>
+                      <weight>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </weight>
+                    </SolidLineStyle>
+                  </lineStyle>
+                </circlePlotter>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>12</maxScreenRadius>
+                <minScreenRadius>3</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass." name="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass.">
+                              <category title="Race" name="Race">
+                                <attribute dataTable="acs5yr_ct_midessex" name="Asian DP05e39" id="155247" title="Asian DP05e39" dataType="number" keyType="US Census Tract ID"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic"/>
+                <zoomToSubset>false</zoomToSubset>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="undefinedXY">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <circlePlotter>
+                  <fillStyle encoding="dynamic">
+                    <SolidFillStyle>
+                      <alpha>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <color>
+                        <defaultValue>NaN</defaultValue>
+                        <internalDynamicColumn encoding="dynamic">
+                          <GlobalObjectReference name="defaultColorColumn"/>
+                        </internalDynamicColumn>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                    </SolidFillStyle>
+                  </fillStyle>
+                  <keySet>
+                    <keyFilter encoding="dynamic">
+                      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                    </keyFilter>
+                  </keySet>
+                  <lineStyle encoding="dynamic">
+                    <SolidLineStyle>
+                      <alpha>
+                        <defaultValue>0.5</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <caps>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </caps>
+                      <color>
+                        <defaultValue>0</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                      <joints>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </joints>
+                      <miterLimit>
+                        <defaultValue>3</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </miterLimit>
+                      <pixelHinting>
+                        <defaultValue>false</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </pixelHinting>
+                      <scaleMode>
+                        <defaultValue>normal</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </scaleMode>
+                      <weight>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </weight>
+                    </SolidLineStyle>
+                  </lineStyle>
+                </circlePlotter>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>12</maxScreenRadius>
+                <minScreenRadius>3</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic"/>
+                <yColumn encoding="dynamic"/>
+                <zoomToSubset>false</zoomToSubset>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="regressionLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <RegressionLinePlotter>
+                <drawLine>false</drawLine>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass." name="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass.">
+                              <category title="Race" name="Race">
+                                <attribute dataTable="acs5yr_ct_midessex" name="Asian DP05e39" id="155247" title="Asian DP05e39" dataType="number" keyType="US Census Tract ID"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass." name="ACS 5-year Profiles Census Tracts and Neighborhoods in Lowell Mass.">
+                              <category title="Employment Status" name="Employment Status">
+                                <attribute dataTable="acs5yr_ct_midessex" name="Unemployed DP03e5" id="154951" title="Unemployed DP03e5" dataType="number" keyType="US Census Tract ID"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </RegressionLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>30</marginRight>
+        <marginTop>30</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <zoomBounds>
+          <xMax>60</xMax>
+          <xMin>0</xMin>
+          <yMax>14</yMax>
+          <yMin>0</yMin>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <overrideColor>0</overrideColor>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>50%</panelWidth>
+    <panelX>50%</panelX>
+    <panelY>50%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showColorPicker>false</showColorPicker>
+  </ScatterPlotTool>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>0</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>0</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <ascendingOrder>false</ascendingOrder>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <itemLabelFunction>string</itemLabelFunction>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <legendTitleFunction>string</legendTitleFunction>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <maxColumns>1</maxColumns>
+                <shapeSize>20</shapeSize>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <zoomBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>1</yMax>
+          <yMin>0</yMin>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableTitle>false</enableTitle>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49.738%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>32.5%</panelWidth>
+    <panelX>67.5%</panelX>
+    <panelY>0.8726%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+  </ColorBinLegendTool>
+</Weave>

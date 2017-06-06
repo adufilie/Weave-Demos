@@ -1,0 +1,2605 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <backgroundColor>13421772</backgroundColor>
+    <collabServerIP>demo.oicweave.org</collabServerIP>
+    <collabServerName>ivpr-vm</collabServerName>
+    <collabServerPort>5222</collabServerPort>
+    <collabServerRoom/>
+    <collabSpectating>false</collabSpectating>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <defaultTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </defaultTextFormat>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddAttributeMenuTool>true</enableAddAttributeMenuTool>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddCompoundRadViz>true</enableAddCompoundRadViz>
+    <enableAddCustomTool>true</enableAddCustomTool>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGraphTool>true</enableAddGraphTool>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddNewDatasource>true</enableAddNewDatasource>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRamachandranPlot>false</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableAnnotation>true</enableAnnotation>
+    <enableBitmapFilters>true</enableBitmapFilters>
+    <enableBrowseData>true</enableBrowseData>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCollaborationBar>false</enableCollaborationBar>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDrawCircle>true</enableDrawCircle>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableEditDatasources>true</enableEditDatasources>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportCSV>true</enableExportCSV>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullScreen>false</enableFullScreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableLoadMyData>true</enableLoadMyData>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMarker>true</enableMarker>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enablePenTool>true</enablePenTool>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableProbeToolTip>true</enableProbeToolTip>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionSelectorBox>true</enableSelectionSelectorBox>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionMenu>true</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetSelectionBox>true</enableSubsetSelectionBox>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableThreadPriorities>false</enableThreadPriorities>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <eventListeners encoding="dynamic"/>
+    <geometryMetadataRequestMode>xyz</geometryMetadataRequestMode>
+    <geometryMinimumScreenArea>1</geometryMinimumScreenArea>
+    <macroLibraries>weave.api::WeaveAPI</macroLibraries>
+    <macros encoding="dynamic"/>
+    <maxComputationTimePerFrame>100</maxComputationTimePerFrame>
+    <maxTooltipRecordsShown>1</maxTooltipRecordsShown>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleTextFormat>
+      <bold>false</bold>
+      <color>16777215</color>
+      <font>Verdana</font>
+      <italic>false</italic>
+      <size>10</size>
+      <underline>false</underline>
+    </panelTitleTextFormat>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeLineFormatter>str = replace(lpad(string, 8, "\t"), "\t", "  ");str + " (" + title + ")"</probeLineFormatter>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <probeToolTipMaxWidth>400</probeToolTipMaxWidth>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <SecondaryKeyNumColumn_useGlobalMinMaxValues>true</SecondaryKeyNumColumn_useGlobalMinMaxValues>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showCollaborationEditor>false</showCollaborationEditor>
+    <showCollaborationMenuItem>true</showCollaborationMenuItem>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showDisabilityOptions>true</showDisabilityOptions>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showProbeWindow>true</showProbeWindow>
+    <showSelectedRecordsText>true</showSelectedRecordsText>
+    <showSessionHistoryControls>true</showSessionHistoryControls>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <startupJavaScript/>
+    <toolInteractions>
+      <defaultDragMode/>
+      <pan>alt,drag</pan>
+      <probe>move</probe>
+      <select>drag</select>
+      <selectAdd>ctrl,drag</selectAdd>
+      <selectAll>ctrl,dclick</selectAll>
+      <selectRemove>ctrl,shift,drag</selectRemove>
+      <zoom>shift,drag
+wheel</zoom>
+      <zoomIn>dclick</zoomIn>
+      <zoomOut>shift,dclick</zoomOut>
+      <zoomToExtent>ctrl,alt,shift,dclick</zoomToExtent>
+    </toolInteractions>
+    <version>1.0 Beta (Mon Jul  2 11:02:01 EDT 2012)</version>
+    <windowSnapGridSize>1%</windowSnapGridSize>
+    <workspaceHeight>NaN</workspaceHeight>
+    <workspaceMultiplier>1</workspaceMultiplier>
+    <workspaceWidth>NaN</workspaceWidth>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp>0xFEF0D9,0xFDCC8A,0xFC8D59,0xE34A33,0xB30000</ramp>
+    <recordColors/>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>5</numberOfBins>
+        <overrideBinNames/>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Government spending on health as % of all heath spending" dataType="number" title="Government spending on health as % of all heath spending" geometryCollection="Countries" id="1123404"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included encoding="dynamic"/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet encoding="dynamic" name="defaultSelectionKeySet"/>
+  <KeySet encoding="dynamic" name="defaultProbeKeySet"/>
+  <KeySet name="alwaysHighlightKeySet"/>
+  <LinkableHashMap encoding="dynamic" name="savedSelections"/>
+  <LinkableHashMap encoding="dynamic" name="savedSubsets"/>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="IVPR Indicator Server">
+        <category title="Data Tables" name="Data Tables">
+          <category title="Countries" name="Countries">
+            <attribute dataType="geometry" title="Countries" keyType="Countries" name="Countries" projection="null"/>
+            <attribute keyType="Countries" title="the_geom_id" dataTable="Countries" geometryCollection="Countries" name="the_geom_id" id="63037"/>
+            <attribute keyType="Countries" title="FIPS_CNTRY" dataTable="Countries" geometryCollection="Countries" name="FIPS_CNTRY" id="63038"/>
+            <attribute keyType="Countries" title="GMI_CNTRY" dataTable="Countries" geometryCollection="Countries" name="GMI_CNTRY" id="63039"/>
+            <attribute keyType="Countries" title="ISO_2DIGIT" dataTable="Countries" geometryCollection="Countries" name="ISO_2DIGIT" id="63040"/>
+            <attribute keyType="Countries" title="ISO_3DIGIT" dataTable="Countries" geometryCollection="Countries" name="ISO_3DIGIT" id="63041"/>
+            <attribute keyType="Countries" title="CNTRY_NAME" dataTable="Countries" geometryCollection="Countries" name="CNTRY_NAME" id="63042"/>
+            <attribute keyType="Countries" title="LONG_NAME" dataTable="Countries" geometryCollection="Countries" name="LONG_NAME" id="63043"/>
+            <attribute keyType="Countries" title="SOVEREIGN" dataTable="Countries" geometryCollection="Countries" name="SOVEREIGN" id="63044"/>
+            <attribute keyType="Countries" title="POP_CNTRY" dataTable="Countries" geometryCollection="Countries" name="POP_CNTRY" id="63045"/>
+            <attribute keyType="Countries" title="CURR_TYPE" dataTable="Countries" geometryCollection="Countries" name="CURR_TYPE" id="63046"/>
+            <attribute keyType="Countries" title="CURR_CODE" dataTable="Countries" geometryCollection="Countries" name="CURR_CODE" id="63047"/>
+            <attribute keyType="Countries" title="LANDLOCKED" dataTable="Countries" geometryCollection="Countries" name="LANDLOCKED" id="63048"/>
+            <attribute keyType="Countries" title="SQKM" dataTable="Countries" geometryCollection="Countries" name="SQKM" id="63049"/>
+            <attribute keyType="Countries" title="SQMI" dataTable="Countries" geometryCollection="Countries" name="SQMI" id="63050"/>
+            <attribute keyType="Countries" title="COLOR_MAP" dataTable="Countries" geometryCollection="Countries" name="COLOR_MAP" id="63051"/>
+          </category>
+          <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ISO3" dataType="string" title="ISO3" geometryCollection="Countries" id="1123399"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ISO country code" dataType="string" title="ISO country code" geometryCollection="Countries" id="1123400"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Location" dataType="string" title="Location" geometryCollection="Countries" id="1123401"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Year" dataType="number" title="Year" geometryCollection="Countries" id="1123402"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Health spending, % of GDP" dataType="number" title="Health spending, % of GDP" geometryCollection="Countries" id="1123403"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Government spending on health as % of all heath spending" dataType="number" title="Government spending on health as % of all heath spending" geometryCollection="Countries" id="1123404"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Private spending on health as % of all health spending" dataType="number" title="Private spending on health as % of all health spending" geometryCollection="Countries" id="1123405"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Gov spending on health as % of all spending" dataType="string" title="Gov spending on health as % of all spending" geometryCollection="Countries" id="1123406"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Health spending out of pocket, as % of all health spending" dataType="number" title="Health spending out of pocket, as % of all health spending" geometryCollection="Countries" id="1123407"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Private prepaid plans as % of private spending on health" dataType="number" title="Private prepaid plans as % of private spending on health" geometryCollection="Countries" id="1123408"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Per capita total spending on health (PPP int. $)" dataType="number" title="Per capita total spending on health (PPP int. $)" geometryCollection="Countries" id="1123409"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Per capita government spending on health (PPP int. $)" dataType="number" title="Per capita government spending on health (PPP int. $)" geometryCollection="Countries" id="1123410"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Total doctors" dataType="string" title="Total doctors" geometryCollection="Countries" id="1123411"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Nurses and midwives, per 10,000 pop" dataType="string" title="Nurses and midwives, per 10,000 pop" geometryCollection="Countries" id="1123412"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Doctors, per 10,000 population" dataType="string" title="Doctors, per 10,000 population" geometryCollection="Countries" id="1123413"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Total nurses and midwives" dataType="string" title="Total nurses and midwives" geometryCollection="Countries" id="1123414"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="geometry" dataType="string" title="geometry" geometryCollection="Countries" id="1123415"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="name" dataType="string" title="name" geometryCollection="Countries" id="1123416"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="iso_a3" dataType="string" title="iso_a3" geometryCollection="Countries" id="1123417"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="geometry_vertex_count" dataType="number" title="geometry_vertex_count" geometryCollection="Countries" id="1123418"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ScaleRank" dataType="number" title="ScaleRank" geometryCollection="Countries" id="1123419"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="LabelRank" dataType="number" title="LabelRank" geometryCollection="Countries" id="1123420"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="FeatureCla" dataType="string" title="FeatureCla" geometryCollection="Countries" id="1123421"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="SOVEREIGNT" dataType="string" title="SOVEREIGNT" geometryCollection="Countries" id="1123422"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="SOV_A3" dataType="string" title="SOV_A3" geometryCollection="Countries" id="1123423"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ADM0_DIF" dataType="number" title="ADM0_DIF" geometryCollection="Countries" id="1123424"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="LEVEL" dataType="number" title="LEVEL" geometryCollection="Countries" id="1123425"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="TYPE" dataType="string" title="TYPE" geometryCollection="Countries" id="1123426"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ADMIN" dataType="string" title="ADMIN" geometryCollection="Countries" id="1123427"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ADM0_A3" dataType="string" title="ADM0_A3" geometryCollection="Countries" id="1123428"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="GEOU_DIF" dataType="number" title="GEOU_DIF" geometryCollection="Countries" id="1123429"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="GEOUNIT" dataType="string" title="GEOUNIT" geometryCollection="Countries" id="1123430"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="GU_A3" dataType="string" title="GU_A3" geometryCollection="Countries" id="1123431"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="SU_DIF" dataType="number" title="SU_DIF" geometryCollection="Countries" id="1123432"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="SUBUNIT" dataType="string" title="SUBUNIT" geometryCollection="Countries" id="1123433"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="SU_A3" dataType="string" title="SU_A3" geometryCollection="Countries" id="1123434"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ABBREV" dataType="string" title="ABBREV" geometryCollection="Countries" id="1123435"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="POSTAL" dataType="string" title="POSTAL" geometryCollection="Countries" id="1123436"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="NAME_FORMA" dataType="string" title="NAME_FORMA" geometryCollection="Countries" id="1123437"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="TERR_" dataType="number" title="TERR_" geometryCollection="Countries" id="1123438"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="NAME_SORT" dataType="string" title="NAME_SORT" geometryCollection="Countries" id="1123439"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="MAP_COLOR" dataType="number" title="MAP_COLOR" geometryCollection="Countries" id="1123440"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="POP_EST" dataType="number" title="POP_EST" geometryCollection="Countries" id="1123441"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="GDP_MD_EST" dataType="number" title="GDP_MD_EST" geometryCollection="Countries" id="1123442"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="FIPS_10_" dataType="number" title="FIPS_10_" geometryCollection="Countries" id="1123443"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ISO_N3" dataType="number" title="ISO_N3" geometryCollection="Countries" id="1123444"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="FeatureCla_ft_style" dataType="number" title="FeatureCla_ft_style" geometryCollection="Countries" id="1123445"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="TYPE_ft_style" dataType="number" title="TYPE_ft_style" geometryCollection="Countries" id="1123446"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="TERR__ft_style" dataType="number" title="TERR__ft_style" geometryCollection="Countries" id="1123447"/>
+            <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="import_notes" dataType="number" title="import_notes" geometryCollection="Countries" id="1123448"/>
+          </category>
+        </category>
+        <category title="Geometry Collections" name="Geometry Collections">
+          <attribute dataType="geometry" title="11_4_reprojected" keyType="" name="11_4_reprojected"/>
+          <attribute dataType="geometry" title="11_4_reprojected_geometry" keyType="11_4_reprojected_geometry" name="11_4_reprojected_geometry"/>
+          <attribute dataType="geometry" title="12_CountyBounds" keyType="US County FIPS Code" name="12_CountyBounds"/>
+          <attribute dataType="geometry" title="2010_mi_blocks_sphericalmercator_3857" keyType="2010_mi_blocks_sphericalmercator_3857" name="2010_mi_blocks_sphericalmercator_3857"/>
+          <attribute dataType="geometry" title="2010_us_state10" keyType="US_STATE_FIPS_CODE" name="2010_us_state10"/>
+          <attribute dataType="geometry" title="303D_ln,303D_poly,303D_pt" keyType="303D_ln,303D_poly,303D_pt" name="303D_ln,303D_poly,303D_pt"/>
+          <attribute dataType="geometry" title="305B_ln,305B_pt,305B_poly" keyType="305B_ln,305B_pt,305B_poly" name="305B_ln,305B_pt,305B_poly"/>
+          <attribute dataType="geometry" title="africa" keyType="ISO ALPHA-3 Country Code" name="africa"/>
+          <attribute dataType="geometry" title="agm_35_outline" keyType="agm_35_outline" name="agm_35_outline"/>
+          <attribute dataType="geometry" title="agm_cousub_35" keyType="US County Subdivision FIPS Code" name="agm_cousub_35"/>
+          <attribute dataType="geometry" title="agm_cousub_merrimackvalley" keyType="US County Subdivision FIPS Code" name="agm_cousub_merrimackvalley"/>
+          <attribute dataType="geometry" title="agm_cousub_merrimackvalley_outline" keyType="agm_cousub_merrimackvalley_outline" name="agm_cousub_merrimackvalley_outline"/>
+          <attribute dataType="geometry" title="AGM_grantmakers" keyType="AGM_grantmakers" name="AGM_grantmakers"/>
+          <attribute dataType="geometry" title="agm_masstowns_5towns" keyType="US County Subdivision FIPS Code" name="agm_masstowns_5towns"/>
+          <attribute dataType="geometry" title="agm_masstowns_greaterlowell" keyType="US County Subdivision FIPS Code" name="agm_masstowns_greaterlowell"/>
+          <attribute dataType="geometry" title="agm_masstowns_greaterlowell_outline" keyType="agm_masstowns_greaterlowell_outline" name="agm_masstowns_greaterlowell_outline"/>
+          <attribute dataType="geometry" title="agm_masstowns_merrimackvalley" keyType="US County Subdivision FIPS Code" name="agm_masstowns_merrimackvalley"/>
+          <attribute dataType="geometry" title="agm_masstowns_merrimackvalley_outline" keyType="agm_cousub_merrimackvalley_outline" name="agm_masstowns_merrimackvalley_outline"/>
+          <attribute dataType="geometry" title="agm_prof_acs_5towns" keyType="US County Subdivision FIPS Code" name="agm_prof_acs_5towns"/>
+          <attribute dataType="geometry" title="agm_recipient_grantamounts" keyType="agm_recipient_grantamounts" name="agm_recipient_grantamounts"/>
+          <attribute dataType="geometry" title="agm_recipients" keyType="agm_recipients" name="agm_recipients"/>
+          <attribute dataType="geometry" title="arra_mass_points201004" keyType="arra_mass_points201004" name="arra_mass_points201004"/>
+          <attribute dataType="geometry" title="arra_point" keyType="" name="arra_point"/>
+          <attribute dataType="geometry" title="arra_point" keyType="" name="arra_point"/>
+          <attribute dataType="geometry" title="Arrests_Nashua" keyType="" name="Arrests_Nashua"/>
+          <attribute dataType="geometry" title="Atlanta Superdistricts" keyType="Atlanta Superdistrict ID" name="Atlanta Superdistricts"/>
+          <attribute dataType="geometry" title="Atlanta Superdistricts11" keyType="Atlanta Superdistrict ID" name="Atlanta Superdistricts11"/>
+          <attribute dataType="geometry" title="Atlanta Transportation Analysis Zones" keyType="Atlanta Transportation Analysis Zone ID" name="Atlanta Transportation Analysis Zones"/>
+          <attribute dataType="geometry" title="Atlanta_CLCC_GDCH" keyType="Atlanta_CLCC_GDCH" name="Atlanta_CLCC_GDCH"/>
+          <attribute dataType="geometry" title="Atlanta_ES_4th_CRCT_Reading" keyType="Atlanta_ES_4th_CRCT_Reading" name="Atlanta_ES_4th_CRCT_Reading"/>
+          <attribute dataType="geometry" title="Atlanta_Head_Start" keyType="Atlanta_Head_Start" name="Atlanta_Head_Start"/>
+          <attribute dataType="geometry" title="Atlanta_LowPerfSchools" keyType="Atlanta_LowPerfSchools" name="Atlanta_LowPerfSchools"/>
+          <attribute dataType="geometry" title="Atlanta_MSA_Counties" keyType="Atlanta_MSA_Counties" name="Atlanta_MSA_Counties"/>
+          <attribute dataType="geometry" title="Atlanta_MSA_Interstates" keyType="Atlanta_MSA_Interstates" name="Atlanta_MSA_Interstates"/>
+          <attribute dataType="geometry" title="Atlanta_MSA_Places" keyType="Atlanta_MSA_Places" name="Atlanta_MSA_Places"/>
+          <attribute dataType="geometry" title="Atlanta_NPUs" keyType="Atlanta_NPUs" name="Atlanta_NPUs"/>
+          <attribute dataType="geometry" title="Atlanta_Pre-K" keyType="Atlanta_Pre-K" name="Atlanta_Pre-K"/>
+          <attribute dataType="geometry" title="Atlanta_Vuln3_5" keyType="Atlanta_Vuln3_5" name="Atlanta_Vuln3_5"/>
+          <attribute dataType="geometry" title="Atlanta_Vuln3Plus" keyType="Atlanta_Vuln3Plus" name="Atlanta_Vuln3Plus"/>
+          <attribute dataType="geometry" title="Atlanta_Vuln6_10" keyType="Atlanta_Vuln6_10" name="Atlanta_Vuln6_10"/>
+          <attribute dataType="geometry" title="BCFutureLandUse_2009" keyType="BCFutureLandUse_2009" name="BCFutureLandUse_2009"/>
+          <attribute dataType="geometry" title="Bexar_Co_Census_Tracts" keyType="Bexar_Co_Census_Tracts" name="Bexar_Co_Census_Tracts"/>
+          <attribute dataType="geometry" title="bike trails" keyType="bike trails" name="bike trails"/>
+          <attribute dataType="geometry" title="bikeped_facilities" keyType="bikeped_facilities" name="bikeped_facilities"/>
+          <attribute dataType="geometry" title="Boston 2005 Parcels" keyType="Boston Parcel ID" name="Boston 2005 Parcels"/>
+          <attribute dataType="geometry" title="Boston 2005 Parcels Subset" keyType="Boston Parcel ID" name="Boston 2005 Parcels Subset"/>
+          <attribute dataType="geometry" title="Boston Parcels" keyType="Boston Parcels" name="Boston Parcels"/>
+          <attribute dataType="geometry" title="boston_foreclosure_deeds" keyType="" name="boston_foreclosure_deeds"/>
+          <attribute dataType="geometry" title="Boston_Hositals" keyType="Boston_Hositals" name="Boston_Hositals"/>
+          <attribute dataType="geometry" title="Boston_Hositals111" keyType="Boston_Hositals" name="Boston_Hositals111"/>
+          <attribute dataType="geometry" title="Boston_Neighborhoods" keyType="Boston_Neighborhoods" name="Boston_Neighborhoods"/>
+          <attribute dataType="geometry" title="boston_roads" keyType="boston_roads" name="boston_roads"/>
+          <attribute dataType="geometry" title="Boston_zips" keyType="Boston_zips" name="Boston_zips"/>
+          <attribute dataType="geometry" title="BRFSS_MMSA_2010" keyType="BRFSS_MMSA_2010" name="BRFSS_MMSA_2010"/>
+          <attribute dataType="geometry" title="carcinogen" keyType="carcinogen" name="carcinogen"/>
+          <attribute dataType="geometry" title="CATCHMENTS_poly_region" keyType="CATCHMENTS_poly_region" name="CATCHMENTS_poly_region"/>
+          <attribute dataType="geometry" title="CBSA2003" keyType="CBSA2003" name="CBSA2003"/>
+          <attribute dataType="geometry" title="CBSAs" keyType="CBSAs" name="CBSAs"/>
+          <attribute dataType="geometry" title="cd99_110" keyType="cd99_110" name="cd99_110"/>
+          <attribute dataType="geometry" title="cd_110thCongress" keyType="cd_110thCongress" name="cd_110thCongress"/>
+          <attribute dataType="geometry" title="Census Trats MA 2010" keyType="Census Trats MA 2010" name="Census Trats MA 2010"/>
+          <attribute dataType="geometry" title="census2000_tracts_6digit_lowellarea" keyType="US Census Tract 6-digit ID" name="census2000_tracts_6digit_lowellarea"/>
+          <attribute dataType="geometry" title="census2000blockgroups_poly_orig" keyType="" name="census2000blockgroups_poly_orig"/>
+          <attribute dataType="geometry" title="census2000tracts_ICC_Towns" keyType="ICMB_ct" name="census2000tracts_ICC_Towns"/>
+          <attribute dataType="geometry" title="census_msad" keyType="CBSA2003" name="census_msad"/>
+          <attribute dataType="geometry" title="CHCS_PT" keyType="CHCS_PT" name="CHCS_PT"/>
+          <attribute dataType="geometry" title="chic_counties" keyType="" name="chic_counties"/>
+          <attribute dataType="geometry" title="Chicago Census Tracts" keyType="US Census Tract ID" name="Chicago Census Tracts"/>
+          <attribute dataType="geometry" title="chicago_arra_munis" keyType="Chicago Municipal Codes" name="chicago_arra_munis"/>
+          <attribute dataType="geometry" title="chicago_arra_point" keyType="" name="chicago_arra_point"/>
+          <attribute dataType="geometry" title="Chicago_Muni_ARRA" keyType="" name="Chicago_Muni_ARRA"/>
+          <attribute dataType="geometry" title="chicpoint2" keyType="" name="chicpoint2"/>
+          <attribute dataType="geometry" title="chicpoint2111" keyType="" name="chicpoint2111"/>
+          <attribute dataType="geometry" title="chicpoint3" keyType="" name="chicpoint3"/>
+          <attribute dataType="geometry" title="CHIL_adm1_13" keyType="chile_adm1_regions" name="CHIL_adm1_13"/>
+          <attribute dataType="geometry" title="chile_adm1_regions" keyType="chile_adm1_regions" name="chile_adm1_regions"/>
+          <attribute dataType="geometry" title="chile_adm2_provinces" keyType="chile_adm2_provinces" name="chile_adm2_provinces"/>
+          <attribute dataType="geometry" title="CHN_adm1" keyType="CHN_adm1" name="CHN_adm1"/>
+          <attribute dataType="geometry" title="CHN_adm2" keyType="CHN_adm2" name="CHN_adm2"/>
+          <attribute dataType="geometry" title="CHN_adm3" keyType="CHN_adm3" name="CHN_adm3"/>
+          <attribute dataType="geometry" title="cinowzip08" keyType="cinowzip08" name="cinowzip08"/>
+          <attribute dataType="geometry" title="CityofAtlanta" keyType="CityofAtlanta" name="CityofAtlanta"/>
+          <attribute dataType="geometry" title="Community_ED EEC" keyType="Community_ED EEC" name="Community_ED EEC"/>
+          <attribute dataType="geometry" title="connecticut_usproj" keyType="US State FIPS Code" name="connecticut_usproj"/>
+          <attribute dataType="geometry" title="Counties" keyType="US County FIPS Code" name="Counties"/>
+          <attribute dataType="geometry" title="Countries" keyType="Countries" name="Countries"/>
+          <attribute dataType="geometry" title="County Subdivisions" keyType="US County Subdivision FIPS Code" name="County Subdivisions"/>
+          <attribute dataType="geometry" title="ct_lowell" keyType="US Census Tract ID" name="ct_lowell"/>
+          <attribute dataType="geometry" title="dc_wells_samples_wm" keyType="dc_wells_samples_wm" name="dc_wells_samples_wm"/>
+          <attribute dataType="geometry" title="DEGREES BY INSTITUTION " keyType="DEGREES BY INSTITUTION " name="DEGREES BY INSTITUTION "/>
+          <attribute dataType="geometry" title="DEMO_Shape" keyType="DEMO_Shape" name="DEMO_Shape"/>
+          <attribute dataType="geometry" title="dhe_states" keyType="US State FIPS Code" name="dhe_states"/>
+          <attribute dataType="geometry" title="eec2" keyType="eec2" name="eec2"/>
+          <attribute dataType="geometry" title="eec_artificial_child" keyType="eec_artificial_child" name="eec_artificial_child"/>
+          <attribute dataType="geometry" title="eec_comprehensive_family" keyType="eec_comprehensive_family" name="eec_comprehensive_family"/>
+          <attribute dataType="geometry" title="eec_familyservices_reproj" keyType="eec_familyservices_reproj" name="eec_familyservices_reproj"/>
+          <attribute dataType="geometry" title="eec_lowellschools_reproj" keyType="eec_lowellschools_reproj" name="eec_lowellschools_reproj"/>
+          <attribute dataType="geometry" title="eec_prek_pregnant_reproj" keyType="eec_prek_pregnant_reproj" name="eec_prek_pregnant_reproj"/>
+          <attribute dataType="geometry" title="eec_prekpregnant_reproj" keyType="eec_prekpregnant_reproj" name="eec_prekpregnant_reproj"/>
+          <attribute dataType="geometry" title="EEC_Providers" keyType="EEC_Providers" name="EEC_Providers"/>
+          <attribute dataType="geometry" title="eec_regcnt_MA_ElemSchoolDistricts" keyType="eec_regcnt_MA_ElemSchoolDistricts" name="eec_regcnt_MA_ElemSchoolDistricts"/>
+          <attribute dataType="geometry" title="eec_registrants_ma" keyType="eec_registrants_ma" name="eec_registrants_ma"/>
+          <attribute dataType="geometry" title="eec_SchAged_TeenParents" keyType="eec_SchAged_TeenParents" name="eec_SchAged_TeenParents"/>
+          <attribute dataType="geometry" title="eec_schoolagedchildren_reproj" keyType="eec_schoolagedchildren_reproj" name="eec_schoolagedchildren_reproj"/>
+          <attribute dataType="geometry" title="eec_test1" keyType="eec_test1" name="eec_test1"/>
+          <attribute dataType="geometry" title="eec_test2" keyType="eec_test2" name="eec_test2"/>
+          <attribute dataType="geometry" title="eec_zooaq" keyType="eec_zooaq" name="eec_zooaq"/>
+          <attribute dataType="geometry" title="elie_turi_nickel_1990-2008" keyType="elie_turi_nickel_1990-2008" name="elie_turi_nickel_1990-2008"/>
+          <attribute dataType="geometry" title="emassnh_catchments" keyType="CATCHMENTS_poly_region" name="emassnh_catchments"/>
+          <attribute dataType="geometry" title="eotroads_160" keyType="eotroads_160" name="eotroads_160"/>
+          <attribute dataType="geometry" title="eotroads_295" keyType="eotroads_295" name="eotroads_295"/>
+          <attribute dataType="geometry" title="eotroads_301" keyType="eotroads_301" name="eotroads_301"/>
+          <attribute dataType="geometry" title="eotroads_31" keyType="eotroads_31" name="eotroads_31"/>
+          <attribute dataType="geometry" title="eotroads_56" keyType="eotroads_56" name="eotroads_56"/>
+          <attribute dataType="geometry" title="eotroads_79" keyType="eotroads_79" name="eotroads_79"/>
+          <attribute dataType="geometry" title="EPA_emissions_CO2_1995-2010" keyType="EPA_emissions_CO2_1995-2010" name="EPA_emissions_CO2_1995-2010"/>
+          <attribute dataType="geometry" title="Exempt" keyType="Exempt" name="Exempt"/>
+          <attribute dataType="geometry" title="FamilyServices" keyType="FamilyServices" name="FamilyServices"/>
+          <attribute dataType="geometry" title="FCHC" keyType="FCHC" name="FCHC"/>
+          <attribute dataType="geometry" title="fd_2005" keyType="fd_2005" name="fd_2005"/>
+          <attribute dataType="geometry" title="fd_2006" keyType="fd_2006" name="fd_2006"/>
+          <attribute dataType="geometry" title="fd_2007" keyType="fd_2007" name="fd_2007"/>
+          <attribute dataType="geometry" title="fd_2008" keyType="fd_2008" name="fd_2008"/>
+          <attribute dataType="geometry" title="fd_2009" keyType="fd_2009" name="fd_2009"/>
+          <attribute dataType="geometry" title="fd_2010" keyType="fd_2010" name="fd_2010"/>
+          <attribute dataType="geometry" title="fd_2011" keyType="fd_2011" name="fd_2011"/>
+          <attribute dataType="geometry" title="FD_points_Lowell_new1" keyType="" name="FD_points_Lowell_new1"/>
+          <attribute dataType="geometry" title="fe_2007_44_elsd" keyType="Rhode Island School District" name="fe_2007_44_elsd"/>
+          <attribute dataType="geometry" title="fe_2007_44_unsd" keyType="Rhode Island School District" name="fe_2007_44_unsd"/>
+          <attribute dataType="geometry" title="fe_2007_us_zcta300_alzheimers" keyType="fe_2007_us_zcta300_alzheimers" name="fe_2007_us_zcta300_alzheimers"/>
+          <attribute dataType="geometry" title="firms" keyType="firms" name="firms"/>
+          <attribute dataType="geometry" title="food_coalition_combined_massproj" keyType="food_coalition_combined_massproj" name="food_coalition_combined_massproj"/>
+          <attribute dataType="geometry" title="food_coalition_emergency_massproj" keyType="food_coalition_emergency_massproj" name="food_coalition_emergency_massproj"/>
+          <attribute dataType="geometry" title="food_coalition_farmersmarkets_massproj" keyType="food_coalition_farmersmarkets_massproj" name="food_coalition_farmersmarkets_massproj"/>
+          <attribute dataType="geometry" title="Food_Coalition_restaurants" keyType="Food_Coalition_restaurants" name="Food_Coalition_restaurants"/>
+          <attribute dataType="geometry" title="Food_Coalition_Stores_massproj" keyType="Food_Coalition_Stores_massproj" name="Food_Coalition_Stores_massproj"/>
+          <attribute dataType="geometry" title="FullPoints_Final" keyType="" name="FullPoints_Final"/>
+          <attribute dataType="geometry" title="FullPoints_Lowell" keyType="" name="FullPoints_Lowell"/>
+          <attribute dataType="geometry" title="fullpoints_lowell_reprojected" keyType="" name="fullpoints_lowell_reprojected"/>
+          <attribute dataType="geometry" title="GHA_boundaries" keyType="GHA_boundaries" name="GHA_boundaries"/>
+          <attribute dataType="geometry" title="GHA_outline" keyType="GHA_outline" name="GHA_outline"/>
+          <attribute dataType="geometry" title="hb_states" keyType="hb_states" name="hb_states"/>
+          <attribute dataType="geometry" title="hbstates" keyType="hbstates" name="hbstates"/>
+          <attribute dataType="geometry" title="HeadStart" keyType="HeadStart" name="HeadStart"/>
+          <attribute dataType="geometry" title="higher_ed_ma" keyType="" name="higher_ed_ma"/>
+          <attribute dataType="geometry" title="higher_ed_ma_x" keyType="higher_ed_ma_x" name="higher_ed_ma_x"/>
+          <attribute dataType="geometry" title="HigherEd Institutions - Crime" keyType="HigherEd Institutions - Crime" name="HigherEd Institutions - Crime"/>
+          <attribute dataType="geometry" title="hwt_point" keyType="" name="hwt_point"/>
+          <attribute dataType="geometry" title="ICMB_ct" keyType="ICMB_ct" name="ICMB_ct"/>
+          <attribute dataType="geometry" title="IPEDS(For)2009" keyType="IPEDS(For)2009" name="IPEDS(For)2009"/>
+          <attribute dataType="geometry" title="IPEDS(Non)2009" keyType="IPEDS(Non)2009" name="IPEDS(Non)2009"/>
+          <attribute dataType="geometry" title="IPEDS(Public)2009" keyType="IPEDS(Public)2009" name="IPEDS(Public)2009"/>
+          <attribute dataType="geometry" title="ipeds_2010_institutions" keyType="ipeds_institutions2010" name="ipeds_2010_institutions"/>
+          <attribute dataType="geometry" title="ireland_counties" keyType="" name="ireland_counties"/>
+          <attribute dataType="geometry" title="ireland_latlongpoints" keyType="" name="ireland_latlongpoints"/>
+          <attribute dataType="geometry" title="ireland_latlongpoints_v3" keyType="" name="ireland_latlongpoints_v3"/>
+          <attribute dataType="geometry" title="ireland_latlongpoints_v4" keyType="" name="ireland_latlongpoints_v4"/>
+          <attribute dataType="geometry" title="ireland_latlongpoints_v5" keyType="" name="ireland_latlongpoints_v5"/>
+          <attribute dataType="geometry" title="ireland_municipal_combined" keyType="" name="ireland_municipal_combined"/>
+          <attribute dataType="geometry" title="ireland_nation" keyType="" name="ireland_nation"/>
+          <attribute dataType="geometry" title="ireland_regions" keyType="" name="ireland_regions"/>
+          <attribute dataType="geometry" title="Lawrence Parcel" keyType="" name="Lawrence Parcel"/>
+          <attribute dataType="geometry" title="lawrence_home buyers active" keyType="" name="lawrence_home buyers active"/>
+          <attribute dataType="geometry" title="LCW Home purchase" keyType="" name="LCW Home purchase"/>
+          <attribute dataType="geometry" title="LGSAC" keyType="LGSAC" name="LGSAC"/>
+          <attribute dataType="geometry" title="lowell_ct2000_massproj" keyType="US Census Tract ID" name="lowell_ct2000_massproj"/>
+          <attribute dataType="geometry" title="lowell_ct2010_massproj" keyType="US Census Tract ID" name="lowell_ct2010_massproj"/>
+          <attribute dataType="geometry" title="lowell_ct_w_neigh" keyType="US Census Tract ID" name="lowell_ct_w_neigh"/>
+          <attribute dataType="geometry" title="lowell_eec_providers" keyType="lowell_eec_providers" name="lowell_eec_providers"/>
+          <attribute dataType="geometry" title="Lowell_food_coalition_all_massproj" keyType="Lowell_food_coalition_all_massproj" name="Lowell_food_coalition_all_massproj"/>
+          <attribute dataType="geometry" title="Lowell_lowincome_concentration_blocks" keyType="Lowell_lowincome_concentration_blocks" name="Lowell_lowincome_concentration_blocks"/>
+          <attribute dataType="geometry" title="lowell_nccs_3" keyType="lowell_nccs_3" name="lowell_nccs_3"/>
+          <attribute dataType="geometry" title="lowell_neighborhoods_reprojected" keyType="Neighborhood" name="lowell_neighborhoods_reprojected"/>
+          <attribute dataType="geometry" title="Lowell_Parcels" keyType="" name="Lowell_Parcels"/>
+          <attribute dataType="geometry" title="Lowell_park_rec_line" keyType="Lowell_park_rec_line" name="Lowell_park_rec_line"/>
+          <attribute dataType="geometry" title="Lowell_parks_poly" keyType="Lowell_parks_poly" name="Lowell_parks_poly"/>
+          <attribute dataType="geometry" title="lowell_police_neighborhoods_massproj" keyType="lowell_police_neighborhoods_massproj" name="lowell_police_neighborhoods_massproj"/>
+          <attribute dataType="geometry" title="Lowell_police_sector_massproj" keyType="Lowell_police_sector_massproj" name="Lowell_police_sector_massproj"/>
+          <attribute dataType="geometry" title="lowell_pop_density_neighborhood" keyType="lowell_police_neighborhoods_massproj" name="lowell_pop_density_neighborhood"/>
+          <attribute dataType="geometry" title="lowell_registrants" keyType="lowell_registrants" name="lowell_registrants"/>
+          <attribute dataType="geometry" title="Lowell_susdev_all_massproj" keyType="Lowell_susdev_all_massproj" name="Lowell_susdev_all_massproj"/>
+          <attribute dataType="geometry" title="Lowell_susdev_data_neighborhoods_massproj" keyType="Lowell_susdev_data_neighborhoods_massproj" name="Lowell_susdev_data_neighborhoods_massproj"/>
+          <attribute dataType="geometry" title="lowell_susdev_street1_massproj" keyType="lowell_susdev_street1_massproj" name="lowell_susdev_street1_massproj"/>
+          <attribute dataType="geometry" title="lowell_zoning" keyType="lowell_zoning" name="lowell_zoning"/>
+          <attribute dataType="geometry" title="LowellFD_2009_Final" keyType="" name="LowellFD_2009_Final"/>
+          <attribute dataType="geometry" title="LowellGeoMP1_reprojzone_wzone" keyType="LowellGeoMP1_reprojzone_wzone" name="LowellGeoMP1_reprojzone_wzone"/>
+          <attribute dataType="geometry" title="lowelltracts_w_eec_registrant_count" keyType="lowelltracts_w_eec_registrant_count" name="lowelltracts_w_eec_registrant_count"/>
+          <attribute dataType="geometry" title="LowIncomeConcentration_Blocks" keyType="lowell_police_neighborhoods_massproj" name="LowIncomeConcentration_Blocks"/>
+          <attribute dataType="geometry" title="LPD_07_Gang_reproj" keyType="LPD_07_Gang_reproj" name="LPD_07_Gang_reproj"/>
+          <attribute dataType="geometry" title="LPD_08_Gang_Reproj" keyType="LPD_08_Gang_Reproj" name="LPD_08_Gang_Reproj"/>
+          <attribute dataType="geometry" title="LPD_09_Gang_Reproj" keyType="LPD_09_Gang_Reproj" name="LPD_09_Gang_Reproj"/>
+          <attribute dataType="geometry" title="LPD_10_Gang_Reproj" keyType="LPD_10_Gang_Reproj" name="LPD_10_Gang_Reproj"/>
+          <attribute dataType="geometry" title="LPD_11_Gang_Reproj" keyType="LPD_11_Gang_Reproj" name="LPD_11_Gang_Reproj"/>
+          <attribute dataType="geometry" title="LUGrids_12county" keyType="LUGrids_12county" name="LUGrids_12county"/>
+          <attribute dataType="geometry" title="MA Census Tract" keyType="US Census Tract ID" name="MA Census Tract"/>
+          <attribute dataType="geometry" title="MA Census Tract 6-digit" keyType="US Census Tract 6-digit ID" name="MA Census Tract 6-digit"/>
+          <attribute dataType="geometry" title="MA PRISONS" keyType="MA PRISONS" name="MA PRISONS"/>
+          <attribute dataType="geometry" title="MA SCHOOLS" keyType="org code" name="MA SCHOOLS"/>
+          <attribute dataType="geometry" title="MA Train lines" keyType="MA Train lines" name="MA Train lines"/>
+          <attribute dataType="geometry" title="MA-TCE-Nickel-TRI-1987-2010" keyType="MA-TCE-Nickel-TRI-1987-2010" name="MA-TCE-Nickel-TRI-1987-2010"/>
+          <attribute dataType="geometry" title="ma_childcare_2009_sample_points" keyType="" name="ma_childcare_2009_sample_points"/>
+          <attribute dataType="geometry" title="MA_COC" keyType="" name="MA_COC"/>
+          <attribute dataType="geometry" title="ma_cousub_noocean" keyType="US County Subdivision FIPS Code" name="ma_cousub_noocean"/>
+          <attribute dataType="geometry" title="ma_ct2010_usproj" keyType="US Census Tract ID" name="ma_ct2010_usproj"/>
+          <attribute dataType="geometry" title="MA_EEC_Registrants" keyType="MA_EEC_Registrants" name="MA_EEC_Registrants"/>
+          <attribute dataType="geometry" title="MA_Major_Streams_Lines" keyType="MA_Major_Streams_Lines" name="MA_Major_Streams_Lines"/>
+          <attribute dataType="geometry" title="ma_SCHOOLS_PT" keyType="org code" name="ma_SCHOOLS_PT"/>
+          <attribute dataType="geometry" title="ma_shapes_delete" keyType="Atlanta Superdistrict ID" name="ma_shapes_delete"/>
+          <attribute dataType="geometry" title="ma_town_region3" keyType="ma_town_region3" name="ma_town_region3"/>
+          <attribute dataType="geometry" title="MA_Towns_MultiPoly_TOWN" keyType="MA_Towns_MultiPoly_TOWN" name="MA_Towns_MultiPoly_TOWN"/>
+          <attribute dataType="geometry" title="ma_tract_w_eec_regcnt_and_town" keyType="ma_tract_w_eec_regcnt_and_town" name="ma_tract_w_eec_regcnt_and_town"/>
+          <attribute dataType="geometry" title="ma_tracts_w_eec_regcnt" keyType="ma_tracts_w_eec_regcnt" name="ma_tracts_w_eec_regcnt"/>
+          <attribute dataType="geometry" title="MA_ZCTA" keyType="" name="MA_ZCTA"/>
+          <attribute dataType="geometry" title="MA_ZipCodes_Poly" keyType="MA_ZipCodes_Poly" name="MA_ZipCodes_Poly"/>
+          <attribute dataType="geometry" title="MAPC_Municipalities" keyType="MAPC_Municipalities" name="MAPC_Municipalities"/>
+          <attribute dataType="geometry" title="Mars_bkg" keyType="Mars_bkg" name="Mars_bkg"/>
+          <attribute dataType="geometry" title="Mars_Points" keyType="Mars_Points" name="Mars_Points"/>
+          <attribute dataType="geometry" title="mass towns" keyType="ICMB_ct" name="mass towns"/>
+          <attribute dataType="geometry" title="mass_benchmarks" keyType="mass_benchmarks" name="mass_benchmarks"/>
+          <attribute dataType="geometry" title="mass_cousub2010_massproj" keyType="US County Subdivision FIPS Code" name="mass_cousub2010_massproj"/>
+          <attribute dataType="geometry" title="mass_proj_agm_35_plus" keyType="US County Subdivision FIPS Code" name="mass_proj_agm_35_plus"/>
+          <attribute dataType="geometry" title="mass_proj_agm_35v2" keyType="mass_proj_agm_35v2" name="mass_proj_agm_35v2"/>
+          <attribute dataType="geometry" title="mass_towns" keyType="ICMB_ct" name="mass_towns"/>
+          <attribute dataType="geometry" title="Massachusetts Towns" keyType="Massachusetts Town ID" name="Massachusetts Towns"/>
+          <attribute dataType="geometry" title="Massachusetts Towns Unprojected" keyType="US County Subdivision FIPS Code" name="Massachusetts Towns Unprojected"/>
+          <attribute dataType="geometry" title="massachusetts_usproj" keyType="US State FIPS Code" name="massachusetts_usproj"/>
+          <attribute dataType="geometry" title="MassARRA" keyType="Point_ID" name="MassARRA"/>
+          <attribute dataType="geometry" title="MassARRALowellOnly" keyType="MassARRALowellOnly" name="MassARRALowellOnly"/>
+          <attribute dataType="geometry" title="MassARRApoint" keyType="MassARRApoint" name="MassARRApoint"/>
+          <attribute dataType="geometry" title="MassARRAPoint" keyType="MassARRAPoint" name="MassARRAPoint"/>
+          <attribute dataType="geometry" title="MassARRAVer6" keyType="Atlanta Superdistrict ID" name="MassARRAVer6"/>
+          <attribute dataType="geometry" title="masstowns_unproj2" keyType="masstowns_unproj2all_lines" name="masstowns_unproj2"/>
+          <attribute dataType="geometry" title="masstowns_w_eec_registrant_count" keyType="masstowns_w_eec_registrant_count" name="masstowns_w_eec_registrant_count"/>
+          <attribute dataType="geometry" title="MBTA BUS ROUTES" keyType="MBTA BUS ROUTES" name="MBTA BUS ROUTES"/>
+          <attribute dataType="geometry" title="MBTA BUS Stops" keyType="MBTA BUS Stops" name="MBTA BUS Stops"/>
+          <attribute dataType="geometry" title="MBTA_ARC" keyType="MBTA_ARC" name="MBTA_ARC"/>
+          <attribute dataType="geometry" title="MBTA_NODE" keyType="MBTA_NODE" name="MBTA_NODE"/>
+          <attribute dataType="geometry" title="MBTABUSROUTES_ARC" keyType="MBTABUSROUTES_ARC" name="MBTABUSROUTES_ARC"/>
+          <attribute dataType="geometry" title="MBTABUSSTOPS_PT" keyType="MBTABUSSTOPS_PT" name="MBTABUSSTOPS_PT"/>
+          <attribute dataType="geometry" title="Merged Turi" keyType="Merged Turi" name="Merged Turi"/>
+          <attribute dataType="geometry" title="MetroBoston_Schools" keyType="MetroBoston_Schools" name="MetroBoston_Schools"/>
+          <attribute dataType="geometry" title="Metropolitan Division" keyType="Metropolitan Division" name="Metropolitan Division"/>
+          <attribute dataType="geometry" title="MEX" keyType="MEX" name="MEX"/>
+          <attribute dataType="geometry" title="MFI Ben" keyType="MFI Ben" name="MFI Ben"/>
+          <attribute dataType="geometry" title="MFI_GH" keyType="MFI_GH" name="MFI_GH"/>
+          <attribute dataType="geometry" title="MFI_GH1" keyType="MFI_GH1" name="MFI_GH1"/>
+          <attribute dataType="geometry" title="MFI_Points_2007" keyType="MFI_Points_2007" name="MFI_Points_2007"/>
+          <attribute dataType="geometry" title="Middlesex_county_roads_massproj" keyType="Middlesex_county_roads_massproj" name="Middlesex_county_roads_massproj"/>
+          <attribute dataType="geometry" title="minnesota_usproj" keyType="US State FIPS Code" name="minnesota_usproj"/>
+          <attribute dataType="geometry" title="missouri_usproj" keyType="US State FIPS Code" name="missouri_usproj"/>
+          <attribute dataType="geometry" title="MSA_Tracts" keyType="Atlanta_MSA_Tracts" name="MSA_Tracts"/>
+          <attribute dataType="geometry" title="mv_ct_concentrate" keyType="US Census Tract ID" name="mv_ct_concentrate"/>
+          <attribute dataType="geometry" title="mv_ct_concentrate_massproj" keyType="US Census Tract ID" name="mv_ct_concentrate_massproj"/>
+          <attribute dataType="geometry" title="mvhp" keyType="mvhp" name="mvhp"/>
+          <attribute dataType="geometry" title="mvhp_reprojected_v2" keyType="mvhp_reprojected_v2" name="mvhp_reprojected_v2"/>
+          <attribute dataType="geometry" title="mys1" keyType="mys1" name="mys1"/>
+          <attribute dataType="geometry" title="mys2" keyType="mys2" name="mys2"/>
+          <attribute dataType="geometry" title="mys4" keyType="mys4" name="mys4"/>
+          <attribute dataType="geometry" title="Nashua_Tract" keyType="" name="Nashua_Tract"/>
+          <attribute dataType="geometry" title="NCCS_Lowell" keyType="NCCS_Lowell" name="NCCS_Lowell"/>
+          <attribute dataType="geometry" title="nccs_ma_reprojected" keyType="nccs_ma_reprojected" name="nccs_ma_reprojected"/>
+          <attribute dataType="geometry" title="nccs_shape2" keyType="nccs_shape2" name="nccs_shape2"/>
+          <attribute dataType="geometry" title="nccs_shape_CT" keyType="nccs_shape_CT" name="nccs_shape_CT"/>
+          <attribute dataType="geometry" title="nccs_shape_LA" keyType="nccs_shape_LA" name="nccs_shape_LA"/>
+          <attribute dataType="geometry" title="nccs_shape_LA_FIPS22051" keyType="nccs_shape_LA_FIPS22051" name="nccs_shape_LA_FIPS22051"/>
+          <attribute dataType="geometry" title="nccs_shape_MA" keyType="nccs_shape_MA" name="nccs_shape_MA"/>
+          <attribute dataType="geometry" title="nccs_shape_MACT" keyType="nccs_shape2" name="nccs_shape_MACT"/>
+          <attribute dataType="geometry" title="ne_cd99_110" keyType="ne_cd99_110" name="ne_cd99_110"/>
+          <attribute dataType="geometry" title="ne_lldistricts" keyType="ne_lldistricts" name="ne_lldistricts"/>
+          <attribute dataType="geometry" title="ne_lsdistricts" keyType="ne_lsdistricts" name="ne_lsdistricts"/>
+          <attribute dataType="geometry" title="ne_streams" keyType="ne_streams" name="ne_streams"/>
+          <attribute dataType="geometry" title="nehucs10" keyType="nehucs10" name="nehucs10"/>
+          <attribute dataType="geometry" title="new_england_subbasins" keyType="new_england_subbasins" name="new_england_subbasins"/>
+          <attribute dataType="geometry" title="NewEngland_Cousub" keyType="US County Subdivision FIPS Code" name="NewEngland_Cousub"/>
+          <attribute dataType="geometry" title="newengland_subbasins_v2" keyType="newengland_subbasins_v2" name="newengland_subbasins_v2"/>
+          <attribute dataType="geometry" title="newhampshire_usproj" keyType="US State FIPS Code" name="newhampshire_usproj"/>
+          <attribute dataType="geometry" title="nh_town_reproj" keyType="US County Subdivision FIPS Code" name="nh_town_reproj"/>
+          <attribute dataType="geometry" title="nhpn" keyType="nhpn" name="nhpn"/>
+          <attribute dataType="geometry" title="nhpn1" keyType="nhpn1" name="nhpn1"/>
+          <attribute dataType="geometry" title="northcarolina_usproj" keyType="US State FIPS Code" name="northcarolina_usproj"/>
+          <attribute dataType="geometry" title="NREL_NewEnglandShapeWGS84" keyType="NREL_NewEnglandShapeWGS84" name="NREL_NewEnglandShapeWGS84"/>
+          <attribute dataType="geometry" title="nuclear-facilities-update" keyType="nuclear-facilities-update" name="nuclear-facilities-update"/>
+          <attribute dataType="geometry" title="nuclear_seismic-hazard" keyType="nuclear_seismic-hazard" name="nuclear_seismic-hazard"/>
+          <attribute dataType="geometry" title="nuclear_states" keyType="US State FIPS Code" name="nuclear_states"/>
+          <attribute dataType="geometry" title="nuclear_us_earthquakes" keyType="nuclear_us_earthquakes" name="nuclear_us_earthquakes"/>
+          <attribute dataType="geometry" title="od_2005" keyType="od_2005" name="od_2005"/>
+          <attribute dataType="geometry" title="od_2006_reprojected" keyType="od_2006_reprojected" name="od_2006_reprojected"/>
+          <attribute dataType="geometry" title="od_2007" keyType="od_2007" name="od_2007"/>
+          <attribute dataType="geometry" title="od_2008" keyType="od_2008" name="od_2008"/>
+          <attribute dataType="geometry" title="od_2009" keyType="od_2009" name="od_2009"/>
+          <attribute dataType="geometry" title="od_2010" keyType="od_2010" name="od_2010"/>
+          <attribute dataType="geometry" title="Ohio County Subdivisions" keyType="Ohio FIPS codes" name="Ohio County Subdivisions"/>
+          <attribute dataType="geometry" title="Ohio Places" keyType="Ohio FIPS codes" name="Ohio Places"/>
+          <attribute dataType="geometry" title="ON no FD 2005" keyType="ON no FD 2005" name="ON no FD 2005"/>
+          <attribute dataType="geometry" title="on no fd 2006_reprojected" keyType="on no fd 2006_reprojected" name="on no fd 2006_reprojected"/>
+          <attribute dataType="geometry" title="on no fd 2007_reprojected" keyType="on no fd 2007_reprojected" name="on no fd 2007_reprojected"/>
+          <attribute dataType="geometry" title="on no fd 2008_reprojected" keyType="on no fd 2008_reprojected" name="on no fd 2008_reprojected"/>
+          <attribute dataType="geometry" title="on no fd 2009_reprojected" keyType="on no fd 2009_reprojected" name="on no fd 2009_reprojected"/>
+          <attribute dataType="geometry" title="on no fd 2010_reprojected" keyType="on no fd 2010_reprojected" name="on no fd 2010_reprojected"/>
+          <attribute dataType="geometry" title="on no fd_2005" keyType="on no fd_2005" name="on no fd_2005"/>
+          <attribute dataType="geometry" title="oregon_usproj" keyType="US State FIPS Code" name="oregon_usproj"/>
+          <attribute dataType="geometry" title="organicproducers2010" keyType="organicproducers2010" name="organicproducers2010"/>
+          <attribute dataType="geometry" title="perc" keyType="perc" name="perc"/>
+          <attribute dataType="geometry" title="Plants" keyType="Plants" name="Plants"/>
+          <attribute dataType="geometry" title="pma_us96" keyType="pma_us96" name="pma_us96"/>
+          <attribute dataType="geometry" title="pma_us96_pmsa" keyType="pma_us96_pmsa" name="pma_us96_pmsa"/>
+          <attribute dataType="geometry" title="PreK" keyType="PreK" name="PreK"/>
+          <attribute dataType="geometry" title="PreK2" keyType="PreK2" name="PreK2"/>
+          <attribute dataType="geometry" title="Prek3" keyType="Prek3" name="Prek3"/>
+          <attribute dataType="geometry" title="Prek4" keyType="Prek4" name="Prek4"/>
+          <attribute dataType="geometry" title="PreK6" keyType="PreK6" name="PreK6"/>
+          <attribute dataType="geometry" title="PreKPregnant" keyType="PreKPregnant" name="PreKPregnant"/>
+          <attribute dataType="geometry" title="PrekPregnant2" keyType="PrekPregnant2" name="PrekPregnant2"/>
+          <attribute dataType="geometry" title="PreKPregnant3" keyType="PreKPregnant3" name="PreKPregnant3"/>
+          <attribute dataType="geometry" title="private_IPEDS" keyType="private_IPEDS" name="private_IPEDS"/>
+          <attribute dataType="geometry" title="Public Libraries MA" keyType="Public Libraries MA" name="Public Libraries MA"/>
+          <attribute dataType="geometry" title="Public School Pre K" keyType="Public School Pre K" name="Public School Pre K"/>
+          <attribute dataType="geometry" title="railways" keyType="railways" name="railways"/>
+          <attribute dataType="geometry" title="Registrants_US1" keyType="Registrants_US1" name="Registrants_US1"/>
+          <attribute dataType="geometry" title="registrants_us1" keyType="registrants_us1" name="registrants_us1"/>
+          <attribute dataType="geometry" title="RGGI" keyType="RGGI" name="RGGI"/>
+          <attribute dataType="geometry" title="RGGI2" keyType="RGGI_GDMReport" name="RGGI2"/>
+          <attribute dataType="geometry" title="rggi_2010_month_test" keyType="rggi_2010_month_test" name="rggi_2010_month_test"/>
+          <attribute dataType="geometry" title="rhodeisland_usproj" keyType="US State FIPS Code" name="rhodeisland_usproj"/>
+          <attribute dataType="geometry" title="ri_bg" keyType="ri_bg" name="ri_bg"/>
+          <attribute dataType="geometry" title="ri_schools08_projected" keyType="ri_schools08_projected" name="ri_schools08_projected"/>
+          <attribute dataType="geometry" title="rivers_newengland" keyType="rivers_us" name="rivers_newengland"/>
+          <attribute dataType="geometry" title="rivers_us" keyType="rivers_us" name="rivers_us"/>
+          <attribute dataType="geometry" title="roads" keyType="roads" name="roads"/>
+          <attribute dataType="geometry" title="Rwanda_Districts" keyType="Rwanda_Districts" name="Rwanda_Districts"/>
+          <attribute dataType="geometry" title="Rwanda_Provinces" keyType="Rwanda_Provinces" name="Rwanda_Provinces"/>
+          <attribute dataType="geometry" title="SchoolAged" keyType="SchoolAged" name="SchoolAged"/>
+          <attribute dataType="geometry" title="schooldis_elem_POLY" keyType="schooldis_elem_POLY" name="schooldis_elem_POLY"/>
+          <attribute dataType="geometry" title="schooldishigh_POLY_ma" keyType="schooldishigh_POLY_ma" name="schooldishigh_POLY_ma"/>
+          <attribute dataType="geometry" title="schooldist_elem_ma" keyType="schooldist_elem_ma" name="schooldist_elem_ma"/>
+          <attribute dataType="geometry" title="schooldist_elem_maPOLY" keyType="schooldist_elem_maPOLY" name="schooldist_elem_maPOLY"/>
+          <attribute dataType="geometry" title="SCHOOLDISTELEM_POLY" keyType="SCHOOLDISTELEM_POLY" name="SCHOOLDISTELEM_POLY"/>
+          <attribute dataType="geometry" title="SCHOOLDISTHIGH_POLY" keyType="SCHOOLDISTHIGH_POLY" name="SCHOOLDISTHIGH_POLY"/>
+          <attribute dataType="geometry" title="seattle_elem_schools" keyType="seattle_elem_schools" name="seattle_elem_schools"/>
+          <attribute dataType="geometry" title="seattle_high_mid_alt_schools" keyType="seattle_high_mid_alt_schools" name="seattle_high_mid_alt_schools"/>
+          <attribute dataType="geometry" title="seattletracts" keyType="US Census Tract ID" name="seattletracts"/>
+          <attribute dataType="geometry" title="seattletracts_byname" keyType="seattletracts_byname" name="seattletracts_byname"/>
+          <attribute dataType="geometry" title="Shannon1" keyType="Shannon1" name="Shannon1"/>
+          <attribute dataType="geometry" title="shapes_demo" keyType="shapes_demo" name="shapes_demo"/>
+          <attribute dataType="geometry" title="Soil Waste MA" keyType="Soil Waste MA" name="Soil Waste MA"/>
+          <attribute dataType="geometry" title="st99_d00" keyType="st99_d00" name="st99_d00"/>
+          <attribute dataType="geometry" title="st99_d001" keyType="st99_d001" name="st99_d001"/>
+          <attribute dataType="geometry" title="st99_d00123" keyType="st99_d00123" name="st99_d00123"/>
+          <attribute dataType="geometry" title="st99_d001234" keyType="st99_d001234" name="st99_d001234"/>
+          <attribute dataType="geometry" title="st99_d002" keyType="st99_d002" name="st99_d002"/>
+          <attribute dataType="geometry" title="st99_d003" keyType="st99_d003" name="st99_d003"/>
+          <attribute dataType="geometry" title="st99_d0034" keyType="st99_d0034" name="st99_d0034"/>
+          <attribute dataType="geometry" title="State" keyType="US State FIPS Code" name="State"/>
+          <attribute dataType="geometry" title="States" keyType="US State FIPS Code" name="States"/>
+          <attribute dataType="geometry" title="States_test2010" keyType="US State FIPS Code" name="States_test2010"/>
+          <attribute dataType="geometry" title="states_test_to_del" keyType="states" name="states_test_to_del"/>
+          <attribute dataType="geometry" title="states_test_to_del2" keyType="states_test_to_del2" name="states_test_to_del2"/>
+          <attribute dataType="geometry" title="StatesforNREL" keyType="StatesforNREL" name="StatesforNREL"/>
+          <attribute dataType="geometry" title="STEM BY INSTITUTION" keyType="STEM BY INSTITUTION" name="STEM BY INSTITUTION"/>
+          <attribute dataType="geometry" title="Styrene" keyType="Styrene" name="Styrene"/>
+          <attribute dataType="geometry" title="Success_Boston_Student_Cohorts" keyType="Success_Boston_Student_Cohorts" name="Success_Boston_Student_Cohorts"/>
+          <attribute dataType="geometry" title="sulfuricacid" keyType="sulfuricacid" name="sulfuricacid"/>
+          <attribute dataType="geometry" title="surface-water" keyType="surface-water" name="surface-water"/>
+          <attribute dataType="geometry" title="sw9194x020_alzheimers" keyType="sw9194x020_alzheimers" name="sw9194x020_alzheimers"/>
+          <attribute dataType="geometry" title="ta tatata" keyType="ta tatata" name="ta tatata"/>
+          <attribute dataType="geometry" title="TAZ2010" keyType="TAZ2010" name="TAZ2010"/>
+          <attribute dataType="geometry" title="temp" keyType="temp" name="temp"/>
+          <attribute dataType="geometry" title="TEST" keyType="TEST" name="TEST"/>
+          <attribute dataType="geometry" title="test" keyType="test" name="test"/>
+          <attribute dataType="geometry" title="test_nccs" keyType="test_nccs" name="test_nccs"/>
+          <attribute dataType="geometry" title="test_st99" keyType="test_st99" name="test_st99"/>
+          <attribute dataType="geometry" title="testtodelete" keyType="testtodelete" name="testtodelete"/>
+          <attribute dataType="geometry" title="tgr33001lkA" keyType="tgr33001lkA" name="tgr33001lkA"/>
+          <attribute dataType="geometry" title="tl_2009_09_bg00" keyType="BKGPIDFP00" name="tl_2009_09_bg00"/>
+          <attribute dataType="geometry" title="tl_2009_us_cbsa" keyType="tl_2009_us_cbsa" name="tl_2009_us_cbsa"/>
+          <attribute dataType="geometry" title="tl_2009_us_county" keyType="US County FIPS Code" name="tl_2009_us_county"/>
+          <attribute dataType="geometry" title="tl_2009_us_metdiv" keyType="tl_2010_us_cbsa10" name="tl_2009_us_metdiv"/>
+          <attribute dataType="geometry" title="tl_2009_us_state" keyType="tl_2009_us_state" name="tl_2009_us_state"/>
+          <attribute dataType="geometry" title="tl_2009_us_zcta3" keyType="11_4_reprojected_geometry" name="tl_2009_us_zcta3"/>
+          <attribute dataType="geometry" title="tl_2010_us_cbsa10" keyType="tl_2010_us_cbsa10" name="tl_2010_us_cbsa10"/>
+          <attribute dataType="geometry" title="tl_2010_us_state10" keyType="tl_2010_us_state10" name="tl_2010_us_state10"/>
+          <attribute dataType="geometry" title="TM_WORLD_BORDERS-0.3" keyType="ISO ALPHA-3 Country Code" name="TM_WORLD_BORDERS-0.3"/>
+          <attribute dataType="geometry" title="tr25_d00_reprojected" keyType="" name="tr25_d00_reprojected"/>
+          <attribute dataType="geometry" title="TRAINS_NODE" keyType="TRAINS_NODE" name="TRAINS_NODE"/>
+          <attribute dataType="geometry" title="Turi points" keyType="Turi points" name="Turi points"/>
+          <attribute dataType="geometry" title="turi points" keyType="turi points" name="turi points"/>
+          <attribute dataType="geometry" title="turi points 2008" keyType="turi points 2008" name="turi points 2008"/>
+          <attribute dataType="geometry" title="turi00" keyType="turi00" name="turi00"/>
+          <attribute dataType="geometry" title="turi01" keyType="turi01" name="turi01"/>
+          <attribute dataType="geometry" title="turi02" keyType="turi02" name="turi02"/>
+          <attribute dataType="geometry" title="turi03" keyType="turi03" name="turi03"/>
+          <attribute dataType="geometry" title="turi04" keyType="turi04" name="turi04"/>
+          <attribute dataType="geometry" title="turi05" keyType="turi05" name="turi05"/>
+          <attribute dataType="geometry" title="turi06" keyType="turi06" name="turi06"/>
+          <attribute dataType="geometry" title="turi06-" keyType="turi06-" name="turi06-"/>
+          <attribute dataType="geometry" title="turi07" keyType="turi07" name="turi07"/>
+          <attribute dataType="geometry" title="turi07new" keyType="turi07new" name="turi07new"/>
+          <attribute dataType="geometry" title="turi08" keyType="turi08" name="turi08"/>
+          <attribute dataType="geometry" title="turi90" keyType="turi90" name="turi90"/>
+          <attribute dataType="geometry" title="turi91" keyType="turi91" name="turi91"/>
+          <attribute dataType="geometry" title="turi92" keyType="turi92" name="turi92"/>
+          <attribute dataType="geometry" title="turi93" keyType="turi93" name="turi93"/>
+          <attribute dataType="geometry" title="turi94" keyType="turi94" name="turi94"/>
+          <attribute dataType="geometry" title="turi95" keyType="turi95" name="turi95"/>
+          <attribute dataType="geometry" title="turi96" keyType="turi96" name="turi96"/>
+          <attribute dataType="geometry" title="turi97" keyType="turi97" name="turi97"/>
+          <attribute dataType="geometry" title="turi98" keyType="turi98" name="turi98"/>
+          <attribute dataType="geometry" title="turi99" keyType="turi99" name="turi99"/>
+          <attribute dataType="geometry" title="TURI_all_2008" keyType="TURI_all_2008" name="TURI_all_2008"/>
+          <attribute dataType="geometry" title="turi_perc_drycleaners_MA" keyType="turi_perc_drycleaners_MA" name="turi_perc_drycleaners_MA"/>
+          <attribute dataType="geometry" title="turi_perc_MAproj" keyType="turi_perc_MAproj" name="turi_perc_MAproj"/>
+          <attribute dataType="geometry" title="Turkey" keyType="" name="Turkey"/>
+          <attribute dataType="geometry" title="US_AKHI_moved" keyType="US State FIPS Code" name="US_AKHI_moved"/>
+          <attribute dataType="geometry" title="us_cbsa" keyType="us_cbsa" name="us_cbsa"/>
+          <attribute dataType="geometry" title="US_COUNTIES_GOOGLE_MERCATOR_bald" keyType="fipsstco" name="US_COUNTIES_GOOGLE_MERCATOR_bald"/>
+          <attribute dataType="geometry" title="us_interstates" keyType="us_interstates" name="us_interstates"/>
+          <attribute dataType="geometry" title="US_Outline" keyType="US State FIPS Code" name="US_Outline"/>
+          <attribute dataType="geometry" title="US_Outline_As_State" keyType="US State FIPS Code" name="US_Outline_As_State"/>
+          <attribute dataType="geometry" title="US_States_WGS" keyType="US State FIPS Code" name="US_States_WGS"/>
+          <attribute dataType="geometry" title="USCoastFinalver2selectable" keyType="USCoastFinalver2selectable" name="USCoastFinalver2selectable"/>
+          <attribute dataType="geometry" title="USCoastFinalver2selectabledelete" keyType="US State FIPS Code" name="USCoastFinalver2selectabledelete"/>
+          <attribute dataType="geometry" title="USCoastFinalver2selectableWITHFIPS" keyType="US State FIPS Code" name="USCoastFinalver2selectableWITHFIPS"/>
+          <attribute dataType="geometry" title="USoilPlatforms" keyType="USoilPlatforms" name="USoilPlatforms"/>
+          <attribute dataType="geometry" title="utah_usproj" keyType="US State FIPS Code" name="utah_usproj"/>
+          <attribute dataType="geometry" title="washington_usproj" keyType="US State FIPS Code" name="washington_usproj"/>
+          <attribute dataType="geometry" title="waterways" keyType="waterways" name="waterways"/>
+          <attribute dataType="geometry" title="wb_test" keyType="wb_test" name="wb_test"/>
+          <attribute dataType="geometry" title="wb_testest" keyType="wb_testest" name="wb_testest"/>
+          <attribute dataType="geometry" title="wbfasdljk" keyType="wbfasdljk" name="wbfasdljk"/>
+          <attribute dataType="geometry" title="WBS2002_ARC,WBS2002_POLY" keyType="WBS2002_ARC,WBS2002_POLY" name="WBS2002_ARC,WBS2002_POLY"/>
+          <attribute dataType="geometry" title="welwellwelllll" keyType="welwellwelllll" name="welwellwelllll"/>
+          <attribute dataType="geometry" title="westminster_const_region" keyType="westminster_const_region" name="westminster_const_region"/>
+          <attribute dataType="geometry" title="world" keyType="" name="world"/>
+          <attribute dataType="geometry" title="World Borders" keyType="ISO ALPHA-3 Country Code" name="World Borders"/>
+          <attribute dataType="geometry" title="World Borders (UN Codes)" keyType="UN Codes" name="World Borders (UN Codes)"/>
+          <attribute dataType="geometry" title="World UN" keyType="World EU" name="World UN"/>
+          <attribute dataType="geometry" title="WT_FAAOE_2000_2011" keyType="STUDY(ASN)" name="WT_FAAOE_2000_2011"/>
+          <attribute dataType="geometry" title="yb_points" keyType="" name="yb_points"/>
+          <attribute dataType="geometry" title="youthbuild_points" keyType="" name="youthbuild_points"/>
+          <attribute dataType="geometry" title="ZillowNeighborhoods" keyType="ZillowNeighborhoods" name="ZillowNeighborhoods"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <LinkableHashMap encoding="dynamic" name="Probed Columns">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Location" dataType="string" title="Location" geometryCollection="Countries" id="1123401"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ISO3" dataType="string" title="ISO3" geometryCollection="Countries" id="1123399"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn3">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="ISO country code" dataType="string" title="ISO country code" geometryCollection="Countries" id="1123400"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn4">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Health spending, % of GDP" dataType="number" title="Health spending, % of GDP" geometryCollection="Countries" id="1123403"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn5">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Government spending on health as % of all heath spending" dataType="number" title="Government spending on health as % of all heath spending" geometryCollection="Countries" id="1123404"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn6">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Private spending on health as % of all health spending" dataType="number" title="Private spending on health as % of all health spending" geometryCollection="Countries" id="1123405"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn7">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Gov spending on health as % of all spending" dataType="string" title="Gov spending on health as % of all spending" geometryCollection="Countries" id="1123406"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn8">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Health spending out of pocket, as % of all health spending" dataType="number" title="Health spending out of pocket, as % of all health spending" geometryCollection="Countries" id="1123407"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn9">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Per capita total spending on health (PPP int. $)" dataType="number" title="Per capita total spending on health (PPP int. $)" geometryCollection="Countries" id="1123409"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn11">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Nurses and midwives, per 10,000 pop" dataType="string" title="Nurses and midwives, per 10,000 pop" geometryCollection="Countries" id="1123412"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn12">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Doctors, per 10,000 population" dataType="string" title="Doctors, per 10,000 population" geometryCollection="Countries" id="1123413"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn13">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="SOVEREIGNT" dataType="string" title="SOVEREIGNT" geometryCollection="Countries" id="1123422"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn14">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                  <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="POP_EST" dataType="number" title="POP_EST" geometryCollection="Countries" id="1123441"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn15">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="Countries" name="Countries">
+                  <attribute keyType="Countries" title="CNTRY_NAME" dataTable="Countries" geometryCollection="Countries" name="CNTRY_NAME" id="63042"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn16">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category title="Data Tables" name="Data Tables">
+                <category title="Countries" name="Countries">
+                  <attribute keyType="Countries" title="ISO_3DIGIT" dataTable="Countries" geometryCollection="Countries" name="ISO_3DIGIT" id="63041"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <LinkableHashMap encoding="dynamic" name="Probe Header Columns"/>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>0</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>0</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <ascendingOrder>true</ascendingOrder>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <itemLabelFunction>string</itemLabelFunction>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <legendTitleFunction>string</legendTitleFunction>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <maxColumns>1</maxColumns>
+                <shapeSize>20</shapeSize>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <zoomBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>1</yMax>
+          <yMin>0</yMin>
+        </zoomBounds>
+        <zoomFactor>2</zoomFactor>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <enableTitle>false</enableTitle>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>51%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>20%</panelWidth>
+    <panelX>51%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+  </ColorBinLegendTool>
+  <ColormapHistogramTool name="ColormapHistogramTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>57</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>57</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <labelWordWrapSize>80</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <showLabels>true</showLabels>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>4.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>4.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <forceTickCount>true</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <labelWordWrapSize>80</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <showLabels>true</showLabels>
+                <tickCountRequested>5</tickCountRequested>
+                <tickMaxValue>4</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <HistogramPlotter>
+                <drawPartialBins>true</drawPartialBins>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <fillStyle>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                </fillStyle>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+              </HistogramPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>100</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <zoomBounds>
+          <xMax>4.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>57</yMax>
+          <yMin>0</yMin>
+        </zoomBounds>
+        <zoomFactor>2</zoomFactor>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>37%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>20%</panelWidth>
+    <panelX>51%</panelX>
+    <panelY>51%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+  </ColormapHistogramTool>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>0</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>0</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>65484</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataGradient>false</enableMissingDataGradient>
+                  <imageURL>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </imageURL>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category title="Geometry Collections" name="Geometry Collections">
+                                <attribute keyType="Countries" title="Countries" dataType="geometry" name="Countries"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <iconSize>10</iconSize>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointDataImageColumn encoding="dynamic"/>
+                <symbolPlotters encoding="dynamic"/>
+                <useFixedImageSize>false</useFixedImageSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <zoomBounds>
+          <area>71071.385388411</area>
+          <xCenter>0</xCenter>
+          <yCenter>-3.1882019042968</yCenter>
+        </zoomBounds>
+        <zoomFactor>2</zoomFactor>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <enableBackground>true</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableOverview>false</enableOverview>
+    <enableSubMenu>false</enableSubMenu>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>88%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>50%</panelWidth>
+    <panelX>1%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS/>
+    <showMouseModeControls>true</showMouseModeControls>
+    <showZoomControls>true</showZoomControls>
+  </MapTool>
+  <ScatterPlotTool name="ScatterPlotTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomToSelection>false</enableAutoZoomToSelection>
+        <enableAutoZoomXToNiceNumbers>true</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>true</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>0</xMax>
+                  <xMin>0</xMin>
+                  <yMax>90</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>90</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <labelWordWrapSize>80</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <showLabels>true</showLabels>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>18</xMax>
+                  <xMin>0</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>18</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <labelWordWrapSize>80</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <showLabels>true</showLabels>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <circlePlotter>
+                  <fillStyle encoding="dynamic">
+                    <SolidFillStyle>
+                      <alpha>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                    </SolidFillStyle>
+                  </fillStyle>
+                  <keySet>
+                    <keyFilter encoding="dynamic">
+                      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                    </keyFilter>
+                  </keySet>
+                  <lineStyle encoding="dynamic">
+                    <SolidLineStyle>
+                      <alpha>
+                        <defaultValue>0.5</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <caps>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </caps>
+                      <color>
+                        <defaultValue>0</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                      <joints>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </joints>
+                      <miterLimit>
+                        <defaultValue>3</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </miterLimit>
+                      <pixelHinting>
+                        <defaultValue>false</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </pixelHinting>
+                      <scaleMode>
+                        <defaultValue>normal</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </scaleMode>
+                      <weight>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </weight>
+                    </SolidLineStyle>
+                  </lineStyle>
+                </circlePlotter>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>12</maxScreenRadius>
+                <minScreenRadius>3</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="Data Tables" name="Data Tables">
+                              <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                                <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Health spending, % of GDP" dataType="number" title="Health spending, % of GDP" geometryCollection="Countries" id="1123403"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="Data Tables" name="Data Tables">
+                              <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                                <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Private spending on health as % of all health spending" dataType="number" title="Private spending on health as % of all health spending" geometryCollection="Countries" id="1123405"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+                <zoomToSubset>false</zoomToSubset>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+          <SelectablePlotLayer name="undefinedX">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <circlePlotter>
+                  <fillStyle encoding="dynamic">
+                    <SolidFillStyle>
+                      <alpha>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                    </SolidFillStyle>
+                  </fillStyle>
+                  <keySet>
+                    <keyFilter encoding="dynamic">
+                      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                    </keyFilter>
+                  </keySet>
+                  <lineStyle encoding="dynamic">
+                    <SolidLineStyle>
+                      <alpha>
+                        <defaultValue>0.5</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <caps>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </caps>
+                      <color>
+                        <defaultValue>0</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                      <joints>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </joints>
+                      <miterLimit>
+                        <defaultValue>3</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </miterLimit>
+                      <pixelHinting>
+                        <defaultValue>false</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </pixelHinting>
+                      <scaleMode>
+                        <defaultValue>normal</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </scaleMode>
+                      <weight>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </weight>
+                    </SolidLineStyle>
+                  </lineStyle>
+                </circlePlotter>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>12</maxScreenRadius>
+                <minScreenRadius>3</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic"/>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="Data Tables" name="Data Tables">
+                              <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                                <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Private spending on health as % of all health spending" dataType="number" title="Private spending on health as % of all health spending" geometryCollection="Countries" id="1123405"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+                <zoomToSubset>false</zoomToSubset>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="undefinedY">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <circlePlotter>
+                  <fillStyle encoding="dynamic">
+                    <SolidFillStyle>
+                      <alpha>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                    </SolidFillStyle>
+                  </fillStyle>
+                  <keySet>
+                    <keyFilter encoding="dynamic">
+                      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                    </keyFilter>
+                  </keySet>
+                  <lineStyle encoding="dynamic">
+                    <SolidLineStyle>
+                      <alpha>
+                        <defaultValue>0.5</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <caps>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </caps>
+                      <color>
+                        <defaultValue>0</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                      <joints>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </joints>
+                      <miterLimit>
+                        <defaultValue>3</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </miterLimit>
+                      <pixelHinting>
+                        <defaultValue>false</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </pixelHinting>
+                      <scaleMode>
+                        <defaultValue>normal</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </scaleMode>
+                      <weight>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </weight>
+                    </SolidLineStyle>
+                  </lineStyle>
+                </circlePlotter>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>12</maxScreenRadius>
+                <minScreenRadius>3</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="Data Tables" name="Data Tables">
+                              <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                                <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Health spending, % of GDP" dataType="number" title="Health spending, % of GDP" geometryCollection="Countries" id="1123403"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic"/>
+                <zoomToSubset>false</zoomToSubset>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <SelectablePlotLayer name="undefinedXY">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <ScatterPlotPlotter>
+                <alphaColumn>
+                  <defaultValue>1</defaultValue>
+                  <internalDynamicColumn encoding="dynamic"/>
+                </alphaColumn>
+                <circlePlotter>
+                  <fillStyle encoding="dynamic">
+                    <SolidFillStyle>
+                      <alpha>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                    </SolidFillStyle>
+                  </fillStyle>
+                  <keySet>
+                    <keyFilter encoding="dynamic">
+                      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                    </keyFilter>
+                  </keySet>
+                  <lineStyle encoding="dynamic">
+                    <SolidLineStyle>
+                      <alpha>
+                        <defaultValue>0.5</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </alpha>
+                      <caps>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </caps>
+                      <color>
+                        <defaultValue>0</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </color>
+                      <enabled>
+                        <defaultValue>true</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </enabled>
+                      <joints>
+                        <defaultValue/>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </joints>
+                      <miterLimit>
+                        <defaultValue>3</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </miterLimit>
+                      <pixelHinting>
+                        <defaultValue>false</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </pixelHinting>
+                      <scaleMode>
+                        <defaultValue>normal</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </scaleMode>
+                      <weight>
+                        <defaultValue>1</defaultValue>
+                        <internalDynamicColumn encoding="dynamic"/>
+                      </weight>
+                    </SolidLineStyle>
+                  </lineStyle>
+                </circlePlotter>
+                <colorColumn>
+                  <defaultValue>NaN</defaultValue>
+                  <internalDynamicColumn encoding="dynamic">
+                    <GlobalObjectReference name="defaultColorColumn"/>
+                  </internalDynamicColumn>
+                </colorColumn>
+                <defaultScreenRadius>5</defaultScreenRadius>
+                <enabledSizeBy>true</enabledSizeBy>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <maxScreenRadius>12</maxScreenRadius>
+                <minScreenRadius>3</minScreenRadius>
+                <radiusColumn encoding="dynamic"/>
+                <xColumn encoding="dynamic"/>
+                <yColumn encoding="dynamic"/>
+                <zoomToSubset>false</zoomToSubset>
+              </ScatterPlotPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="regressionLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <maxVisibleScale>Infinity</maxVisibleScale>
+            <minVisibleScale>0</minVisibleScale>
+            <plotter encoding="dynamic">
+              <RegressionLinePlotter>
+                <drawLine>false</drawLine>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <xColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="Data Tables" name="Data Tables">
+                              <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                                <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Health spending, % of GDP" dataType="number" title="Health spending, % of GDP" geometryCollection="Countries" id="1123403"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </xColumn>
+                <yColumn encoding="dynamic">
+                  <ReferencedColumn>
+                    <dynamicColumnReference encoding="dynamic">
+                      <HierarchyColumnReference>
+                        <dataSourceName>WeaveDataSource</dataSourceName>
+                        <hierarchyPath encoding="xml">
+                          <hierarchy>
+                            <category title="Data Tables" name="Data Tables">
+                              <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                                <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Private spending on health as % of all health spending" dataType="number" title="Private spending on health as % of all health spending" geometryCollection="Countries" id="1123405"/>
+                              </category>
+                            </category>
+                          </hierarchy>
+                        </hierarchyPath>
+                      </HierarchyColumnReference>
+                    </dynamicColumnReference>
+                  </ReferencedColumn>
+                </yColumn>
+              </RegressionLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>30</marginRight>
+        <marginTop>30</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <zoomBounds>
+          <xMax>18</xMax>
+          <xMin>0</xMin>
+          <yMax>90</yMax>
+          <yMin>0</yMin>
+        </zoomBounds>
+        <zoomFactor>2</zoomFactor>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <overrideColor>0</overrideColor>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>27%</panelWidth>
+    <panelX>71%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <showColorPicker>false</showColorPicker>
+  </ScatterPlotTool>
+  <SessionedTextBox package="weave.ui.annotation" name="Label">
+    <backgroundAlpha>1</backgroundAlpha>
+    <backgroundColor>16777215</backgroundColor>
+    <borderColor>0</borderColor>
+    <borderThickness>1</borderThickness>
+    <buttonRadius>3</buttonRadius>
+    <closeable>true</closeable>
+    <cornerRadius>0</cornerRadius>
+    <enableBorders>false</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <htmlText>&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="12" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Statistics on health care provision and spending by country, &lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="12" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="12" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;as presented on the Bill Moyers &amp;amp; Co. website  (http://billmoyers.com/2012/07/03/the-health-spending-map-of-the-world/) on July 3, 2012 and in the Guardian Newspaper&amp;apos;s Data Blog on June 30. Source of the data is the World Health Organization, and most data was extracted for the year 2010.&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="12" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING="2"&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT FACE="Verdana" SIZE="12" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;It was trivial to enter the data into Weave for this visualization. All that was needed was to provide a complete set of IS0-3 country codes that corresponded to the world map already on our site.&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;</htmlText>
+    <maximizable>false</maximizable>
+    <maximized>false</maximized>
+    <minimizable>false</minimizable>
+    <minimized>false</minimized>
+    <padding>10</padding>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>49%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>25%</panelWidth>
+    <panelX>71%</panelX>
+    <panelY>50%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+  </SessionedTextBox>
+  <AttributeMenuTool name="AttributeMenuTool">
+    <buttonRadius>3</buttonRadius>
+    <choices encoding="dynamic">
+      <ReferencedColumn name="ReferencedColumn4">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Health spending, % of GDP" dataType="number" title="Health spending, % of GDP" geometryCollection="Countries" id="1123403"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn5">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Government spending on health as % of all heath spending" dataType="number" title="Government spending on health as % of all heath spending" geometryCollection="Countries" id="1123404"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn6">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Private spending on health as % of all health spending" dataType="number" title="Private spending on health as % of all health spending" geometryCollection="Countries" id="1123405"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn7">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Gov spending on health as % of all spending" dataType="string" title="Gov spending on health as % of all spending" geometryCollection="Countries" id="1123406"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn8">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Health spending out of pocket, as % of all health spending" dataType="number" title="Health spending out of pocket, as % of all health spending" geometryCollection="Countries" id="1123407"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn9">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Per capita total spending on health (PPP int. $)" dataType="number" title="Per capita total spending on health (PPP int. $)" geometryCollection="Countries" id="1123409"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn11">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Nurses and midwives, per 10,000 pop" dataType="string" title="Nurses and midwives, per 10,000 pop" geometryCollection="Countries" id="1123412"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn12">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="Doctors, per 10,000 population" dataType="string" title="Doctors, per 10,000 population" geometryCollection="Countries" id="1123413"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+      <ReferencedColumn name="ReferencedColumn14">
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category title="Data Tables" name="Data Tables">
+                  <category title="HealthSpendingMapped_ISO3" name="HealthSpendingMapped_ISO3">
+                    <attribute keyType="Countries" dataTable="HealthSpendingMapped_ISO3" name="POP_EST" dataType="number" title="POP_EST" geometryCollection="Countries" id="1123441"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </choices>
+    <closeable>true</closeable>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <labelFunction>column.getMetadata("title")</labelFunction>
+    <layoutMode>List</layoutMode>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>13%</panelHeight>
+    <panelStyleList/>
+    <panelTitle>Choose an Indicator</panelTitle>
+    <panelWidth>29%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>87%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>true</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <selectedAttribute>ReferencedColumn5</selectedAttribute>
+    <targetAttribute>Color</targetAttribute>
+    <targetTool>MapTool</targetTool>
+  </AttributeMenuTool>
+</Weave>

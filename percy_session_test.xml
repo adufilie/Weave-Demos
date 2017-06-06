@@ -1,0 +1,1080 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>0</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>11</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddCollaborationTool>false</enableAddCollaborationTool>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddCompoundRadViz>true</enableAddCompoundRadViz>
+    <enableAddCustomTool>true</enableAddCustomTool>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGraphTool>true</enableAddGraphTool>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRamachandranPlot>false</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableBitmapFilters>true</enableBitmapFilters>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDrawCircle>true</enableDrawCircle>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMarker>true</enableMarker>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionSelectorBox>true</enableSelectionSelectorBox>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>true</enableSessionEdit>
+    <enableSessionMenu>true</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetSelectionBox>true</enableSubsetSelectionBox>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <jriServiceURL>/WeaveServices/JRIService</jriServiceURL>
+    <macroLibraries>weave.api::WeaveAPI</macroLibraries>
+    <macros encoding="dynamic"/>
+    <maxTooltipRecordsShown>1</maxTooltipRecordsShown>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily>Verdana</panelTitleFontFamily>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <startupJavaScript/>
+    <toolInteractions>
+      <defaultDragMode/>
+      <pan>alt,drag</pan>
+      <probe>move</probe>
+      <select>drag</select>
+      <selectAdd>ctrl,drag</selectAdd>
+      <selectRemove>ctrl,shift,drag</selectRemove>
+      <zoom>shift,drag
+wheel</zoom>
+      <zoomIn>dclick</zoomIn>
+      <zoomOut>shift,dclick</zoomOut>
+      <zoomToExtent>ctrl,alt,shift,dclick</zoomToExtent>
+    </toolInteractions>
+    <version>1.0 Beta Nightly Build</version>
+    <windowSnapGridSize>5</windowSnapGridSize>
+    <workspaceHeight>NaN</workspaceHeight>
+    <workspaceWidth>NaN</workspaceWidth>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="5-Color" category="basic" source="OIC">
+        <node position="0" color="0xEFF3FF"/>
+        <node position="0.25" color="0xBDD7E7"/>
+        <node position="0.5" color="0x6BAED6"/>
+        <node position="0.75" color="0x3182BD"/>
+        <node position="1" color="0x08519C"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic">
+      <ReferencedColumn>
+        <dynamicColumnReference encoding="dynamic">
+          <HierarchyColumnReference>
+            <dataSourceName>WeaveDataSource</dataSourceName>
+            <hierarchyPath encoding="xml">
+              <hierarchy>
+                <category name="Data Tables" title="Data Tables">
+                  <category name="child_poverty" title="child_poverty">
+                    <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="child_poverty" name="Percent Children in Poverty" keyType="tracts_gpvi_2000_wm_100" title="Percent Children in Poverty"/>
+                  </category>
+                </category>
+              </hierarchy>
+            </hierarchyPath>
+          </HierarchyColumnReference>
+        </dynamicColumnReference>
+      </ReferencedColumn>
+    </internalDynamicColumn>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic">
+    <ReferencedColumn name="ReferencedColumn">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables" title="Data Tables">
+                <category name="alldata_bycensustract" title="alldata_bycensustract">
+                  <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="median household income 2005-2009" keyType="tracts_gpvi_2000_wm_100" title="median household income 2005-2009"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+    <ReferencedColumn name="ReferencedColumn2">
+      <dynamicColumnReference encoding="dynamic">
+        <HierarchyColumnReference>
+          <dataSourceName>WeaveDataSource</dataSourceName>
+          <hierarchyPath encoding="xml">
+            <hierarchy>
+              <category name="Data Tables" title="Data Tables">
+                <category name="nonwhite" title="nonwhite">
+                  <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="nonwhite" name="Percent Non-white" keyType="tracts_gpvi_2000_wm_100" title="Percent Non-white"/>
+                </category>
+              </category>
+            </hierarchy>
+          </hierarchyPath>
+        </HierarchyColumnReference>
+      </dynamicColumnReference>
+    </ReferencedColumn>
+  </LinkableHashMap>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml">
+      <hierarchy name="Open Indicators Server">
+        <category name="Data Tables" title="Data Tables">
+          <category name="2000Tracts_2010Data" title="2000Tracts_2010Data"/>
+          <category name="2006crashes" title="2006crashes"/>
+          <category name="2007crashes" title="2007crashes"/>
+          <category name="2008crashes" title="2008crashes"/>
+          <category name="2009crashes" title="2009crashes"/>
+          <category name="2010_RaceEthnicity" title="2010_RaceEthnicity"/>
+          <category name="2010crashes" title="2010crashes"/>
+          <category name="2010tracts" title="2010tracts"/>
+          <category name="alldata_bycensustract" title="alldata_bycensustract">
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="string" dataTable="alldata_bycensustract" name="Census Tract ID" keyType="tracts_gpvi_2000_wm_100" title="Census Tract ID"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Census Tract Number" keyType="tracts_gpvi_2000_wm_100" title="Census Tract Number"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="string" dataTable="alldata_bycensustract" name="2000 Census Tract Name" keyType="tracts_gpvi_2000_wm_100" title="2000 Census Tract Name"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="string" dataTable="alldata_bycensustract" name="Census 2010 Tract(s) equivalent" keyType="tracts_gpvi_2000_wm_100" title="Census 2010 Tract(s) equivalent"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Total Households 2010" keyType="tracts_gpvi_2000_wm_100" title="Total Households 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Occupied Households 2010" keyType="tracts_gpvi_2000_wm_100" title="Occupied Households 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Vacant Households 2010" keyType="tracts_gpvi_2000_wm_100" title="Vacant Households 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Total Population 2010" keyType="tracts_gpvi_2000_wm_100" title="Total Population 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Population over 18 in 2010" keyType="tracts_gpvi_2000_wm_100" title="Population over 18 in 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Total Hispanic 2010" keyType="tracts_gpvi_2000_wm_100" title="Total Hispanic 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Percent Hispanic 2010" keyType="tracts_gpvi_2000_wm_100" title="Percent Hispanic 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Black or African American Alone or in combination 2010" keyType="tracts_gpvi_2000_wm_100" title="Black or African American Alone or in combination 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Percent Black or African American Alone or in combination 2010" keyType="tracts_gpvi_2000_wm_100" title="Percent Black or African American Alone or in combination 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Asian, Native Hawaiian, or Pacfiic Islander alone or in combination 2010" keyType="tracts_gpvi_2000_wm_100" title="Asian, Native Hawaiian, or Pacfiic Islander alone or in combination 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Percent Asian, Native Hawaiian, or Pacfiic Islander alone or in combination 2010" keyType="tracts_gpvi_2000_wm_100" title="Percent Asian, Native Hawaiian, or Pacfiic Islander alone or in combination 2010"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Cancer Risk 2005" keyType="tracts_gpvi_2000_wm_100" title="Cancer Risk 2005"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Neurological Risk 2005" keyType="tracts_gpvi_2000_wm_100" title="Neurological Risk 2005"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Respiratory Risk 2005" keyType="tracts_gpvi_2000_wm_100" title="Respiratory Risk 2005"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="median household income 2005-2009" keyType="tracts_gpvi_2000_wm_100" title="median household income 2005-2009"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="median household income 2005-2009 margin of error" keyType="tracts_gpvi_2000_wm_100" title="median household income 2005-2009 margin of error"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Percent of income spent on transportation" keyType="tracts_gpvi_2000_wm_100" title="Percent of income spent on transportation"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Percent of income spent on transportation margin of error" keyType="tracts_gpvi_2000_wm_100" title="Percent of income spent on transportation margin of error"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Percent of income spent on housing and transportation" keyType="tracts_gpvi_2000_wm_100" title="Percent of income spent on housing and transportation"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Percent of income spent on housing and transportation margin of error" keyType="tracts_gpvi_2000_wm_100" title="Percent of income spent on housing and transportation margin of error"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="alldata_bycensustract" name="Percent adults over 25 with bachelors degree or higher 2005-2009" keyType="tracts_gpvi_2000_wm_100" title="Percent adults over 25 with bachelors degree or higher 2005-2009"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="string" dataTable="alldata_bycensustract" name="Percent adults over 25 with bachelors degree or higher 2005-2009 margin of error" keyType="tracts_gpvi_2000_wm_100" title="Percent adults over 25 with bachelors degree or higher 2005-2009 margin of error"/>
+          </category>
+          <category name="AM_2005nondrivealone" title="AM_2005nondrivealone"/>
+          <category name="AM_totalfatalities" title="AM_totalfatalities"/>
+          <category name="Annualcostofcongestion_milliondollars" title="Annualcostofcongestion_milliondollars"/>
+          <category name="Annualhoursofdelay" title="Annualhoursofdelay"/>
+          <category name="AnnualVMTpercapita" title="AnnualVMTpercapita"/>
+          <category name="ART Funding for arts providers" title="ART Funding for arts providers"/>
+          <category name="ART Funding for arts providers2" title="ART Funding for arts providers2"/>
+          <category name="Art School arts specialists" title="Art School arts specialists"/>
+          <category name="ART School arts specialists with grad rate" title="ART School arts specialists with grad rate"/>
+          <category name="bachelorsdegrees_bytract" title="bachelorsdegrees_bytract"/>
+          <category name="bikeandpedtotalfatalitiesandseriousinjuries" title="bikeandpedtotalfatalitiesandseriousinjuries"/>
+          <category name="cancerriskNATAgood" title="cancerriskNATAgood"/>
+          <category name="censusplaces_wm" title="censusplaces_wm"/>
+          <category name="child_poverty" title="child_poverty">
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="child_poverty" name="Margin of Error" keyType="tracts_gpvi_2000_wm_100" title="Margin of Error"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="child_poverty" name="Percent Children in Poverty" keyType="tracts_gpvi_2000_wm_100" title="Percent Children in Poverty"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="string" dataTable="child_poverty" name="geom_id" keyType="tracts_gpvi_2000_wm_100" title="geom_id"/>
+          </category>
+          <category name="CIV 20012008 Libary circulation per capita" title="CIV 20012008 Libary circulation per capita"/>
+          <category name="CIV 2007 Percent who frequently get new from the internet" title="CIV 2007 Percent who frequently get new from the internet"/>
+          <category name="CIV 2008 National Voting" title="CIV 2008 National Voting"/>
+          <category name="CIV 20082009 Percent who Donate money assets or property" title="CIV 20082009 Percent who Donate money assets or property"/>
+          <category name="CIV 2009 Percent Participating in a Group" title="CIV 2009 Percent Participating in a Group"/>
+          <category name="CIV 2009 Percent Participating in a Group by Group type" title="CIV 2009 Percent Participating in a Group by Group type"/>
+          <category name="CIV 2009 Percent who contacted a public official" title="CIV 2009 Percent who contacted a public official"/>
+          <category name="CIV 2009 Volunteer Rates" title="CIV 2009 Volunteer Rates"/>
+          <category name="CIV 2009 Voting Rate Rankings" title="CIV 2009 Voting Rate Rankings"/>
+          <category name="CIV 2009_Percent_Volunteering_by_Organization_type" title="CIV 2009_Percent_Volunteering_by_Organization_type"/>
+          <category name="CIV Oregon Voting" title="CIV Oregon Voting"/>
+          <category name="cleanair_badairqualitydayspercentage" title="cleanair_badairqualitydayspercentage"/>
+          <category name="cleanair_NATAcancer_risk" title="cleanair_NATAcancer_risk"/>
+          <category name="cleanwater_benthicbywatershed" title="cleanwater_benthicbywatershed"/>
+          <category name="costburdenincomewithMOE" title="costburdenincomewithMOE"/>
+          <category name="costburdenracewithMOE" title="costburdenracewithMOE"/>
+          <category name="counties_gpvi_wm" title="counties_gpvi_wm"/>
+          <category name="counties_wm" title="counties_wm"/>
+          <category name="demog_domestic_intl" title="demog_domestic_intl"/>
+          <category name="demog_natural_migration" title="demog_natural_migration"/>
+          <category name="demog_pop_county" title="demog_pop_county"/>
+          <category name="demog_pop_growth" title="demog_pop_growth"/>
+          <category name="demog_race_ethnic_change" title="demog_race_ethnic_change"/>
+          <category name="econ_annual_av_employment" title="econ_annual_av_employment"/>
+          <category name="econ_av_wage" title="econ_av_wage"/>
+          <category name="econ_employees_minority_firms" title="econ_employees_minority_firms"/>
+          <category name="econ_employment_by_industry" title="econ_employment_by_industry"/>
+          <category name="econ_houshold_sufficiency" title="econ_houshold_sufficiency"/>
+          <category name="econ_land_map_wm" title="econ_land_map_wm"/>
+          <category name="econ_net_absorption" title="econ_net_absorption"/>
+          <category name="econ_per_capita_income" title="econ_per_capita_income"/>
+          <category name="econ_percent_below_sss" title="econ_percent_below_sss"/>
+          <category name="econ_sba_2002" title="econ_sba_2002"/>
+          <category name="econ_sba_2007" title="econ_sba_2007"/>
+          <category name="econ_sba_loans_2002" title="econ_sba_loans_2002"/>
+          <category name="econ_sba_loans_2007" title="econ_sba_loans_2007"/>
+          <category name="econ_sba_loans_non_white" title="econ_sba_loans_non_white"/>
+          <category name="econ_shovel_ready" title="econ_shovel_ready"/>
+          <category name="econ_unemployment" title="econ_unemployment"/>
+          <category name="econ_unemployment_education" title="econ_unemployment_education"/>
+          <category name="econ_unemployment_race_ethnicity" title="econ_unemployment_race_ethnicity"/>
+          <category name="econ_unemployment_us_pmsa" title="econ_unemployment_us_pmsa"/>
+          <category name="econ_wage_distribution" title="econ_wage_distribution"/>
+          <category name="ED 2005-2009 Percent K-12 Enrolled in Public School" title="ED 2005-2009 Percent K-12 Enrolled in Public School"/>
+          <category name="ED 2009 Head Start percent of unserved" title="ED 2009 Head Start percent of unserved"/>
+          <category name="ED 2009 Head Start percent of unserved2" title="ED 2009 Head Start percent of unserved2"/>
+          <category name="ED 2009 Percent of 3rd Grade Students" title="ED 2009 Percent of 3rd Grade Students"/>
+          <category name="ED 2009 Percent of adults with Bachelor degree" title="ED 2009 Percent of adults with Bachelor degree"/>
+          <category name="ED Head Start" title="ED Head Start"/>
+          <category name="ED High School Grad Rate All School Districts" title="ED High School Grad Rate All School Districts"/>
+          <category name="ED High School Grad Rate DD versus NC" title="ED High School Grad Rate DD versus NC"/>
+          <category name="ED High School Grad Rate DDv NC v Portland" title="ED High School Grad Rate DDv NC v Portland"/>
+          <category name="ED High School Grad Rate_20092010" title="ED High School Grad Rate_20092010"/>
+          <category name="ED HS rate all" title="ED HS rate all"/>
+          <category name="ED Student Achievement Math" title="ED Student Achievement Math"/>
+          <category name="ED Student Achievemnet Reading" title="ED Student Achievemnet Reading"/>
+          <category name="ED_adult_bachelors" title="ED_adult_bachelors"/>
+          <category name="ED_Adult_Educational_Attainment" title="ED_Adult_Educational_Attainment"/>
+          <category name="ED_Public_Schooling" title="ED_Public_Schooling"/>
+          <category name="ED_Sufficient_Opportunity" title="ED_Sufficient_Opportunity"/>
+          <category name="Emissions_GreenhouseGases" title="Emissions_GreenhouseGases"/>
+          <category name="ENV_nativespecies" title="ENV_nativespecies"/>
+          <category name="env_parksandnature" title="env_parksandnature"/>
+          <category name="ENvspecies" title="ENvspecies"/>
+          <category name="GHGtransportation" title="GHGtransportation"/>
+          <category name="hc_educational_attainment" title="hc_educational_attainment"/>
+          <category name="hc_educational_attainment_all" title="hc_educational_attainment_all"/>
+          <category name="hc_enrollment" title="hc_enrollment"/>
+          <category name="hc_naep_math" title="hc_naep_math"/>
+          <category name="hc_naep_reading" title="hc_naep_reading"/>
+          <category name="hc_naep_scores" title="hc_naep_scores"/>
+          <category name="hc_student_teacher_ratio" title="hc_student_teacher_ratio"/>
+          <category name="HighCost_Loansbytract" title="HighCost_Loansbytract"/>
+          <category name="highcostloans_byrace" title="highcostloans_byrace"/>
+          <category name="hlth_birth_rate_all" title="hlth_birth_rate_all"/>
+          <category name="hlth_birth_rate_clackamas" title="hlth_birth_rate_clackamas"/>
+          <category name="hlth_birth_rate_clark" title="hlth_birth_rate_clark"/>
+          <category name="hlth_birth_rate_multnomah" title="hlth_birth_rate_multnomah"/>
+          <category name="hlth_birth_rate_washington" title="hlth_birth_rate_washington"/>
+          <category name="hlth_healthy_eating" title="hlth_healthy_eating"/>
+          <category name="hlth_immunizations" title="hlth_immunizations"/>
+          <category name="hlth_insurance" title="hlth_insurance"/>
+          <category name="hlth_mental_health" title="hlth_mental_health"/>
+          <category name="hlth_obesity_adult" title="hlth_obesity_adult"/>
+          <category name="hlth_obesity_teen" title="hlth_obesity_teen"/>
+          <category name="hlth_physical_activity" title="hlth_physical_activity"/>
+          <category name="hlth_prenatal_care_all" title="hlth_prenatal_care_all"/>
+          <category name="hlth_prenatal_care_clackamas" title="hlth_prenatal_care_clackamas"/>
+          <category name="hlth_prenatal_care_clark" title="hlth_prenatal_care_clark"/>
+          <category name="hlth_prenatal_care_multnomah" title="hlth_prenatal_care_multnomah"/>
+          <category name="hlth_prenatal_care_washington" title="hlth_prenatal_care_washington"/>
+          <category name="hlth_tobacco_use" title="hlth_tobacco_use"/>
+          <category name="hlth_tooth_decay" title="hlth_tooth_decay"/>
+          <category name="hlth_tooth_decay_clark" title="hlth_tooth_decay_clark"/>
+          <category name="homeless_students" title="homeless_students"/>
+          <category name="homelesscounts" title="homelesscounts"/>
+          <category name="homelessper10000" title="homelessper10000"/>
+          <category name="HousingplusTranspCosts_FINAL" title="HousingplusTranspCosts_FINAL"/>
+          <category name="housingwagegap" title="housingwagegap"/>
+          <category name="housingwagegap2" title="housingwagegap2"/>
+          <category name="housingwagegap2011" title="housingwagegap2011"/>
+          <category name="housingwagegap2_2011" title="housingwagegap2_2011"/>
+          <category name="HTcosts_7_22_2011" title="HTcosts_7_22_2011"/>
+          <category name="HUC6_wm" title="HUC6_wm"/>
+          <category name="HUC6mercatroprojection" title="HUC6mercatroprojection"/>
+          <category name="HUC6oregon" title="HUC6oregon"/>
+          <category name="industry" title="industry"/>
+          <category name="IndustrywithMOE" title="IndustrywithMOE"/>
+          <category name="landcover" title="landcover"/>
+          <category name="languages" title="languages"/>
+          <category name="languages_byplace" title="languages_byplace"/>
+          <category name="mathscores" title="mathscores"/>
+          <category name="median_income_or_wa" title="median_income_or_wa"/>
+          <category name="ModetoWork" title="ModetoWork"/>
+          <category name="ModetoWork_final2" title="ModetoWork_final2"/>
+          <category name="NATANeurologicalRisk" title="NATANeurologicalRisk"/>
+          <category name="NATArespiratoryrisk" title="NATArespiratoryrisk"/>
+          <category name="neighborhoods" title="neighborhoods"/>
+          <category name="neighborhoods_wm" title="neighborhoods_wm"/>
+          <category name="news_traffic_delay" title="news_traffic_delay"/>
+          <category name="nonwhite" title="nonwhite">
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="number" dataTable="nonwhite" name="Percent Non-white" keyType="tracts_gpvi_2000_wm_100" title="Percent Non-white"/>
+            <attribute geometryCollection="tracts_gpvi_2000_wm_100" dataType="string" dataTable="nonwhite" name="geom_id" keyType="tracts_gpvi_2000_wm_100" title="geom_id"/>
+          </category>
+          <category name="outcomes_drivers_economic_opportunity" title="outcomes_drivers_economic_opportunity"/>
+          <category name="Ownershipgap" title="Ownershipgap"/>
+          <category name="Ped_Bike_Fatalities_Injuries_2006thru2010" title="Ped_Bike_Fatalities_Injuries_2006thru2010"/>
+          <category name="physical_activity" title="physical_activity"/>
+          <category name="population_bycounty" title="population_bycounty"/>
+          <category name="population_race_censustract" title="population_race_censustract"/>
+          <category name="readingscores" title="readingscores"/>
+          <category name="safety_arrests_clackamas" title="safety_arrests_clackamas"/>
+          <category name="safety_arrests_clark" title="safety_arrests_clark"/>
+          <category name="safety_arrests_washington" title="safety_arrests_washington"/>
+          <category name="safety_charges_clackamas" title="safety_charges_clackamas"/>
+          <category name="safety_charges_multnomah" title="safety_charges_multnomah"/>
+          <category name="safety_charges_washington" title="safety_charges_washington"/>
+          <category name="safety_crime_rate_property" title="safety_crime_rate_property"/>
+          <category name="safety_crime_rate_violent" title="safety_crime_rate_violent"/>
+          <category name="safety_parity_supervision" title="safety_parity_supervision"/>
+          <category name="safety_recividism_clackamas" title="safety_recividism_clackamas"/>
+          <category name="safety_recividism_multnomah" title="safety_recividism_multnomah"/>
+          <category name="safety_recividism_washington" title="safety_recividism_washington"/>
+          <category name="saftey_arrests_multnomah" title="saftey_arrests_multnomah"/>
+          <category name="School_District_Webproject" title="School_District_Webproject"/>
+          <category name="schooldistrict_WM" title="schooldistrict_WM"/>
+          <category name="segregation" title="segregation"/>
+          <category name="Tcosts_7_22_2011" title="Tcosts_7_22_2011"/>
+          <category name="TotalDailyVMTinthousands" title="TotalDailyVMTinthousands"/>
+          <category name="totaltrafficfatalities" title="totaltrafficfatalities"/>
+          <category name="totaltrafficfatalitiespermillionmilesdriven" title="totaltrafficfatalitiespermillionmilesdriven"/>
+          <category name="tracts_gpvi_2000_wm_100" title="tracts_gpvi_2000_wm_100"/>
+          <category name="Transportationcosts" title="Transportationcosts"/>
+          <category name="unemployment_race_ethnicity" title="unemployment_race_ethnicity"/>
+          <category name="VMTforlinechart" title="VMTforlinechart"/>
+          <category name="watershedsubbasinmercatorprojection" title="watershedsubbasinmercatorprojection"/>
+        </category>
+        <category name="Geometry Collections" title="Geometry Collections">
+          <attribute keyType="2010tracts" dataType="geometry" name="2010tracts" title="2010tracts"/>
+          <attribute keyType="censusplaces_wm" dataType="geometry" name="censusplaces_wm" title="censusplaces_wm"/>
+          <attribute keyType="counties_gpvi_wm" dataType="geometry" name="counties_gpvi_wm" title="counties_gpvi_wm"/>
+          <attribute keyType="counties_wm" dataType="geometry" name="counties_wm" title="counties_wm"/>
+          <attribute keyType="econ_land_map_wm" dataType="geometry" name="econ_land_map_wm" title="econ_land_map_wm"/>
+          <attribute keyType="HUC6_wm" dataType="geometry" name="HUC6_wm" title="HUC6_wm"/>
+          <attribute keyType="HUC6mercatroprojection" dataType="geometry" name="HUC6mercatroprojection" title="HUC6mercatroprojection"/>
+          <attribute keyType="neighborhoods_wm" dataType="geometry" name="neighborhoods_wm" title="neighborhoods_wm"/>
+          <attribute keyType="School_District_Webproject" dataType="geometry" name="School_District_Webproject" title="School_District_Webproject"/>
+          <attribute keyType="schooldistrict_WM" dataType="geometry" name="schooldistrict_WM" title="schooldistrict_WM"/>
+          <attribute keyType="tracts_gpvi_2000_wm_100" dataType="geometry" name="tracts_gpvi_2000_wm_100" title="tracts_gpvi_2000_wm_100"/>
+          <attribute keyType="watershedsubbasinmercatorprojection" dataType="geometry" name="watershedsubbasinmercatorprojection" title="watershedsubbasinmercatorprojection"/>
+        </category>
+      </hierarchy>
+    </attributeHierarchy>
+    <hierarchyURL/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <MapTool name="MapTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <enableAutoZoomToExtent>false</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>true</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>true</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>0</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>true</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <GeometryPlotter>
+                <fill>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                    <internalDynamicColumn encoding="dynamic">
+                      <GlobalObjectReference name="defaultColorColumn"/>
+                    </internalDynamicColumn>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <enableMissingDataFillPattern>false</enableMissingDataFillPattern>
+                </fill>
+                <geometryColumn>
+                  <internalDynamicColumn encoding="dynamic">
+                    <ReferencedColumn>
+                      <dynamicColumnReference encoding="dynamic">
+                        <HierarchyColumnReference>
+                          <dataSourceName>WeaveDataSource</dataSourceName>
+                          <hierarchyPath encoding="xml">
+                            <hierarchy>
+                              <category name="Geometry Collections" title="Geometry Collections">
+                                <attribute keyType="tracts_gpvi_2000_wm_100" dataType="geometry" name="tracts_gpvi_2000_wm_100" title="tracts_gpvi_2000_wm_100"/>
+                              </category>
+                            </hierarchy>
+                          </hierarchyPath>
+                        </HierarchyColumnReference>
+                      </dynamicColumnReference>
+                    </ReferencedColumn>
+                  </internalDynamicColumn>
+                  <projectionSRS/>
+                </geometryColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <line>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>none</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </line>
+                <pixellation>1</pixellation>
+                <pointDataImageColumn encoding="dynamic"/>
+                <pointShapeSize>5</pointShapeSize>
+              </GeometryPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>0</marginBottom>
+        <marginLeft>0</marginLeft>
+        <marginRight>0</marginRight>
+        <marginTop>0</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <shadowAmount>0</shadowAmount>
+        <zoomBounds>
+          <area>52935609121.485</area>
+          <xCenter>-13644318.149486</xCenter>
+          <yCenter>5696690.4274077</yCenter>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBackground>false</enableBackground>
+    <enableBorders>true</enableBorders>
+    <enableOverview>false</enableOverview>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>50%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <projectionSRS/>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+    <showMouseModeControls>true</showMouseModeControls>
+    <showZoomControls>true</showZoomControls>
+  </MapTool>
+  <ColorBinLegendTool name="ColorBinLegendTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>NaN</axesAlpha>
+        <axesColor>NaN</axesColor>
+        <axesThickness>NaN</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>NaN</gridLineAlpha>
+        <gridLineColor>0</gridLineColor>
+        <gridLineThickness>NaN</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ColorBinLegendPlotter>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+                <maxColumns>1</maxColumns>
+                <reverseOrder>false</reverseOrder>
+                <shapeSize>20</shapeSize>
+              </ColorBinLegendPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>true</useTextBitmapFilters>
+          </SelectablePlotLayer>
+        </layers>
+        <marginBottom>5</marginBottom>
+        <marginLeft>5</marginLeft>
+        <marginRight>5</marginRight>
+        <marginTop>25</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <shadowAmount>0</shadowAmount>
+        <zoomBounds>
+          <xMax>1</xMax>
+          <xMin>0</xMin>
+          <yMax>1</yMax>
+          <yMin>0</yMin>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableTitle>false</enableTitle>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>20%</panelWidth>
+    <panelX>43%</panelX>
+    <panelY>0%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+  </ColorBinLegendTool>
+  <HistogramTool name="ColorHistogramTool">
+    <buttonRadius>3</buttonRadius>
+    <children encoding="dynamic">
+      <SimpleInteractiveVisualization name="visualization">
+        <axesAlpha>1</axesAlpha>
+        <axesColor>11579568</axesColor>
+        <axesThickness>10</axesThickness>
+        <axisFontBold>true</axisFontBold>
+        <axisFontColor>0</axisFontColor>
+        <axisFontFamily>Sophia Nubian</axisFontFamily>
+        <axisFontItalic>false</axisFontItalic>
+        <axisFontSize>11</axisFontSize>
+        <axisFontUnderline>false</axisFontUnderline>
+        <enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+        <enableAutoZoomXToNiceNumbers>false</enableAutoZoomXToNiceNumbers>
+        <enableAutoZoomYToNiceNumbers>false</enableAutoZoomYToNiceNumbers>
+        <enableFixedAspectRatio>false</enableFixedAspectRatio>
+        <enableProbe>true</enableProbe>
+        <enableSelection>true</enableSelection>
+        <enableZoomAndPan>false</enableZoomAndPan>
+        <gridLineAlpha>1</gridLineAlpha>
+        <gridLineColor>14540253</gridLineColor>
+        <gridLineThickness>1</gridLineThickness>
+        <includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+        <layers encoding="dynamic">
+          <AxisLayer name="yAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>-0.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>181</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>181</axisLineMaxValue>
+                <axisLineMinValue>0</axisLineMinValue>
+                <forceTickCount>false</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>bottom</labelVerticalAlign>
+                <labelWordWrapSize>80</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>NaN</tickMaxValue>
+                <tickMinValue>NaN</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <AxisLayer name="xAxis">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <SimpleAxisPlotter>
+                <axisLabelDistance>-10</axisLabelDistance>
+                <axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+                <axisLineDataBounds>
+                  <xMax>9.5</xMax>
+                  <xMin>-0.5</xMin>
+                  <yMax>0</yMax>
+                  <yMin>0</yMin>
+                </axisLineDataBounds>
+                <axisLineMaxValue>9.5</axisLineMaxValue>
+                <axisLineMinValue>-0.5</axisLineMinValue>
+                <forceTickCount>true</forceTickCount>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <labelDistanceIsVertical>false</labelDistanceIsVertical>
+                <labelFunction>string</labelFunction>
+                <labelHorizontalAlign>right</labelHorizontalAlign>
+                <labelNumberFormatter>
+                  <decimalSeparatorFrom>.</decimalSeparatorFrom>
+                  <decimalSeparatorTo>.</decimalSeparatorTo>
+                  <precision>0</precision>
+                  <rounding>none</rounding>
+                  <thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+                  <thousandsSeparatorTo>,</thousandsSeparatorTo>
+                  <useNegativeSign>true</useNegativeSign>
+                  <useThousandsSeparator>true</useThousandsSeparator>
+                </labelNumberFormatter>
+                <labelTextAlignment>left</labelTextAlignment>
+                <labelVerticalAlign>top</labelVerticalAlign>
+                <labelWordWrapSize>80</labelWordWrapSize>
+                <overrideAxisName/>
+                <showAxisName>true</showAxisName>
+                <tickCountRequested>10</tickCountRequested>
+                <tickMaxValue>9</tickMaxValue>
+                <tickMinValue>0</tickMinValue>
+              </SimpleAxisPlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </AxisLayer>
+          <SelectablePlotLayer name="plot">
+            <backgroundIsVisible>true</backgroundIsVisible>
+            <layerIsSelectable>true</layerIsSelectable>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <HistogramPlotter>
+                <drawPartialBins>true</drawPartialBins>
+                <dynamicColorColumn encoding="dynamic">
+                  <GlobalObjectReference name="defaultColorColumn"/>
+                </dynamicColorColumn>
+                <fillStyle>
+                  <alpha>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <color>
+                    <defaultValue>NaN</defaultValue>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                </fillStyle>
+                <keySet>
+                  <keyFilter encoding="dynamic">
+                    <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+                  </keyFilter>
+                </keySet>
+                <lineStyle>
+                  <alpha>
+                    <defaultValue>0.5</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </alpha>
+                  <caps>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </caps>
+                  <color>
+                    <defaultValue>0</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </color>
+                  <enabled>
+                    <defaultValue>true</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </enabled>
+                  <joints>
+                    <defaultValue/>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </joints>
+                  <miterLimit>
+                    <defaultValue>3</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </miterLimit>
+                  <pixelHinting>
+                    <defaultValue>false</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </pixelHinting>
+                  <scaleMode>
+                    <defaultValue>normal</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </scaleMode>
+                  <weight>
+                    <defaultValue>1</defaultValue>
+                    <internalDynamicColumn encoding="dynamic"/>
+                  </weight>
+                </lineStyle>
+              </HistogramPlotter>
+            </plotter>
+            <probeFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultProbeKeySet"/>
+            </probeFilter>
+            <selectionFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSelectionKeySet"/>
+            </selectionFilter>
+            <subsetFilter encoding="dynamic">
+              <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+            </subsetFilter>
+            <useTextBitmapFilters>false</useTextBitmapFilters>
+          </SelectablePlotLayer>
+          <PlotLayer name="probeLine">
+            <isOverlay>false</isOverlay>
+            <layerIsVisible>true</layerIsVisible>
+            <plotter encoding="dynamic">
+              <ProbeLinePlotter>
+                <keySet>
+                  <keyFilter encoding="dynamic"/>
+                </keySet>
+                <lineStyle encoding="dynamic">
+                  <SolidLineStyle>
+                    <alpha>
+                      <defaultValue>0.5</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </alpha>
+                    <caps>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </caps>
+                    <color>
+                      <defaultValue>0</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </color>
+                    <enabled>
+                      <defaultValue>true</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </enabled>
+                    <joints>
+                      <defaultValue/>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </joints>
+                    <miterLimit>
+                      <defaultValue>3</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </miterLimit>
+                    <pixelHinting>
+                      <defaultValue>false</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </pixelHinting>
+                    <scaleMode>
+                      <defaultValue>normal</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </scaleMode>
+                    <weight>
+                      <defaultValue>1</defaultValue>
+                      <internalDynamicColumn encoding="dynamic"/>
+                    </weight>
+                  </SolidLineStyle>
+                </lineStyle>
+              </ProbeLinePlotter>
+            </plotter>
+            <selectionFilter encoding="dynamic"/>
+          </PlotLayer>
+        </layers>
+        <marginBottom>80</marginBottom>
+        <marginLeft>80</marginLeft>
+        <marginRight>10</marginRight>
+        <marginTop>10</marginTop>
+        <maxZoomLevel>16</maxZoomLevel>
+        <minScreenSize>128</minScreenSize>
+        <minZoomLevel>0</minZoomLevel>
+        <overrideXMax>NaN</overrideXMax>
+        <overrideXMin>NaN</overrideXMin>
+        <overrideYMax>NaN</overrideYMax>
+        <overrideYMin>NaN</overrideYMin>
+        <shadowAmount>0</shadowAmount>
+        <zoomBounds>
+          <xMax>9.5</xMax>
+          <xMin>-0.5</xMin>
+          <yMax>181</yMax>
+          <yMin>0</yMin>
+        </zoomBounds>
+      </SimpleInteractiveVisualization>
+    </children>
+    <closeable>true</closeable>
+    <draggable>true</draggable>
+    <enableBorders>true</enableBorders>
+    <enableTitle>false</enableTitle>
+    <includeToolAttributesInProbe>true</includeToolAttributesInProbe>
+    <maximizable>true</maximizable>
+    <maximized>false</maximized>
+    <minimizable>true</minimizable>
+    <minimized>false</minimized>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>50%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>50%</panelWidth>
+    <panelX>0%</panelX>
+    <panelY>50%</panelY>
+    <pinnable>true</pinnable>
+    <pinnableToBack>false</pinnableToBack>
+    <pinned>false</pinned>
+    <pinnedToBack>false</pinnedToBack>
+    <resizeable>true</resizeable>
+    <showCloseDialog>false</showCloseDialog>
+  </HistogramTool>
+</Weave>

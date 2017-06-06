@@ -1,0 +1,336 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisTitleTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </axisTitleTextFormat>
+    <backgroundColor>16777215</backgroundColor>
+    <collabServerIP>demo.oicweave.org</collabServerIP>
+    <collabServerName>ivpr-vm</collabServerName>
+    <collabServerPort>5222</collabServerPort>
+    <collabServerRoom/>
+    <collabSpectating>false</collabSpectating>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dashboardMode>false</dashboardMode>
+    <dashedSelectionBox>5,5</dashedSelectionBox>
+    <dashedSelectionColor>65280</dashedSelectionColor>
+    <dashedZoomColor>64255</dashedZoomColor>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAnnotation>true</enableAnnotation>
+    <enableAnnuliCircles>false</enableAnnuliCircles>
+    <enableAxisToolTips>true</enableAxisToolTips>
+    <enableBitmapFilters>true</enableBitmapFilters>
+    <enableBrowseData>false</enableBrowseData>
+    <enableCascadeAllWindows>true</enableCascadeAllWindows>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCloseAllWindows>true</enableCloseAllWindows>
+    <enableCollaborationBar>false</enableCollaborationBar>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDrawCircle>true</enableDrawCircle>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportCSV>true</enableExportCSV>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullScreen>false</enableFullScreen>
+    <enableGeometryProbing>true</enableGeometryProbing>
+    <enableLoadMyData>true</enableLoadMyData>
+    <enableManageDataSources>true</enableManageDataSources>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMarker>true</enableMarker>
+    <enableMenuBar>true</enableMenuBar>
+    <enableMinimizeAllWindows>true</enableMinimizeAllWindows>
+    <enableMouseWheel>true</enableMouseWheel>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enablePenTool>true</enablePenTool>
+    <enableProbeLines>true</enableProbeLines>
+    <enableProbeToolTip>true</enableProbeToolTip>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRestoreAllMinimizedWindows>true</enableRestoreAllMinimizedWindows>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionSelectorBox>true</enableSelectionSelectorBox>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionMenu>true</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetSelectionBox>true</enableSubsetSelectionBox>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTileAllWindows>true</enableTileAllWindows>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolControls>true</enableToolControls>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWeaveAnalystMode>false</enableWeaveAnalystMode>
+    <enableWindowMenu>true</enableWindowMenu>
+    <eventListeners encoding="dynamic"/>
+    <externalTools encoding="dynamic"/>
+    <geometryMetadataRequestMode>xyz</geometryMetadataRequestMode>
+    <geometryMinimumScreenArea>1</geometryMinimumScreenArea>
+    <macroLibraries encoding="csv-row">WeaveAPI</macroLibraries>
+    <macros encoding="dynamic"/>
+    <maxComputationTimePerFrame>100</maxComputationTimePerFrame>
+    <maxTooltipRecordsShown>1</maxTooltipRecordsShown>
+    <panelTitleTextFormat>
+      <bold>false</bold>
+      <color>16777215</color>
+      <font>Verdana</font>
+      <italic>false</italic>
+      <size>10</size>
+      <underline>false</underline>
+    </panelTitleTextFormat>
+    <pdbServiceURL>/WeavePDBService/PDBService</pdbServiceURL>
+    <probeBufferSize>10</probeBufferSize>
+    <probeInnerGlow>
+      <alpha>1</alpha>
+      <blurX>5</blurX>
+      <blurY>5</blurY>
+      <color>16777215</color>
+      <strength>10</strength>
+    </probeInnerGlow>
+    <probeLineFormatter>str = replace(lpad(string, 8, "\t"), "\t", "  ");
+str + " (" + title + ")"</probeLineFormatter>
+    <probeOuterGlow>
+      <alpha>1</alpha>
+      <blurX>3</blurX>
+      <blurY>3</blurY>
+      <color>0</color>
+      <strength>3</strength>
+    </probeOuterGlow>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <probeToolTipMaxWidth>400</probeToolTipMaxWidth>
+    <recordsTooltipLocation>Lower left</recordsTooltipLocation>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <searchServiceURLs>Wikipedia|http://en.wikipedia.org/wiki/Special:Search?search=
+Google|http://www.google.com/search?q=
+Google Images|http://images.google.com/images?q=
+Google Maps|http://maps.google.com/maps?t=h&amp;q=</searchServiceURLs>
+    <SecondaryKeyNumColumn_useGlobalMinMaxValues>true</SecondaryKeyNumColumn_useGlobalMinMaxValues>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <selectionDropShadow>
+      <alpha>0.5</alpha>
+      <angle>45</angle>
+      <blurX>4</blurX>
+      <blurY>4</blurY>
+      <color>0</color>
+      <distance>2</distance>
+      <strength>1</strength>
+    </selectionDropShadow>
+    <selectionMode>rectangle</selectionMode>
+    <showAddExternalTools>false</showAddExternalTools>
+    <showCollaborationEditor>false</showCollaborationEditor>
+    <showCollaborationMenuItem>true</showCollaborationMenuItem>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEmptyProbeRecordIdentifiers>true</showEmptyProbeRecordIdentifiers>
+    <showEquationEditor>true</showEquationEditor>
+    <showErrors>true</showErrors>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showProbeWindow>true</showProbeWindow>
+    <showSelectedRecordsText>true</showSelectedRecordsText>
+    <showSessionHistoryControls>true</showSessionHistoryControls>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <startupJavaScript/>
+    <toolInteractions>
+      <defaultDragMode/>
+      <pan>alt,drag</pan>
+      <probe>move</probe>
+      <select>drag</select>
+      <selectAdd>ctrl,drag</selectAdd>
+      <selectAll>ctrl,dclick</selectAll>
+      <selectRemove>ctrl,shift,drag</selectRemove>
+      <zoom>shift,drag
+wheel</zoom>
+      <zoomIn>dclick</zoomIn>
+      <zoomOut>shift,dclick</zoomOut>
+      <zoomToExtent>ctrl,alt,shift,dclick</zoomToExtent>
+    </toolInteractions>
+    <toolToggles encoding="dynamic">
+      <LinkableBoolean name="TreeTool">false</LinkableBoolean>
+      <LinkableBoolean name="CytoscapeWebTool">false</LinkableBoolean>
+      <LinkableBoolean name="GraphTool">false</LinkableBoolean>
+      <LinkableBoolean name="CustomGraphicsTool">false</LinkableBoolean>
+      <LinkableBoolean name="DataStatisticsTool">false</LinkableBoolean>
+      <LinkableBoolean name="RamachandranPlotTool">false</LinkableBoolean>
+      <LinkableBoolean name="SchafersMissingDataTool">false</LinkableBoolean>
+      <LinkableBoolean name="DataFilter">false</LinkableBoolean>
+      <LinkableBoolean name="KeyMappingTool">false</LinkableBoolean>
+      <LinkableBoolean name="AttributeMenuTool">true</LinkableBoolean>
+      <LinkableBoolean name="CompoundBarChartTool">true</LinkableBoolean>
+      <LinkableBoolean name="ColormapHistogramTool">true</LinkableBoolean>
+      <LinkableBoolean name="ColorBinLegendTool">true</LinkableBoolean>
+      <LinkableBoolean name="CompoundRadVizTool">true</LinkableBoolean>
+      <LinkableBoolean name="CustomTool">true</LinkableBoolean>
+      <LinkableBoolean name="DataTableTool">true</LinkableBoolean>
+      <LinkableBoolean name="DimensionSliderTool">true</LinkableBoolean>
+      <LinkableBoolean name="GaugeTool">true</LinkableBoolean>
+      <LinkableBoolean name="HistogramTool">true</LinkableBoolean>
+      <LinkableBoolean name="Histogram2DTool">true</LinkableBoolean>
+      <LinkableBoolean name="LineChartTool">true</LinkableBoolean>
+      <LinkableBoolean name="MapTool">true</LinkableBoolean>
+      <LinkableBoolean name="PieChartTool">true</LinkableBoolean>
+      <LinkableBoolean name="PieChartHistogramTool">true</LinkableBoolean>
+      <LinkableBoolean name="RTextEditor">true</LinkableBoolean>
+      <LinkableBoolean name="RadVizTool">true</LinkableBoolean>
+      <LinkableBoolean name="ScatterPlotTool">true</LinkableBoolean>
+      <LinkableBoolean name="ThermometerTool">true</LinkableBoolean>
+      <LinkableBoolean name="TimeSliderTool">true</LinkableBoolean>
+      <LinkableBoolean name="TransposedTableTool">true</LinkableBoolean>
+    </toolToggles>
+    <version>Nightly Build (Thu Jul  3 04:00:08 EDT 2014)</version>
+    <visTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </visTextFormat>
+    <visTitleTextFormat>
+      <bold>false</bold>
+      <color>0</color>
+      <font>Sophia Nubian</font>
+      <italic>false</italic>
+      <size>11</size>
+      <underline>false</underline>
+    </visTitleTextFormat>
+    <windowSnapGridSize>1%</windowSnapGridSize>
+    <workspaceHeight>NaN</workspaceHeight>
+    <workspaceMultiplier>1</workspaceMultiplier>
+    <workspaceWidth>NaN</workspaceWidth>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp>&lt;colorRamp source="OIC" name="5-Color" category="basic"&gt;
+  &lt;node position="0" color="0xEFF3FF"/&gt;
+  &lt;node position="0.25" color="0xBDD7E7"/&gt;
+  &lt;node position="0.5" color="0x6BAED6"/&gt;
+  &lt;node position="0.75" color="0x3182BD"/&gt;
+  &lt;node position="1" color="0x08519C"/&gt;
+&lt;/colorRamp&gt;</ramp>
+    <recordColors/>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+        <overrideBinNames/>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic"/>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <filters encoding="dynamic"/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <KeySet name="alwaysHighlightKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <WeaveDataSource name="WeaveDataSource">
+    <attributeHierarchy encoding="xml"/>
+    <hierarchyURL/>
+    <idFields/>
+    <rootId/>
+    <url>/WeaveServices/DataService</url>
+  </WeaveDataSource>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic"/>
+  <SessionedTextBox name="Label3">
+    <backgroundAlpha>1</backgroundAlpha>
+    <backgroundColor>16777215</backgroundColor>
+    <borderColor>0</borderColor>
+    <borderThickness>1</borderThickness>
+    <buttonRadius>3</buttonRadius>
+    <closeable>true</closeable>
+    <cornerRadius>0</cornerRadius>
+    <enableBorders>true</enableBorders>
+    <enableMoveResize>true</enableMoveResize>
+    <enableSubMenu>false</enableSubMenu>
+    <enableZOrder>true</enableZOrder>
+    <htmlText>&lt;TEXTFORMAT LEADING="2"&gt;
+  &lt;P ALIGN="CENTER"&gt;
+    &lt;FONT FACE="Verdana" SIZE="24" COLOR="#0B333C" KERNING="0" LETTERSPACING="0"&gt;The cow jumped over the moon.&lt;/FONT&gt;
+  &lt;/P&gt;
+&lt;/TEXTFORMAT&gt;</htmlText>
+    <maximizable>false</maximizable>
+    <maximized>false</maximized>
+    <minimizable>false</minimizable>
+    <minimized>false</minimized>
+    <padding>10</padding>
+    <panelBackgroundColor>NaN</panelBackgroundColor>
+    <panelBorderColor>NaN</panelBorderColor>
+    <panelHeight>8%</panelHeight>
+    <panelStyleList/>
+    <panelTitle/>
+    <panelWidth>50%</panelWidth>
+    <panelX>25%</panelX>
+    <panelY>20%</panelY>
+    <zOrder>0</zOrder>
+  </SessionedTextBox>
+  <ByteArray name="thumbnail.png" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAACXCAYAAABQgBS8AAAHm0lEQVR42u3d+1NTZxrAcf7B3R9k
+ZuUu94u7OyxT2xEUr9xkVMo1ECBCICmQEEDszra7bddKLUFxNYgWBbkjYL1wE1dHn32fdwsFdHW6
+s10z8v3MPHOSkzeHCOebSMYxEffv35eFhQU7Y+MTMmeuz87Nbe7bmMnpaZmembGXZ2ZnX7td7zM1
+PWPvPz8/b+dN67au12POma2u3di3c50+vompqZ+v/3TsN63Tx//zY5x749fVdfo4dbv1z74bZ3Fx
+Maxm1pwvLpdLSktL5cSJE3L8+HEpLi7enJKSEjl69Ki9LT8/396ulwsKCuz+oqKizbW6T7e6RvcX
+FhZu7tM5efLktusb99Hj6WW9jz6OiP7+frlx44ad9p5ecbX5pOKcWzrOX9jcrxMcuGL3t3Wfl8a2
+DvH3fr7t9uvXr0tZQ5M4PW3iaPGKz9x/Y72nq0d8b1hf7moWT6DbHs/tD9j1XnN96zqdquYWcfsC
+0tF7QT4zxzvX4Zfmjk65cvXqtnVn6l1S4/ZIa2eXOFq99pifdZ2X/uDAtnWltfX2GPXedvni629e
++3q7aUKhUFhNe3u7PTH3798ve/fuleTkZImPj5f09HS7LyYmRg4cOCCRkZGSkpIisbGxkpWVJdHR
+0RIXF2fXJiUlSXZ2tiQmJtr1CQkJdp8eT7epqamSk5Nj76fXMzMzJS0tza7fs2ePZGRk2GPl5uZK
+hNfrla6uLjv1Tc1yttohpRVVcrqqZnO/TiAQkOr6BvnUUSuVznqpaWh87faymlopr62TszUOqayr
+t9c/Ndf1fjo715c76qS0ssocs85+Pb1vRa1TAlvW6ZSbfXo8PYZ+bX2Mum33+batc7qa7H6dM2ZN
+hTneKfNn6TRfa+s6h3nsesyisgppbHZvu223TXd3d1iN0+m0gegzvD775+XlyeHDh+0rxJEjR+wr
+h96m+48dO2af8Teu60mva3WdvhroVvfr6Ml+6NAhe1mPoa8QG9f1OHpZ9+tW1+plPUZEcGBAfH4/
+s0vHH2bT1tYu+qQdLhPx+PETWVpaluXlZbt9+vSpjE/Py9VbE3JleFx+fPhYVlZW7O1vG73v6uqq
+PHmytLlPj/38+XNZf/ZMnplZX1+XFy9eyJK57eXLlwKEAz0//6nn6foze66vrKzarV6PmDW/zOoJ
+W2Z+H9Dt4oMH4v68X0YnZuVvwTsSDN2xv0BpOMEbIekb/IeM3BuXa8O35KvvgzI2OSXzP92u6xYW
+FmVwcFAemOPoL9Rra2smniW5du2aDUivv3r1StbM+lVzmXm/s8bIo0eP7Ln/8OEjMw/tK4dudSLG
+xu7JN32XJT33iN3OzMxKQ+Ci1AWCUt72nVwcCMnU1JR5NXgsfVcGpbXngtSbX5BrPO3ibPfLGZdb
+Bodu2tunp6dlYmLCvtugf5ccu3fPfuFLly7ZvxuOjo7KsilTAxm5e1fujo0x73lGd/uYc7Q/GLTn
+qr4DOzk5aX8H0a2+yxmhb5ne/uEHuXX7tt3qs/7lgUHx9F4Ur5nrQ7dkfHxCRkZG3jkakh5j4/rN
+4eF/vyrp23jmFWXBbLVYIJz8aF4p5vWtb3N+3jFP3Buj520E3x7gPyMQgEAAAgEIBCAQgEAAAgEI
+BCAQgEAAEAhAIACBAAQCEAhAIACBAAQCEAhAIAAIBCAQgEAAAgEIBCAQgEAAAglX+r/Fr6yuMv/F
+rP5KQyBhRD+MJ2ZfmpSVV9lJ358tv42Mfuv8LibxnWuYt09UfIqcLCqRs+WVkvNxnpRXOaSyulbS
+zPf/Q/mApA8mkNSMP9jPuOvp6ZFPcvPFH+iRphav+aHVSmWNUzq7e8XZ2CT1jc12Lvz5L9Jwzi2u
+plY55/ZIpcMpfd99Lw6ny17fl5olv9kTxbxlUsz3fOMTZqsddfaDZ1paWiT38DECCbdA4hLTbCCd
+nZ2Sc+Cg7EvJlOiEFLPNkrikdPtsF2vWRMUlm7XpEp+cIZFRCRKflGEvx+xLtffRrb4aRUbFE8E7
+JtZ8r1o9Hunw+eToiUIbR1Nzs/wx52MCCbdAss0PpVI//VY/3baqhvk/zdbveUHRKSk+dVrSMn9P
+IOEWiMfbxlsu75l+ZNnAwIBUmlgIhECww9DNYRkauikl5lWEQAgEOwTNq0coFJKDefkEQiDYqcnd
+Ip2BLvnkYB6BEAh2+utXX9tPNi4oLCYQAsFO+tHJvb29Unr6LIGEWyDVNbX2w9+ZXzb62fb/q/H5
+/fLFl1/Kn3I+IpBwov8W69u+y/L3b/uYXzgXf4W5ZH4W+jMhEOADRyAAgQAEAhAIQCAAgQAEAhAI
+QCAAgQAgEIBAAAIBCAQgEIBAAAIBCAQgEIBAABAIQCAAgQAEAhAIQCAAgQAEAhAIAAIBCAQgEIBA
+AAIBCAQgEIBAAAIBCAQAgQAEAhAIQCAAgQAEAhAIQCAAgQAgEIBAAAIBCAQgEIBAAAIBCAQgEIBA
+ABAIQCAAgQAEAhAIQCAAgQAEAhAIAAIBCAQgEIBAAAIBCAQgEIBAAAIBCAQAgQAEAhAIQCAAgQAE
+AhAIQCAAgQAgEIBAAAIBCAQgEIBAAAIBCAQgEIBAABAIQCAAgQAEAhAIEIb+BT3ToOz/i++ZAAAA
+AElFTkSuQmCC</ByteArray>
+</Weave>

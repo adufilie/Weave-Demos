@@ -1,0 +1,115 @@
+<Weave encoding="TypedSessionState">
+	<WeaveProperties name="WeaveProperties">
+		<enableDataImport>true</enableDataImport>
+		<enableDebugAlert>false</enableDebugAlert>
+		<enableDynamicTools>true</enableDynamicTools>
+		<enableExportToolImage>true</enableExportToolImage>
+		<enableMapLayerAddRemove>true</enableMapLayerAddRemove>
+		<enableMapLayerEdit>true</enableMapLayerEdit>
+		<enableMenuBar>true</enableMenuBar>
+		<enableSession>true</enableSession>
+		<enableSessionEdit>true</enableSessionEdit>
+		<enableSessionLoad>true</enableSessionLoad>
+		<enableSessionSave>true</enableSessionSave>
+		<enableSubsetControls>true</enableSubsetControls>
+		<enableTaskbar>true</enableTaskbar>
+		<enableToolAttributeEditing>true</enableToolAttributeEditing>
+		<enableToolAutoResizeAndPosition>true</enableToolAutoResizeAndPosition>
+		<enableToolClickDebug>false</enableToolClickDebug>
+		<pageTitle>Open Indicators Weave</pageTitle>
+		<probePrefix/>
+		<probeSuffix/>
+		<rServicesURL>/OpenIndicatorsRServices</rServicesURL>
+		<showCopyright>true</showCopyright>
+		<showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+		<showVisToolCloseDialog>true</showVisToolCloseDialog>
+		<version>Beta 0.8</version>
+		<wsShapesURL>/OpenIndicatorsDataServices/WSShapesService?wsdl</wsShapesURL>
+	</WeaveProperties>
+	<OpenIndicatorsDataSource name="OpenIndicatorsDataSource">
+		<alertEnabled>true</alertEnabled>
+		<attributeHierarchy encoding="XML">
+			<hierarchy name="IVPR Indicator Server">
+				<category name="jiraissue">
+				</category>
+			</hierarchy>
+		</attributeHierarchy>
+		<hierarchyURL/>
+		<url>/OpenIndicatorsDataServices</url>
+	</OpenIndicatorsDataSource>
+	<Colormap encoding="XML" name="Global Colormap"/>
+	<ProxyAttributeColumn encoding="XML" name="Default Main Probe Column"/>
+	<HistogramTool name="HistogramTool">
+		<multiLayerHistogram>
+			<attrSelector>
+				<panelHeight>48.267%</panelHeight>
+				<panelWidth>68.75%</panelWidth>
+				<panelX>1.5625%</panelX>
+				<panelY>0.79114%</panelY>
+			</attrSelector>
+			<layers encoding="TypedSessionState">
+				<AxesLayer name="axes">
+					<displayProperties>
+						<fillAlpha>1</fillAlpha>
+						<fillColor>NaN</fillColor>
+						<fillEnabled>true</fillEnabled>
+						<lineAlpha>0.5</lineAlpha>
+						<lineCaps/>
+						<lineColor>0</lineColor>
+						<lineEnabled>true</lineEnabled>
+						<lineJoints/>
+						<lineMiterLimit>3</lineMiterLimit>
+						<linePixelHinting>false</linePixelHinting>
+						<lineScaleMode>normal</lineScaleMode>
+						<lineWeight>1</lineWeight>
+						<pixellation>1</pixellation>
+						<screenHeight>10</screenHeight>
+						<screenWidth>10</screenWidth>
+						<screenX>NaN</screenX>
+						<screenY>NaN</screenY>
+					</displayProperties>
+					<layerIsVisible>true</layerIsVisible>
+					<xAxisEnabled>true</xAxisEnabled>
+					<yAxisEnabled>true</yAxisEnabled>
+				</AxesLayer>
+				<HistogramLayer name="plot">
+					<binDimension encoding="XML">
+						<hierarchy name="IVPR Indicator Server" dataSource="OpenIndicatorsDataSource">
+							<category name="jiraissue">
+								<attribute name="ASSIGNEE" keyType="jiraissue" min="" dataTableName="jiraissue" year="" max=""/>
+							</category>
+						</hierarchy>
+					</binDimension>
+					<displayProperties>
+						<fillAlpha>1</fillAlpha>
+						<fillColor>9474192</fillColor>
+						<fillEnabled>true</fillEnabled>
+						<lineAlpha>0.5</lineAlpha>
+						<lineCaps/>
+						<lineColor>0</lineColor>
+						<lineEnabled>true</lineEnabled>
+						<lineJoints/>
+						<lineMiterLimit>3</lineMiterLimit>
+						<linePixelHinting>false</linePixelHinting>
+						<lineScaleMode>normal</lineScaleMode>
+						<lineWeight>1</lineWeight>
+						<pixellation>1</pixellation>
+						<screenHeight>10</screenHeight>
+						<screenWidth>10</screenWidth>
+						<screenX>NaN</screenX>
+						<screenY>NaN</screenY>
+					</displayProperties>
+					<enableProbe>true</enableProbe>
+					<enableSelection>true</enableSelection>
+					<keyType>jiraissue</keyType>
+					<layerIsVisible>true</layerIsVisible>
+					<probeDimension>Default Main Probe Column</probeDimension>
+				</HistogramLayer>
+			</layers>
+		</multiLayerHistogram>
+		<panelHeight>50%</panelHeight>
+		<panelWidth>50%</panelWidth>
+		<panelX>47.266%</panelX>
+		<panelY>45.886%</panelY>
+	</HistogramTool>
+</Weave>

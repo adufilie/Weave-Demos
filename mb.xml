@@ -1,0 +1,620 @@
+<Weave encoding="dynamic">
+	<LinkableHashMap encoding="dynamic" name="savedSelections"/>
+	<LinkableHashMap encoding="dynamic" name="savedSubsets"/>
+	<BinnedColumn name="defaultColorBinColumn">
+		<binningDefinition encoding="dynamic">
+			<SimpleBinningDefinition>
+				<numberOfBins>10</numberOfBins>
+			</SimpleBinningDefinition>
+		</binningDefinition>
+		<internalDynamicColumn encoding="dynamic">
+			<StaticObjectReference name="defaultColorDataColumn"/>
+		</internalDynamicColumn>
+	</BinnedColumn>
+	<FilteredColumn name="defaultColorDataColumn">
+		<filter encoding="dynamic">
+			<StaticObjectReference name="defaultSubsetKeyFilter"/>
+		</filter>
+		<internalDynamicColumn encoding="dynamic">
+			<ReferencedColumn>
+				<columnReference encoding="dynamic">
+					<HierarchyColumnReference>
+						<dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+						<hierarchyPath encoding="xml">
+							<hierarchy>
+								<category name="DataTables">
+									<category name="CombinedCounty">
+										<attribute name="Percent BLACK OR AA" year="" keyType="US County FIPS Code" dataTableName="CombinedCounty"/>
+									</category>
+								</category>
+							</hierarchy>
+						</hierarchyPath>
+					</HierarchyColumnReference>
+				</columnReference>
+			</ReferencedColumn>
+		</internalDynamicColumn>
+	</FilteredColumn>
+	<KeyFilter name="defaultSubsetKeyFilter">
+		<excludedKeys/>
+		<includedKeys/>
+		<includeMissingKeys>true</includeMissingKeys>
+		<sessionedKeyType/>
+	</KeyFilter>
+	<KeySet name="defaultSelectionKeySet">
+		<sessionedKeys/>
+		<sessionedKeyType>US State FIPS Code</sessionedKeyType>
+	</KeySet>
+	<KeySet name="defaultProbeKeySet">
+		<sessionedKeys/>
+		<sessionedKeyType>US State FIPS Code</sessionedKeyType>
+	</KeySet>
+	<ColorColumn name="defaultColorColumn">
+		<internalDynamicColumn encoding="dynamic">
+			<StaticObjectReference name="defaultColorBinColumn"/>
+		</internalDynamicColumn>
+		<ramp encoding="xml">
+			<colorRamp name="Jet" dataFormat="qualitative" category="visualization" source="OIC">
+				<node color="0x000086" position="0"/>
+				<node color="0x0000ff" position="0.1518324607329843"/>
+				<node color="0x00ffff" position="0.3717277486910995"/>
+				<node color="0xffff00" position="0.6282722513089005"/>
+				<node color="0xff0000" position="0.8952879581151832"/>
+				<node color="0x860000" position="1"/>
+			</colorRamp>
+		</ramp>
+	</ColorColumn>
+	<WeaveProperties name="WeaveProperties">
+		<axisFontBold>true</axisFontBold>
+		<axisFontColor>0</axisFontColor>
+		<axisFontFamily>Arial</axisFontFamily>
+		<axisFontItalic>false</axisFontItalic>
+		<axisFontSize>10</axisFontSize>
+		<axisFontUnderline>false</axisFontUnderline>
+		<backgroundColor>13421772</backgroundColor>
+		<cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+		<dataInfoURL/>
+		<debugScreenBounds>false</debugScreenBounds>
+		<enableAboutMenu>true</enableAboutMenu>
+		<enableAdd2DHistogram>true</enableAdd2DHistogram>
+		<enableAddBarChart>true</enableAddBarChart>
+		<enableAddColorLegend>true</enableAddColorLegend>
+		<enableAddColormapHistogram>true</enableAddColormapHistogram>
+		<enableAddDataTable>true</enableAddDataTable>
+		<enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+		<enableAddGaugeTool>true</enableAddGaugeTool>
+		<enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+		<enableAddHistogram>true</enableAddHistogram>
+		<enableAddLineChart>true</enableAddLineChart>
+		<enableAddMap>true</enableAddMap>
+		<enableAddOpenIndicatorsDataSource>true</enableAddOpenIndicatorsDataSource>
+		<enableAddPieChart>true</enableAddPieChart>
+		<enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+		<enableAddRadViz>true</enableAddRadViz>
+		<enableAddRadViz2>false</enableAddRadViz2>
+		<enableAddRamachandranPlot>true</enableAddRamachandranPlot>
+		<enableAddRScriptEditor>true</enableAddRScriptEditor>
+		<enableAddScatterplot>true</enableAddScatterplot>
+		<enableAddSP2>true</enableAddSP2>
+		<enableAddStickFigurePlot>true</enableAddStickFigurePlot>
+		<enableAddThermometerTool>true</enableAddThermometerTool>
+		<enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+		<enableAddWordle>true</enableAddWordle>
+		<enableClearCurrentSelection>true</enableClearCurrentSelection>
+		<enableCreateSubsets>true</enableCreateSubsets>
+		<enableDataMenu>true</enableDataMenu>
+		<enableDebugAlert>false</enableDebugAlert>
+		<enableDynamicTools>true</enableDynamicTools>
+		<enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+		<enableExportDataTable>true</enableExportDataTable>
+		<enableExportToolImage>true</enableExportToolImage>
+		<enableFullscreen>true</enableFullscreen>
+		<enableGoFullscreen>true</enableGoFullscreen>
+		<enableManageSavedSelections>true</enableManageSavedSelections>
+		<enableManageSavedSubsets>true</enableManageSavedSubsets>
+		<enableMenuBar>true</enableMenuBar>
+		<enableMenuBarOnTop>true</enableMenuBarOnTop>
+		<enableNewDataset>true</enableNewDataset>
+		<enableRefreshHierarchies>true</enableRefreshHierarchies>
+		<enableRemoveSubsets>true</enableRemoveSubsets>
+		<enableRightClick>true</enableRightClick>
+		<enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+		<enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+		<enableSearchForRecord>true</enableSearchForRecord>
+		<enableSelectionsMenu>true</enableSelectionsMenu>
+		<enableSessionBookmarks>true</enableSessionBookmarks>
+		<enableSessionEdit>true</enableSessionEdit>
+		<enableSessionExport>true</enableSessionExport>
+		<enableSessionImport>true</enableSessionImport>
+		<enableSessionMenu>true</enableSessionMenu>
+		<enableShowAllRecords>true</enableShowAllRecords>
+		<enableSubsetControls>true</enableSubsetControls>
+		<enableSubsetsMenu>true</enableSubsetsMenu>
+		<enableTaskbar>true</enableTaskbar>
+		<enableToolAttributeEditing>true</enableToolAttributeEditing>
+		<enableToolAutoResizeAndPosition>true</enableToolAutoResizeAndPosition>
+		<enableToolBorders>true</enableToolBorders>
+		<enableToolClose>true</enableToolClose>
+		<enableToolDrag>true</enableToolDrag>
+		<enableToolMaximize>true</enableToolMaximize>
+		<enableToolMinimize>true</enableToolMinimize>
+		<enableToolProbe>true</enableToolProbe>
+		<enableToolResize>true</enableToolResize>
+		<enableToolSelection>true</enableToolSelection>
+		<enableUserPreferences>true</enableUserPreferences>
+		<enableWindowMenu>true</enableWindowMenu>
+		<fontBold>false</fontBold>
+		<fontColor>NaN</fontColor>
+		<fontFamily>Verdana</fontFamily>
+		<fontItalic>false</fontItalic>
+		<fontSize>10</fontSize>
+		<fontUnderline>false</fontUnderline>
+		<pageTitle>Sample Weave Configuration</pageTitle>
+		<panelTitleFontBold>false</panelTitleFontBold>
+		<panelTitleFontColor>16777215</panelTitleFontColor>
+		<panelTitleFontItalic>false</panelTitleFontItalic>
+		<panelTitleFontSize>10</panelTitleFontSize>
+		<panelTitleFontStyle>Verdana</panelTitleFontStyle>
+		<panelTitleFontUnderline>false</panelTitleFontUnderline>
+		<probeInnerGlowAlpha>0.9</probeInnerGlowAlpha>
+		<probeInnerGlowBlur>5</probeInnerGlowBlur>
+		<probeInnerGlowColor>65280</probeInnerGlowColor>
+		<probeInnerGlowStrength>10</probeInnerGlowStrength>
+		<probeOuterGlowAlpha>0.7</probeOuterGlowAlpha>
+		<probeOuterGlowBlur>3</probeOuterGlowBlur>
+		<probeOuterGlowColor>65280</probeOuterGlowColor>
+		<probeOuterGlowStrength>10</probeOuterGlowStrength>
+		<probeToolTipAlpha>0.95</probeToolTipAlpha>
+		<probeToolTipBackgroundColor>15725756</probeToolTipBackgroundColor>
+		<probeToolTipFontColor>NaN</probeToolTipFontColor>
+		<rServicesURL>/OpenIndicatorsDataServices</rServicesURL>
+		<selectionAlphaAmount>0.5</selectionAlphaAmount>
+		<selectionBlurringAmount>4</selectionBlurringAmount>
+		<shadowAlpha>0.5</shadowAlpha>
+		<shadowAngle>45</shadowAngle>
+		<shadowBlur>4</shadowBlur>
+		<shadowColor>16711680</shadowColor>
+		<shadowDistance>2</shadowDistance>
+		<showAttributeSelector>true</showAttributeSelector>
+		<showColorController>true</showColorController>
+		<showCopyright>true</showCopyright>
+		<showEquationEditor>true</showEquationEditor>
+		<showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+		<showProbeToolTipEditor>true</showProbeToolTipEditor>
+		<showViewBar>false</showViewBar>
+		<showVisToolCloseDialog>false</showVisToolCloseDialog>
+		<version>Beta 0.9.5 dev</version>
+		<windowSnapGridSize>1</windowSnapGridSize>
+	</WeaveProperties>
+	<OpenIndicatorsDataSource name="OpenIndicatorsDataSource">
+		<alertEnabled>true</alertEnabled>
+		<attributeHierarchy encoding="xml">
+			<hierarchy name="IVPR Indicator Server">
+				<category name="DataTables">
+					<category name="obesityTimeDimensionwid">
+						<attribute name="ID" year="" keyType="US State FIPS Code" dataTableName="obesityTimeDimensionwid"/>
+						<attribute name="State" year="" keyType="US State FIPS Code" min="" dataTableName="obesityTimeDimensionwid" max=""/>
+						<attribute name="FIPS2" year="" keyType="US State FIPS Code" dataTableName="obesityTimeDimensionwid"/>
+						<attribute name="Year" year="" keyType="US State FIPS Code" min="" dataTableName="obesityTimeDimensionwid" max=""/>
+						<attribute name="PercentObese" year="" keyType="US State FIPS Code" min="" dataTableName="obesityTimeDimensionwid" max=""/>
+						<attribute name="PercentOverweight" year="" keyType="US State FIPS Code" min="" dataTableName="obesityTimeDimensionwid" max=""/>
+						<attribute name="PercentNotOverweight" year="" keyType="US State FIPS Code" min="" dataTableName="obesityTimeDimensionwid" max=""/>
+					</category>
+					<category name="Obesity Years">
+						<attribute name="State" year="" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="1995" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="1996" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="1997" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="1998" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="1999" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="2000" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="2001" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="2002" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="2003" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="2004" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="2005" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="2006" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+						<attribute name="Percent Obese (BMI >= 30)" year="2007" keyType="US State FIPS Code" dataTableName="Obesity Years"/>
+					</category>
+					<category name="oecd_obese2008"/>
+					<category name="obesity">
+						<attribute name="US State FIPS Code" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="State" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 1995" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 1996" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 1997" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 1998" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 1999" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 2000" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 2001" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 2002" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 2003" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 2004" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 2005" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 2006" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+						<attribute name="Percent Obese 2007" year="" keyType="US State FIPS Code" dataTableName="obesity"/>
+					</category>
+					<category name="Community Health Status Indicators"/>
+					<category name="OECD_Obese2008"/>
+					<category name="OECD_Combined health and Ineq."/>
+					<category name="StatesHealth Years"/>
+					<category name="StatesHealth"/>
+					<category name="USprisoners"/>
+					<category name="Obesity">
+						<attribute name="State" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 1995" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 1996" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 1997" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 1998" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 1999" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 2000" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 2001" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 2002" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 2003" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 2004" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 2005" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 2006" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+						<attribute name="Percent Obese 2007" year="" keyType="US State FIPS Code" dataTableName="Obesity"/>
+					</category>
+					<category name="Rosling Indicators"/>
+					<category name="empty">
+						<attribute name="empty" year="" keyType="US State FIPS Code" dataTableName="empty"/>
+					</category>
+				</category>
+				<category name="GeometryCollections">
+					<attribute name="World Borders" dataType="Geometry"/>
+					<attribute name="States" dataType="Geometry"/>
+					<attribute name="Counties" dataType="Geometry" keyType="US County FIPS Code"/>
+					<attribute name="County Subdivisions" dataType="Geometry"/>
+				</category>
+			</hierarchy>
+		</attributeHierarchy>
+		<hierarchyURL/>
+		<url>/OpenIndicatorsDataServices</url>
+	</OpenIndicatorsDataSource>
+	<LinkableHashMap encoding="dynamic" name="Probed Columns">
+		<ReferencedColumn name="ReferencedColumn">
+			<columnReference encoding="dynamic">
+				<HierarchyColumnReference>
+					<dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+					<hierarchyPath encoding="xml">
+						<hierarchy>
+							<category name="DataTables">
+								<category name="obesityTimeDimensionwid">
+									<attribute name="State" year="" keyType="US State FIPS Code" dataTableName="obesityTimeDimensionwid"/>
+								</category>
+							</category>
+						</hierarchy>
+					</hierarchyPath>
+				</HierarchyColumnReference>
+			</columnReference>
+		</ReferencedColumn>
+		<ReferencedColumn name="ReferencedColumn2">
+			<columnReference encoding="dynamic">
+				<HierarchyColumnReference>
+					<dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+					<hierarchyPath encoding="xml">
+						<hierarchy>
+							<category name="DataTables">
+								<category name="obesityTimeDimensionwid">
+									<attribute name="Year" year="" keyType="US State FIPS Code" dataTableName="obesityTimeDimensionwid"/>
+								</category>
+							</category>
+						</hierarchy>
+					</hierarchyPath>
+				</HierarchyColumnReference>
+			</columnReference>
+		</ReferencedColumn>
+	</LinkableHashMap>
+	<LinkableHashMap encoding="dynamic" name="Probe Header Columns"/>
+	<CompoundBarChartTool name="CompoundBarChartTool">
+		<buttonRadius>3</buttonRadius>
+		<children encoding="dynamic">
+			<SimpleInteractiveVisualization name="visualization">
+				<axisFontBold>true</axisFontBold>
+				<axisFontColor>0</axisFontColor>
+				<axisFontFamily>Arial</axisFontFamily>
+				<axisFontItalic>false</axisFontItalic>
+				<axisFontSize>10</axisFontSize>
+				<axisFontUnderline>false</axisFontUnderline>
+				<axisLineAlpha>1</axisLineAlpha>
+				<axisLineColor>0</axisLineColor>
+				<axisLineThickness>2</axisLineThickness>
+				<axisTickAlpha>1</axisTickAlpha>
+				<axisTickColor>0</axisTickColor>
+				<axisTickLength>10</axisTickLength>
+				<axisTickThickness>2</axisTickThickness>
+				<dataBounds>
+					<xMax>48.5</xMax>
+					<xMin>0.5</xMin>
+					<yMax>100.00000000000001</yMax>
+					<yMin>0</yMin>
+				</dataBounds>
+				<enableAutoZoomToExtent>true</enableAutoZoomToExtent>
+				<enableAutoZoomXToNiceNumbers/>
+				<enableAutoZoomYToNiceNumbers/>
+				<enableFixedAspectRatio>false</enableFixedAspectRatio>
+				<enableZoomAndPan>false</enableZoomAndPan>
+				<includeNonSelectableLayersInAutoZoom>false</includeNonSelectableLayersInAutoZoom>
+				<layers encoding="dynamic">
+					<SelectablePlotLayer name="plot">
+						<backgroundIsVisible>true</backgroundIsVisible>
+						<enableBitmapFilters>true</enableBitmapFilters>
+						<layerIsSelectable>true</layerIsSelectable>
+						<layerIsVisible>true</layerIsVisible>
+						<plotter encoding="dynamic">
+							<CompoundBarChartPlotter>
+								<barSpacing>0</barSpacing>
+								<chartColors encoding="xml">
+									<colorRamp name="Old Leather" source="OIC" category="aesthetic">
+										<node color="0x404320" position="0"/>
+										<node color="0x71550E" position="0.1"/>
+										<node color="0x896731" position="0.2"/>
+										<node color="0xDDD200" position="0.3"/>
+										<node color="0x5C97BA" position="0.65"/>
+										<node color="0x5C97BA" position="1"/>
+									</colorRamp>
+								</chartColors>
+								<colorColumn>
+									<defaultValue>NaN</defaultValue>
+									<internalDynamicColumn encoding="dynamic">
+										<StaticObjectReference name="defaultColorColumn"/>
+									</internalDynamicColumn>
+								</colorColumn>
+								<groupMode>false</groupMode>
+								<heightColumns encoding="dynamic">
+									<ReferencedColumn name="ReferencedColumn">
+										<columnReference encoding="dynamic">
+											<HierarchyColumnReference>
+												<dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+												<hierarchyPath encoding="xml">
+													<hierarchy>
+														<category name="DataTables">
+															<category name="obesityTimeDimensionwid">
+																<attribute name="PercentNotOverweight" year="" keyType="US State FIPS Code" dataTableName="obesityTimeDimensionwid"/>
+															</category>
+														</category>
+													</hierarchy>
+												</hierarchyPath>
+											</HierarchyColumnReference>
+										</columnReference>
+									</ReferencedColumn>
+									<ReferencedColumn name="ReferencedColumn2">
+										<columnReference encoding="dynamic">
+											<HierarchyColumnReference>
+												<dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+												<hierarchyPath encoding="xml">
+													<hierarchy>
+														<category name="DataTables">
+															<category name="obesityTimeDimensionwid">
+																<attribute name="PercentOverweight" year="" keyType="US State FIPS Code" dataTableName="obesityTimeDimensionwid"/>
+															</category>
+														</category>
+													</hierarchy>
+												</hierarchyPath>
+											</HierarchyColumnReference>
+										</columnReference>
+									</ReferencedColumn>
+									<ReferencedColumn name="ReferencedColumn3">
+										<columnReference encoding="dynamic">
+											<HierarchyColumnReference>
+												<dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+												<hierarchyPath encoding="xml">
+													<hierarchy>
+														<category name="DataTables">
+															<category name="obesityTimeDimensionwid">
+																<attribute name="PercentObese" year="" keyType="US State FIPS Code" dataTableName="obesityTimeDimensionwid"/>
+															</category>
+														</category>
+													</hierarchy>
+												</hierarchyPath>
+											</HierarchyColumnReference>
+										</columnReference>
+									</ReferencedColumn>
+								</heightColumns>
+								<horizontalMode>false</horizontalMode>
+								<keySet>
+									<keyFilter encoding="dynamic">
+										<StaticObjectReference name="defaultSubsetKeyFilter"/>
+									</keyFilter>
+								</keySet>
+								<lineStyle encoding="dynamic">
+									<SolidLineStyle>
+										<alpha>
+											<defaultValue>0.5</defaultValue>
+											<internalDynamicColumn encoding="dynamic"/>
+										</alpha>
+										<caps>
+											<defaultValue/>
+											<internalDynamicColumn encoding="dynamic"/>
+										</caps>
+										<color>
+											<defaultValue>0</defaultValue>
+											<internalDynamicColumn encoding="dynamic"/>
+										</color>
+										<enabled>
+											<defaultValue>true</defaultValue>
+											<internalDynamicColumn encoding="dynamic"/>
+										</enabled>
+										<joints>
+											<defaultValue/>
+											<internalDynamicColumn encoding="dynamic"/>
+										</joints>
+										<miterLimit>
+											<defaultValue>3</defaultValue>
+											<internalDynamicColumn encoding="dynamic"/>
+										</miterLimit>
+										<pixelHinting>
+											<defaultValue>false</defaultValue>
+											<internalDynamicColumn encoding="dynamic"/>
+										</pixelHinting>
+										<scaleMode>
+											<defaultValue>normal</defaultValue>
+											<internalDynamicColumn encoding="dynamic"/>
+										</scaleMode>
+										<weight>
+											<defaultValue>1</defaultValue>
+											<internalDynamicColumn encoding="dynamic"/>
+										</weight>
+									</SolidLineStyle>
+								</lineStyle>
+								<sortColumn encoding="dynamic">
+									<ReferencedColumn>
+										<columnReference encoding="dynamic">
+											<HierarchyColumnReference>
+												<dataSourceName>OpenIndicatorsDataSource</dataSourceName>
+												<hierarchyPath encoding="xml">
+													<hierarchy>
+														<category name="DataTables">
+															<category name="obesityTimeDimensionwid">
+																<attribute name="PercentObese" year="" keyType="US State FIPS Code" dataTableName="obesityTimeDimensionwid"/>
+															</category>
+														</category>
+													</hierarchy>
+												</hierarchyPath>
+											</HierarchyColumnReference>
+										</columnReference>
+									</ReferencedColumn>
+								</sortColumn>
+							</CompoundBarChartPlotter>
+						</plotter>
+						<probeFilter encoding="dynamic">
+							<StaticObjectReference name="defaultProbeKeySet"/>
+						</probeFilter>
+						<selectionBlurringAmount>NaN</selectionBlurringAmount>
+						<selectionFilter encoding="dynamic">
+							<StaticObjectReference name="defaultSelectionKeySet"/>
+						</selectionFilter>
+						<subsetFilter encoding="dynamic">
+							<StaticObjectReference name="defaultSubsetKeyFilter"/>
+						</subsetFilter>
+					</SelectablePlotLayer>
+					<AxisLayer name="yAxis">
+						<isOverlay>false</isOverlay>
+						<plotter encoding="dynamic">
+							<AxisPlotter>
+								<axisLabelDistance>-10</axisLabelDistance>
+								<axisLabelRelativeAngle>45</axisLabelRelativeAngle>
+								<axisLineDataBounds>
+									<xMax>0.5</xMax>
+									<xMin>0.5</xMin>
+									<yMax>100.00000000000001</yMax>
+									<yMin>0</yMin>
+								</axisLineDataBounds>
+								<axisLineMaxValue>100.00000000000001</axisLineMaxValue>
+								<axisLineMinValue>0</axisLineMinValue>
+								<forceTickCount>false</forceTickCount>
+								<keySet>
+									<keyFilter encoding="dynamic"/>
+								</keySet>
+								<labelDistanceIsVertical>false</labelDistanceIsVertical>
+								<labelHorizontalAlign>right</labelHorizontalAlign>
+								<labelNumberFormatter>
+									<decimalSeparatorFrom>.</decimalSeparatorFrom>
+									<decimalSeparatorTo>.</decimalSeparatorTo>
+									<precision>0</precision>
+									<rounding>none</rounding>
+									<thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+									<thousandsSeparatorTo>,</thousandsSeparatorTo>
+									<useNegativeSign>true</useNegativeSign>
+									<useThousandsSeparator>true</useThousandsSeparator>
+								</labelNumberFormatter>
+								<labelTextAlignment>left</labelTextAlignment>
+								<labelVerticalAlign>bottom</labelVerticalAlign>
+								<tickCountRequested>10</tickCountRequested>
+								<tickMaxValue>NaN</tickMaxValue>
+								<tickMinValue>NaN</tickMinValue>
+							</AxisPlotter>
+						</plotter>
+						<selectionFilter encoding="dynamic"/>
+					</AxisLayer>
+					<AxisLayer name="xAxis">
+						<isOverlay>false</isOverlay>
+						<plotter encoding="dynamic">
+							<AxisPlotter>
+								<axisLabelDistance>-10</axisLabelDistance>
+								<axisLabelRelativeAngle>-45</axisLabelRelativeAngle>
+								<axisLineDataBounds>
+									<xMax>48.5</xMax>
+									<xMin>0.5</xMin>
+									<yMax>0</yMax>
+									<yMin>0</yMin>
+								</axisLineDataBounds>
+								<axisLineMaxValue>48.5</axisLineMaxValue>
+								<axisLineMinValue>0.5</axisLineMinValue>
+								<forceTickCount>false</forceTickCount>
+								<keySet>
+									<keyFilter encoding="dynamic"/>
+								</keySet>
+								<labelDistanceIsVertical>false</labelDistanceIsVertical>
+								<labelHorizontalAlign>right</labelHorizontalAlign>
+								<labelNumberFormatter>
+									<decimalSeparatorFrom>.</decimalSeparatorFrom>
+									<decimalSeparatorTo>.</decimalSeparatorTo>
+									<precision>0</precision>
+									<rounding>none</rounding>
+									<thousandsSeparatorFrom>,</thousandsSeparatorFrom>
+									<thousandsSeparatorTo>,</thousandsSeparatorTo>
+									<useNegativeSign>true</useNegativeSign>
+									<useThousandsSeparator>true</useThousandsSeparator>
+								</labelNumberFormatter>
+								<labelTextAlignment>left</labelTextAlignment>
+								<labelVerticalAlign>top</labelVerticalAlign>
+								<tickCountRequested>11</tickCountRequested>
+								<tickMaxValue>48</tickMaxValue>
+								<tickMinValue>0</tickMinValue>
+							</AxisPlotter>
+						</plotter>
+						<selectionFilter encoding="dynamic"/>
+					</AxisLayer>
+				</layers>
+				<marginBottom>80</marginBottom>
+				<marginLeft>80</marginLeft>
+				<marginRight>10</marginRight>
+				<marginTop>10</marginTop>
+				<maxZoomLevel>16</maxZoomLevel>
+				<minScreenSize>128</minScreenSize>
+				<minZoomLevel>0</minZoomLevel>
+				<shadowAmount>0</shadowAmount>
+			</SimpleInteractiveVisualization>
+		</children>
+		<closeable>true</closeable>
+		<draggable>true</draggable>
+		<helpAvailable>true</helpAvailable>
+		<hideBorders>false</hideBorders>
+		<labelColumn encoding="dynamic"/>
+		<linkColormap>true</linkColormap>
+		<linkProbing>true</linkProbing>
+		<linkSelection>true</linkSelection>
+		<linkSubset>true</linkSubset>
+		<lockPanel/>
+		<maximizable>true</maximizable>
+		<minimizable>true</minimizable>
+		<panelHeight>50%</panelHeight>
+		<panelStyleList/>
+		<panelWidth>50%</panelWidth>
+		<panelX>0%</panelX>
+		<panelY>1.7081%</panelY>
+		<resizeable>true</resizeable>
+		<showCloseDialog>false</showCloseDialog>
+		<toolTitle/>
+		<userControlsAvailable>true</userControlsAvailable>
+	</CompoundBarChartTool>
+	<DimensionSliderTool name="DimensionSliderTool">
+		<buttonRadius>3</buttonRadius>
+		<closeable>true</closeable>
+		<draggable>true</draggable>
+		<helpAvailable>false</helpAvailable>
+		<labelsLinkableString>1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009</labelsLinkableString>
+		<lockPanel/>
+		<maximizable>true</maximizable>
+		<minimizable>true</minimizable>
+		<panelHeight>12.422%</panelHeight>
+		<panelStyleList/>
+		<panelWidth>50%</panelWidth>
+		<panelX>0%</panelX>
+		<panelY>52.019%</panelY>
+		<resizeable>true</resizeable>
+		<showCloseDialog>false</showCloseDialog>
+		<userControlsAvailable>false</userControlsAvailable>
+	</DimensionSliderTool>
+</Weave>

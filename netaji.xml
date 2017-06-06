@@ -1,0 +1,1165 @@
+<Weave encoding="dynamic">
+  <WeaveProperties name="WeaveProperties">
+    <axisFontBold>true</axisFontBold>
+    <axisFontColor>0</axisFontColor>
+    <axisFontFamily>Sophia Nubian</axisFontFamily>
+    <axisFontItalic>false</axisFontItalic>
+    <axisFontSize>11</axisFontSize>
+    <axisFontUnderline>false</axisFontUnderline>
+    <backgroundColor>13421772</backgroundColor>
+    <cssStyleSheetName>weaveStyle.css</cssStyleSheetName>
+    <dataInfoURL/>
+    <debugScreenBounds>false</debugScreenBounds>
+    <enableAboutMenu>true</enableAboutMenu>
+    <enableAdd2DHistogram>true</enableAdd2DHistogram>
+    <enableAddBarChart>true</enableAddBarChart>
+    <enableAddColorLegend>true</enableAddColorLegend>
+    <enableAddColormapHistogram>true</enableAddColormapHistogram>
+    <enableAddDataFilter>true</enableAddDataFilter>
+    <enableAddDataSource>true</enableAddDataSource>
+    <enableAddDataTable>true</enableAddDataTable>
+    <enableAddDimensionSliderTool>true</enableAddDimensionSliderTool>
+    <enableAddGaugeTool>true</enableAddGaugeTool>
+    <enableAddGrailsDataSource>true</enableAddGrailsDataSource>
+    <enableAddHistogram>true</enableAddHistogram>
+    <enableAddLineChart>true</enableAddLineChart>
+    <enableAddMap>true</enableAddMap>
+    <enableAddPieChart>true</enableAddPieChart>
+    <enableAddPieChartHistogram>true</enableAddPieChartHistogram>
+    <enableAddRadViz>true</enableAddRadViz>
+    <enableAddRadViz2>true</enableAddRadViz2>
+    <enableAddRamachandranPlot>true</enableAddRamachandranPlot>
+    <enableAddRScriptEditor>true</enableAddRScriptEditor>
+    <enableAddScatterplot>true</enableAddScatterplot>
+    <enableAddSP2>true</enableAddSP2>
+    <enableAddStickFigurePlot>true</enableAddStickFigurePlot>
+    <enableAddThermometerTool>true</enableAddThermometerTool>
+    <enableAddTimeSliderTool>true</enableAddTimeSliderTool>
+    <enableAddWeaveDataSource>true</enableAddWeaveDataSource>
+    <enableAddWordle>true</enableAddWordle>
+    <enableClearCurrentSelection>true</enableClearCurrentSelection>
+    <enableCreateSubsets>true</enableCreateSubsets>
+    <enableDataMenu>true</enableDataMenu>
+    <enableDebugAlert>false</enableDebugAlert>
+    <enableDynamicTools>true</enableDynamicTools>
+    <enableEditDataSource>true</enableEditDataSource>
+    <enableExportApplicationScreenshot>true</enableExportApplicationScreenshot>
+    <enableExportDataTable>true</enableExportDataTable>
+    <enableExportToolImage>true</enableExportToolImage>
+    <enableFullscreen>true</enableFullscreen>
+    <enableGoFullscreen>true</enableGoFullscreen>
+    <enableManageSavedSelections>true</enableManageSavedSelections>
+    <enableManageSavedSubsets>true</enableManageSavedSubsets>
+    <enableMenuBar>true</enableMenuBar>
+    <enableNewDataset>true</enableNewDataset>
+    <enableNewUserWizard>true</enableNewUserWizard>
+    <enablePanelCoordsPercentageMode>true</enablePanelCoordsPercentageMode>
+    <enableProbeAnimation>true</enableProbeAnimation>
+    <enableProbeLines>true</enableProbeLines>
+    <enableRefreshHierarchies>true</enableRefreshHierarchies>
+    <enableRemoveSubsets>true</enableRemoveSubsets>
+    <enableRightClick>true</enableRightClick>
+    <enableSaveCurrentSelection>true</enableSaveCurrentSelection>
+    <enableSaveCurrentSubset>true</enableSaveCurrentSubset>
+    <enableSearchForRecord>true</enableSearchForRecord>
+    <enableSelectionsMenu>true</enableSelectionsMenu>
+    <enableSessionBookmarks>true</enableSessionBookmarks>
+    <enableSessionEdit>false</enableSessionEdit>
+    <enableSessionExport>true</enableSessionExport>
+    <enableSessionImport>true</enableSessionImport>
+    <enableSessionMenu>false</enableSessionMenu>
+    <enableShowAllRecords>true</enableShowAllRecords>
+    <enableSubsetControls>true</enableSubsetControls>
+    <enableSubsetsMenu>true</enableSubsetsMenu>
+    <enableTaskbar>true</enableTaskbar>
+    <enableToolAttributeEditing>true</enableToolAttributeEditing>
+    <enableToolBorders>true</enableToolBorders>
+    <enableToolClose>true</enableToolClose>
+    <enableToolDrag>true</enableToolDrag>
+    <enableToolMaximize>true</enableToolMaximize>
+    <enableToolMinimize>true</enableToolMinimize>
+    <enableToolProbe>true</enableToolProbe>
+    <enableToolResize>true</enableToolResize>
+    <enableToolSelection>true</enableToolSelection>
+    <enableUserPreferences>true</enableUserPreferences>
+    <enableWindowMenu>true</enableWindowMenu>
+    <pageTitle>Open Indicators Weave</pageTitle>
+    <panelTitleFontBold>false</panelTitleFontBold>
+    <panelTitleFontColor>16777215</panelTitleFontColor>
+    <panelTitleFontFamily>Verdana</panelTitleFontFamily>
+    <panelTitleFontItalic>false</panelTitleFontItalic>
+    <panelTitleFontSize>10</panelTitleFontSize>
+    <panelTitleFontUnderline>false</panelTitleFontUnderline>
+    <probeInnerGlowAlpha>1</probeInnerGlowAlpha>
+    <probeInnerGlowBlur>5</probeInnerGlowBlur>
+    <probeInnerGlowColor>16777215</probeInnerGlowColor>
+    <probeInnerGlowStrength>10</probeInnerGlowStrength>
+    <probeOuterGlowAlpha>1</probeOuterGlowAlpha>
+    <probeOuterGlowBlur>3</probeOuterGlowBlur>
+    <probeOuterGlowColor>0</probeOuterGlowColor>
+    <probeOuterGlowStrength>3</probeOuterGlowStrength>
+    <probeToolTipBackgroundAlpha>1</probeToolTipBackgroundAlpha>
+    <probeToolTipBackgroundColor>NaN</probeToolTipBackgroundColor>
+    <probeToolTipFontColor>0</probeToolTipFontColor>
+    <rServiceURL>/WeaveServices/RService</rServiceURL>
+    <selectionAlphaAmount>0.5</selectionAlphaAmount>
+    <selectionBlurringAmount>4</selectionBlurringAmount>
+    <shadowAlpha>0.5</shadowAlpha>
+    <shadowAngle>45</shadowAngle>
+    <shadowBlur>4</shadowBlur>
+    <shadowColor>0</shadowColor>
+    <shadowDistance>2</shadowDistance>
+    <showAttributeSelector>true</showAttributeSelector>
+    <showColorController>true</showColorController>
+    <showCopyright>true</showCopyright>
+    <showEquationEditor>true</showEquationEditor>
+    <showKeyTypeInColumnTitle>false</showKeyTypeInColumnTitle>
+    <showProbeToolTipEditor>true</showProbeToolTipEditor>
+    <showVisToolCloseDialog>false</showVisToolCloseDialog>
+    <version>Beta 0.9.6 dev</version>
+    <windowSnapGridSize>5</windowSnapGridSize>
+  </WeaveProperties>
+  <ColorColumn name="defaultColorColumn">
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorBinColumn"/>
+    </internalDynamicColumn>
+    <ramp encoding="xml">
+      <colorRamp name="Grayscale">
+        <node color="0x000000" position="0.0"/>
+        <node color="0xffffff" position="1.0"/>
+      </colorRamp>
+    </ramp>
+  </ColorColumn>
+  <BinnedColumn name="defaultColorBinColumn">
+    <binningDefinition encoding="dynamic">
+      <SimpleBinningDefinition>
+        <numberOfBins>10</numberOfBins>
+      </SimpleBinningDefinition>
+    </binningDefinition>
+    <internalDynamicColumn encoding="dynamic">
+      <GlobalObjectReference name="defaultColorDataColumn"/>
+    </internalDynamicColumn>
+  </BinnedColumn>
+  <FilteredColumn name="defaultColorDataColumn">
+    <filter encoding="dynamic">
+      <GlobalObjectReference name="defaultSubsetKeyFilter"/>
+    </filter>
+    <internalDynamicColumn encoding="dynamic"/>
+  </FilteredColumn>
+  <KeyFilter name="defaultSubsetKeyFilter">
+    <excluded/>
+    <included/>
+    <includeMissingKeys>true</includeMissingKeys>
+    <includeMissingKeyTypes>true</includeMissingKeyTypes>
+  </KeyFilter>
+  <KeySet name="defaultSelectionKeySet"/>
+  <KeySet name="defaultProbeKeySet"/>
+  <LinkableHashMap name="savedSelections" encoding="dynamic"/>
+  <LinkableHashMap name="savedSubsets" encoding="dynamic"/>
+  <LinkableHashMap name="Probe Header Columns" encoding="dynamic"/>
+  <LinkableHashMap name="Probed Columns" encoding="dynamic"/>
+  <CSVDataSource name="points.csv">
+    <attributeHierarchy encoding="xml">
+      <hierarchy>
+        <attribute keyType="player" csvColumn="Team" title="Team"/>
+        <attribute keyType="player" csvColumn="Players" title="Players"/>
+        <attribute keyType="player" csvColumn="Points" title="Points"/>
+      </hierarchy>
+    </attributeHierarchy>
+    <csvDataString>Team,Players,Points
+CHENN,A Mukund,75000
+CHENN,GJ Bailey,80000
+CHENN,K Vasudevadas,65000
+CHENN,M Vijay,90000
+CHENN,MEK Hussey,95000
+CHENN,S Anirudha,80000
+CHENN,S Badrinath,85000
+DECCN,AS Yadav,65000
+DECCN,B Chipli,75000
+DECCN,CA Lynn,65000
+DECCN,CL White,95000
+DECCN,DB Ravi Teja,75000
+DECCN,IR Jaggi,70000
+DECCN,JN Shah,65000
+DECCN,KP Pietersen,100000
+DECCN,MJ Lumb,80000
+DECCN,S Dhawan,85000
+DECCN,S Sohal,65000
+DELHI,AJ Finch,85000
+DELHI,CA Ingram,80000
+DELHI,DA Warner,95000
+DELHI,PT Naik,65000
+DELHI,S Sriram,75000
+DELHI,TP Yadav,65000
+DELHI,TR Birt,80000
+DELHI,U Chand,65000
+DELHI,V Sehwag,105000
+DELHI,Y Venugopal Rao,80000
+PUNJB,Mandeep Singh,65000
+PUNJB,P Dogra,70000
+PUNJB,SD Chitnis,65000
+PUNJB,SE Marsh,90000
+PUNJB,Sunny Singh,70000
+KOCHI,BJ Hodge,85000
+KOCHI,DA Chougule,65000
+KOCHI,DPMD Jayawardene,100000
+KOCHI,KM Jadhav,75000
+KOCHI,M Klinger,75000
+KOCHI,OA Shah,85000
+KOCHI,TM Srivastava,70000
+KOCHI,VVS Laxman,80000
+KOCHI,Yashpal Singh,70000
+KOLKT,EJG Morgan,95000
+KOLKT,G Gambhir,100000
+KOLKT,MK Tiwary,85000
+MUMB,AC Blizzard,70000
+MUMB,DJ Jacobs,85000
+MUMB,S Kanwar,65000
+MUMB,SR Tendulkar,105000
+MUMB,TL Suman,85000
+PUNE,AA Jhunjhunwala,65000
+PUNE,CJ Ferguson,85000
+PUNE,DS Jadhav,70000
+PUNE,GC Smith,95000
+PUNE,Harpreet Singh,65000
+PUNE,M Manhas,75000
+PUNE,MD Mishra,75000
+PUNE,MK Pandey,85000
+RTHAN,A Chopra,80000
+RTHAN,AG Paunikar,65000
+RTHAN,AM Rahane,85000
+RTHAN,DH Yagnik,65000
+RTHAN,FY Fazal,70000
+RTHAN,LRPL Taylor,95000
+RTHAN,R Dravid,90000
+RTHAN,SA Asnodkar,70000
+BLORE,CA Pujara,85000
+BLORE,JD Vandiar,70000
+BLORE,KB Arun Karthik,70000
+BLORE,LA Pomersbach,80000
+BLORE,M Kaif,80000
+BLORE,RR Rossouw,70000
+BLORE,SS Tiwary,90000
+BLORE,V Kohli,95000
+CHENN,DJ Bravo,95000
+CHENN,F du Plessis,85000
+CHENN,JA Morkel,95000
+CHENN,SB Styris,90000
+CHENN,SK Raina,95000
+DECCN,DT Christian,80000
+DECCN,JP Duminy,95000
+DELHI,AB McDonald,85000
+DELHI,IK Pathan,90000
+DELHI,JR Hopes,90000
+DELHI,R Bist,65000
+DELHI,R Frylinck,75000
+DELHI,RE van der Merwe,85000
+DELHI,Y Nagar,65000
+PUNJB,AM Nayar,85000
+PUNJB,Amit Yadav,65000
+PUNJB,Bipul Sharma,70000
+PUNJB,DJ Hussey,95000
+PUNJB,R McLaren,85000
+KOCHI,B Akhil,70000
+KOCHI,JW Hastings,85000
+KOCHI,NLTC Perera,85000
+KOCHI,P Padmanabhan,65000
+KOCHI,RA Jadeja,85000
+KOCHI,RV Gomez,65000
+KOCHI,SNJ O'Keefe,75000
+KOCHI,SPD Smith,85000
+KOCHI,Y Gnaneswara Rao,70000
+KOLKT,Iqbal Abdulla,75000
+KOLKT,JH Kallis,100000
+KOLKT,LR Shukla,80000
+KOLKT,R Bhatia,80000
+KOLKT,RN ten Doeschate,90000
+KOLKT,Shakib Al Hasan,95000
+KOLKT,YK Pathan,100000
+MUMB,A Symonds,100000
+MUMB,JEC Franklin,85000
+MUMB,KA Pollard,100000
+MUMB,MC Henriques,75000
+MUMB,R Sathish,85000
+MUMB,RG Sharma,95000
+PUNE,AC Thomas,75000
+PUNE,AD Mathews,95000
+PUNE,HH Khadiwale,65000
+PUNE,JD Ryder,90000
+PUNE,MR Marsh,75000
+PUNE,NL McCullum,90000
+PUNE,S Rana,70000
+PUNE,SB Wagh,65000
+PUNE,SS Mundhe,65000
+PUNE,WD Parnell,85000
+PUNE,Yuvraj Singh,100000
+RTHAN,AL Menaria,65000
+RTHAN,AS Raut,70000
+RTHAN,J Botha,90000
+RTHAN,PD Collingwood,90000
+RTHAN,S Narwal,65000
+RTHAN,SR Watson,105000
+RTHAN,STR Binny,65000
+BLORE,DL Vettori,95000
+BLORE,JJ van der Wath,80000
+BLORE,R Ninan,65000
+BLORE,RR Bhatkal,65000
+BLORE,TM Dilshan,100000
+CHENN,MS Dhoni,105000
+CHENN,WP Saha,85000
+DECCN,KC Sangakkara,100000
+DECCN,KH Devdhar,65000
+DELHI,MS Wade,80000
+DELHI,NV Ojha,85000
+PUNJB,AC Gilchrist,105000
+PUNJB,KD Karthik,90000
+PUNJB,N Saini,70000
+KOCHI,BB McCullum,100000
+KOCHI,C Madan,65000
+KOCHI,PA Patel,90000
+KOCHI,SH Marathe,65000
+KOLKT,BJ Haddin,95000
+KOLKT,MS Bisla,70000
+KOLKT,SP Goswami,75000
+MUMB,AP Tare,65000
+MUMB,AT Rayudu,90000
+PUNE,ER Dwivedi,65000
+PUNE,RV Uthappa,95000
+PUNE,TD Paine,85000
+RTHAN,PR Shah,70000
+BLORE,AB de Villiers,105000
+BLORE,CM Gautam,70000
+CHENN,BW Hilfenhaus,90000
+CHENN,DE Bollinger,95000
+CHENN,G Vignesh,65000
+CHENN,Joginder Sharma,80000
+CHENN,KMDN Kulasekara,90000
+CHENN,R Ashwin,95000
+CHENN,S Randiv,85000
+CHENN,S Tyagi,85000
+CHENN,SB Jakati,85000
+CHENN,TG Southee,90000
+CHENN,VY Mahesh,75000
+DECCN,A Ashish Reddy,65000
+DECCN,A Mishra,85000
+DECCN,AA Bhandari,65000
+DECCN,Anand Rajan,65000
+DECCN,Ankit Sharma,65000
+DECCN,DW Steyn,100000
+DECCN,Harmeet Singh,80000
+DECCN,I Malhotra,65000
+DECCN,I Sharma,85000
+DECCN,J Theron,85000
+DECCN,MS Gony,80000
+DECCN,PP Ojha,85000
+DELHI,A Chandila,65000
+DELHI,AB Agarkar,85000
+DELHI,AB Dinda,80000
+DELHI,AM Salvi,80000
+DELHI,M Morkel,95000
+DELHI,RV Pawar,75000
+DELHI,S Nadeem,70000
+DELHI,U Yadav,80000
+DELHI,Vikas Mishra,65000
+DELHI,Vivek Yadav,65000
+DELHI,VR Aaron,65000
+PUNJB,BA Bhatt,70000
+PUNJB,L Ablish,70000
+PUNJB,NJ Rimmington,70000
+PUNJB,P Kumar,90000
+PUNJB,PP Chawla,85000
+PUNJB,RJ Harris,90000
+PUNJB,SJ Srivastava,70000
+PUNJB,VS Malik,70000
+KOCHI,M Muralitharan,100000
+KOCHI,R Vinay Kumar,85000
+KOCHI,RP Singh,85000
+KOCHI,RR Powar,85000
+KOCHI,S Sreesanth,85000
+KOLKT,B Lee,95000
+KOLKT,JD Unadkat,80000
+KOLKT,JL Pattinson,65000
+KOLKT,L Balaji,85000
+KOLKT,PJ Sangwan,75000
+KOLKT,S Ladda,65000
+KOLKT,Shami Ahmed,65000
+MUMB,AG Murtaza,70000
+MUMB,BSK Yadav,65000
+MUMB,CJ McKay,80000
+MUMB,DS Kulkarni,80000
+MUMB,Harbhajan Singh,95000
+MUMB,MM Patel,90000
+MUMB,P Suyal,65000
+MUMB,SA Yadav,65000
+MUMB,SL Malinga,105000
+MUMB,YS Chahal,65000
+PUNE,A Nehra,90000
+PUNE,B Kumar,65000
+PUNE,GB Gaikwad,65000
+PUNE,Imtiyaz Ahmed,65000
+PUNE,JE Taylor,85000
+PUNE,Kamran Khan,75000
+PUNE,M Kartik,85000
+PUNE,R Sharma,65000
+RTHAN,Amit Singh,65000
+RTHAN,AP Dole,65000
+RTHAN,D Salunkhe,65000
+RTHAN,DL Chahar,75000
+RTHAN,ND Doshi,70000
+RTHAN,Pankaj Singh,75000
+RTHAN,SK Trivedi,80000
+RTHAN,SK Warne,95000
+RTHAN,SM Fallah,65000
+RTHAN,SW Tait,95000
+BLORE,A Mithun,80000
+BLORE,AA Kazi,65000
+BLORE,CK Langeveldt,90000
+BLORE,DP Nannes,95000
+BLORE,Z Khan,100000</csvDataString>
+    <keyColName>Players</keyColName>
+    <keyType>player</keyType>
+    <url/>
+  </CSVDataSource>
+  <CSVDataSource name="IPL_batting_records.csv">
+    <attributeHierarchy encoding="xml">
+      <hierarchy>
+        <attribute keyType="player" csvColumn="Player" title="Player"/>
+        <attribute keyType="player" csvColumn="Span" title="Span"/>
+        <attribute keyType="player" csvColumn="Mat" title="Mat"/>
+        <attribute keyType="player" csvColumn="Inns" title="Inns"/>
+        <attribute keyType="player" csvColumn="NO" title="NO"/>
+        <attribute keyType="player" csvColumn="Bat Runs" title="Bat Runs"/>
+        <attribute keyType="player" csvColumn="HS" title="HS"/>
+        <attribute keyType="player" csvColumn="Bat Ave" title="Bat Ave"/>
+        <attribute keyType="player" csvColumn="BF" title="BF"/>
+        <attribute keyType="player" csvColumn="Bat SR" title="Bat SR"/>
+        <attribute keyType="player" csvColumn="100" title="100"/>
+        <attribute keyType="player" csvColumn="50" title="50"/>
+        <attribute keyType="player" csvColumn="0" title="0"/>
+        <attribute keyType="player" csvColumn="4s" title="4s"/>
+        <attribute keyType="player" csvColumn="6s" title="6s"/>
+      </hierarchy>
+    </attributeHierarchy>
+    <csvDataString>Player,Span,Mat,Inns,NO,Bat Runs,HS,Bat Ave,BF,Bat SR,100,50,0,4s,6s
+A Chopra,2008-2009,7,6,0,53,24,8.83,71,74.64,0,0,0,7,0
+A Flintoff,2009-2009,3,3,1,62,24,31,53,116.98,0,0,0,5,2
+A Kumble,2008-2010,51,19,16,37,8,12.33,50,74,0,0,0,3,0
+A Mishra,2008-2010,35,17,7,117,31,11.7,136,86.02,0,0,3,6,2
+A Mithun,2009-2010,2,1,0,5,5,5,4,125,0,0,0,1,0
+A Mukund,2008-2008,2,1,0,0,0,0,1,0,0,0,1,0,0
+A Nehra,2008-2010,34,8,6,27,22*,13.5,34,79.41,0,0,0,2,1
+A Nel,2008-2008,1,1,0,0,0,0,0,0,0,0,1,0,0
+A Singh,2009-2009,6,2,1,1,1*,1,3,33.33,0,0,1,0,0
+A Symonds,2008-2010,30,29,4,849,117*,33.96,625,135.84,1,5,0,66,38
+A Uniyal,2010-2010,2,2,1,4,4*,4,7,57.14,0,0,1,0,0
+AA Bilakhia,2009-2010,7,7,2,69,22,13.8,85,81.17,0,0,0,5,0
+AA Jhunjhunwala,2010-2010,13,11,2,183,53*,20.33,166,110.24,0,1,0,16,4
+AA Noffke,2008-2008,1,1,0,9,9,9,10,90,0,0,0,1,0
+AB Agarkar,2008-2010,27,17,9,160,39,20,132,121.21,0,0,0,12,5
+AB Barath,2010-2010,3,3,1,42,33,21,42,100,0,0,0,5,1
+AB de Villiers,2008-2010,28,26,5,671,105*,31.95,572,117.3,1,3,2,51,13
+AB Dinda,2008-2010,29,6,2,4,2,1,8,50,0,0,2,0,0
+AB McDonald,2009-2010,5,4,3,68,33*,68,56,121.42,0,0,0,3,2
+Abdur Razzak,2008-2008,1,1,1,0,0*,0,2,0,0,0,0,0,0
+Abhinav Kumar,2009-2009,1,1,0,1,1,1,3,33.33,0,0,0,0,0
+AC Gilchrist,2008-2010,48,48,1,1289,109*,27.42,872,147.82,1,8,4,144,67
+AC Voges,2010-2010,9,7,3,181,45*,45.25,143,126.57,0,0,0,15,3
+AD Mascarenhas,2008-2010,9,8,2,92,32*,15.33,73,126.02,0,0,1,6,2
+AD Mathews,2009-2010,15,12,4,249,65*,31.12,197,126.39,0,1,1,20,8
+AG Paunikar,2010-2010,1,1,0,0,0,0,1,0,0,0,1,0,0
+AJ Finch,2010-2010,1,1,0,21,21,21,21,100,0,0,0,0,1
+AM Nayar,2008-2010,30,24,5,457,45*,24.05,341,134.01,0,0,0,34,18
+AM Rahane,2008-2009,10,9,1,148,62*,18.5,140,105.71,0,2,2,13,3
+AN Ahmed,2010-2010,2,1,1,4,4*,0,7,57.14,0,0,0,0,0
+AN Ghosh,2009-2009,2,2,0,7,7,3.5,8,87.5,0,0,1,1,0
+Anirudh Singh,2010-2010,5,4,0,63,40,15.75,66,95.45,0,0,1,6,1
+AP Dole,2010-2010,3,2,0,34,30,17,22,154.54,0,0,0,3,1
+AP Tare,2010-2010,7,4,0,50,23,12.5,36,138.88,0,0,0,5,3
+AS Raut,2009-2010,16,12,6,134,36*,22.33,109,122.93,0,0,1,8,6
+AS Yadav,2008-2008,8,6,1,49,16,9.8,39,125.64,0,0,1,5,2
+AT Rayudu,2010-2010,18,18,1,404,55*,23.76,290,139.31,0,2,1,35,15
+B Akhil,2008-2010,18,11,6,81,27*,16.2,59,137.28,0,0,2,7,4
+B Chipli,2008-2008,3,3,0,20,10,6.66,28,71.42,0,0,0,3,0
+B Lee,2008-2010,13,10,6,56,16*,14,56,100,0,0,1,5,2
+B Sumanth,2010-2010,5,4,3,35,16,35,37,94.59,0,0,0,3,0
+BAW Mendis,2008-2010,7,2,1,1,1*,1,2,50,0,0,1,0,0
+BB McCullum,2008-2010,22,22,3,587,158*,30.89,441,133.1,1,3,2,54,29
+Bipul Sharma,2010-2010,5,2,2,9,8*,0,7,128.57,0,0,0,1,0
+BJ Hodge,2008-2010,19,19,3,476,73,29.75,417,114.14,0,4,2,47,10
+C Ganapathy,2010-2010,1,1,1,0,0*,0,0,0,0,0,0,0,0
+C Madan,2010-2010,1,1,0,15,15,15,19,78.94,0,0,0,3,0
+C Nanda,2009-2009,3,1,0,0,0,0,1,0,0,0,1,0,0
+CA Pujara,2010-2010,10,6,2,122,45*,30.5,115,106.08,0,0,0,14,3
+CH Gayle,2009-2010,16,16,1,463,88,30.86,327,141.59,0,2,1,45,26
+CK Kapugedera,2008-2008,5,3,0,16,8,5.33,23,69.56,0,0,1,0,0
+CK Langeveldt,2009-2010,4,1,0,0,0,0,1,0,0,0,1,0,0
+CL White,2008-2010,20,17,5,226,31*,18.83,194,116.49,0,0,1,13,9
+CRD Fernando,2008-2010,10,2,2,4,2*,0,3,133.33,0,0,0,0,0
+D du Preez,2009-2010,5,3,0,57,46,19,39,146.15,0,0,0,1,4
+D Kalyankrishna,2008-2008,3,1,0,3,3,3,8,37.5,0,0,0,0,0
+D Salunkhe,2008-2008,6,3,1,33,26*,16.5,24,137.5,0,0,0,5,0
+DA Warner,2009-2010,18,18,1,445,107*,26.17,323,137.77,1,2,3,43,19
+DB Das,2008-2008,6,6,0,103,31,17.16,94,109.57,0,0,1,9,5
+DB Ravi Teja,2008-2009,16,12,3,174,40,19.33,152,114.47,0,0,0,17,5
+DE Bollinger,2010-2010,14,2,2,18,16*,0,17,105.88,0,0,0,1,1
+DJ Bravo,2008-2010,33,27,4,508,70*,22.08,419,121.24,0,3,0,45,19
+DJ Hussey,2008-2010,23,23,4,511,71,26.89,404,126.48,0,2,3,31,28
+DJ Thornely,2008-2008,6,4,2,39,30,19.5,53,73.58,0,0,0,2,2
+DL Vettori,2008-2010,12,7,4,67,29,22.33,59,113.55,0,0,0,7,0
+DNT Zoysa,2008-2008,3,2,1,11,10*,11,9,122.22,0,0,0,1,0
+DP Nannes,2009-2010,26,2,1,4,3,4,13,30.76,0,0,0,0,0
+DP Vijaykumar,2008-2008,9,2,2,1,1*,0,1,100,0,0,0,0,0
+DPMD Jayawardene,2008-2010,36,35,12,837,110*,36.39,594,140.9,1,2,1,87,25
+DR Martyn,2010-2010,1,1,0,19,19,19,24,79.16,0,0,0,1,0
+DR Smith,2008-2010,15,14,1,282,49,21.69,197,143.13,0,0,0,18,17
+DS Kulkarni,2008-2010,19,5,3,11,7*,5.5,33,33.33,0,0,0,0,0
+DS Lehmann,2008-2008,2,2,0,18,17,9,18,100,0,0,0,3,0
+DT Patil,2008-2008,2,2,0,13,9,6.5,13,100,0,0,0,1,0
+DW Steyn,2008-2010,35,9,2,15,8,2.14,26,57.69,0,0,4,2,0
+EJG Morgan,2010-2010,6,4,1,35,17,11.66,30,116.66,0,0,0,2,1
+FH Edwards,2009-2009,8,4,2,12,8*,6,13,92.3,0,0,1,1,0
+FY Fazal,2009-2010,11,10,1,191,45,21.22,176,108.52,0,0,1,20,3
+G Gambhir,2008-2010,44,43,4,1115,86,28.58,910,122.52,0,8,3,134,12
+GC Smith,2008-2010,25,25,3,697,91,31.68,617,112.96,0,4,2,88,9
+GD McGrath,2008-2009,16,3,2,4,4*,4,5,80,0,0,1,1,0
+GJ Bailey,2009-2010,4,3,0,63,30,21,66,95.45,0,0,0,9,0
+GR Napier,2009-2009,1,1,0,15,15,15,16,93.75,0,0,0,1,0
+H Das,2008-2008,1,1,0,2,2,2,5,40,0,0,0,0,0
+Harbhajan Singh,2008-2010,35,23,8,238,49*,15.86,144,165.27,0,0,2,22,13
+Harmeet Singh,2009-2010,16,4,2,0,0*,0,1,0,0,0,2,0,0
+HH Gibbs,2008-2010,33,33,3,805,69*,26.83,719,111.96,0,5,4,75,29
+I Sharma,2008-2010,31,11,7,33,9,8.25,41,80.48,0,0,1,2,1
+IK Pathan,2008-2010,42,35,11,603,60,25.12,460,131.08,0,1,1,47,22
+Iqbal Abdulla,2008-2010,4,2,2,1,1*,0,3,33.33,0,0,0,0,0
+J Arunkumar,2008-2008,3,3,0,23,22,7.66,23,100,0,0,1,5,0
+J Botha,2009-2009,3,3,1,47,37,23.5,40,117.5,0,0,0,5,0
+J Theron,2010-2010,7,2,0,2,2,1,5,40,0,0,1,0,0
+JA Morkel,2008-2010,43,34,14,576,71,28.8,387,148.83,0,2,1,39,33
+Jaskaran Singh,2009-2010,8,5,4,8,4*,8,11,72.72,0,0,0,0,0
+JD Ryder,2009-2009,5,5,0,56,32,11.2,49,114.28,0,0,2,9,0
+JDP Oram,2008-2009,15,11,4,106,41*,15.14,105,100.95,0,0,0,6,5
+JH Kallis,2008-2010,46,46,8,1271,89*,33.44,1123,113.17,0,11,4,139,24
+JL Langer,2009-2009,1,1,0,1,1,1,2,50,0,0,0,0,0
+JM Kemp,2010-2010,7,4,1,38,22,12.66,32,118.75,0,0,1,1,2
+Joginder Sharma,2008-2010,15,5,2,36,16*,12,29,124.13,0,0,1,1,2
+JP Duminy,2009-2010,24,23,6,586,62,34.47,508,115.35,0,5,1,43,17
+JR Hopes,2008-2008,11,11,0,221,71,20.09,148,149.32,0,2,1,27,8
+K Goel,2008-2010,22,17,2,218,38,14.53,231,94.37,0,0,2,17,9
+KA Pollard,2010-2010,18,18,3,400,72*,26.66,210,190.47,0,1,1,27,31
+KAJ Roach,2010-2010,2,1,0,10,10,10,9,111.11,0,0,0,1,0
+Kamran Akmal,2008-2008,6,6,1,128,53*,25.6,78,164.1,0,1,0,13,8
+Kamran Khan,2009-2010,8,2,1,3,3,3,5,60,0,0,0,0,0
+KB Arun Karthik,2010-2010,1,1,1,3,3*,0,5,60,0,0,0,0,0
+KC Sangakkara,2008-2010,37,34,2,1009,94,31.53,779,129.52,0,8,2,117,18
+KD Karthik,2008-2010,46,39,8,803,69,25.9,637,126.05,0,4,1,68,22
+KM Jadhav,2010-2010,5,5,2,76,50*,25.33,56,135.71,0,1,0,7,2
+KP Appanna,2009-2010,7,3,2,2,1*,2,4,50,0,0,0,0,0
+KP Pietersen,2009-2010,13,13,3,329,66*,32.9,242,135.95,0,2,2,31,10
+KV Sharma,2009-2009,1,1,0,1,1,1,3,33.33,0,0,0,0,0
+L Balaji,2008-2010,34,8,2,22,15,3.66,34,64.7,0,0,3,1,1
+L Ronchi,2008-2009,5,5,0,34,13,6.8,34,100,0,0,1,6,1
+LA Carseldine,2009-2009,5,5,1,81,39,20.25,68,119.11,0,0,0,11,0
+LA Pomersbach,2008-2009,9,9,4,193,79*,38.6,148,130.4,0,1,0,16,10
+LPC Silva,2008-2008,3,3,1,40,23*,20,26,153.84,0,0,1,5,1
+LR Shukla,2008-2010,26,20,5,282,48*,18.8,233,121.03,0,0,1,25,9
+LRPL Taylor,2008-2010,31,30,7,733,81*,31.86,493,148.68,0,4,1,57,43
+M Kaif,2008-2010,21,18,3,245,41,16.33,236,103.81,0,0,0,17,6
+M Kartik,2008-2010,26,7,2,73,21,14.6,69,105.79,0,0,0,5,0
+M Manhas,2008-2010,21,15,7,257,32*,32.12,245,104.89,0,0,2,23,1
+M Morkel,2009-2010,4,3,1,17,8,8.5,24,70.83,0,0,0,2,0
+M Muralitharan,2008-2010,46,6,2,9,4,2.25,13,69.23,0,0,1,1,0
+M Ntini,2008-2008,9,2,1,11,11,11,18,61.11,0,0,0,2,0
+M Rawat,2008-2009,16,10,6,50,23*,12.5,58,86.2,0,0,1,4,1
+M Vijay,2009-2010,25,25,2,812,127,35.3,599,135.55,1,5,1,68,38
+MA Khote,2008-2008,4,3,1,24,9,12,22,109.09,0,0,0,2,1
+Mandeep Singh,2010-2010,3,2,0,4,4,2,11,36.36,0,0,1,1,0
+Mashrafe Mortaza,2009-2009,1,1,1,2,2*,0,2,100,0,0,0,0,0
+MC Henriques,2009-2010,5,4,1,49,30*,16.33,45,108.8,0,0,0,4,1
+MD Mishra,2010-2010,11,11,0,166,41,15.09,144,115.27,0,0,1,18,6
+MEK Hussey,2008-2010,11,10,3,337,116*,48.14,269,125.27,1,2,0,23,12
+MF Maharoof,2008-2010,20,14,4,177,39,17.7,123,143.9,0,0,2,12,9
+Misbah-ul-Haq,2008-2008,8,8,1,117,47*,16.71,81,144.44,0,0,2,10,6
+MJ Lumb,2010-2010,11,11,0,278,83,25.27,192,144.79,0,1,2,45,6
+MK Pandey,2008-2010,27,25,5,572,114*,28.6,484,118.18,1,1,3,62,14
+MK Tiwary,2008-2010,27,22,6,383,75*,23.93,325,117.84,0,2,4,41,5
+ML Hayden,2008-2010,34,34,2,1117,93,34.9,824,135.55,0,8,2,122,44
+MM Patel,2008-2010,31,9,5,37,23*,9.25,32,115.62,0,0,3,5,0
+MN van Wyk,2009-2009,5,5,2,167,74,55.66,132,126.51,0,1,1,19,1
+Mohammad Ashraful,2009-2009,1,1,0,2,2,2,10,20,0,0,0,0,0
+Mohammad Asif,2008-2008,8,2,0,3,3,1.5,6,50,0,0,1,0,0
+Mohammad Hafeez,2008-2008,8,8,1,64,16,9.14,83,77.1,0,0,0,7,2
+MR Marsh,2010-2010,3,2,0,28,15,14,30,93.33,0,0,0,1,1
+MS Bisla,2010-2010,10,10,0,218,75,21.8,178,122.47,0,1,1,27,6
+MS Dhoni,2008-2010,49,43,14,1124,66*,38.75,851,132.07,0,6,2,95,34
+MS Gony,2008-2010,26,9,5,50,15*,12.5,36,138.88,0,0,0,2,5
+MV Boucher,2008-2010,31,22,8,393,50*,28.07,315,124.76,0,1,0,32,13
+NK Patel,2008-2009,9,6,2,121,57,30.25,119,101.68,0,1,0,14,1
+NV Ojha,2009-2010,23,23,3,555,94*,27.75,434,127.88,0,4,3,53,27
+OA Shah,2009-2010,9,9,4,189,58*,37.8,165,114.54,0,1,1,11,7
+P Dogra,2010-2010,9,8,0,107,41,13.37,106,100.94,0,0,1,4,5
+P Kumar,2008-2010,47,26,7,202,34,10.63,166,121.68,0,0,4,12,14
+PA Patel,2008-2010,26,26,2,516,57,21.5,502,102.78,0,3,4,67,7
+Pankaj Singh,2008-2010,10,5,3,7,4*,3.5,12,58.33,0,0,0,0,0
+PC Valthaty,2009-2009,2,2,0,6,5,3,12,50,0,0,0,1,0
+PD Collingwood,2010-2010,8,7,2,203,75*,40.6,156,130.12,0,3,0,9,13
+PJ Sangwan,2008-2010,30,10,5,19,6*,3.8,31,61.29,0,0,2,0,0
+PM Sarvesh Kumar,2008-2008,2,1,1,1,1*,0,2,50,0,0,0,0,0
+PP Chawla,2008-2010,43,23,9,183,24*,13.07,155,118.06,0,0,5,20,3
+PP Ojha,2008-2010,46,16,7,7,2,0.77,20,35,0,0,5,0,0
+PR Shah,2008-2009,14,9,2,87,29,12.42,86,101.16,0,0,1,8,2
+R Ashwin,2009-2010,20,9,4,43,11*,8.6,58,74.13,0,0,1,4,0
+R Bhatia,2008-2010,26,15,3,95,21,7.91,89,106.74,0,0,3,6,4
+R Bishnoi,2009-2009,3,3,0,19,18,6.33,17,111.76,0,0,1,1,2
+R Dravid,2008-2010,52,45,5,1132,75*,28.3,946,119.66,0,5,4,121,20
+R McLaren,2010-2010,11,8,5,67,40,22.33,70,95.71,0,0,1,7,0
+R Sathish,2010-2010,13,12,4,122,24,15.25,102,119.6,0,0,0,11,1
+R Sharma,2010-2010,6,4,1,29,14*,9.66,26,111.53,0,0,1,3,1
+R Vinay Kumar,2008-2010,39,19,5,114,23,8.14,112,101.78,0,0,2,7,3
+RA Jadeja,2008-2009,27,22,4,430,42,23.88,369,116.53,0,0,2,32,12
+RE van der Merwe,2009-2010,15,10,1,126,35,14,106,118.86,0,0,0,8,8
+RG Sharma,2008-2010,47,46,6,1219,76*,30.47,935,130.37,0,8,2,102,51
+RJ Harris,2009-2010,16,10,5,66,15,13.2,57,115.78,0,0,0,2,2
+RJ Quiney,2009-2009,7,7,0,103,51,14.71,102,100.98,0,1,0,12,3
+RP Singh,2008-2010,44,22,10,51,10,4.25,69,73.91,0,0,2,2,1
+RR Powar,2008-2010,21,7,5,56,28*,28,51,109.8,0,0,0,6,1
+RR Raje,2008-2009,10,5,4,20,11*,20,18,111.11,0,0,0,1,1
+RR Sarwan,2008-2008,4,4,0,73,31,18.25,75,97.33,0,0,0,6,1
+RS Bopara,2009-2010,15,14,1,386,84,29.69,333,115.91,0,3,1,33,10
+RS Gavaskar,2010-2010,2,1,0,2,2,2,8,25,0,0,0,0,0
+RS Sodhi,2010-2010,3,1,1,4,4*,0,2,200,0,0,0,1,0
+RT Ponting,2008-2008,4,4,0,39,20,9.75,53,73.58,0,0,2,2,1
+RV Uthappa,2008-2010,54,50,10,1026,68*,25.65,785,130.7,0,5,2,93,45
+S Anirudha,2008-2010,11,8,3,82,42,16.4,70,117.14,0,0,0,7,3
+S Badrinath,2008-2010,52,40,12,780,64,27.85,647,120.55,0,6,3,86,19
+S Chanderpaul,2008-2008,3,3,0,25,16,8.33,31,80.64,0,0,0,4,0
+S Dhawan,2008-2010,33,32,5,685,68*,25.37,621,110.3,0,6,2,68,16
+S Ladda,2010-2010,5,2,1,0,0*,0,9,0,0,0,1,0,0
+S Narwal,2010-2010,5,3,1,14,12,7,12,116.66,0,0,1,2,0
+S Sohal,2008-2010,11,10,0,119,43,11.9,101,117.82,0,0,2,9,8
+S Sreesanth,2008-2010,28,8,7,32,15*,32,42,76.19,0,0,1,6,0
+S Sriram,2010-2010,1,1,0,27,27,27,29,93.1,0,0,0,3,0
+S Tyagi,2009-2010,14,3,2,3,3*,3,4,75,0,0,1,0,0
+S Vidyut,2008-2008,9,8,0,145,54,18.12,109,133.02,0,1,1,21,3
+SA Asnodkar,2008-2010,20,20,0,455,60,22.75,370,122.97,0,2,3,58,11
+Salman Butt,2008-2008,7,7,0,193,73,27.57,161,119.87,0,1,0,30,2
+SB Bangar,2008-2009,12,8,1,49,17*,7,58,84.48,0,0,1,1,3
+SB Jakati,2009-2010,21,4,3,20,13,20,15,133.33,0,0,0,3,0
+SB Joshi,2008-2008,4,2,0,6,3,3,14,42.85,0,0,0,0,0
+SB Styris,2008-2009,12,11,2,153,36*,17,161,95.03,0,0,0,10,4
+SC Ganguly,2008-2010,40,38,2,1031,91,28.63,933,110.5,0,7,3,104,36
+SD Chitnis,2008-2009,4,3,0,24,15,8,18,133.33,0,0,0,2,1
+SE Bond,2010-2010,8,1,0,1,1,1,2,50,0,0,0,0,0
+SE Marsh,2008-2010,15,15,3,763,115,63.58,555,137.47,1,7,1,73,32
+Shahid Afridi,2008-2008,10,9,1,81,33,10.12,46,176.08,0,0,1,7,6
+Shoaib Ahmed,2009-2009,8,3,1,1,1*,0.5,6,16.66,0,0,2,0,0
+Shoaib Akhtar,2008-2008,3,1,0,2,2,2,7,28.57,0,0,0,0,0
+Shoaib Malik,2008-2008,7,5,1,52,24,13,47,110.63,0,0,0,5,0
+SJ Srivastava,2010-2010,8,2,1,1,1*,1,2,50,0,0,1,0,0
+SK Raina,2008-2010,52,50,9,1578,98,38.48,1088,145.03,0,11,0,130,73
+SK Trivedi,2008-2010,33,10,5,34,9,6.8,44,77.27,0,0,0,3,1
+SK Warne,2008-2010,43,25,7,188,34*,10.44,194,96.9,0,0,6,13,6
+SL Malinga,2009-2010,30,5,3,1,1*,0.5,2,50,0,0,2,0,0
+SM Harwood,2009-2009,3,2,2,9,6*,0,14,64.28,0,0,0,0,0
+SM Katich,2008-2009,11,11,1,241,75,24.1,186,129.56,0,2,1,25,8
+SM Pollock,2008-2008,13,8,0,147,33,18.37,111,132.43,0,0,2,12,8
+Sohail Tanvir,2008-2009,12,5,2,36,13,12,29,124.13,0,0,0,3,1
+SP Fleming,2008-2008,10,10,1,196,45,21.77,165,118.78,0,0,1,27,3
+SP Goswami,2008-2010,7,6,0,143,52,23.83,155,92.25,0,1,0,17,1
+SR Tendulkar,2008-2010,39,39,5,1318,89*,38.76,1052,125.28,0,9,2,171,16
+SR Watson,2008-2010,21,20,5,657,76*,43.8,425,154.58,0,6,1,64,28
+SS Shaikh,2009-2009,2,1,0,6,6,6,7,85.71,0,0,0,1,0
+SS Tiwary,2008-2010,26,23,4,540,61,28.42,399,135.33,0,3,2,36,24
+ST Jayasuriya,2008-2010,30,30,2,768,114*,27.42,532,144.36,1,4,2,84,39
+STR Binny,2010-2010,1,1,0,8,8,8,5,160,0,0,0,1,0
+SW Tait,2010-2010,8,2,1,12,11,12,13,92.3,0,0,0,0,1
+T Henderson,2009-2009,2,2,0,11,11,5.5,16,68.75,0,0,1,0,1
+T Kohli,2008-2009,4,4,1,11,7,3.666,19,57.89,0,0,0,0,1
+T Taibu,2008-2008,3,3,0,31,15,10.33,26,119.23,0,0,0,3,0
+T Thushara,2009-2010,6,4,2,12,8,6,18,66.66,0,0,0,0,0
+TL Suman,2009-2010,28,28,8,559,78*,27.95,463,120.73,0,2,2,43,20
+TM Dilshan,2008-2010,31,30,4,615,67*,23.65,542,113.46,0,4,3,66,16
+TM Srivastava,2008-2009,7,3,2,8,7,8,11,72.72,0,0,0,0,0
+U Kaul,2008-2008,5,1,1,0,0*,0,1,0,0,0,0,0,0
+U Yadav,2010-2010,7,1,1,3,3*,0,4,75,0,0,0,0,0
+Umar Gul,2008-2008,6,4,1,39,24,13,19,205.26,0,0,0,1,5
+V Kohli,2008-2010,54,46,7,910,58,23.33,711,127.98,0,2,1,88,28
+V Sehwag,2008-2010,42,42,3,1094,94*,28.05,662,165.25,0,8,4,137,44
+VRV Singh,2008-2010,19,2,0,4,4,2,3,133.33,0,0,1,1,0
+VS Malik,2009-2010,8,1,0,6,6,6,5,120,0,0,0,1,0
+VS Yeligati,2008-2008,2,1,0,2,2,2,2,100,0,0,0,0,0
+VVS Laxman,2008-2010,19,19,2,288,52,16.94,266,108.27,0,1,3,38,3
+VY Mahesh,2008-2010,13,5,3,15,6*,7.5,27,55.55,0,0,0,0,0
+W Jaffer,2008-2009,8,8,0,130,50,16.25,121,107.43,0,1,1,14,3
+WA Mota,2008-2009,12,8,2,56,25,9.33,75,74.66,0,0,0,2,0
+WP Saha,2008-2010,33,24,13,298,59*,27.09,213,139.9,0,1,1,24,12
+WPUJC Vaas,2008-2010,13,11,3,81,20,10.12,73,110.95,0,0,3,2,3
+Y Nagar,2009-2010,3,3,0,31,20,10.33,44,70.45,0,0,0,1,0
+Y Venugopal Rao,2008-2010,35,30,5,498,71*,19.92,398,125.12,0,2,2,34,23
+YA Abdulla,2009-2010,11,1,1,0,0*,0,1,0,0,0,0,0,0
+Yashpal Singh,2009-2009,8,4,0,47,20,11.75,66,71.21,0,0,0,5,0
+YK Pathan,2008-2010,43,42,4,1011,100,26.6,627,161.24,1,6,1,89,61
+Younis Khan,2008-2008,1,1,0,3,3,3,7,42.85,0,0,0,0,0
+Yuvraj Singh,2008-2010,43,42,5,894,58*,24.16,677,132.05,0,3,0,69,49
+YV Takawale,2008-2009,11,5,2,88,27,29.33,87,101.14,0,0,0,9,2
+Z Khan,2008-2010,35,18,12,66,23*,11,68,97.05,0,0,1,7,1</csvDataString>
+    <keyColName>Player</keyColName>
+    <keyType>player</keyType>
+    <url/>
+  </CSVDataSource>
+  <CSVDataSource name="IPL_bowling_records.csv">
+    <attributeHierarchy encoding="xml">
+      <hierarchy>
+        <attribute keyType="player" csvColumn="Player" title="Player"/>
+        <attribute keyType="player" csvColumn="Span" title="Span"/>
+        <attribute keyType="player" csvColumn="Mat" title="Mat"/>
+        <attribute keyType="player" csvColumn="Overs" title="Overs"/>
+        <attribute keyType="player" csvColumn="Mdns" title="Mdns"/>
+        <attribute keyType="player" csvColumn="Bwl Runs" title="Bwl Runs"/>
+        <attribute keyType="player" csvColumn="Wkts" title="Wkts"/>
+        <attribute keyType="player" csvColumn="Bwl Ave" title="Bwl Ave"/>
+        <attribute keyType="player" csvColumn="Econ" title="Econ"/>
+        <attribute keyType="player" csvColumn="Bwl SR" title="Bwl SR"/>
+        <attribute keyType="player" csvColumn="4 Wkts/Inng" title="4 Wkts/Inng"/>
+        <attribute keyType="player" csvColumn="5 Wkts/Inng" title="5 Wkts/Inng"/>
+      </hierarchy>
+    </attributeHierarchy>
+    <csvDataString>Player,Span,Mat,Overs,Mdns,Bwl Runs,Wkts,Bwl Ave,Econ,Bwl SR,4 Wkts/Inng,5 Wkts/Inng
+A Flintoff,2009-2009,3,11,0,105,2,52.5,9.54,33,0,0
+A Kumble,2008-2010,51,195.4,1,1303,53,24.58,6.65,22.1,2,1
+A Mishra,2008-2010,35,131,2,921,46,20.02,7.03,17,0,1
+A Mithun,2009-2010,2,7,0,81,1,81,11.57,42,0,0
+A Nehra,2008-2010,34,120,1,856,37,23.13,7.13,19.45,0,0
+A Nel,2008-2008,1,3,0,31,1,31,10.33,18,0,0
+A Singh,2009-2009,6,19.3,0,100,9,11.11,5.12,13,1,0
+A Symonds,2008-2010,30,88.5,0,667,20,33.35,7.5,26.6,0,0
+A Uniyal,2010-2010,2,6,0,66,2,33,11,18,0,0
+AA Jhunjhunwala,2010-2010,13,6.1,0,69,0,0,11.18,0,0,0
+AA Noffke,2008-2008,1,4,0,40,1,40,10,24,0,0
+AB Agarkar,2008-2010,27,79,0,694,18,38.55,8.78,26.3,0,0
+AB Dinda,2008-2010,29,86.1,0,605,22,27.5,7.02,23.5,0,0
+AB McDonald,2009-2010,5,17,0,160,5,32,9.41,20.4,0,0
+Abdur Razzak,2008-2008,1,2,0,29,0,0,14.5,0,0,0
+AC Voges,2010-2010,9,9,0,76,0,0,8.44,0,0,0
+AD Mascarenhas,2008-2010,9,35.2,1,250,14,17.85,7.07,15.1,0,0
+AD Mathews,2009-2010,15,39.5,0,345,8,43.12,8.66,29.8,1,0
+AG Murtaza,2010-2010,6,22,0,171,6,28.5,7.77,22,0,0
+AJ Finch,2010-2010,1,1.1,0,5,0,0,4.28,0,0,0
+AM Nayar,2008-2010,30,19,0,152,5,30.4,8,22.8,0,0
+AM Rahane,2008-2009,10,1,0,5,1,5,5,6,0,0
+AM Salvi,2009-2009,6,17,0,134,4,33.5,7.88,25.5,0,0
+AN Ahmed,2010-2010,2,6,0,59,1,59,9.83,36,0,0
+Anureet Singh,2009-2009,3,5,0,47,2,23.5,9.4,15,0,0
+AP Dole,2010-2010,3,11,0,112,5,22.4,10.18,13.2,0,0
+AS Raut,2009-2010,16,7,0,58,1,58,8.28,42,0,0
+B Akhil,2008-2010,18,36.2,0,260,8,32.5,7.15,27.2,0,0
+B Geeves,2008-2008,2,8,0,91,1,91,11.37,48,0,0
+B Kumar,2009-2009,1,4,0,31,0,0,7.75,0,0,0
+B Lee,2008-2010,13,50.3,1,372,9,41.33,7.36,33.6,0,0
+BAW Mendis,2008-2010,7,28,0,207,6,34.5,7.39,28,0,0
+Bipul Sharma,2010-2010,5,10,0,94,3,31.33,9.4,20,0,0
+BJ Hodge,2008-2010,19,25,0,202,9,22.44,8.08,16.6,0,0
+C Ganapathy,2010-2010,1,1,0,13,0,0,13,0,0,0
+C Nanda,2009-2009,3,8,0,57,2,28.5,7.12,24,0,0
+CH Gayle,2009-2010,16,34.5,0,296,5,59.2,8.49,41.8,0,0
+CK Kapugedera,2008-2008,5,2.5,0,49,0,0,17.29,0,0,0
+CK Langeveldt,2009-2010,4,15,0,103,8,12.87,6.86,11.2,0,0
+CL White,2008-2010,20,4,0,69,1,69,17.25,24,0,0
+CRD Fernando,2008-2010,10,39,0,298,17,17.52,7.64,13.7,1,0
+D du Preez,2009-2010,5,16,1,146,6,24.33,9.12,16,0,0
+D Kalyankrishna,2008-2008,3,8,0,87,2,43.5,10.87,24,0,0
+D Salunkhe,2008-2008,6,8,0,78,1,78,9.75,48,0,0
+DB Ravi Teja,2008-2009,16,2,0,19,1,19,9.5,12,0,0
+DE Bollinger,2010-2010,14,53.1,2,363,21,17.28,6.82,15.1,1,0
+DJ Bravo,2008-2010,33,98.4,1,806,30,26.86,8.16,19.7,0,0
+DJ Hussey,2008-2010,23,27,0,244,2,122,9.03,81,0,0
+DJ Thornely,2008-2008,6,7,0,40,3,13.33,5.71,14,0,0
+DL Vettori,2008-2010,12,42.5,0,332,11,30.18,7.75,23.3,0,0
+DNT Zoysa,2008-2008,3,11,0,99,2,49.5,9,33,0,0
+DP Nannes,2009-2010,26,98.4,0,675,31,21.77,6.84,19,1,0
+DP Vijaykumar,2008-2008,9,25.2,0,199,4,49.75,7.85,38,0,0
+DR Smith,2008-2010,15,28.5,0,243,7,34.71,8.52,24.71,0,0
+DS Kulkarni,2008-2010,19,59.3,0,482,17,28.35,8.1,21,0,0
+DW Steyn,2008-2010,35,130,1,895,33,27.12,6.88,23.6,0,0
+FH Edwards,2009-2009,8,29.2,1,209,8,26.12,7.12,22,0,0
+FY Fazal,2009-2010,11,2,0,20,0,0,10,0,0,0
+Gagandeep Singh,2008-2008,4,14,0,141,3,47,10.07,28,0,0
+GD McGrath,2008-2009,16,60,2,402,14,28.71,6.7,25.7,1,0
+GR Napier,2009-2009,1,4,0,27,1,27,6.75,24,0,0
+Harbhajan Singh,2008-2010,35,122,1,833,37,22.51,6.82,19.7,1,0
+Harmeet Singh,2009-2010,16,47.5,0,379,11,34.45,7.92,26,0,0
+I Sharma,2008-2010,31,110.1,1,862,25,34.48,7.82,26.4,0,0
+IK Pathan,2008-2010,42,149.4,3,1166,47,24.8,7.79,19.1,0,0
+Iqbal Abdulla,2008-2010,4,11.3,0,83,1,83,7.21,69,0,0
+J Botha,2009-2009,3,12,0,74,3,24.66,6.16,24,0,0
+J Theron,2010-2010,7,24,0,187,6,31.16,7.79,24,0,0
+JA Morkel,2008-2010,43,148.4,2,1218,47,25.91,8.19,18.9,1,0
+Jaskaran Singh,2009-2010,8,17,0,171,6,28.5,10.05,17,0,0
+JD Ryder,2009-2009,5,17,0,115,3,38.33,6.76,34,0,0
+JD Unadkat,2010-2010,3,10.2,0,85,4,21.25,8.22,15.5,0,0
+JDP Oram,2008-2009,15,31.3,0,282,8,35.25,8.95,23.6,0,0
+JH Kallis,2008-2010,46,151.2,4,1231,30,41.03,8.13,30.2,0,0
+JM Kemp,2010-2010,7,11.2,0,81,3,27,7.14,22.6,0,0
+Joginder Sharma,2008-2010,15,39.4,0,385,12,32.08,9.7,19.8,0,0
+JP Duminy,2009-2010,24,24,0,143,5,28.6,5.95,28.8,0,0
+JR Hopes,2008-2008,11,28,0,276,7,39.42,9.85,24,0,0
+K Goel,2008-2010,22,11,0,93,0,0,8.45,0,0,0
+KA Pollard,2010-2010,18,42,0,333,15,22.2,7.92,16.8,0,0
+KAJ Roach,2010-2010,2,8,0,80,0,0,10,0,0,0
+Kamran Khan,2009-2010,8,23.4,0,177,9,19.66,7.47,15.7,0,0
+KP Appanna,2009-2010,7,19,0,138,3,46,7.26,38,0,0
+KP Pietersen,2009-2010,13,23,0,162,7,23.14,7.04,19.7,0,0
+L Ablish,2010-2010,2,4,0,36,3,12,9,8,0,0
+L Balaji,2008-2010,34,109.4,1,913,36,25.36,8.32,18.2,1,1
+LA Carseldine,2009-2009,5,1,0,6,1,6,6,6,0,0
+LPC Silva,2008-2008,3,1,0,21,0,0,21,0,0,0
+LR Shukla,2008-2010,26,38,0,330,12,27.5,8.68,19,0,0
+LRPL Taylor,2008-2010,31,1,0,13,0,0,13,0,0,0
+M Kartik,2008-2010,26,87.4,0,581,16,36.31,6.62,32.8,0,0
+M Morkel,2009-2010,4,14,0,106,0,0,7.57,0,0,0
+M Muralitharan,2008-2010,46,179.1,1,1126,52,21.65,6.28,20.6,0,0
+M Ntini,2008-2008,9,35,2,242,7,34.57,6.91,30,1,0
+MA Khote,2008-2008,4,5,0,51,2,25.5,10.2,15,0,0
+Mashrafe Mortaza,2009-2009,1,4,0,58,0,0,14.5,0,0,0
+MB Parmar,2010-2010,1,3,0,33,0,0,11,0,0,0
+MC Henriques,2009-2010,5,16.1,0,142,3,47.33,8.82,32.33,0,0
+MF Maharoof,2008-2010,20,70,0,520,27,19.25,7.42,15.5,0,0
+MK Tiwary,2008-2009,27,2,0,22,1,22,11,22,0,0
+MM Patel,2008-2010,31,105.5,2,800,33,24.24,7.55,19.2,0,0
+Mohammad Asif,2008-2008,8,32,0,296,8,37,9.25,24,0,0
+Mohammad Hafeez,2008-2008,8,10,0,68,2,34,6.8,30,0,0
+MR Marsh,2010-2010,3,10,0,88,2,44,8.8,30,0,0
+MS Gony,2008-2010,26,85,3,707,23,30.73,8.31,22.1,0,0
+ND Doshi,2010-2010,2,6,0,29,2,14.5,4.83,18,0,0
+NLTC Perera,2010-2010,1,1,0,19,0,0,19,0,0,0
+P Amarnath,2008-2008,6,22,0,236,7,33.71,10.72,18.8,0,0
+P Kumar,2008-2010,47,169.2,3,1363,41,33.24,8.04,24.7,0,0
+Pankaj Singh,2008-2010,10,27,1,275,4,68.75,10.18,40.5,0,0
+PD Collingwood,2010-2010,8,14.5,0,101,5,20.2,6.8,17.8,0,0
+PJ Sangwan,2008-2010,30,103.4,1,837,29,28.86,8.07,21.4,0,0
+PM Sarvesh Kumar,2008-2008,2,5,0,42,1,42,8.4,30,0,0
+PP Chawla,2008-2010,43,140.4,1,1064,41,25.95,7.56,20.5,0,0
+PP Ojha,2008-2010,46,157.2,0,1109,52,21.32,7.04,18.1,0,0
+R Ashwin,2009-2010,20,75.2,1,458,28,16.35,6.07,16.1,1,0
+R Bhatia,2008-2010,26,68.2,0,516,20,25.8,7.55,20.5,1,0
+R McLaren,2010-2010,11,35,0,274,4,68.5,7.82,52.5,0,0
+R Sathish,2010-2010,13,9,0,96,2,48,10.66,27,0,0
+R Sharma,2010-2010,6,20.4,0,167,5,33.4,8.08,24.8,0,0
+R Vinay Kumar,2008-2010,39,122.3,0,1009,38,26.55,8.23,19.3,1,0
+RA Jadeja,2008-2009,27,25.3,0,172,6,28.66,6.74,25.5,0,0
+RA Shaikh,2009-2009,1,1,0,11,0,0,11,0,0,0
+RE van der Merwe,2009-2010,15,53,0,368,15,24.53,6.94,21.2,0,0
+RG Sharma,2008-2010,47,48,0,352,14,25.14,7.33,20.5,1,0
+RJ Harris,2009-2010,16,61.4,2,463,20,23.15,7.5,18.5,0,0
+RP Singh,2008-2010,44,161,2,1274,54,23.59,7.91,17.8,1,0
+RR Bose,2009-2009,1,2,0,24,0,0,12,0,0,0
+RR Powar,2008-2010,21,56,0,383,11,34.81,6.83,30.5,0,0
+RR Raje,2008-2009,10,23.1,0,209,6,34.83,9.02,23.1,0,0
+RS Bopara,2009-2010,15,14.2,0,132,5,26.4,9.2,17.2,0,0
+RS Gavaskar,2010-2010,2,1,0,8,0,0,8,0,0,0
+S Ladda,2010-2010,5,15,0,143,4,35.75,9.53,22.5,0,0
+S Narwal,2010-2010,5,15.4,0,185,5,37,11.8,18.8,0,0
+S Sreesanth,2008-2010,28,93.1,0,825,28,29.46,8.85,19.9,0,0
+S Sriram,2010-2010,1,2,0,24,0,0,12,0,0,0
+S Tyagi,2009-2010,14,34.5,0,295,6,49.16,8.46,34.8,0,0
+S Vidyut,2008-2008,9,2,0,22,1,22,11,12,0,0
+SB Bangar,2008-2008,11,25,0,219,4,54.75,8.76,37.5,0,0
+SB Jakati,2009-2010,21,71,1,535,27,19.81,7.53,15.7,2,0
+SB Joshi,2008-2008,4,9.1,0,82,1,82,8.94,55,0,0
+SB Styris,2008-2009,12,39,0,297,10,29.7,7.61,23.4,0,0
+SB Wagh,2010-2010,1,1,0,16,1,16,16,6,0,0
+SC Ganguly,2008-2010,40,36,0,268,8,33.5,7.44,27,0,0
+SD Chitnis,2008-2008,3,6,0,60,2,30,10,18,0,0
+SE Bond,2010-2010,8,31,1,224,9,24.88,7.22,20.6,0,0
+Shahid Afridi,2008-2008,10,30,0,225,9,25,7.5,20,0,0
+Shoaib Ahmed,2009-2009,8,17,0,152,5,30.4,8.94,20.4,0,0
+Shoaib Akhtar,2008-2008,3,7,0,54,5,10.8,7.71,8.4,1,0
+Shoaib Malik,2008-2008,7,8.3,0,85,2,42.5,10,25.5,0,0
+SJ Srivastava,2010-2010,8,27,0,255,6,42.5,9.44,27,0,0
+SK Raina,2008-2010,52,60.5,0,410,19,21.57,6.73,19.2,1,0
+SK Trivedi,2008-2010,33,103.3,0,811,30,27.03,7.83,20.7,0,0
+SK Warne,2008-2010,43,156,1,1174,45,26.08,7.52,20.8,1,0
+SL Malinga,2009-2010,30,114.3,2,774,39,19.84,6.75,17.6,1,0
+SM Harwood,2009-2009,3,10,0,73,3,24.33,7.3,20,0,0
+SM Pollock,2008-2008,13,46,1,301,11,27.36,6.54,25,0,0
+Sohail Tanvir,2008-2009,12,45.1,0,286,25,11.44,6.33,10.8,1,1
+SR Tendulkar,2008-2010,39,6,0,58,0,0,9.66,0,0,0
+SR Watson,2008-2010,21,76.1,0,567,23,24.65,7.44,19.8,0,0
+SS Sarkar,2009-2009,2,4.1,0,34,1,34,8.16,25,0,0
+ST Jayasuriya,2008-2010,30,49,1,390,13,30,7.95,22.6,0,0
+STR Binny,2010-2010,1,1,0,9,0,0,9,0,0,0
+SW Tait,2010-2010,8,31.1,0,264,10,26.4,8.47,18.7,0,0
+T Henderson,2009-2009,2,6,0,40,1,40,6.66,36,0,0
+T Thushara,2009-2010,6,22.3,0,161,8,20.12,7.15,16.8,0,0
+TL Suman,2009-2010,28,22,0,171,8,21.37,7.77,16.5,0,0
+TM Dilshan,2008-2010,31,35.1,0,220,7,31.42,6.25,30.1,0,0
+U Yadav,2010-2010,7,24,0,184,6,30.66,7.66,24,0,0
+Umar Gul,2008-2008,6,22.3,1,184,12,15.33,8.17,11.2,1,0
+V Kohli,2008-2010,54,25,0,219,2,109.5,8.76,75,0,0
+V Sehwag,2008-2010,42,17.4,0,181,6,30.16,10.24,17.6,0,0
+VRV Singh,2008-2010,19,60,0,542,12,45.16,9.03,30,0,0
+VS Malik,2009-2010,8,19.1,0,160,3,53.33,8.34,38.3,0,0
+VS Yeligati,2008-2008,2,5,0,59,0,0,11.8,0,0,0
+VY Mahesh,2008-2010,13,47.1,0,418,18,23.22,8.86,15.7,1,0
+WA Mota,2008-2009,12,12,0,97,4,24.25,8.08,18,0,0
+WPUJC Vaas,2008-2010,13,47,2,355,18,19.72,7.55,15.6,0,0
+Y Nagar,2009-2010,3,7.3,0,57,5,11.4,7.6,9,0,0
+Y Venugopal Rao,2008-2010,35,31,0,278,6,46.33,8.96,31,0,0
+YA Abdulla,2009-2010,11,34.5,1,307,15,20.46,8.81,13.9,2,0
+YK Pathan,2008-2010,43,97.1,0,719,20,35.95,7.39,29.1,0,0
+Yuvraj Singh,2008-2010,43,52,0,377,14,26.92,7.25,22.2,0,0
+Z Khan,2008-2010,35,127.2,1,1006,37,27.18,7.9,20.64,0,0</csvDataString>
+    <keyColName>Player</keyColName>
+    <keyType>player</keyType>
+    <url/>
+  </CSVDataSource>
+  <CSVDataSource name="IPL_feilding_records.csv">
+    <attributeHierarchy encoding="xml">
+      <hierarchy>
+        <attribute keyType="player" csvColumn="Player" title="Player"/>
+        <attribute keyType="player" csvColumn="Span" title="Span"/>
+        <attribute keyType="player" csvColumn="Mat" title="Mat"/>
+        <attribute keyType="player" csvColumn="Overs" title="Overs"/>
+        <attribute keyType="player" csvColumn="Mdns" title="Mdns"/>
+        <attribute keyType="player" csvColumn="Bwl Runs" title="Bwl Runs"/>
+        <attribute keyType="player" csvColumn="Wkts" title="Wkts"/>
+        <attribute keyType="player" csvColumn="Bwl Ave" title="Bwl Ave"/>
+        <attribute keyType="player" csvColumn="Econ" title="Econ"/>
+        <attribute keyType="player" csvColumn="Bwl SR" title="Bwl SR"/>
+        <attribute keyType="player" csvColumn="4 Wkts/Inng" title="4 Wkts/Inng"/>
+        <attribute keyType="player" csvColumn="5 Wkts/Inng" title="5 Wkts/Inng"/>
+      </hierarchy>
+    </attributeHierarchy>
+    <csvDataString>Player,Span,Mat,Overs,Mdns,Bwl Runs,Wkts,Bwl Ave,Econ,Bwl SR,4 Wkts/Inng,5 Wkts/Inng
+A Flintoff,2009-2009,3,11,0,105,2,52.5,9.54,33,0,0
+A Kumble,2008-2010,51,195.4,1,1303,53,24.58,6.65,22.1,2,1
+A Mishra,2008-2010,35,131,2,921,46,20.02,7.03,17,0,1
+A Mithun,2009-2010,2,7,0,81,1,81,11.57,42,0,0
+A Nehra,2008-2010,34,120,1,856,37,23.13,7.13,19.46,0,0
+A Nel,2008-2008,1,3,0,31,1,31,10.33,18,0,0
+A Singh,2009-2009,6,19.3,0,100,9,11.11,5.12,13,1,0
+A Symonds,2008-2010,30,88.5,0,667,20,33.35,7.5,26.6,0,0
+A Uniyal,2010-2010,2,6,0,66,2,33,11,18,0,0
+AA Jhunjhunwala,2010-2010,13,6.1,0,69,0,0,11.18,0,0,0
+AA Noffke,2008-2008,1,4,0,40,1,40,10,24,0,0
+AB Agarkar,2008-2010,27,79,0,694,18,38.55,8.78,26.3,0,0
+AB Dinda,2008-2010,29,86.1,0,605,22,27.5,7.02,23.5,0,0
+AB McDonald,2009-2010,5,17,0,160,5,32,9.41,20.4,0,0
+Abdur Razzak,2008-2008,1,2,0,29,0,0,14.5,0,0,0
+AC Voges,2010-2010,9,9,0,76,0,0,8.44,0,0,0
+AD Mascarenhas,2008-2010,9,35.2,1,250,14,17.85,7.07,15.1,0,0
+AD Mathews,2009-2010,15,39.5,0,345,8,43.12,8.66,29.8,1,0
+AG Murtaza,2010-2010,6,22,0,171,6,28.5,7.77,22,0,0
+AJ Finch,2010-2010,1,1.1,0,5,0,0,4.28,0,0,0
+AM Nayar,2008-2010,30,19,0,152,5,30.4,8,22.8,0,0
+AM Rahane,2008-2009,10,1,0,5,1,5,5,6,0,0
+AM Salvi,2009-2009,6,17,0,134,4,33.5,7.88,25.5,0,0
+AN Ahmed,2010-2010,2,6,0,59,1,59,9.83,36,0,0
+Anureet Singh,2009-2009,3,5,0,47,2,23.5,9.4,15,0,0
+AP Dole,2010-2010,3,11,0,112,5,22.4,10.18,13.2,0,0
+AS Raut,2009-2010,16,7,0,58,1,58,8.28,42,0,0
+B Akhil,2008-2010,18,36.2,0,260,8,32.5,7.15,27.2,0,0
+B Geeves,2008-2008,2,8,0,91,1,91,11.37,48,0,0
+B Kumar,2009-2009,1,4,0,31,0,0,7.75,0,0,0
+B Lee,2008-2010,13,50.3,1,372,9,41.33,7.36,33.6,0,0
+BAW Mendis,2008-2010,7,28,0,207,6,34.5,7.39,28,0,0
+Bipul Sharma,2010-2010,5,10,0,94,3,31.33,9.4,20,0,0
+BJ Hodge,2008-2010,19,25,0,202,9,22.44,8.08,16.6,0,0
+C Ganapathy,2010-2010,1,1,0,13,0,0,13,0,0,0
+C Nanda,2009-2009,3,8,0,57,2,28.5,7.12,24,0,0
+CH Gayle,2009-2010,16,34.5,0,296,5,59.2,8.49,41.8,0,0
+CK Kapugedera,2008-2008,5,2.5,0,49,0,0,17.29,0,0,0
+CK Langeveldt,2009-2010,4,15,0,103,8,12.87,6.86,11.2,0,0
+CL White,2008-2010,20,4,0,69,1,69,17.25,24,0,0
+CRD Fernando,2008-2010,10,39,0,298,17,17.52,7.64,13.7,1,0
+D du Preez,2009-2010,5,16,1,146,6,24.33,9.12,16,0,0
+D Kalyankrishna,2008-2008,3,8,0,87,2,43.5,10.87,24,0,0
+D Salunkhe,2008-2008,6,8,0,78,1,78,9.75,48,0,0
+DB Ravi Teja,2008-2009,16,2,0,19,1,19,9.5,12,0,0
+DE Bollinger,2010-2010,14,53.1,2,363,21,17.28,6.82,15.1,1,0
+DJ Bravo,2008-2010,33,98.4,1,806,30,26.86,8.16,19.7,0,0
+DJ Hussey,2008-2010,23,27,0,244,2,122,9.03,81,0,0
+DJ Thornely,2008-2008,6,7,0,40,3,13.33,5.71,14,0,0
+DL Vettori,2008-2010,12,42.5,0,332,11,30.18,7.75,23.3,0,0
+DNT Zoysa,2008-2008,3,11,0,99,2,49.5,9,33,0,0
+DP Nannes,2009-2010,26,98.4,0,675,31,21.77,6.84,19,1,0
+DP Vijaykumar,2008-2008,9,25.2,0,199,4,49.75,7.85,38,0,0
+DR Smith,2008-2010,15,28.5,0,243,7,34.71,8.52,24.71,0,0
+DS Kulkarni,2008-2010,19,59.3,0,482,17,28.35,8.1,21,0,0
+DW Steyn,2008-2010,35,130,1,895,33,27.12,6.88,23.6,0,0
+FH Edwards,2009-2009,8,29.2,1,209,8,26.12,7.12,22,0,0
+FY Fazal,2009-2010,11,2,0,20,0,0,10,0,0,0
+Gagandeep Singh,2008-2008,4,14,0,141,3,47,10.07,28,0,0
+GD McGrath,2008-2009,16,60,2,402,14,28.71,6.7,25.7,1,0
+GR Napier,2009-2009,1,4,0,27,1,27,6.75,24,0,0
+Harbhajan Singh,2008-2010,35,122,1,833,37,22.51,6.82,19.7,1,0
+Harmeet Singh,2009-2010,16,47.5,0,379,11,34.45,7.92,26,0,0
+I Sharma,2008-2010,31,110.1,1,862,25,34.48,7.82,26.4,0,0
+IK Pathan,2008-2010,42,149.4,3,1166,47,24.8,7.79,19.1,0,0
+Iqbal Abdulla,2008-2010,4,11.3,0,83,1,83,7.21,69,0,0
+J Botha,2009-2009,3,12,0,74,3,24.66,6.16,24,0,0
+J Theron,2010-2010,7,24,0,187,6,31.16,7.79,24,0,0
+JA Morkel,2008-2010,43,148.4,2,1218,47,25.91,8.19,18.9,1,0
+Jaskaran Singh,2009-2010,8,17,0,171,6,28.5,10.05,17,0,0
+JD Ryder,2009-2009,5,17,0,115,3,38.33,6.76,34,0,0
+JD Unadkat,2010-2010,3,10.2,0,85,4,21.25,8.22,15.5,0,0
+JDP Oram,2008-2009,15,31.3,0,282,8,35.25,8.95,23.6,0,0
+JH Kallis,2008-2010,46,151.2,4,1231,30,41.03,8.13,30.2,0,0
+JM Kemp,2010-2010,7,11.2,0,81,3,27,7.14,22.6,0,0
+Joginder Sharma,2008-2010,15,39.4,0,385,12,32.08,9.7,19.8,0,0
+JP Duminy,2009-2010,24,24,0,143,5,28.6,5.95,28.8,0,0
+JR Hopes,2008-2008,11,28,0,276,7,39.42,9.85,24,0,0
+K Goel,2008-2010,22,11,0,93,0,0,8.45,0,0,0
+KA Pollard,2010-2010,18,42,0,333,15,22.2,7.92,16.8,0,0
+KAJ Roach,2010-2010,2,8,0,80,0,0,10,0,0,0
+Kamran Khan,2009-2010,8,23.4,0,177,9,19.66,7.47,15.7,0,0
+KP Appanna,2009-2010,7,19,0,138,3,46,7.26,38,0,0
+KP Pietersen,2009-2010,13,23,0,162,7,23.14,7.04,19.7,0,0
+L Ablish,2010-2010,2,4,0,36,3,12,9,8,0,0
+L Balaji,2008-2010,34,109.4,1,913,36,25.36,8.32,18.2,1,1
+LA Carseldine,2009-2009,5,1,0,6,1,6,6,6,0,0
+LPC Silva,2008-2008,3,1,0,21,0,0,21,0,0,0
+LR Shukla,2008-2010,26,38,0,330,12,27.5,8.68,19,0,0
+LRPL Taylor,2008-2010,31,1,0,13,0,0,13,0,0,0
+M Kartik,2008-2010,26,87.4,0,581,16,36.31,6.62,32.8,0,0
+M Morkel,2009-2010,4,14,0,106,0,0,7.57,0,0,0
+M Muralitharan,2008-2010,46,179.1,1,1126,52,21.65,6.28,20.6,0,0
+M Ntini,2008-2008,9,35,2,242,7,34.57,6.91,30,1,0
+MA Khote,2008-2008,4,5,0,51,2,25.5,10.2,15,0,0
+Mashrafe Mortaza,2009-2009,1,4,0,58,0,0,14.5,0,0,0
+MB Parmar,2010-2010,1,3,0,33,0,0,11,0,0,0
+MC Henriques,2009-2010,5,16.1,0,142,3,47.33,8.82,27,0,0
+MF Maharoof,2008-2010,20,70,0,520,27,19.25,7.42,15.5,0,0
+MK Tiwary,2008-2010,27,2,0,22,1,22,11,12,0,0
+MM Patel,2008-2010,31,105.5,2,800,33,24.24,7.55,19.2,0,0
+Mohammad Asif,2008-2008,8,32,0,296,8,37,9.25,24,0,0
+Mohammad Hafeez,2008-2008,8,10,0,68,2,34,6.8,30,0,0
+MR Marsh,2010-2010,3,10,0,88,2,44,8.8,30,0,0
+MS Gony,2008-2010,26,85,3,707,23,30.73,8.31,22.1,0,0
+ND Doshi,2010-2010,2,6,0,29,2,14.5,4.83,18,0,0
+NLTC Perera,2010-2010,1,1,0,19,0,0,19,0,0,0
+P Amarnath,2008-2008,6,22,0,236,7,33.71,10.72,18.8,0,0
+P Kumar,2008-2010,47,169.2,3,1363,41,33.24,8.04,24.7,0,0
+Pankaj Singh,2008-2010,10,27,1,275,4,68.75,10.18,40.5,0,0
+PD Collingwood,2010-2010,8,14.5,0,101,5,20.2,6.8,17.8,0,0
+PJ Sangwan,2008-2010,30,103.4,1,837,29,28.86,8.07,21.4,0,0
+PM Sarvesh Kumar,2008-2008,2,5,0,42,1,42,8.4,30,0,0
+PP Chawla,2008-2010,43,140.4,1,1064,41,25.95,7.56,20.5,0,0
+PP Ojha,2008-2010,46,157.2,0,1109,52,21.32,7.04,18.1,0,0
+R Ashwin,2009-2010,20,75.2,1,458,28,16.35,6.07,16.1,1,0
+R Bhatia,2008-2010,26,68.2,0,516,20,25.8,7.55,20.5,1,0
+R McLaren,2010-2010,11,35,0,274,4,68.5,7.82,52.5,0,0
+R Sathish,2010-2010,13,9,0,96,2,48,10.66,27,0,0
+R Sharma,2010-2010,6,20.4,0,167,5,33.4,8.08,24.8,0,0
+R Vinay Kumar,2008-2010,39,122.3,0,1009,38,26.55,8.23,19.3,1,0
+RA Jadeja,2008-2009,27,25.3,0,172,6,28.66,6.74,25.5,0,0
+RA Shaikh,2009-2009,1,1,0,11,0,0,11,0,0,0
+RE van der Merwe,2009-2010,15,53,0,368,15,24.53,6.94,21.2,0,0
+RG Sharma,2008-2010,47,48,0,352,14,25.14,7.33,20.5,1,0
+RJ Harris,2009-2010,16,61.4,2,463,20,23.15,7.5,18.5,0,0
+RP Singh,2008-2010,44,161,2,1274,54,23.59,7.91,17.8,1,0
+RR Bose,2009-2009,1,2,0,24,0,0,12,0,0,0
+RR Powar,2008-2010,21,56,0,383,11,34.81,6.83,30.5,0,0
+RR Raje,2008-2009,10,23.1,0,209,6,34.83,9.02,23.1,0,0
+RS Bopara,2009-2010,15,14.2,0,132,5,26.4,9.2,17.2,0,0
+RS Gavaskar,2010-2010,2,1,0,8,0,0,8,0,0,0
+S Ladda,2010-2010,5,15,0,143,4,35.75,9.53,22.5,0,0
+S Narwal,2010-2010,5,15.4,0,185,5,37,11.8,18.8,0,0
+S Sreesanth,2008-2010,28,93.1,0,825,28,29.46,8.85,19.9,0,0
+S Sriram,2010-2010,1,2,0,24,0,0,12,0,0,0
+S Tyagi,2009-2010,14,34.5,0,295,6,49.16,8.46,34.8,0,0
+S Vidyut,2008-2008,9,2,0,22,1,22,11,12,0,0
+SB Bangar,2008-2008,11,25,0,219,4,54.75,8.76,37.5,0,0
+SB Jakati,2009-2010,21,71,1,535,27,19.81,7.53,15.7,2,0
+SB Joshi,2008-2008,4,9.1,0,82,1,82,8.94,55,0,0
+SB Styris,2008-2009,12,39,0,297,10,29.7,7.61,23.4,0,0
+SB Wagh,2010-2010,1,1,0,16,1,16,16,6,0,0
+SC Ganguly,2008-2010,40,36,0,268,8,33.5,7.44,27,0,0
+SD Chitnis,2008-2008,3,6,0,60,2,30,10,18,0,0
+SE Bond,2010-2010,8,31,1,224,9,24.88,7.22,20.6,0,0
+Shahid Afridi,2008-2008,10,30,0,225,9,25,7.5,20,0,0
+Shoaib Ahmed,2009-2009,8,17,0,152,5,30.4,8.94,20.4,0,0
+Shoaib Akhtar,2008-2008,3,7,0,54,5,10.8,7.71,8.4,1,0
+Shoaib Malik,2008-2008,7,8.3,0,85,2,42.5,10,25.5,0,0
+SJ Srivastava,2010-2010,8,27,0,255,6,42.5,9.44,27,0,0
+SK Raina,2008-2010,52,60.5,0,410,19,21.57,6.73,19.2,1,0
+SK Trivedi,2008-2010,33,103.3,0,811,30,27.03,7.83,20.7,0,0
+SK Warne,2008-2010,43,156,1,1174,45,26.08,7.52,20.8,1,0
+SL Malinga,2009-2010,30,114.3,2,774,39,19.84,6.75,17.6,1,0
+SM Harwood,2009-2009,3,10,0,73,3,24.33,7.3,20,0,0
+SM Pollock,2008-2008,13,46,1,301,11,27.36,6.54,25,0,0
+Sohail Tanvir,2008-2009,12,45.1,0,286,25,11.44,6.33,10.8,1,1
+SR Tendulkar,2008-2010,39,6,0,58,0,0,9.66,0,0,0
+SR Watson,2008-2010,21,76.1,0,567,23,24.65,7.44,19.8,0,0
+SS Sarkar,2009-2009,2,4.1,0,34,1,34,8.16,25,0,0
+ST Jayasuriya,2008-2010,30,49,1,390,13,30,7.95,22.6,0,0
+STR Binny,2010-2010,1,1,0,9,0,0,9,0,0,0
+SW Tait,2010-2010,8,31.1,0,264,10,26.4,8.47,18.7,0,0
+T Henderson,2009-2009,2,6,0,40,1,40,6.66,36,0,0
+T Thushara,2009-2010,6,22.3,0,161,8,20.12,7.15,16.8,0,0
+TL Suman,2009-2010,28,22,0,171,8,21.37,7.77,16.5,0,0
+TM Dilshan,2008-2010,31,35.1,0,220,7,31.42,6.25,30.1,0,0
+U Yadav,2010-2010,7,24,0,184,6,30.66,7.66,24,0,0
+Umar Gul,2008-2008,6,22.3,1,184,12,15.33,8.17,11.2,1,0
+V Kohli,2008-2010,54,25,0,219,2,109.5,8.76,75,0,0
+V Sehwag,2008-2010,42,17.4,0,181,6,30.16,10.24,17.6,0,0
+VRV Singh,2008-2010,19,60,0,542,12,45.16,9.03,30,0,0
+VS Malik,2009-2010,8,19.1,0,160,3,53.33,8.34,38.3,0,0
+VS Yeligati,2008-2008,2,5,0,59,0,0,11.8,0,0,0
+VY Mahesh,2008-2010,13,47.1,0,418,18,23.22,8.86,15.7,1,0
+WA Mota,2008-2009,12,12,0,97,4,24.25,8.08,18,0,0
+WPUJC Vaas,2008-2010,13,47,2,355,18,19.72,7.55,15.6,0,0
+Y Nagar,2009-2010,3,7.3,0,57,5,11.4,7.6,9,0,0
+Y Venugopal Rao,2008-2010,35,31,0,278,6,46.33,8.96,31,0,0
+YA Abdulla,2009-2010,11,34.5,1,307,15,20.46,8.81,13.9,2,0
+YK Pathan,2008-2010,43,97.1,0,719,20,35.95,7.39,29.1,0,0
+Yuvraj Singh,2008-2010,43,52,0,377,14,26.92,7.25,22.2,0,0
+Z Khan,2009-2010,35,127.2,1,1006,37,27.18,7.9,20.64,0,0</csvDataString>
+    <keyColName>Player</keyColName>
+    <keyType>player</keyType>
+    <url/>
+  </CSVDataSource>
+  <CSVDataSource name="IPL_keeping_records.csv">
+    <attributeHierarchy encoding="xml">
+      <hierarchy>
+        <attribute keyType="player" csvColumn="Player" title="Player"/>
+        <attribute keyType="player" csvColumn="Span" title="Span"/>
+        <attribute keyType="player" csvColumn="Mat" title="Mat"/>
+        <attribute keyType="player" csvColumn="Inns" title="Inns"/>
+        <attribute keyType="player" csvColumn="Dis" title="Dis"/>
+        <attribute keyType="player" csvColumn="Ct" title="Ct"/>
+        <attribute keyType="player" csvColumn="St" title="St"/>
+        <attribute keyType="player" csvColumn="Max Dis Inns" title="Max Dis Inns"/>
+        <attribute keyType="player" csvColumn="Dis/Inn" title="Dis/Inn"/>
+      </hierarchy>
+    </attributeHierarchy>
+    <csvDataString>Player,Span,Mat,Inns,Dis,Ct,St,Max Dis Inns,Dis/Inn
+MS Dhoni,2008-2010,49,43,32,16,16,4,0.744
+PA Patel,2008-2010,26,9,8,6,2,3,0.888
+AC Gilchrist,2008-2010,48,48,41,27,14,3,0.854
+KD Karthik,2008-2010,46,46,37,24,13,4,0.804
+AB de Villiers,2008-2010,28,1,0,0,0,0,0
+KC Sangakkara,2008-2010,37,35,23,16,7,3,0.657
+MS Bisla,2010-2010,10,3,2,2,0,2,0.666
+U Kaul,2008-2008,5,5,2,2,0,2,0.4
+WP Saha,2008-2010,33,27,16,11,5,2,0.592
+MN van Wyk,2009-2009,5,5,7,7,0,4,1.4
+BB McCullum,2008-2010,22,7,3,3,0,2,0.428
+SS Shaikh,2009-2009,2,1,2,2,0,2,2
+YV Takawale,2008-2009,11,11,14,11,3,4,1.272
+PR Shah,2008-2009,14,12,10,8,2,2,0.833
+AT Rayudu,2010-2010,18,12,9,8,1,3,0.75
+L Ronchi,2008-2009,5,4,3,3,0,1,0.75
+AP Tare,2010-2010,7,7,3,1,2,2,0.428
+C Madan,2010-2010,1,1,0,0,0,0,0
+M Rawat,2008-2009,16,15,16,15,1,3,1.066
+NV Ojha,2009-2010,23,23,14,7,7,2,0.608
+Kamran Akmal,2008-2008,6,6,9,5,4,2,1.5
+MV Boucher,2008-2010,31,30,19,15,4,2,0.633
+RV Uthappa,2009-2010,40,19,16,12,4,2,0.842
+SP Goswami,2008-2010,7,4,4,2,2,2,1
+DT Patil,2008-2008,2,2,2,2,0,2,1</csvDataString>
+    <keyColName>Player</keyColName>
+    <keyType>player</keyType>
+    <url/>
+  </CSVDataSource>
+</Weave>
